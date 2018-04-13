@@ -1,4 +1,4 @@
-<%@page contentType="text/html;charset=UTF-8" language="java" %>
+<%@page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
     <title>合作企业</title>
@@ -87,7 +87,7 @@
                     <%--<li><a href="#"><i class="icon-chevron-right"></i>其他行业</a> </li>--%>
                 <%--</ul>--%>
             <%--</div>--%>
-            <div class="span2_3 bs-docs-sidebar" style="background-color: #2aabd2">
+            <div class="span2_3 bs-docs-sidebar" >
                 <ul class="nav nav-list bs-docs-sidenav" style="width: auto">
                     <li><a href="#"><i class="icon-chevron-right"></i> 国际化大型软件公司</a></li>
                     <li><a href="#"><i class="icon-chevron-right"></i> 游戏外包公司</a></li>
@@ -98,7 +98,7 @@
                     <li><a href="#"><i class="icon-chevron-right"></i> 其他行业</a></li>
                 </ul>
             </div>
-            <div class="span9" style="background-color: red">
+            <div class="span9">
                 <h3>企业列表</h3>
                 <p>企业介绍 & 企业所分派导师</p>
                 <br/>
