@@ -9,7 +9,6 @@
     <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-57-precomposed.png" />
     <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
     <link href="css/style.css" type="text/css" rel="stylesheet"/>
-    <%--<link href="css/bs-preview.css" type="text/css" rel="stylesheet"/>--%>
     <link href="css/prettyPhoto.css" type="text/css" rel="stylesheet"/>
     <link href="css/font-icomoon.css" type="text/css" rel="stylesheet"/>
     <link href="css/font-awesome.css" type="text/css" rel="stylesheet"/>
