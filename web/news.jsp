@@ -128,17 +128,17 @@
     <div class="container">
         <!-- Docs nav
         ================================================== -->
-        <div class="row">
-            <div class="span2 bs-docs-sidebar" style="padding-left: 30px;">
-                <ul class="nav nav-list bs-docs-sidenav" style="width: atuo;">
-                    <li><a href="news.jsp"><i class="icon-chevron-right"></i> 综合要闻</a></li>
-                    <li><a href="news.jsp"><i class="icon-chevron-right"></i> 校园资讯</a></li>
-                    <li><a href="news.jsp"><i class="icon-chevron-right"></i> 教学科研</a></li>
-                    <li><a href="news.jsp"><i class="icon-chevron-right"></i> 专题新闻</a></li>
+        <div class="row" style="padding-left: 50px">
+            <div class="span2 bs-docs-sidebar" style="background-color: #f7f7f9;">
+                <ul class="nav nav-list bs-docs-sidenav">
+                    <li style="border-bottom: #3c3c3c 1px dashed"><a href="news.jsp"><i class="icon-chevron-right"></i> 综合要闻</a></li>
+                    <li style="border-bottom: #3c3c3c 1px dashed"><a href="news.jsp"><i class="icon-chevron-right"></i> 校园资讯</a></li>
+                    <li style="border-bottom: #3c3c3c 1px dashed"><a href="news.jsp"><i class="icon-chevron-right"></i> 教学科研</a></li>
+                    <li style="border-bottom: #3c3c3c 1px dashed"><a href="news.jsp"><i class="icon-chevron-right"></i> 专题新闻</a></li>
                 </ul>
             </div>
             <div class="span9">
-                <div class="span9" style="margin-left: 0px">
+                <div  style="margin-left: 0px">
                     <ul class="nav nav-list">
                         <li><a href="#"><i class="icon-caret-right"></i>新闻标题<span style="display:inline-block;float:right;color: #000000">[ 2018-04-08 ]</span> </a></li>
                         <li><a href="#"><i class="icon-caret-right"></i>新闻标题<span

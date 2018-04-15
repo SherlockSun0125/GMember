@@ -132,12 +132,12 @@
 <section id="container">
     <div class="container">
         <!-- Docs nav================================================== -->
-        <div class="row">
-            <div class="span2 bs-docs-sidebar" style="padding-left: 30px" >
-                <ul class="nav nav-list bs-docs-sidenav">
-                    <li><a href="# "><i class="icon-chevron-right"></i> 通知公告</a></li>
-                    <li><a href="# "><i class="icon-chevron-right"></i> 院系通知</a></li>
-                    <li><a href="#test "><i class="icon-chevron-right"></i> 学术科研</a></li>
+        <div class="row" style="padding-left: 50px">
+            <div class="span2 bs-docs-sidebar" style="" >
+                <ul class="nav nav-list bs-docs-sidenav" style="background-color: #f7f7f9">
+                    <li style="border-bottom: 1px #3c3c3c dashed"><a href="#"><i class="icon-chevron-right"></i> 通知公告</a></li>
+                    <li style="border-bottom: 1px #3c3c3c dashed"><a href="#"><i class="icon-chevron-right"></i> 院系通知</a></li>
+                    <li style="border-bottom: 1px #3c3c3c dashed"><a href="#"><i class="icon-chevron-right"></i> 学术科研</a></li>
                 </ul>
             </div>
             <div class="span9">

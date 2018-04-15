@@ -86,15 +86,15 @@
                     <%--<li><a href="#"><i class="icon-chevron-right"></i>其他行业</a> </li>--%>
                 <%--</ul>--%>
             <%--</div>--%>
-            <div class="span2_3 bs-docs-sidebar" >
+            <div class="span2_3 bs-docs-sidebar" style="background-color: #f7f7f9">
                 <ul class="nav nav-list bs-docs-sidenav" style="width: auto">
-                    <li><a href="#"><i class="icon-chevron-right"></i> 国际化大型软件公司</a></li>
-                    <li><a href="#"><i class="icon-chevron-right"></i> 游戏外包公司</a></li>
-                    <li><a href="#"><i class="icon-chevron-right"></i> 数字游戏公司</a></li>
-                    <li><a href="#"><i class="icon-chevron-right"></i> 嵌入式类公司</a></li>
-                    <li><a href="#"><i class="icon-chevron-right"></i> 电子商务公司</a></li>
-                    <li><a href="#"><i class="icon-chevron-right"></i> 互联网公司</a></li>
-                    <li><a href="#"><i class="icon-chevron-right"></i> 其他行业</a></li>
+                    <li style="border-bottom: 1px dashed #3c3c3c "><a href="#"><i class="icon-chevron-right"></i> 国际化大型软件公司</a></li>
+                    <li style="border-bottom: 1px dashed #3c3c3c "><a href="#"><i class="icon-chevron-right"></i> 游戏外包公司</a></li>
+                    <li style="border-bottom: 1px dashed #3c3c3c "><a href="#"><i class="icon-chevron-right"></i> 数字游戏公司</a></li>
+                    <li style="border-bottom: 1px dashed #3c3c3c "><a href="#"><i class="icon-chevron-right"></i> 嵌入式类公司</a></li>
+                    <li style="border-bottom: 1px dashed #3c3c3c "><a href="#"><i class="icon-chevron-right"></i> 电子商务公司</a></li>
+                    <li style="border-bottom: 1px dashed #3c3c3c "><a href="#"><i class="icon-chevron-right"></i> 互联网公司</a></li>
+                    <li style="border-bottom: 1px dashed #3c3c3c "><a href="#"><i class="icon-chevron-right"></i> 其他行业</a></li>
                 </ul>
             </div>
             <div class="span9">
