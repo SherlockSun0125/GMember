@@ -1,4 +1,4 @@
-<%@page contentType="text/html; charset=UTF-8" language="java" %>
+<%@page contentType="text/html; charset=UTF-8"%>
 <html>
 <head>
     <title>通知公告</title>
@@ -115,8 +115,8 @@
                                 <li><a href="employeeLogin.jsp">企业用户登录</a></li>
                             </ul>
                         </li>
-                        <li><a href="download.jsp"><span class="name">下载中心</span></a></li>
-                        <li><a href="about.jsp"><span class="name">项目介绍</span></a></li>
+                        <%--<li><a href="download.jsp"><span class="name">下载中心</span></a></li>--%>
+                        <li><a href="about.jsp"><span class="name">计划介绍</span></a></li>
                     </ul>
                 </nav>
                 <form class="top-search pull-right">

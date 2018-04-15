@@ -1,18 +1,18 @@
-<%@page contentType="text/html;charset=utf-8" language="java" %>
+<%@page contentType="text/html;charset=utf-8"%>
 <html>
 <head>
-    
-    <meta name="viewport" content="width=100%; initial-scale=1; maximum-scale=1; minimum-scale=1; user-scalable=no;" />
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/apple-touch-icon-144-precomposed.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/apple-touch-icon-114-precomposed.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-72-precomposed.png" />
-    <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-57-precomposed.png" />
+
+    <meta name="viewport" content="width=100%; initial-scale=1; maximum-scale=1; minimum-scale=1; user-scalable=no;"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-57-precomposed.png"/>
     <title>404 Not Found!</title>
-    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" />
-    <link href="css/style.css" type="text/css" rel="stylesheet" />
-    <link href="css/prettyPhoto.css" type="text/css" rel="stylesheet" />
-    <link href="css/font-icomoon.css" type="text/css" rel="stylesheet" />
-    <link href="css/font-awesome.css" type="text/css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet"/>
+    <link href="css/prettyPhoto.css" type="text/css" rel="stylesheet"/>
+    <link href="css/font-icomoon.css" type="text/css" rel="stylesheet"/>
+    <link href="css/font-awesome.css" type="text/css" rel="stylesheet"/>
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
@@ -28,7 +28,8 @@
     <script type="text/javascript" src="js/jquery.ui.totop.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/ajax-mail.js"></script>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
 
 <body>
 <!--header-->
@@ -36,7 +37,8 @@
     <div class="container" style="margin-bottom: 2px">
         <div class="row header-top" style="margin-left:5px;margin-bottom:0px;">
             <div class="span5 logo" style="width: 100%;margin-left:10px">
-                <a class="logo-img" href="home.jsp" title="responsive template" style="margin-bottom: 5px"><img src="images/myimg/hitwh_logo_blue.png" alt="哈工大威海校徽" /></a>
+                <a class="logo-img" href="home.jsp" title="responsive template" style="margin-bottom: 5px"><img
+                        src="images/myimg/hitwh_logo_blue.png" alt="哈工大威海校徽"/></a>
             </div>
         </div>
         <div class="row header-nav">
@@ -58,8 +60,8 @@
                                 <li><a href="employeeLogin.jsp">企业用户登录</a></li>
                             </ul>
                         </li>
-                        <li><a href="download.jsp"><span class="name">下载中心</span></a></li>
-                        <li class="current"><a href="about.jsp"><span class="name">项目介绍</span></a></li>
+                        <%--<li><a href="download.jsp"><span class="name">下载中心</span></a></li>--%>
+                        <li class="current"><a href="about.jsp"><span class="name">计划介绍</span></a></li>
                     </ul>
                 </nav>
                 <form class="top-search pull-right">
@@ -76,7 +78,7 @@
     <div class="container">
         <div class="row">
             <div class="span12 pull-center">
-                <h2>404 <br />Page not Found！</h2>
+                <h2>404 <br/>Page not Found！</h2>
                 <div class="spacer"></div>
                 <%--<div class="spacer"></div>--%>
                 <p>
@@ -85,7 +87,7 @@
                 <div class="spacer"></div>
             </div>
         </div>
-    </div>    
+    </div>
 </section>
 
 <!-- 最下方 -->
