@@ -311,7 +311,7 @@
         <div class="clearfloat"></div>
         <div class="auth_tab_content">
             <div tabid="01" class="auth_tab_content_item">
-                <form id="casLoginForm" class="fm-v clearfix amp-login-form" role="form" action="encryptWeb/student/stuHome.html" method="post">
+                <form id="casLoginForm" class="fm-v clearfix amp-login-form" role="form" action="encryptWeb/student/stuHome.jsp" method="post">
                     <p>
                         <i class="auth_icon auth_icon_user"></i>
                         <input id="username" name="username" placeholder="用户名" class="auth_input" type="text" value=""/>
