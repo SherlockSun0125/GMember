@@ -311,7 +311,7 @@
         <div class="clearfloat"></div>
         <div class="auth_tab_content">
             <div tabid="01" class="auth_tab_content_item">
-                <form id="casLoginForm" class="fm-v clearfix amp-login-form" role="form" action=" " method="post">
+                <form id="casLoginForm" class="fm-v clearfix amp-login-form" role="form" action="encryptWeb/student/stuHome.html" method="post">
                     <p>
                         <i class="auth_icon auth_icon_user"></i>
                         <input id="username" name="username" placeholder="用户名" class="auth_input" type="text" value=""/>
@@ -332,10 +332,10 @@
                         <label onmousedown="">   <input type="checkbox" name="rememberMe" id="rememberMe"/> 一周内免登录</label>
                     </p>
 
-
                     <p>
-                        <button type="submit" class="auth_login_btn primary full_width">登录
-                        </button>
+                        <%--<button type="submit" class="auth_login_btn primary full_width">登录--%>
+                        <%--</button>--%>
+                        <input type="submit" value="登录" class="auth_login_btn primary full_width"/>
                     </p>
                     <a id="getBackPasswordMainPage" href="" class="auth_login_forgetp">
                         <%--<small>登录遇到问题？绑定邮箱/手机？找回/修改密码？二次认证设置？</small>--%>
