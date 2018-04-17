@@ -3169,6 +3169,7 @@
 
 <body style="padding-bottom: 0px;" >
 <%--style="background-color: #002a80"--%>
+<%--头部--%>
 <div class="f-pf g-headwrap" id="j-fixed-head">
     <div class="g-hd f-bg1 m-yktNav " id="j-topnav">
         <div class="g-flow">
@@ -6521,7 +6522,7 @@
             <div class="ux-user-info-bottom_name">PaulSuen</div>
             <div class="ux-user-info-bottom_description f-pr">
                 <span>规格严格，功夫到家。</span>
-                <a href="https://study.163.com/user/setting.htm#/settings/personInfoEdit" target="_blank">&nbsp;&nbsp;编辑我的资料</a>
+                <%--<a href="https://study.163.com/user/setting.htm#/settings/personInfoEdit" target="_blank">&nbsp;&nbsp;编辑我的资料</a>--%>
             </div>
         </div>
     </div>
@@ -6533,7 +6534,7 @@
             <div class="row highlights">
                 <div class="span3">
                     <div class="hl-circle">
-                        <a class="hl-icon1" href="services.html">service</a>
+                        <a class="hl-icon1" href="forum1.html">forum</a>
                     </div>
 
                     <div class="highlights-content clearfix">
@@ -6543,14 +6544,15 @@
                             显示一些进度信息
                         </p>
 
-                        <a class="btn-small btn-hl" href="services.html">
-                            <span>查看</span>
-                        </a><!-- button small end -->
+                        <a class="btn-small btn-hl" href="forum1.html">
+                            <span>进入讨论区</span>
+                        </a>
+                        <!-- button small end -->
                     </div>
                 </div>
                 <div class="span3 ">
                     <div class="hl-circle">
-                        <a class="hl-icon2" href="services.html">service</a>
+                        <a class="hl-icon2" href="forum2.html">forum</a>
                     </div>
 
                     <div class="highlights-content clearfix">
@@ -6560,14 +6562,14 @@
                             显示一些进度信息
                         </p>
 
-                        <a class="btn-small btn-hl" href="services.html">
-                            <span>查看</span>
+                        <a class="btn-small btn-hl" href="forum2.html">
+                            <span>进入讨论区</span>
                         </a><!-- button small end -->
                     </div>
                 </div>
                 <div class="span3">
                     <div class="hl-circle">
-                        <a class="hl-icon3" href="services.html">service</a>
+                        <a class="hl-icon3" href="forum3.html">forum</a>
                     </div>
 
                     <div class="highlights-content clearfix">
@@ -6577,14 +6579,14 @@
                             显示一些进度信息
                         </p>
 
-                        <a class="btn-small btn-hl" href="services.html">
-                            <span>查看</span>
+                        <a class="btn-small btn-hl" href="forum3.html">
+                            <span>进入讨论区</span>
                         </a><!-- button small end -->
                     </div>
                 </div>
                 <div class="span3 highlights">
                     <div class="hl-circle">
-                        <a class="hl-icon4" href="services.html">service</a>
+                        <a class="hl-icon4" href="forum4.html">forum</a>
                     </div>
 
                     <div class="highlights-content clearfix">
@@ -6594,8 +6596,8 @@
                             显示一些进度信息
                         </p>
 
-                        <a class="btn-small btn-hl" href="services.html">
-                            <span>查看</span>
+                        <a class="btn-small btn-hl" href="forum4.html">
+                            <span>进入讨论区</span>
                         </a><!-- button small end -->
                     </div>
                 </div>
