@@ -155,7 +155,7 @@ body {
 }
 
 .g-doc, .g-wrap, .g-flow, .g-superflow, .g-all {
-    width: 960px;
+    width: 100%;
     margin: 0 auto;
     text-align: left;
 }

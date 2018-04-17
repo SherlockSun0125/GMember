@@ -3167,7 +3167,8 @@
     }</style>
 </head>
 
-<body>
+<body style="padding-bottom: 0px;" >
+<%--style="background-color: #002a80"--%>
 <div class="f-pf g-headwrap" id="j-fixed-head">
     <div class="g-hd f-bg1 m-yktNav " id="j-topnav">
         <div class="g-flow">
@@ -3202,7 +3203,7 @@
                                href="setting.html">
                                 <span class=" f-fs1 f-f0">PaulSuen</span>
                             </a>
-                            <i class="line"></i>
+                            <i class="line" style="padding-top: 8px"></i>
                             <a data-index="消息" class="mes f-pr f-cb j-nav-mescenter"
                                href="message.html" title="查看更多消息" target="_blank">
                                 <span>消息</span>
