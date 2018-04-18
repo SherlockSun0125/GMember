@@ -61,7 +61,7 @@
                             </ul>
                         </li>
                         <%--<li><a href="download.jsp"><span class="name">下载中心</span></a></li>--%>
-                        <li><a href="about.jsp"><span class="name">计划介绍</span></a></li>
+                        <li><a href="about1.jsp"><span class="name">计划介绍</span></a></li>
                     </ul>
                 </nav>
                <form class="top-search pull-right">
@@ -131,7 +131,7 @@
                         为参与该计划的学生提供实践平台和机会，提升其创新能力和工程领导力，为使他们成为具有工程领导能力的高水平复合型人
                         才打下坚实基础。
                     </p>
-                    <a class="btn btn-welcome btn-large pull-right" href="about.jsp">了解更多</a>
+                    <a class="btn btn-welcome btn-large pull-right" href="about1.jsp">了解更多</a>
                 </div>
             </div>
         </div>

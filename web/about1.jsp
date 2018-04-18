@@ -73,7 +73,7 @@
                             </ul>
                         </li>
                         <%--<li><a href="download.jsp"><span class="name">下载中心</span></a></li>--%>
-                        <li class="current"><a href="about.jsp"><span class="name">计划介绍</span></a></li>
+                        <li class="current"><a href="about1.jsp"><span class="name">计划介绍</span></a></li>
                     </ul>
                 </nav>
                 <form class="top-search pull-right">
@@ -117,19 +117,19 @@
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
                                href="#collapse2">
                                 <i class="icon-plus icon-white"></i>
-                                工程领军人才培养计划
+                               工程领军人才培养计划
                             </a>
                         </div>
                         <div id="collapse2" class="accordion-body collapse">
                             <div class="accordion-inner">
                                 <ul class="icons ul-list-2">
-                                    <li><a href="#">背景</a></li>
-                                    <li><a href="#">建设目标与指导思想</a></li>
-                                    <li><a href="#">培养模式</a></li>
-                                    <li><a href="#">培养方案与课程体系</a></li>
-                                    <li><a href="#">实施方案要点</a></li>
-                                    <li><a href="#">对各院系的要求</a></li>
-                                    <li><a href="#">机制政策</a></li>
+                                    <li><a href="about2.jsp">背景</a></li>
+                                    <li><a href="about2.jsp">建设目标与指导思想</a></li>
+                                    <li><a href="about2.jsp">培养模式</a></li>
+                                    <li><a href="about2.jsp">培养方案与课程体系</a></li>
+                                    <li><a href="about2.jsp">实施方案要点</a></li>
+                                    <li><a href="about2.jsp">对各院系的要求</a></li>
+                                    <li><a href="about2.jsp">机制政策</a></li>
                                 </ul>
                             </div>
                         </div>

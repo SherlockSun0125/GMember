@@ -61,7 +61,7 @@
                             </ul>
                         </li>
                         <%--<li><a href="download.jsp"><span class="name">下载中心</span></a></li>--%>
-                        <li class="current"><a href="about.jsp"><span class="name">计划介绍</span></a></li>
+                        <li class="current"><a href="about1.jsp"><span class="name">计划介绍</span></a></li>
                     </ul>
                 </nav>
                 <form class="top-search pull-right">
