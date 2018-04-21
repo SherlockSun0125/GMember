@@ -294,8 +294,7 @@
 <div style="position:absolute;bottom:0px;width: 100%;height: 100%">
     <div class="span5 logo" style="width: 100%;background-color: #002a80;">
         <a class="logo-img" href="home.jsp" title="responsive template"
-           style="margin-left: 10px;margin-top: 3px;margin-bottom: 3px;"><img src="images/myimg/hitwh_logo.png"
-                                                                              alt="哈工大威海校徽"/></a>
+           style="margin-left: 10px;margin-top: 3px;margin-bottom: 3px;"><img src="images/myimg/hitwh_logo.png" lt="哈工大威海校徽"/></a>
     </div>
     <div>
         <img src="images/myimg/hit_silde3.jpg" width="100%" height="85%">
@@ -350,12 +349,6 @@
                     <div>
                         <small>3、如忘记密码请尽快联系管理员。</small>
                     </div>
-                    <%--<div>--%>
-                        <%--<small>3、用户绑定邮箱/手机后可以自助找回密码。</small>--%>
-                    <%--</div>--%>
-                    <%--<div>--%>
-                        <%--<small>4、用户本人带有效证件到网络与信息中心客服中心可以修改密码。</small>--%>
-                    <%--</div>--%>
                     <div><br></div>
                     <div>
                         <small>温馨提示：个人应妥善保管个人帐号密码，不能随意告诉他人，由帐号密码管理不善造成的不良后果由个人负责。</small>

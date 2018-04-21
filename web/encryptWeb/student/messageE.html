@@ -2,9 +2,83 @@
 <html xmlns="//www.w3.org/1999/xhtml" xml:lang="zh" lang="zh">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>个人主页</title>
+    <title>我的消息</title>
     <!--样式-->
-    <link rel="stylesheet" href="static/pt_newpages_cp_user_homepage_ca1f241fe634af006ef88b2c3487815e.css">
+    <link rel="stylesheet" href="static/pt_newpages_message_msgList_ca1f241fe634af006ef88b2c3487815e.css">
+    <style type="text/css">
+        .um-message-tab-view_item {
+        width: 136px;
+        height: 38px;
+        line-height: 38px;
+        position: relative;
+        float: left;
+        text-align: center;
+        border: 1px solid #dddddd;
+        background-color: #f5f7f7;
+        color: #343d42;
+        font-size: 16px;
+        cursor: pointer
+    }
+
+    .um-message-tab-view_item + .um-message-tab-view_item {
+        border-left: none
+    }
+
+    .um-message-tab-view .z-crt {
+        background-color: #49AF4F;
+        color: #fff
+    }
+
+    .um-message-tab-view_round {
+        display: none;
+        position: absolute;
+        top: 10px;
+        width: 6px;
+        height: 6px;
+        background-color: red;
+        border-radius: 4px
+    }
+
+    .um-message-tab-view .z-new .um-message-tab-view_round {
+        display: inline-block
+    }
+
+    /*# sourceMappingURL=component.css.map */
+    .ux-message-list-view {
+        width: 100%;
+        padding-bottom: 100px
+    }
+
+    .ux-message-list-view_ul {
+        margin-bottom: 30px
+    }
+
+    .ux-message-list-view .old-msg {
+        color: #b4bdbf
+    }
+
+    .ux-message-list-view_itm {
+        padding: 20px 440px 20px 8px;
+        border-bottom: 1px dashed #e4e8e9;
+        color: #52585a
+    }
+
+    .ux-message-list-view_itm_body {
+        height: auto;
+        line-height: 24px;
+        padding-right: 30px
+    }
+
+    .ux-message-list-view_itm_body a {
+        color: #49AF4F;
+        text-decoration: none
+    }
+
+    .ux-message-list-view_empty {
+        margin: 100px auto;
+        text-align: center
+    }
+    </style>
     <style type="text/css">
         *[hidefocus] {
             outline: none;
@@ -3067,99 +3141,207 @@
             background-color: #00A659 !important;
         }
 
-        body {
-            background: #f4f4f4;
+        .gr-main {
+            display: none;
         }
 
-        .g-user-homepage .instructor-course-content {
-            padding-top: 40px;
+        .bodyBg {
+            background: #eee !important;
         }
 
-        .g-user-homepage .instructor-course-content_head {
-            color: #333333;
-            font-size: 24px;
-            margin-bottom: 10px;
-        }
-
-        .g-user-homepage .ux-instructor-info {
-            background: url("http://edu-image.nosdn.127.net/84AC1D60F9A916EB4DEA2D146E1B9E6A.png") center center no-repeat !important;
-        }
-
-        .ux-user-info {
-            background: url("http://edu-image.nosdn.127.net/84AC1D60F9A916EB4DEA2D146E1B9E6A.png") center center no-repeat;
-            height: 220px;
-        }
-
-        .ux-user-info-center {
+        .md-message-layout {
+            zoom: 1;
             width: 1205px;
-            margin: 0 auto;
-            padding-top: 29px;
+            overflow: hidden;
+            margin: 30px auto 0;
         }
 
-        .ux-user-info-top_img {
-            width: 80px;
-            height: 80px;
+        .md-message-layout_tab {
+            width: 264px !important;
+            background-color: #fff !important;
+            float: left;
+        }
+
+        .md-message-layout_tab .um-message-tab {
+            width: 264px;
+            height: 50px;
+            text-align: left;
+        }
+
+        .md-message-layout_tab .um-message-tab-view_item {
+            width: 265px !important;
+            height: 50px;
+            line-height: 50px;
+            text-align: left;
+            padding-left: 20px;
+            box-sizing: border-box;
+            background-color: #fff;
+            border-bottom: 1px solid #dddddd !important;
+            border-top: none !important;
+            font-size: 14px;
+            color: #333;
+            zoom: 1;
+        }
+
+        .md-message-layout_tab .um-message-tab-view_item_msgnum {
+            display: block;
+            float: right;
+            height: 16px;
+            width: auto;
+            min-width: 14px !important;
+            line-height: 16px;
+            text-align: center;
+            margin: 17px 23px 0 0;
+            padding: 0 1px;
+            color: #fff;
+            font-size: 12px;
+            background-color: #e10e01;
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            -ms-border-radius: 8px;
+            -o-border-radius: 8px;
+            border-radius: 8px;
+            position: static;
+        }
+
+        .md-message-layout_tab .um-message-tab .z-crt {
+            background-color: #49AF4F;
+            color: #fff;
+        }
+
+        .md-message-layout_lst {
+            width: 920px;
+            float: left;
+            background-color: transparent !important;
+        }
+
+        .md-message-layout_lst .md-message-list {
+            width: 918px;
+            margin: 0 20px;
+            background: #FFFFFF;
+            border: 1px solid #DDDDDD;
+        }
+
+        .md-message-layout_lst .md-message-list .ux-message-list-view {
+            padding-bottom: 60px;
+        }
+
+        .md-message-layout_lst .md-message-list .ux-message-list-view .old-msg {
+            color: #999;
+        }
+
+        .md-message-layout_lst .md-message-list .ux-message-list-view .old-msg a {
+            color: #999;
+        }
+
+        .md-message-layout_lst .md-message-list .ux-message-list-view .old-msg a:hover {
+            color: #49AF4F;
+        }
+
+        .md-message-layout_lst .md-message-list .ux-message-list-view_itm {
+            width: 880px;
             margin: 0 auto;
-            border: 4px solid rgba(250, 250, 250, 0.6);
-            border-radius: 50%;
+            height: auto !important;
+            line-height: 59px;
+            font-size: 14px;
+            color: #333;
+            padding: 0;
+            border-bottom: 1px solid #DDDDDD;
+            zoom: 1;
             overflow: hidden;
         }
 
-        .ux-user-info-top_img img {
-            width: 100%;
-        }
-
-        .ux-user-info-bottom {
-            font-family: MicrosoftYaHei;
-            color: #FFFFFF;
-            text-align: center;
-        }
-
-        .ux-user-info-bottom_name {
-            font-size: 20px;
-            margin: 20px 0 10px;
-        }
-
-        .ux-user-info-bottom_position {
-            font-size: 14px;
-        }
-
-        .ux-user-info-bottom_edit {
-            color: #FFFFFF;
-            margin-left: 20px;
-        }
-
-        .ux-user-info-bottom_edit:hover {
-            color: #FFFFFF;
-        }
-
-        .ux-user-info-bottom_description {
-            font-size: 14px;
+        .md-message-layout_lst .md-message-list .ux-message-list-view_itm_body {
+            display: block;
+            display: -webkit-box;
+            float: left;
+            width: 700px;
+            margin: 20px 0;
+            max-height: 112px;
+            overflow: hidden;
             line-height: 22px;
+            text-overflow: ellipsis;
+            -webkit-line-clamp: 5;
+            -webkit-box-orient: vertical;
+            word-break: break-all;
         }
 
-        .ux-user-info_show {
-            width: 1205px;
-            margin: 90px auto 0;
+        .md-message-layout_lst .md-message-list .ux-message-list-view_itm_body a {
+            color: #333;
+        }
+
+        .md-message-layout_lst .md-message-list .ux-message-list-view_itm_body a:hover {
+            color: #49AF4F;
+        }
+
+        .md-message-layout_lst .md-message-list .ux-message-list-view_itm_time {
+            display: block;
+            display: -webkit-box;
+            float: right;
+            line-height: 64px;
+        }
+
+        .md-message-layout_lst .md-message-list .ux-message-list-view .ux-pager {
+            text-align: right;
+            margin-right: 20px;
+        }
+
+        .m-private-message {
+            position: absolute;
+            top: 239px;
+            left: 50%;
+            margin-left: -602.5px;
+            z-index: 2;
+        }
+
+        .m-private-message .private-message-link {
+            display: block;
+            display: -webkit-box;
+            width: 265px;
+            cursor: pointer;
+        }
+
+        .m-private-message_tab {
+            width: 265px;
+            height: 50px;
+            line-height: 50px;
+            text-align: left;
+            padding-left: 20px;
+            box-sizing: border-box;
+            background-color: #fff;
+            border: 1px solid #dddddd !important;
+            font-size: 14px;
+            color: #333;
+            zoom: 1;
+        }
+
+        .m-private-message_tab em {
+            float: right;
+            height: 16px;
+            min-width: 14px;
+            line-height: 16px;
             text-align: center;
-        }
-
-        .ux-user-info_show img {
-            width: 100%;
+            margin: 17px 23px 0 0;
+            padding: 0 1px;
+            color: #fff;
+            font-size: 12px;
+            background-color: #e10e01;
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            -ms-border-radius: 8px;
+            -o-border-radius: 8px;
+            border-radius: 8px;
         }
     </style>
-    <link href="../../css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="../../css/style.css" type="text/css" rel="stylesheet"/>
 </head>
 
-<body style="padding-bottom: 0px;">
 <!--头部-->
 <div class="f-pf g-headwrap" id="j-fixed-head">
     <div class="g-hd f-bg1 m-yktNav " id="j-topnav">
         <div class="g-flow">
             <div class="f-pr f-cb">
                 <div style="position: absolute;top:2px;bottom:2px;">
-                    <a class="f-fl" hidefocus="true" href="#" target="_self" data-index="logo">
+                    <a class="f-fl" hidefocus="true" href="stuHome.html" target="_self" data-index="logo">
                         <img class="f-fl img" src="static/hitwh_logo_white.png" title="学生主页" width="540px"
                              style="margin-top: 2px;margin-bottom: 1px">
                     </a>
@@ -3167,6 +3349,7 @@
                 <div class="m-navrgt f-fr f-cb f-pr j-navright">
                     <div class="userinfo f-fr f-cb f-pr">
                         <div class="login f-cb">
+
                             <div class="u-mystudy f-pr f-cb f-fr">
                                 <a class="mystudy nitem f-f0" data-index="用户退出" target="_blank"
                                    href="exit.html" hidefocus="true">退出</a>
@@ -3192,7 +3375,7 @@
                                 <em class="num hidddenClass j-nav-msgnum">0</em>
                             </a>
                             <div class="u-mystudy f-pr f-cb f-fr">
-                                <a class="mystudy nitem f-f0" id="j-nav-my-class" data-index="我的学习" target="_self"
+                                <a class="mystudy nitem f-f0" id="j-nav-my-class" data-index="我的进度" target="_self"
                                    href="stuHome.html" hidefocus="true">我的学习</a>
                             </div>
                         </div>
@@ -3204,100 +3387,52 @@
 </div>
 
 
-
-
-<div class="ux-user-info" style="margin:0;padding:0;">
-    <div class="ux-user-info-center">
-        <div class="ux-user-info-top">
-            <div class="ux-user-info-top_img">
-                <img src="static/68CEAD4577B0AA238B267D0D5FB0AA2B.jpg">
-            </div>
-        </div>
-        <div class="ux-user-info-bottom">
-            <div class="ux-user-info-bottom_name">PaulSuen</div>
-            <div class="ux-user-info-bottom_description f-pr">
-                <span>规格严格，功夫到家。</span>
+<!--中部-->
+<div class="md-message-layout">
+    <!--左部-->
+    <div class="md-message-layout_tab">
+        <div class="um-message-tab">
+            <div class="um-message-tab-view" style="border-top: #ddd 1px solid">
+                <a class="um-message-tab-view_item " style="border-left: #ddd 1px solid;border-top: #ddd 1px solid" href="messageT.html" style=" color: #343d42;">教师提醒</a>
+                <a class="um-message-tab-view_item z-crt" style="border-left: #ddd 1px solid" href="" style=" color: #343d42;">导师提醒</a>
+                <a class="um-message-tab-view_item" style="border-left: #ddd 1px solid" href="messageC.html" style=" color: #343d42;">互动提醒</a>
             </div>
         </div>
     </div>
-    <div class="ux-user-info_show">
-        <div class="container">
-            <!-- !important -->
-            <div class="row highlights">
-                <div class="span3">
-                    <div class="hl-circle">
-                        <a class="hl-icon1" href="forum1.html">forum</a>
-                    </div>
+    <!--中部-->
+    <div class="md-message-layout_lst">
+        <div class="md-message-list">
+            <div class="ux-message-list-view">
 
-                    <div class="highlights-content clearfix">
-                        <h5>工程学习阶段</h5>
+                <ul class="ux-message-list-view_ul">
+                    <!--Regular list-->
+                    <li class="ux-message-list-view_itm  old-msg">
+                        <span class="ux-message-list-view_itm_body">
+                            <a target="_blank" href="#">【通知】通知内容</a></span>
+                        <span class="f-ib ux-message-list-view_itm_time"> 4月11日19:19</span>
+                    </li>
 
-                        <p>
-                            显示一些进度信息
-                        </p>
-
-                        <a class="btn-small btn-hl" href="forum1.html">
-                            <span>进入讨论区</span>
-                        </a>
-                        <!-- button small end -->
-                    </div>
+                </ul>
+                <div style="display: none;">
+                    <ul class="ux-pager z-hdn">
+                        <li class="ux-pager_btn ux-pager_btn__prev">
+                            <a class="th-bk-disable-gh">上一页</a>
+                        </li>
+                        <li class="ux-pager_itm">
+                            <a class="th-bk-main">1</a>
+                        </li>
+                        <li class="ux-pager_btn ux-pager_btn__next">
+                            <a class="th-bk-disable-gh">下一页</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="span3 ">
-                    <div class="hl-circle">
-                        <a class="hl-icon2" href="forum2.html">forum</a>
-                    </div>
 
-                    <div class="highlights-content clearfix">
-                        <h5>校企合作阶段</h5>
-
-                        <p>
-                            显示一些进度信息
-                        </p>
-
-                        <a class="btn-small btn-hl" href="forum2.html">
-                            <span>进入讨论区</span>
-                        </a><!-- button small end -->
-                    </div>
-                </div>
-                <div class="span3">
-                    <div class="hl-circle">
-                        <a class="hl-icon3" href="forum3.html">forum</a>
-                    </div>
-
-                    <div class="highlights-content clearfix">
-                        <h5>毕业设计阶段</h5>
-
-                        <p>
-                            显示一些进度信息
-                        </p>
-
-                        <a class="btn-small btn-hl" href="forum3.html">
-                            <span>进入讨论区</span>
-                        </a><!-- button small end -->
-                    </div>
-                </div>
-                <div class="span3 highlights">
-                    <div class="hl-circle">
-                        <a class="hl-icon4" href="forum4.html">forum</a>
-                    </div>
-
-                    <div class="highlights-content clearfix">
-                        <h5>就业推荐阶段</h5>
-
-                        <p>
-                            显示一些进度信息
-                        </p>
-
-                        <a class="btn-small btn-hl" href="forum4.html">
-                            <span>进入讨论区</span>
-                        </a><!-- button small end -->
-                    </div>
-                </div>
             </div>
         </div>
     </div>
 </div>
 
+<script></script>
 <div class="g-ft" id="j-footer" style="position: absolute;bottom:0;">
     <div class="m-yktFoot" id="j-yktfoot" style="height: 50px;margin-top: 30px;margin-bottom: 0;padding-bottom: 0">
         <div class="g-flow ftwrapper f-cb">
