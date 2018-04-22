@@ -3,7 +3,7 @@
 <head>
     <title>教师用户登陆</title>
     <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
-    <script src="jquery/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
     <!-- 引入Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->

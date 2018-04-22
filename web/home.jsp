@@ -8,7 +8,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/apple-touch-icon-114-precomposed.png" />
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-72-precomposed.png" />
     <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-57-precomposed.png" />
-    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
     <link href="css/style.css" type="text/css" rel="stylesheet" />
     <link href="css/prettyPhoto.css" type="text/css" rel="stylesheet" />
     <link href="css/font-icomoon.css" type="text/css" rel="stylesheet" />
