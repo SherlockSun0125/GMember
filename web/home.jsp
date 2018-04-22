@@ -3,12 +3,11 @@
 <head>
     <title>工程领军人与卓越工程师计划</title>
     <meta name="viewport" content="width=100%; initial-scale=1; maximum-scale=1; minimum-scale=1; user-scalable=no;" />
-    <link rel="shortcut icon" href="images/favicon.ico" />
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/apple-touch-icon-144-precomposed.png" />
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/apple-touch-icon-114-precomposed.png" />
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-72-precomposed.png" />
     <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-57-precomposed.png" />
-    <link href="bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+    <link href="css/bootstrap-2.min.css" type="text/css" rel="stylesheet" />
     <link href="css/style.css" type="text/css" rel="stylesheet" />
     <link href="css/prettyPhoto.css" type="text/css" rel="stylesheet" />
     <link href="css/font-icomoon.css" type="text/css" rel="stylesheet" />

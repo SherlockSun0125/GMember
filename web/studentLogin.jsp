@@ -45,15 +45,6 @@
             color: #E84807;
         }
 
-        .auth_bg {
-            position: fixed;
-            top: -50%;
-            left: -50%;
-            width: 200%;
-            height: 200%;
-            z-index: -1;
-        }
-
         .auth_bg img {
             position: absolute;
             top: 0;
@@ -65,34 +56,7 @@
             min-height: 50%;
         }
 
-        .auth_page_wrapper {
-            width: 960px;
-            margin: 20px auto;
-            padding: 0;
-            font-family: 'Microsoft YaHei';
-            font-size: 13px;
-            color: #676A6C;
-        }
-
-        .auth_login_content {
-            margin-top: 100px;
-            height: 400px;
-        }
-
-        .auth_login_content .auth_login_left {
-            width: 50%;
-            height: 287px;
-            float: left;
-            position: relative;
-        }
-
-        .auth_login_left .auth_others {
-            position: absolute;
-            left: 130px;
-            bottom: 0;
-        }
-
-        .auth_login_left .auth_others a .auth_icon_bg {
+        .auth_login_left .auth_others a {
             float: left;
             height: 34px;
             background-color: rgba(255, 255, 255, .8);
@@ -327,7 +291,7 @@
         <div class="clearfloat"></div>
         <div class="auth_tab_content">
             <div tabid="01" class="auth_tab_content_item">
-                <form id="casLoginForm" class="fm-v clearfix amp-login-form" role="form" method="post">
+                <form id="casLoginForm" class="fm-v clearfix amp-login-form" role="form" method="post" action="encryptWeb/student/stuHome.html">
                     <p>
                         <i class="auth_icon auth_icon_user"></i>
                         <input id="username" name="username" placeholder="用户名" class="auth_input" type="text" value=""/>
