@@ -289,6 +289,26 @@
 
 
     </style>
+    <script>
+        function check() {
+            var name=document.getElementById("username");
+            var pwd=document.getElementById("password");
+            // alert(name.value+"=="+pwd.value);
+            if(name.value=="" || pwd.value==""){
+                // alert("账号或密码不能为空！");
+            }else{
+                // alert(name.value+"=="+pwd.value);
+                // var login=document.getElementById("casLoginForm");
+                // alert(login.innerText);
+                // login.action("encryptWeb/student/stuHome.html");
+                // login.redirect("encryptWeb/student/stuHome.html");
+                // window.location.href='404.jsp';
+                // setTimeout("javascript:location.href='404.jsp'", 5000);
+                // window.location="https://www.baidu.com/";
+            }
+
+        }
+    </script>
 </head>
 <body>
 <div style="position:absolute;bottom:0px;width: 100%;height: 100%">
@@ -310,7 +330,7 @@
         <div class="clearfloat"></div>
         <div class="auth_tab_content">
             <div tabid="01" class="auth_tab_content_item">
-                <form id="casLoginForm" class="fm-v clearfix amp-login-form" role="form" action="encryptWeb/student/stuHome.html" method="post">
+                <form id="casLoginForm" class="fm-v clearfix amp-login-form" role="form" method="post">
                     <p>
                         <i class="auth_icon auth_icon_user"></i>
                         <input id="username" name="username" placeholder="用户名" class="auth_input" type="text" value=""/>
@@ -324,9 +344,7 @@
                         <span id="passwordError" style="display:none;" class="auth_error">请输入密码</span>
                     </p>
 
-                    <p id="cpatchaDiv">
-
-                    </p>
+                    <p id="cpatchaDiv"> </p>
                     <p>
                         <label onmousedown="">   <input type="checkbox" name="rememberMe" id="rememberMe"/> 一周内免登录</label>
                     </p>
@@ -334,7 +352,7 @@
                     <p>
                         <%--<button type="submit" class="auth_login_btn primary full_width">登录--%>
                         <%--</button>--%>
-                        <input type="submit" value="登录" class="auth_login_btn primary full_width"/>
+                        <input type="submit" value="登录" onclick="check()" class="auth_login_btn primary full_width"/>
                     </p>
                     <a id="getBackPasswordMainPage" href="" class="auth_login_forgetp">
                         <%--<small>登录遇到问题？绑定邮箱/手机？找回/修改密码？二次认证设置？</small>--%>
