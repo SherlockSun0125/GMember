@@ -1,4 +1,4 @@
-<%@ page contentType="text/html;charset=UTF-8"%>
+<%@page contentType="text/html; charset=utf-8" %>
 <html>
 <head>
     <title>工程领军人与卓越工程师计划</title>

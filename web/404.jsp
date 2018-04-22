@@ -1,13 +1,12 @@
-<%@page contentType="text/html;charset=utf-8"%>
+<%@page contentType="text/html; charset=utf-8" %>
 <html>
 <head>
-
+    <title>404 Not Found!</title>
     <meta name="viewport" content="width=100%; initial-scale=1; maximum-scale=1; minimum-scale=1; user-scalable=no;"/>
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/apple-touch-icon-144-precomposed.png"/>
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/apple-touch-icon-114-precomposed.png"/>
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-72-precomposed.png"/>
     <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-57-precomposed.png"/>
-    <title>404 Not Found!</title>
     <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
     <link href="css/style.css" type="text/css" rel="stylesheet"/>
     <link href="css/prettyPhoto.css" type="text/css" rel="stylesheet"/>

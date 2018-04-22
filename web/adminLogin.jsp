@@ -5,10 +5,9 @@
   Time: 15:55
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8"%>
+<%@page contentType="text/html; charset=utf-8" %>
 <html>
 <head>
-    <meta charset="UTF-8">
     <title>管理员登陆</title>
     <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
     <script src="jquery/jquery-1.12.4.min.js"></script>
