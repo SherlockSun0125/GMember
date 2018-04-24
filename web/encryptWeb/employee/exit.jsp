@@ -1,3 +1,4 @@
+<%@page contentType="text/html; charset=utf-8" %>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -14,7 +15,7 @@
         }
 
         .m-logcnt .txt {
-            background: url(//s.stu.126.net/res/images/bg/logoutBg.jpg?33612180641f2d54985733ed47a8f7f3) no-repeat;
+            background: url(static/logoutBg.jpg) no-repeat;
             height: 55px;
             line-height: 55px;
             padding-left: 80px;
@@ -26,7 +27,7 @@
         }
 
         .m-logcnt .go-index {
-            background: #219556;
+            background: #E84807;
             color: #fff;
             width: 140px;
             display: block;
@@ -42,7 +43,7 @@
         }
 
         .m-logcnt .txt2 {
-            background: url(//s.stu.126.net/res/images/ui/dialogicon.png?2d5114c0c0ab97d522d7a08200bc7ed8) no-repeat;
+            background: url(static/dialogicon.png) no-repeat;
             font-size: 18px;
         }
 
@@ -51,11 +52,11 @@
         }
 
         .m-logcnt .sug a {
-            color: #10ae58;
+            color: #E84807;
         }
 
         .m-logcnt .sug .feedicon {
-            background: url(//s.stu.126.net/res/images/ui/ui_sprite.png?1367c4a3031b72bbecf3674702d4f731) no-repeat -56px -1104px;
+            background: url(static/ui_sprite.png) no-repeat -56px -1104px;
             margin-left: 3px;
             width: 12px;
             height: 12px;
@@ -72,16 +73,6 @@
             color: #333;
             font-family: 'microsoft yahei';
             height: 47px;
-        }
-
-        .m-logcnt .toiPad a {
-            color: #10ae58;
-            font-size: 14px;
-            font-family: 'microsoft yahei';
-            height: 212px;
-            width: 262px;
-            background: url(//s.stu.126.net/res/images/appDownload/logout_bg.png?e357cb6d92ceb75508657dfec08a4ff9) no-repeat 0 30px;
-            display: block;
         }
 
         .m-logbot {
@@ -130,7 +121,7 @@
         <div class="g-flow">
             <div class="f-pr f-cb">
                 <div style="position: absolute;top:2px;bottom:2px;">
-                    <a class="f-fl" hidefocus="true" href="#" target="_self" data-index="logo">
+                    <a class="f-fl" hidefocus="true" href="../../home.jsp" target="_self" data-index="logo">
                         <img class="f-fl img" src="static/hitwh_logo_white.png" title="学生主页" width="540px"
                              style="margin-top: 2px;margin-bottom: 1px">
                     </a>
@@ -152,7 +143,7 @@
                                href="../../studentLogin.jsp">
                                 <span class=" f-fs1 f-f0">登录</span>
                             </a>
-                            <i class="line" style="padding-top: 8px"></i>
+                            <i class="line" style="padding-top: 3%"></i>
                             <a data-index="消息" class="mes f-pr f-cb j-nav-mescenter"
                                href="../../studentLogin.jsp" title="查看更多消息" target="_self">
                                 <span>消息</span>
@@ -181,7 +172,7 @@
             <a class="reLogin btn" id="j-reLogin" style="" href="../../studentLogin.jsp">重新登录</a>
         </div>
         <div class="m-logbot">
-            <span class="itm f-fs0" id="j-motto">吾尝终日而思矣，不如须臾之所学也。    ——   荀子</span>
+            <span class="itm f-fs0" id="j-motto"></span>
         </div>
     </div>
 </div>
