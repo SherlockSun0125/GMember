@@ -53,7 +53,7 @@
             color: #999;
         }
 
-        .auto-1523950289788 .disnormal {
+        .auto-1523950289788  {
             color: #999;
         }
     </style>
@@ -81,7 +81,6 @@
                                     <a class="mystudy nitem f-f0" data-index="用户退出" target="_blank"
                                        href="exit.jsp" hidefocus="true">退出</a>
                                 </div>
-
                                 <div class="name j-userinfo" id="auto-id-1523840858750">
                                     <div class="f-pr">
                                         <div class="face">
@@ -161,16 +160,16 @@
                                                 </div>
                                             </div>
                                             <ul class="j-selectlist selectlist f-pa" style="display: none;">
-                                                <li class="item f-thide" title="全部讨论区" id="auto-id-1523950290698">
+                                                <li class="item f-thide" title="全部讨论区">
                                                     全部讨论区
                                                 </li>
-                                                <li class="item f-thide" title="老师答疑区" id="auto-id-1523950290699">
+                                                <li class="item f-thide" title="老师答疑区" >
                                                     老师答疑区
                                                 </li>
-                                                <li class="item f-thide" title="企业交流区" id="auto-id-1523950290700">
+                                                <li class="item f-thide" title="企业交流区" >
                                                     企业交流区
                                                 </li>
-                                                <li class="item f-thide" title="综合讨论区" id="auto-id-1523950290701">
+                                                <li class="item f-thide" title="综合讨论区">
                                                     综合讨论区
                                                 </li>
                                             </ul>
@@ -183,7 +182,7 @@
                                                     <input type="text" name="inputtxt" class="j-textarea inputtxt"
                                                            id="auto-id-1523950290675">
                                                     <label class="j-hint inputhint"
-                                                           id="auto-id-1523950290673">搜索该阶段下主题/回复/评论等</label></div>
+                                                           id="auto-id-1523950290673">搜索该阶段下主题/回复等</label></div>
                                             </div>
                                             <div class="sug" style="display:none">
                                                 <div class="f-thide s-fc6 ar j-basetxt">你的问题可能已经有答案了哦~</div>
@@ -209,8 +208,8 @@
 
                         <!--发帖按钮-->
                         <div class="f-cb">
-                            <a class="u-btn u-btn-primary j-newTopicBtn f-fl" style="margin-bottom:40px;"
-                               href="newTopic.jsp">发起主题</a>
+                            <a class="j-newTopicBtn f-fl" style="margin-bottom:40px;"
+                               href="newTopic.jsp"><img src="static/sendPost.png"></a>
                         </div>
 
                         <!--子版块-->

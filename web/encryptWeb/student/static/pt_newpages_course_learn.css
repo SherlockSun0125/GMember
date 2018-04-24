@@ -24,7 +24,7 @@
 }
 
 .u-learn-moduletitle .backbtn:hover {
-    color: #61A500;
+    color: #e84807;
     text-decoration: underline;
 }
 
@@ -194,7 +194,7 @@
 .u-evaluateItem.resultMode .u-point.show .detail .info .num {
     font-weight: bold;
     margin-right: 5px;
-    color: #65a200;
+    color: #e84807;
 }
 
 .u-evaluateItem.resultMode .u-point.show .detail .refscoreinfo .num {
@@ -459,7 +459,7 @@
 }
 
 .analysisMode .choices li.checked.right .score {
-    color: #65a200;
+    color: #e84807;
 }
 
 .analysisMode .choices li.checked.wrong {
@@ -493,7 +493,7 @@
 }
 
 .analysisMode.m-FillBlank .score.right {
-    color: #65a200;
+    color: #e84807;
 }
 
 .analysisMode .analysisInfo {
@@ -506,7 +506,7 @@
 }
 
 .analysisMode .analysisInfo .tt1, .analysisMode .analysisInfo .tt2, .analysisMode .analysisInfo .tt3 {
-    color: #79A900;
+    color: #e84807;
 }
 
 .analysisMode .analysisInfo .tt1 {
@@ -753,7 +753,7 @@
 }
 
 .u-learnBCUI .u-select .list:hover {
-    color: #72A400;
+    color: #e84807;
     text-decoration: underline;
     background: #fff;
 }
@@ -863,7 +863,7 @@
 }
 
 .u-learnLesson:hover .name {
-    color: #61A500;
+    color: #e84807;
 }
 
 .u-learnLesson.normal .name {
@@ -878,11 +878,11 @@
 }
 
 .u-learnLesson.normal .lsicon.learned {
-    color: #83b600;
+    color: #e84807;
 }
 
 .u-learnLesson.normal .lsicon:hover {
-    color: #83b600;
+    color: #e84807;
 }
 
 .u-learnLesson.quiz .name, .u-learnLesson.homework .name {
@@ -971,14 +971,14 @@
 }
 
 .m-lessonDetail .lscontent .unitslist li:hover {
-    color: #61A500;
+    color: #e84807;
     background-color: #f0f0f0;
 }
 
 .m-lessonDetail .lscontent .unitslist li.current {
     cursor: default;
     color: #fff;
-    background-color: #83b600;
+    background-color: #e84807;
 }
 
 .m-lessonDetail .lscontent .unitct2 {
@@ -996,13 +996,13 @@
     margin-top: -62px;
     line-height: 78px;
     text-align: center;
-    background: #6d6d6d url(//nos.netease.com/edu-image/BB26BEA5FBE1A430C00E83E9DB10835E.png) no-repeat;
+    background: #6d6d6d url(turnPage.png) no-repeat;
     color: #fff;
     font-size: 16px;
 }
 
 .m-lessonDetail .lscontent .prevunit:not(.disable):hover, .m-lessonDetail .lscontent .nextunit:not(.disable):hover {
-    background-color: #39a030;
+    background-color: #e84807;
 }
 
 .m-lessonDetail .lscontent .prevunit.disable, .m-lessonDetail .lscontent .nextunit.disable {
@@ -1071,7 +1071,7 @@
     display: inline-block;
     margin: 0 auto;
     vertical-align: middle;
-    color: #39a030;
+    color: #e84807;
 }
 
 .m-lessonDetail .lscontent .unitTopBar {
@@ -1133,20 +1133,19 @@
     background-image: linear-gradient(#FFF, #FFF);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff$startColor', endColorstr='#ff$endColor', GradientType=0);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-    border-color: #83b600;
-    color: #61A500;
+    border-color: #e84807;
+    color: #e84807;
 }
 
 .m-learnunitUI .unitctBar .downbtn:hover, .m-learnunitUI .unitctBar .downbtn.hvr {
-    background-color: #83b600;
+    background-color: #e84807;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#83b600), to(#83b600));
-    background-image: -moz-linear-gradient(#83b600, #83b600);
-    background-image: -ms-linear-gradient(#83b600, #83b600);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #83b600), color-stop(100%, #83b600));
-    background-image: -webkit-linear-gradient(#83b600, #83b600);
-    background-image: -o-linear-gradient(#83b600, #83b600);
-    background-image: linear-gradient(#83b600, #83b600);
+    background-image: -moz-linear-gradient(#e84807, #e84807);
+    background-image: -ms-linear-gradient(#e84807, #e84807);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e84807), color-stop(100%, #e84807));
+    background-image: -webkit-linear-gradient(#e84807, #e84807);
+    background-image: -o-linear-gradient(#e84807, #e84807);
+    background-image: linear-gradient(#e84807, #e84807);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff$startColor', endColorstr='#ff$endColor', GradientType=0);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
     border-color: #FFF;
@@ -1186,7 +1185,7 @@
     bottom: -10px;
     width: 14px;
     height: 10px;
-    background: url(//study.163.com/res/images/qrcode/tip.png) no-repeat;
+    background: url(tip.png) no-repeat;
 }
 
 .m-learnunitUI .unitctBar .download .downloadDiv .tipToy {
@@ -1195,7 +1194,7 @@
     bottom: -2px;
     width: 73px;
     height: 93px;
-    background: url(//study.163.com/res/images/bg/tipToy.png) no-repeat;
+    background: url(tipToy.png) no-repeat;
 }
 
 .m-learnunitUI .unitctBar .autonextlabel {
@@ -1249,7 +1248,7 @@
     width: 50px;
     height: 40px;
     margin-right: 10px;
-    background: url(//yc.stu.126.net/res/images/pages/learn/fight.png?e90ac00202afd80365f979ab81e2621a) no-repeat -50px -150px;
+    background: url(fight.png) no-repeat -50px -150px;
 }
 
 .m-notice .progress .u-announceBlock .personInfo .avatar.avatarSuess {
@@ -1272,7 +1271,7 @@
 }
 
 .m-notice .progress .u-announceBlock .welcomeBlock .blobkRight .learnBtn {
-    background: url(//yc.stu.126.net/res/images/pages/learn/fight.png?e90ac00202afd80365f979ab81e2621a) 0 -190px no-repeat;
+    background: url(fight.png) 0 -190px no-repeat;
     width: 73px;
     height: 26px;
     color: #fff;
@@ -1417,7 +1416,7 @@
 }
 
 .m-notice .noticeitem .item a:hover {
-    color: green;
+    color: #e84807;
 }
 
 .m-notice .noticeitem .icons {
@@ -1483,7 +1482,7 @@
 
 .m-notice .showmore:hover {
     text-decoration: none;
-    color: #65a200;
+    color: #e84807;
 }
 
 .m-notice .m-willend, .m-notice .m-recent {
@@ -1511,7 +1510,7 @@
 
 .m-notice .m-dynamic .m-dynamicInfo .infos .winfo {
     font-size: 14px;
-    color: #65a200;
+    color: #e84807;
 }
 
 .m-notice .m-dynamic .m-dynamicInfo .infos .witit {
@@ -1563,7 +1562,7 @@
 .m-quizDoing .waitForScore .icn {
     width: 60px;
     height: 60px;
-    background: url(//yc.stu.126.net/res/images/pages/memberSetting/activeRes.png?39372e7e1c0e0e684a45debb94b59c0b) no-repeat 0 0;
+    background: url(activeRes.png) no-repeat 0 0;
 }
 
 .m-quizDoing .waitForScore .tip {
@@ -1678,7 +1677,7 @@
 }
 
 .u-quizHwListItem:hover .name {
-    color: #61A500;
+    color: #e84807;
 }
 
 .u-quizHwListItem.down .detail {
@@ -1710,7 +1709,6 @@
 
 .u-quizHwInfoItem .infoItem {
     margin-bottom: 20px;
-    word-break: break-word;
     word-wrap: break-word;
 }
 
@@ -1970,7 +1968,7 @@
 }
 
 .m-homework .tasklist .listtable tbody td .clickbtn {
-    color: #65a200;
+    color: #e84807;
 }
 
 .m-homework .tasklist .listtable tbody td .clickbtn:hover {
@@ -1995,7 +1993,7 @@
 }
 
 .m-homework .xlinfo a {
-    color: #65a200;
+    color: #e84807;
 }
 
 .m-homework .xlinfo a:hover {
@@ -2016,7 +2014,7 @@
 }
 
 .m-homework .scoreinfo a {
-    color: #65a200;
+    color: #e84807;
 }
 
 .m-homework .scoreinfo a:hover {
@@ -2185,7 +2183,7 @@
 
 .u-gx-ttop .backbtn {
     line-height: 38px;
-    color: #65a200;
+    color: #e84807;
     font-size: 14px;
 }
 
@@ -2213,7 +2211,7 @@
 
 .u-gx-bottom .backbtn {
     line-height: 38px;
-    color: #65a200;
+    color: #e84807;
     font-size: 14px;
 }
 
@@ -2406,7 +2404,7 @@ table.tlist .editbtn, table.tlist .delbtn, table.tlist .lookbtn {
 }
 
 table.tlist .fzr {
-    color: #90c600;
+    color: #e84807;
     width: 100px;
     line-height: 19px;
     margin: 18px 0 0 0;
@@ -2467,7 +2465,7 @@ table.tlist .centerPage {
 }
 
 .u-forumbreadnav a:hover {
-    color: #65a200;
+    color: #e84807;
 }
 
 .u-forumbreadnav .split {
@@ -2801,11 +2799,11 @@ table.tlist .centerPage {
 }
 
 .u-panelitem .con .right {
-    color: #65a200;
+    color: #e84807;
 }
 
 .u-panelitem .con .right a {
-    color: #65a200;
+    color: #e84807;
 }
 
 .u-panelitem .con .right .topiclink {
@@ -2838,7 +2836,7 @@ table.tlist .centerPage {
     color: #fff;
     font-size: 12px;
     padding: 2px 4px 1px 10px;
-    background: #FF9000 url(//yc.stu.126.net/res/images/pages/learn/learn_sprite.png?2eb4d16bc85001a39dbe63be1afcdd19) no-repeat -154px -4px;
+    background: #FF9000 url(learn_sprite.png) no-repeat -154px -4px;
     position: relative;
 }
 
@@ -2944,7 +2942,7 @@ table.tlist .centerPage {
     left: -10px;
     width: 125px;
     height: 30px;
-    background: url(//yc.stu.126.net/res/images/pages/learn/fight.png?e90ac00202afd80365f979ab81e2621a) no-repeat -85px -110px;
+    background: url(fight.png) no-repeat -85px -110px;
 }
 
 .m-forumpersonal .persontitle .con {
@@ -3004,7 +3002,7 @@ table.tlist .centerPage {
 }
 
 .m-forumpersonal .persontitle .con .chatting .sixin {
-    color: #2caf66;
+    color: #e84807;
     padding-right: 5px;
 }
 
@@ -3177,7 +3175,7 @@ table.tlist .centerPage {
     width: 0px;
     height: 0px;
     border: 7px solid #fff;
-    border-left-color: #00b050;
+    border-left-color: #e84807;
 }
 
 .u-ojPanel .main .ls .i-item .score {
@@ -3185,7 +3183,7 @@ table.tlist .centerPage {
 }
 
 .u-ojPanel .main .ls .i-item.current h5 {
-    color: #0fb45e;
+    color: #e84807;
 }
 
 .u-ojPanel .main .ls .i-item.current h5 em {
@@ -3282,7 +3280,7 @@ table.tlist .centerPage {
 }
 
 .m-onlineJudge .xlinfo a {
-    color: #65a200;
+    color: #E84840;
 }
 
 .m-onlineJudge .xlinfo a:hover {
@@ -3315,7 +3313,7 @@ table.tlist .centerPage {
 }
 
 .m-onlineJudge .scoreinfo a {
-    color: #65a200;
+    color: #E84A10;
 }
 
 .m-onlineJudge .scoreinfo a:hover {
@@ -3410,7 +3408,7 @@ table.tlist .centerPage {
 }
 
 .u-learnProgress .sec .result a {
-    color: #00a74c;
+    color: #e84807;
     font-size: 14px;
     margin-left: 5px;
 }
@@ -3420,7 +3418,7 @@ table.tlist .centerPage {
 }
 
 .u-learnProgress .sec .result .switch {
-    color: #00a74c;
+    color: #e84807;
     font-size: 13px;
     padding-top: 11px;
 }
@@ -3443,15 +3441,15 @@ table.tlist .centerPage {
 }
 
 .u-learnProgress .sec .legend .hw {
-    background: url(//yc.stu.126.net/res/images/pages/learn/legend_icon_homework.png?0dc1780283f7a845c73d35a00536cd23);
+    background: url(legend_icon_homework.png);
 }
 
 .u-learnProgress .sec .legend .quiz {
-    background: url(//yc.stu.126.net/res/images/pages/learn/legend_icon_quiz.png?e366f3d6e9f83719a806580363580c3f);
+    background: url(legend_icon_quiz.png);
 }
 
 .u-learnProgress .sec .legend .exam {
-    background: url(//yc.stu.126.net/res/images/pages/learn/legend_icon_exam.png?996a2c8f787535d9de20912434b00d2c);
+    background: url(legend_icon_exam.png);
 }
 
 .u-learnProgress .sec table.report {
@@ -3529,25 +3527,25 @@ table.tlist .centerPage {
 .u-learnProgress .sec .u-certstatus .mode .con .status .fdbtn {
     width: 178px;
     height: 50px;
-    background: url(//yc.stu.126.net/res/images/pages/learn/fight.png?e90ac00202afd80365f979ab81e2621a) 0 -55px;
+    background: url(fight.png) 0 -55px;
 }
 
 .u-learnProgress .sec .u-certstatus .mode .con .status .zsbtn {
     width: 178px;
     height: 50px;
-    background: url(//yc.stu.126.net/res/images/pages/learn/fight.png?e90ac00202afd80365f979ab81e2621a) 0 0;
+    background: url(fight.png) 0 0;
 }
 
 .u-learnProgress .sec .u-certstatus .mode.fd .pic {
     width: 194px;
     height: 200px;
-    background: url(//yc.stu.126.net/res/images/pages/learn/mode_fd.png?a9d81d86b8e59e538605f913c2d2402f);
+    background: url(mode_fd.png);
 }
 
 .u-learnProgress .sec .u-certstatus .mode.zs .pic {
     width: 282px;
     height: 200px;
-    background: url(//yc.stu.126.net/res/images/pages/learn/mode_zs.png?ee0e2b69f142e8eb178ac7458b892477);
+    background: #e84807;
 }
 
 .g-flow {
@@ -3668,7 +3666,7 @@ body {
 
 .m-learnhead .one2one .one2one-wrap .zixun {
     padding-right: 8px;
-    color: #2cb060;
+    color: #e84807;
 }
 
 .m-learnhead .one2one .one2one-wrap:hover {
@@ -4004,7 +4002,7 @@ div.m-fight-dialog .m-celebrate .bottom .okBtn:hover {
 
 .u-learnProgress-tab.u-curtab {
     color: #fff;
-    background-color: #13a654;
+    background-color: #e84807;
 }
 
 .u-learnProgress-tab.u-curtab .ic {
@@ -4013,7 +4011,7 @@ div.m-fight-dialog .m-celebrate .bottom .okBtn:hover {
 
 .u-learnProgress-tab.u-curtab:hover {
     color: #fff;
-    background-color: #13a654;
+    background-color: #e84807;
 }
 
 .m-side-operation {

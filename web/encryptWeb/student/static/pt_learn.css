@@ -386,7 +386,6 @@ html, body {
     text-align: left;
     color: #666;
     line-height: 22px;
-    word-break: break-word;
     word-wrap: break-word;
     white-space: pre-wrap;
 }
@@ -564,7 +563,7 @@ html, body {
 }
 
 .f-fcgreen {
-    color: #55B929;
+    color: #e84807;
 }
 
 .f-fcorange {
@@ -572,11 +571,11 @@ html, body {
 }
 
 a.f-fcgreen {
-    color: #55B929;
+    color: #e84807;
 }
 
 a:hover {
-    color: #55B929;
+    color: #e84807;
     text-decoration: none;
     cursor: pointer;
 }
@@ -1419,13 +1418,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
     content: "\e986";
 }
 
-@font-face {
-    font-family: "ux-icon-edu";
-    src: url(../res/res-base/fonts/ux-icon-edu.eot?#iefix);
-    src: url(../res/res-base/fonts/ux-icon-edu.eot?#iefix) format("embedded-opentype"), url(../res/res-base/fonts/ux-icon-edu.ttf) format("truetype"), url(../res/res-base/fonts/ux-icon-edu.woff) format("woff"), url(../res/res-base/fonts/ux-icon-edu.svg) format("svg");
-    font-weight: normal;
-    font-style: normal;
-}
+
 
 [class^="ux-icon-"], [class*=" ux-icon-"] {
     font-family: "ux-icon-edu" !important;
@@ -3585,12 +3578,12 @@ div.m-QRCodeDialog .tip {
 
 .u-tabul .u-curtab a {
     color: #fff;
-    background-color: #55b929;
+    background-color: #e84807;
 }
 
 .u-tabul .u-curtab a:hover {
     color: #fff;
-    background-color: #55b929;
+    background-color: #e84807;
 }
 
 .u-searchIpt {
@@ -3637,19 +3630,19 @@ div.m-QRCodeDialog .tip {
 }
 
 div.u-colorpick .zbx {
-    background: url(//mc.stu.126.net/res/images/ui/nej_color_btn.png?3f7dbf3bac584b5bddcfef164c01216d) no-repeat -50px -50px;
+    background: url(nej_color_btn.png) no-repeat -50px -50px;
 }
 
 div.u-colorpick .zbg {
-    background: url(//mc.stu.126.net/res/images/ui/nej_color_btn.png?3f7dbf3bac584b5bddcfef164c01216d) no-repeat -50px -50px;
+    background: url(nej_color_btn.png) no-repeat -50px -50px;
 }
 
 div.u-colorpick .zpnl .zshw {
-    background: url(//mc.stu.126.net/res/images/ui/nej_color.png?67bad35dd34aa030a6aed0caac7e91fd) no-repeat;
+    background: url(nej_color.png) no-repeat;
 }
 
 div.u-colorpick .zhlt .zshw {
-    background: url(//mc.stu.126.net/res/images/ui/nej_color_mask.png?c440e28206ea73f439e1545331f9b461) repeat-x;
+    background: url(nej_color_mask.png) repeat-x;
 }
 
 div.u-colorpick .zinf .zbtn {
@@ -3683,15 +3676,7 @@ div.u-colorpick > div {
     left: -275px;
     width: 1510px;
     height: 200px;
-    background: url(//mc.stu.126.net/res/images/common/topbg.png?02fa0085603318b58ffab4a4fdf0366c) center center;
-}
-
-.u-topxcbg .tit {
-    top: 50px;
-    left: 0;
-    width: 461px;
-    height: 34px;
-    background: url(//mc.stu.126.net/res/images/common/topbg_txt.png?643eb3cf4a87469531a4bbc83d8a71f6);
+    background: url(topbg.png) center center;
 }
 
 .u-topxcbg .sm {
@@ -3761,7 +3746,7 @@ table.u-table .warn td {
     float: left;
     width: 57px;
     height: 57px;
-    background: url(//mc.stu.126.net/res/images/ui/ui_sprite.png?5f7eedcf69b8a05d3ed53b4c1918de1c) no-repeat 4449px 4449px;
+    background: url(ui_sprite.png) no-repeat 4449px 4449px;
     margin: 0 20px;
 }
 
@@ -3819,7 +3804,7 @@ table.u-table .warn td {
 }
 
 .m-scdialog .icon {
-    background: url(//mc.stu.126.net/res/images/ui/ui_sprite.png?5f7eedcf69b8a05d3ed53b4c1918de1c) -62px -156px no-repeat;
+    background: url(ui_sprite.png) -62px -156px no-repeat;
     height: 20px;
     width: 20px;
 }
@@ -3893,7 +3878,7 @@ div.m-basewin .zcls {
     display: block;
     width: 32px;
     height: 32px;
-    background: url(//mc.stu.126.net/res/images/ui/ui_sprite.png?5f7eedcf69b8a05d3ed53b4c1918de1c) no-repeat -170px -92px;
+    background: url(ui_sprite.png) no-repeat -170px -92px;
 }
 
 div.m-basewin .zcls:hover {
@@ -4253,7 +4238,7 @@ div.m-snsbox .sns li:hover {
     top: -8px;
     width: 20px;
     height: 10px;
-    background: url(//mc.stu.126.net/res/images/ui/ui_sprite.png?5f7eedcf69b8a05d3ed53b4c1918de1c) no-repeat 9999px 9999px;
+    background: url(ui_sprite.png) no-repeat 9999px 9999px;
     background-position: -137px -104px;
 }
 
@@ -4336,7 +4321,6 @@ div.u-logwin .zbar {
     -moz-border-radius: 4px;
     border-radius: 4px;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#EBEBEB), to(#E1E1E1));
     background-image: -moz-linear-gradient(#EBEBEB, #E1E1E1);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #EBEBEB), color-stop(100%, #E1E1E1));
     background-image: -webkit-linear-gradient(#EBEBEB, #E1E1E1);
@@ -4352,7 +4336,6 @@ div.u-logwin .zbar {
 
 .u-btn:hover, div.u-colorpick .zinf .zbtn:hover, .u-btn-no-round-corner:hover, .u-btn-green:hover, .u-btn-light-gray:hover, .u-btn.hvr, div.u-colorpick .zinf .hvr.zbtn, .hvr.u-btn-no-round-corner, .hvr.u-btn-green, .hvr.u-btn-light-gray {
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#F6F6F6), to(#EDEDED));
     background-image: -moz-linear-gradient(#F6F6F6, #EDEDED);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F6F6F6), color-stop(100%, #EDEDED));
     background-image: -webkit-linear-gradient(#F6F6F6, #EDEDED);
@@ -4393,7 +4376,6 @@ div.u-logwin .zbar {
 
 .u-btn-primary {
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#6FB7FF), to(#69B1F8));
     background-image: -moz-linear-gradient(#6FB7FF, #69B1F8);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6FB7FF), color-stop(100%, #69B1F8));
     background-image: -webkit-linear-gradient(#6FB7FF, #69B1F8);
@@ -4408,7 +4390,6 @@ div.u-logwin .zbar {
 
 .u-btn-primary:hover, .u-btn-primary.hvr {
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#7EC5FF), to(#7AC1F9));
     background-image: -moz-linear-gradient(#7EC5FF, #7AC1F9);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7EC5FF), color-stop(100%, #7AC1F9));
     background-image: -webkit-linear-gradient(#7EC5FF, #7AC1F9);
@@ -4424,7 +4405,6 @@ div.u-logwin .zbar {
 
 .u-btn-default {
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#8FC200), to(#84B700));
     background-image: -moz-linear-gradient(#8FC200, #84B700);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #8FC200), color-stop(100%, #84B700));
     background-image: -webkit-linear-gradient(#8FC200, #84B700);
@@ -4439,21 +4419,17 @@ div.u-logwin .zbar {
 
 .u-btn-default:hover, .u-btn-default.hvr {
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#AAD215), to(#A2C917));
     background-image: -moz-linear-gradient(#AAD215, #A2C917);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #AAD215), color-stop(100%, #A2C917));
     background-image: -webkit-linear-gradient(#AAD215, #A2C917);
     background-image: -o-linear-gradient(#AAD215, #A2C917);
     background-image: -webkit-gradient(linear, left top, left bottom, from(#AAD215), to(#A2C917));
     background-image: linear-gradient(#AAD215, #A2C917);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff$startColor', endColorstr='#ff$endColor', GradientType=0);
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
     color: #fff;
 }
 
 .u-btn-whiteGreen {
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#FFF), to(#FFF));
     background-image: -moz-linear-gradient(#FFF, #FFF);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FFF), color-stop(100%, #FFF));
     background-image: -webkit-linear-gradient(#FFF, #FFF);
@@ -4462,19 +4438,18 @@ div.u-logwin .zbar {
     background-image: linear-gradient(#FFF, #FFF);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff$startColor', endColorstr='#ff$endColor', GradientType=0);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-    border-color: #83b600;
-    color: #61A500;
+    border-color: #FF6C00;
+    color: #e84807;
 }
 
 .u-btn-whiteGreen:hover, .u-btn-whiteGreen.hvr {
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#83b600), to(#83b600));
-    background-image: -moz-linear-gradient(#83b600, #83b600);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #83b600), color-stop(100%, #83b600));
-    background-image: -webkit-linear-gradient(#83b600, #83b600);
-    background-image: -o-linear-gradient(#83b600, #83b600);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#83b600), to(#83b600));
-    background-image: linear-gradient(#83b600, #83b600);
+    background-image: -moz-linear-gradient(#FF6C00, #FF6C00);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FF6C00), color-stop(100%, #FF6C00));
+    background-image: -webkit-linear-gradient(#FF6C00, #FF6C00);
+    background-image: -o-linear-gradient(#FF6C00, #FF6C00);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FF6C00), to(#FF6C00));
+    background-image: linear-gradient(#FF6C00, #FF6C00);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff$startColor', endColorstr='#ff$endColor', GradientType=0);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
     border-color: #FFF;
@@ -4483,7 +4458,6 @@ div.u-logwin .zbar {
 
 .u-btn-disabled {
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#eee), to(#eee));
     background-image: -moz-linear-gradient(#eee, #eee);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eee), color-stop(100%, #eee));
     background-image: -webkit-linear-gradient(#eee, #eee);
@@ -4499,7 +4473,6 @@ div.u-logwin .zbar {
 
 .u-btn-disabled:hover, .u-btn-disabled.hvr {
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#eee), to(#eee));
     background-image: -moz-linear-gradient(#eee, #eee);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eee), color-stop(100%, #eee));
     background-image: -webkit-linear-gradient(#eee, #eee);
@@ -4543,29 +4516,29 @@ div.u-logwin .zbar {
 
 .u-btn-green {
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#55B929), to(#55B929));
-    background-image: -moz-linear-gradient(#55B929, #55B929);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #55B929), color-stop(100%, #55B929));
-    background-image: -webkit-linear-gradient(#55B929, #55B929);
-    background-image: -o-linear-gradient(#55B929, #55B929);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#55B929), to(#55B929));
-    background-image: linear-gradient(#55B929, #55B929);
+    background-image: -khtml-gradient(linear, left top, left bottom, from(#e84807), to(#e84807));
+    background-image: -moz-linear-gradient(#e84807, #e84807);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e84807), color-stop(100%, #e84807));
+    background-image: -webkit-linear-gradient(#e84807, #e84807);
+    background-image: -o-linear-gradient(#e84807, #e84807);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#e84807), to(#e84807));
+    background-image: linear-gradient(#e84807, #e84807);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff$startColor', endColorstr='#ff$endColor', GradientType=0);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-    border-color: #55B929;
+    border-color: #e84807;
     color: #fff;
-    border-bottom: 1px solid #55B929;
+    border-bottom: 1px solid #e84807;
 }
 
 .u-btn-green:hover, .u-btn-green.hvr {
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#54c15a), to(#54c15a));
-    background-image: -moz-linear-gradient(#54c15a, #54c15a);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #54c15a), color-stop(100%, #54c15a));
-    background-image: -webkit-linear-gradient(#54c15a, #54c15a);
-    background-image: -o-linear-gradient(#54c15a, #54c15a);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#54c15a), to(#54c15a));
-    background-image: linear-gradient(#54c15a, #54c15a);
+    background-image: -khtml-gradient(linear, left top, left bottom, from(#e84807), to(#e84807));
+    background-image: -moz-linear-gradient(#e84807, #e84807);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e84807), color-stop(100%, #e84807));
+    background-image: -webkit-linear-gradient(#e84807, #e84807);
+    background-image: -o-linear-gradient(#e84807, #e84807);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#e84807), to(#e84807));
+    background-image: linear-gradient(#e84807, #e84807);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff$startColor', endColorstr='#ff$endColor', GradientType=0);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
     color: #fff;
@@ -4621,7 +4594,7 @@ div.u-logwin .zbar {
 }
 
 .u-btn-group .u-btn:hover, .u-btn-group div.u-colorpick .zinf .zbtn:hover, div.u-colorpick .zinf .u-btn-group .zbtn:hover, .u-btn-group .u-btn-no-round-corner:hover, .u-btn-group .u-btn-green:hover, .u-btn-group .u-btn-light-gray:hover {
-    color: #61A500;
+    color: #e84807;
 }
 
 .u-btn-group .u-btn-disabled {
@@ -4634,8 +4607,8 @@ div.u-logwin .zbar {
 }
 
 .u-btn-group .u-btn-active {
-    background: #4EA45B;
-    border-color: #3C8440;
+    background: #e84807;
+    border-color: #e84807;
     color: #fff;
     cursor: default;
     -webkit-box-shadow: inset 1px 1px 6px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
@@ -4656,17 +4629,17 @@ div.u-logwin .zbar {
     -moz-border-radius: 0px;
     border-radius: 0px;
     border: none;
-    background-color: #55b929;
+    background-color: #e84807;
 }
 
 .ux-modal .ux-btn.ux-btn-primary {
     background: #fff;
-    color: #55b929;
-    border: 1px solid #55b929;
+    color: #e84807;
+    border: 1px solid #e84807;
 }
 
 .ux-modal .ux-btn.ux-btn-primary:hover {
-    background-color: #55b929;
+    background-color: #e84807;
     color: #fff;
 }
 
@@ -4764,12 +4737,12 @@ div.u-logwin .zbar {
 }
 
 .u-sugInput .ar a {
-    color: green;
+    color: red;
     padding-left: 4px;
 }
 
 .u-sugInput div.js-selected, .u-sugInput div.js-selected:hover {
-    background-color: #55b829;
+    background-color: #e84807;
 }
 
 .u-sugInput div.js-selected a, .u-sugInput div.js-selected:hover a {
@@ -4849,7 +4822,7 @@ div.u-logwin .zbar {
     background: url(//mc.stu.126.net/res/images/collegeAdmin/upload_bar_bg.png?3563639ff2e3986b9fd7e075f3dfcb6d) center top repeat-x;
     background-repeat: repeat-x;
     border: 1px solid;
-    border-color: #e0ebd6 transparent #bfd9a5 #7eb746;
+    border-color: #e0ebd6 transparent #bfd9a5 #e84807;
     height: 7px;
     width: 0;
     top: -1px;
@@ -4928,7 +4901,7 @@ div.m-fileNameDialog {
 }
 
 .u-richeditor .zbg {
-    background: url(//mc.stu.126.net/res/images/eduEditor/themes/eduEditor/images/richEditer.png?a44bce86ad0a18bb1f2dc8a229c37bb0) no-repeat 4999px 4999px;
+    background: url(richEditer.png) no-repeat 4999px 4999px;
 }
 
 .u-richeditor .zarea {
@@ -5443,7 +5416,7 @@ div.m-fileNameDialog {
     width: auto !important;
     color: blue !important;
     background: #FFF !important;
-    border: 1px solid #6ce26c !important;
+    border: 1px solid #e84807 !important;
     padding: 0.1em 0.8em 0 !important;
 }
 
@@ -5466,7 +5439,7 @@ div.m-fileNameDialog {
     font-size: 10px !important;
     z-index: 10 !important;
     color: #FFF !important;
-    background: #6ce26c !important;
+    background: #e84807 !important;
     border: none !important;
 }
 
@@ -5514,7 +5487,7 @@ div.m-fileNameDialog {
 }
 
 .syntaxhighlighter .gutter .line.highlighted {
-    background-color: #6ce26c !important;
+    background-color: #e84807 !important;
     color: #FFF !important;
 }
 
@@ -5545,7 +5518,7 @@ div.m-fileNameDialog {
 }
 
 .syntaxhighlighter.printing .comments, .syntaxhighlighter.printing .comments a, .syntaxhighlighter .comments, .syntaxhighlighter .comments a {
-    color: #008200 !important;
+    color: #e84807 !important;
 }
 
 .syntaxhighlighter.printing .string, .syntaxhighlighter.printing .string a, .syntaxhighlighter.collapsed .toolbar a, .syntaxhighlighter .string, .syntaxhighlighter .string a {
@@ -5566,7 +5539,7 @@ div.m-fileNameDialog {
 }
 
 .syntaxhighlighter.printing .value, .syntaxhighlighter .value {
-    color: #090 !important;
+    color: #e84807 !important;
 }
 
 .syntaxhighlighter.printing .functions, .syntaxhighlighter.printing .color2, .syntaxhighlighter.printing .color2 a, .syntaxhighlighter .functions, .syntaxhighlighter .color2, .syntaxhighlighter .color2 a {
@@ -5602,12 +5575,12 @@ div.m-fileNameDialog {
 
 .u-richeditor-math .m-mathedit .chinatip {
     font-size: 12px;
-    color: #2aa157;
+    color: #e84807;
 }
 
 .u-richeditor-math .m-mathedit .savetip {
     font-size: 14px;
-    color: #2aa157;
+    color: #e84807;
 }
 
 .u-richeditor-math .m-mathedit .imgsrea {
@@ -5705,7 +5678,7 @@ div.m-fileNameDialog {
 
 .u-richeditor-math .m-mathedit .selected {
     background-color: #d9d9d9;
-    color: #2aa157;
+    color: #e84807;
 }
 
 .u-richeditor-math .m-mathedit .eqitem-2 {
@@ -5910,7 +5883,7 @@ body .u-eduEditorDialog .u-richeditor-uploadCard .tab {
 
 body .u-eduEditorDialog .u-richeditor-uploadCard .tab .j-tab {
     float: left;
-    border-bottom: solid 1px #55B929;
+    border-bottom: solid 1px #e84807;
     width: 230px;
     text-align: center;
     color: #859295;
@@ -5918,9 +5891,9 @@ body .u-eduEditorDialog .u-richeditor-uploadCard .tab .j-tab {
 }
 
 body .u-eduEditorDialog .u-richeditor-uploadCard .tab .j-selected {
-    border: solid 1px #55B929;
+    border: solid 1px #e84807;
     border-bottom: solid 1px transparent;
-    color: #55B929;
+    color: #e84807;
     background-color: white;
     height: 29px;
 }
@@ -5942,7 +5915,7 @@ body .u-eduEditorDialog .u-richeditor-math .u-equation .eqitems .item .itemname 
 }
 
 body .u-eduEditorDialog .u-richeditor-math .u-equation .eqitems .item .selected {
-    color: #55B929;
+    color: #e84807;
 }
 
 body .u-eduEditorDialog .u-richeditor-math .u-equation .eqitems .item .selected:after {
@@ -5996,7 +5969,7 @@ body .u-eduEditorDialog .u-richeditor-math .u-latex .latexarea .latexSrc:focus {
 
 body .u-eduEditorDialog .u-richeditor-math .latexlen .latexMsg {
     font-size: 12px;
-    color: #55B929;
+    color: #e84807;
 }
 
 body .u-eduEditorDialog .u-richeditor-math .latexlen .tipinfo {
@@ -6006,7 +5979,7 @@ body .u-eduEditorDialog .u-richeditor-math .latexlen .tipinfo {
 
 body .u-eduEditorDialog .u-richeditor-math .savetip {
     font-size: 12px;
-    color: #55B929 !important;
+    color: #e84807 !important;
 }
 
 body .u-eduEditorDialog .u-richeditor-math .u-btn-preview {
@@ -6257,7 +6230,7 @@ body li {
 }
 
 a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:hover .f-fc6, a.f-fc9:hover, a:hover .f-fc9, a.f-fcf:hover, a:hover .f-fcf {
-    color: #55B929;
+    color: #e84807;
     text-decoration: none;
 }
 
@@ -6365,7 +6338,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
 
 .player .control .progressBar .timeBar {
     top: 0;
-    background-color: #8ec800;
+    background-color: #e84807;
     width: 0;
     height: 100%;
 }
@@ -6489,7 +6462,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
     height: 80px;
     width: 100%;
     bottom: 10px;
-    background: #8ec800;
+    background: #e84807;
     -webkit-border-radius: 0 0 4px 4px;
     -moz-border-radius: 0 0 4px 4px;
     border-radius: 0 0 4px 4px;
@@ -6501,13 +6474,13 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
 .player .control .con .volume .volumeSlide .icon {
     width: 100%;
     height: 5px;
-    background-color: #b6e83c;
+    background-color: #e84807;
     top: 10px;
     z-index: 1000;
 }
 
 .player .control .con .volume .volumeSlide .icon:hover {
-    background-color: #c7f84e;
+    background-color: #e84807;
 }
 
 .player .control .con .volume .icon {
@@ -6597,7 +6570,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
 }
 
 .player .control .con .rate ul li:hover, .player .control .con .quality ul li:hover, .player .control .con .subtitle ul li:hover {
-    color: #8ec800;
+    color: #e84807;
 }
 
 .player .control .con .rate {
@@ -6671,7 +6644,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
 }
 
 .player .control .con .subtitle ul li.selected span {
-    color: #84b803;
+    color: #e84807;
 }
 
 .player .control .con .subtitle.unfold ul {
@@ -6905,7 +6878,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
 }
 
 .player .display .replay .image, .player .display .loading .image {
-    background: url(//mc.stu.126.net/res/images/html5Video/loading.png?0c7e51815236682f144cee8b44704713) center no-repeat;
+    background: url(loading.png) center no-repeat;
     -webkit-animation: loadingrotate 1.5s infinite linear;
     -ms-animation: loadingrotate 1.5s infinite linear;
     -moz-animation: loadingrotate 1.5s infinite linear;
@@ -7055,10 +7028,6 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
     vertical-align: middle;
 }
 
-.m-header1 .logo.spoc .spoc_icon {
-    background: url(//mc.stu.126.net/res/images/common/logo_spoc.png?91509919729f49a36511db1ee1e7bd48) no-repeat 0 23px;
-}
-
 .m-header1 .search {
     position: relative;
     -moz-transition: background-color 0.2s ease-in 0s;
@@ -7088,7 +7057,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
 }
 
 .m-header1 .search .text .u-sugInput a {
-    color: #85b708;
+    color: #e84807;
 }
 
 .m-header1 .search .text .u-sugInput .js-selected a {
@@ -7164,7 +7133,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
     left: 11px;
     width: 80px;
     height: 4px;
-    background: #8bb721;
+    background: #e84807;
 }
 
 .m-header1 .nav a:hover .inner {
@@ -7178,7 +7147,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
 .m-header1 .nav a.spoc .inner {
     padding-left: 35px;
     width: 80px;
-    background: url(//mc.stu.126.net/res/images/common/head.png?c01693a58fac7e0915580da33650a89b) no-repeat 10px 33px;
+    background: url(head.png) no-repeat 10px 33px;
 }
 
 .m-header1 .nav a.spoc .ic {
@@ -7200,7 +7169,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
 .m-header1 .nav a.app .inner {
     padding-left: 10px;
     width: 80px;
-    background: url(//mc.stu.126.net/res/images/common/spriteIcon.png?28f4e06998404217d86cd49900e8d985) no-repeat -35px -400px;
+    background: url(spriteIcon.png) no-repeat -35px -400px;
 }
 
 .m-header1 .nav a.app .ic {
@@ -7212,7 +7181,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
 }
 
 .m-header1 .nav a.app:hover .inner {
-    background: url(//mc.stu.126.net/res/images/common/spriteIcon.png?28f4e06998404217d86cd49900e8d985) no-repeat -35px -491px;
+    background: url(spriteIcon.png) no-repeat -35px -491px;
 }
 
 .m-header1 .nav a.app:hover + .appTips {
@@ -7267,7 +7236,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
     height: 55px;
     display: block;
     margin-top: 10px;
-    background: url(//mc.stu.126.net/res/images/common/spriteIcon.png?28f4e06998404217d86cd49900e8d985) no-repeat -4999px -4999px;
+    background: url(spriteIcon.png) no-repeat -4999px -4999px;
 }
 
 .m-header1 .nav .appTips .dlbtn .btn.iphone {
@@ -7300,10 +7269,6 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
     height: 80px;
     display: table-cell;
     vertical-align: middle;
-}
-
-.m-header2 .logo.spoc .spoc_icon {
-    background: url(//mc.stu.126.net/res/images/common/logo_spoc.png?91509919729f49a36511db1ee1e7bd48) no-repeat 0 23px;
 }
 
 .m-header2 .search {
@@ -7367,7 +7332,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
 .m-header2 .nav a.spoc .inner {
     padding-left: 35px;
     width: 65px;
-    background: url(//mc.stu.126.net/res/images/common/head.png?c01693a58fac7e0915580da33650a89b) no-repeat 6px 27px;
+    background: url(head.png) no-repeat 6px 27px;
 }
 
 .m-header2 .nav a.spoc:hover .inner {
@@ -7381,7 +7346,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
 .m-header2 .nav a.app .inner {
     padding-left: 20px;
     width: 80px;
-    background: url(//mc.stu.126.net/res/images/common/spriteIcon.png?28f4e06998404217d86cd49900e8d985) no-repeat -30px -405px;
+    background: url(spriteIcon.png) no-repeat -30px -405px;
 }
 
 .m-header2 .nav a.app .ic {
@@ -7393,7 +7358,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
 }
 
 .m-header2 .nav a.app:hover .inner {
-    background: url(//mc.stu.126.net/res/images/common/spriteIcon.png?28f4e06998404217d86cd49900e8d985) no-repeat -30px -496px;
+    background: url(spriteIcon.png) no-repeat -30px -496px;
 }
 
 .m-header2 .nav a.app:hover + .appTips {
@@ -7448,7 +7413,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
     height: 55px;
     margin-top: 10px;
     display: block;
-    background: url(//mc.stu.126.net/res/images/common/spriteIcon.png?28f4e06998404217d86cd49900e8d985) no-repeat -4999px -4999px;
+    background: url(spriteIcon.png) no-repeat -4999px -4999px;
 }
 
 .m-header2 .appTips .dlbtn .btn.iphone {
@@ -7613,7 +7578,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
     left: 147px;
     width: 20px;
     height: 10px;
-    background: url(//mc.stu.126.net/res/images/ui/ui_sprite.png?5f7eedcf69b8a05d3ed53b4c1918de1c) no-repeat 9999px 9999px;
+    background: url(ui_sprite.png) no-repeat 9999px 9999px;
     background-position: -136px -104px;
 }
 
@@ -8433,7 +8398,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
 }
 
 .m-navTop-func > .m-navTop-func-i > .u-navLogin-container > .u-navLogin-myCourse > .u-navLogin-myCourse-t > .u-navLogin-myCourse.u-navLogin-center-container:hover {
-    color: #96d013;
+    color: #e84807;
 }
 
 .m-navTop-func > .m-navTop-func-i > .u-navLogin-container > .u-navLogin-myCourse > .u-navLogin-myCourse-t > .u-navLogin-myCourse.u-navLogin-center-container > a {
@@ -8520,7 +8485,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
     font-size: 16px;
     z-index: 1;
     color: black;
-    background-color: #55b929;
+    background-color: #e84807;
     margin: 0px;
     padding: 0px;
     line-height: 26px;
@@ -8669,7 +8634,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
     clear: none;
     z-index: 6;
     color: black;
-    background: url(//mc.stu.126.net/res/images/common/spriteIcon.png?28f4e06998404217d86cd49900e8d985) 0px -638px no-repeat;
+    background: url(spriteIcon.png) 0px -638px no-repeat;
     margin: 0px;
     padding: 0px;
     font-size: 16px;
@@ -8693,7 +8658,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
     clear: none;
     z-index: 6;
     color: black;
-    background: url(//mc.stu.126.net/res/images/common/spriteIcon.png?28f4e06998404217d86cd49900e8d985) 0px -716px no-repeat;
+    background: url(spriteIcon.png) 0px -716px no-repeat;
     margin: 0px;
     padding: 0px;
     font-size: 16px;
@@ -9242,7 +9207,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
     color: black;
     font-size: 16px;
     position: absolute;
-    background: url(//mc.stu.126.net/res/images/common/spriteIcon.png?28f4e06998404217d86cd49900e8d985) 0px -716px no-repeat;
+    background: url(spriteIcon.png) 0px -716px no-repeat;
 }
 
 .e-hover-content_div64_div71_a72 {
@@ -9315,7 +9280,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
     color: black;
     font-size: 16px;
     position: absolute;
-    background-color: #55b929;
+    background-color: #e84807;
     line-height: 26px;
 }
 
@@ -9694,7 +9659,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
     color: black;
     font-size: 16px;
     position: absolute;
-    background: url(//mc.stu.126.net/res/images/common/spriteIcon.png?28f4e06998404217d86cd49900e8d985) 0px -638px no-repeat;
+    background: url(spriteIcon.png) 0px -638px no-repeat;
 }
 
 .e-hover-content_div104_div109_a110 {
@@ -9717,7 +9682,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
     color: black;
     font-size: 16px;
     position: absolute;
-    background: url(//mc.stu.126.net/res/images/common/spriteIcon.png?28f4e06998404217d86cd49900e8d985) 0px -716px no-repeat;
+    background: url(spriteIcon.png) 0px -716px no-repeat;
 }
 
 .e-hover-content_div104_div111_a112 {
@@ -9790,7 +9755,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
     color: black;
     font-size: 16px;
     position: absolute;
-    background-color: #55b929;
+    background-color: #e84807;
     line-height: 26px;
 }
 
@@ -10215,7 +10180,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
     color: black;
     font-size: 16px;
     position: absolute;
-    background: url(//mc.stu.126.net/res/images/common/spriteIcon.png?28f4e06998404217d86cd49900e8d985) 0px -638px no-repeat;
+    background: url(spriteIcon.png) 0px -638px no-repeat;
 }
 
 .e-hover-content_div140_div145_a146 {
@@ -10238,7 +10203,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
     color: black;
     font-size: 16px;
     position: absolute;
-    background: url(//mc.stu.126.net/res/images/common/spriteIcon.png?28f4e06998404217d86cd49900e8d985) 0px -716px no-repeat;
+    background: url(spriteIcon.png) 0px -716px no-repeat;
 }
 
 .e-hover-content_div140_div147_a148 {
@@ -10311,7 +10276,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
     color: black;
     font-size: 16px;
     position: absolute;
-    background-color: #55b929;
+    background-color: #e84807;
     line-height: 26px;
 }
 
@@ -10498,15 +10463,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
     cursor: default;
 }
 
-.m-header1 .sublogo a {
-    display: block;
-    background: url(//mc.stu.126.net/res/images/pages/university/vocation_logo.png?db588140636a553ed3556c93c6509ead) no-repeat 0 23px;
-    width: 240px;
-    height: 73px;
-    margin: 8px 25px 9px 0;
-    padding-left: 15px;
-}
-
+.
 .m-header1 .client {
     width: 90px;
     height: 90px;
@@ -10520,7 +10477,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
 .m-header1 .client .app .inner {
     padding-left: 10px;
     width: 80px;
-    background: url(//mc.stu.126.net/res/images/common/spriteIcon.png?28f4e06998404217d86cd49900e8d985) no-repeat -35px -400px;
+    background: url(spriteIcon.png) no-repeat -35px -400px;
     font-size: 18px;
     text-align: center;
     height: 90px;
@@ -10533,7 +10490,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
 }
 
 .m-header1 .client .app:hover .inner {
-    background: url(//mc.stu.126.net/res/images/common/spriteIcon.png?28f4e06998404217d86cd49900e8d985) no-repeat -35px -491px;
+    background: url(spriteIcon.png) no-repeat -35px -491px;
 }
 
 .m-header1 .client .app:hover + .appTipsV {
@@ -10588,7 +10545,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
     height: 55px;
     display: block;
     margin-top: 10px;
-    background: url(//mc.stu.126.net/res/images/common/spriteIcon.png?28f4e06998404217d86cd49900e8d985) no-repeat -4999px -4999px;
+    background: url(spriteIcon.png) no-repeat -4999px -4999px;
 }
 
 .m-header1 .client .appTipsV .dlbtn .btn.iphone {
@@ -10601,15 +10558,6 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
 
 .m-header2 .logo a {
     margin: 8px 15px 0 20px;
-}
-
-.m-header2 .sublogo a {
-    display: block;
-    background: url(//mc.stu.126.net/res/images/pages/university/vocation_logo.png?db588140636a553ed3556c93c6509ead) no-repeat 0 18px;
-    width: 240px;
-    height: 53px;
-    margin: 8px 15px 0 0;
-    padding-left: 15px;
 }
 
 .m-header2 .client {
@@ -10626,7 +10574,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
 .m-header2 .client .app .inner {
     padding-left: 10px;
     width: 80px;
-    background: url(//mc.stu.126.net/res/images/common/spriteIcon.png?28f4e06998404217d86cd49900e8d985) no-repeat -30px -405px;
+    background: url(spriteIcon.png) no-repeat -30px -405px;
     font-size: 18px;
     text-align: center;
     height: 80px;
@@ -10639,7 +10587,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
 }
 
 .m-header2 .client .app:hover .inner {
-    background: url(//mc.stu.126.net/res/images/common/spriteIcon.png?28f4e06998404217d86cd49900e8d985) no-repeat -30px -496px;
+    background: url(spriteIcon.png) no-repeat -30px -496px;
 }
 
 .m-header2 .client .app:hover + .appTipsV {
@@ -10694,7 +10642,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
     height: 55px;
     display: block;
     margin-top: 10px;
-    background: url(//mc.stu.126.net/res/images/common/spriteIcon.png?28f4e06998404217d86cd49900e8d985) no-repeat -4999px -4999px;
+    background: url(spriteIcon.png) no-repeat -4999px -4999px;
 }
 
 .m-header2 .client .appTipsV .dlbtn .btn.iphone {
@@ -10748,21 +10696,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
     width: 516px;
 }
 
-.m-foot .f1 .logo {
-    width: 100%;
-    height: 37px;
-    background: url(//edu-image.nosdn.127.net/74DBED5C8E078FEA2C54FD5D0A7D73AA.png?imageView&thumbnail=250y37&quality=100) no-repeat 0 0;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-}
 
-.m-foot .f1 .oocLogo {
-    width: 100%;
-    height: 35px;
-    background: url(//mc.stu.126.net/res/images/common/smallOocLogo.png?7e5af5423c31ffe2b5ab4798e385bdaa) no-repeat 0 0;
-}
 
 .m-foot .f1 p {
     margin-top: 12px;
@@ -10846,8 +10780,8 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
 }
 
 .m-foot .gzIc.weixin:hover {
-    color: #55B929;
-    border: 1px solid #55B929;
+    color: #e84807;
+    border: 1px solid #e84807;
 }
 
 .m-foot .beian p {
@@ -11054,7 +10988,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
 }
 
 .web-nav-container .navLoginBtn:hover {
-    color: #55b929;
+    color: #e84807;
 }
 
 .u-baseinputui .inputhint {
@@ -11066,15 +11000,15 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
 }
 
 .cateNavR-container-f a:hover div {
-    color: #55b929;
+    color: #e84807;
 }
 
 .cateNavR-container-f a:hover span {
-    color: #55b929;
+    color: #e84807;
 }
 
 .web-nav-container a:hover span {
-    color: #55b929;
+    color: #e84807;
 }
 
 .m-navLearn-container {
@@ -12108,11 +12042,11 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
 }
 
 .u-learnLesson.normal .lsicon.learned {
-    color: #83b600;
+    color: #FF6C00;
 }
 
 .u-learnLesson.normal .lsicon:hover {
-    color: #83b600;
+    color: #FF6C00;
 }
 
 .u-learnLesson.quiz .name, .u-learnLesson.homework .name {
@@ -12278,7 +12212,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
 }
 
 .m-learnunitUI .unitctBox .playPause .loginBtn {
-    background-color: #55b929;
+    background-color: #e84807;
     width: 145px;
     height: 36px;
     -webkit-border-radius: 4px;
@@ -12372,11 +12306,11 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
 }
 
 .m-learnunitUI .loginBar .login {
-    color: #83b600;
+    color: #FF6C00;
 }
 
 .m-learnunitUI .loginBar .login:hover {
-    color: #83b600;
+    color: #FF6C00;
 }
 
 .m-learnunitUI .unitctBar {
@@ -12387,7 +12321,6 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
 
 .m-learnunitUI .unitctBar .downbtn {
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#FFF), to(#FFF));
     background-image: -moz-linear-gradient(#FFF, #FFF);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FFF), color-stop(100%, #FFF));
     background-image: -webkit-linear-gradient(#FFF, #FFF);
@@ -12396,19 +12329,18 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
     background-image: linear-gradient(#FFF, #FFF);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff$startColor', endColorstr='#ff$endColor', GradientType=0);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-    border-color: #83b600;
-    color: #61A500;
+    border-color: #FF6C00;
+    color: #e84807;
 }
 
 .m-learnunitUI .unitctBar .downbtn:hover, .m-learnunitUI .unitctBar .downbtn.hvr {
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#83b600), to(#83b600));
-    background-image: -moz-linear-gradient(#83b600, #83b600);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #83b600), color-stop(100%, #83b600));
-    background-image: -webkit-linear-gradient(#83b600, #83b600);
-    background-image: -o-linear-gradient(#83b600, #83b600);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#83b600), to(#83b600));
-    background-image: linear-gradient(#83b600, #83b600);
+    background-image: -moz-linear-gradient(#FF6C00, #FF6C00);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FF6C00), color-stop(100%, #FF6C00));
+    background-image: -webkit-linear-gradient(#FF6C00, #FF6C00);
+    background-image: -o-linear-gradient(#FF6C00, #FF6C00);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FF6C00), to(#FF6C00));
+    background-image: linear-gradient(#FF6C00, #FF6C00);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff$startColor', endColorstr='#ff$endColor', GradientType=0);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
     border-color: #FFF;
@@ -12425,7 +12357,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
 }
 
 .m-learnunitUI .unitctBar .right a {
-    color: #83b600;
+    color: #FF6C00;
 }
 
 .m-learnunitUI .unitctBar .ux-share-share-embedded {
@@ -12696,7 +12628,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
 }
 
 .m-notice .m-dynamic .m-dynamicInfo .infos .rlinfo a {
-    color: #55B929;
+    color: #e84807;
     display: block;
     font-size: 14px;
     line-height: 24px;
@@ -12949,7 +12881,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
 .m-quizDoing .waitForScore .icn {
     width: 60px;
     height: 60px;
-    background: url(//mc.stu.126.net/res/images/pages/memberSetting/activeRes.png?39372e7e1c0e0e684a45debb94b59c0b) no-repeat 0 0;
+    background: url(activeRes.png) no-repeat 0 0;
 }
 
 .m-quizDoing .waitForScore .tip {
@@ -14875,7 +14807,7 @@ table.tlist .centerPage {
 }
 
 .m-commonMailDialog .all .u-baseinputui:hover {
-    border-color: #55B929;
+    border-color: #e84807;
 }
 
 .m-commonMailDialog .all .title {
@@ -14891,12 +14823,12 @@ table.tlist .centerPage {
     width: 90px;
     font-size: 18px;
     margin-right: 0px;
-    background: #55B929;
-    border-color: #55B929;
+    background: #e84807;
+    border-color: #e84807;
 }
 
 .m-commonMailDialog .all .btns .u-save:hover {
-    background: #55B929;
+    background: #e84807;
 }
 
 .m-commonMailDialog .all .btns .gotoLearn {
@@ -15673,7 +15605,7 @@ table.tlist .centerPage {
     color: black;
     font-size: 16px;
     position: absolute;
-    background-color: #55b929;
+    background-color: #e84807;
     line-height: 26px;
 }
 
@@ -15909,7 +15841,7 @@ body {
     height: 44px;
     font-size: 18px;
     line-height: 40px;
-    background: #55b929;
+    background: #e84807;
     color: #fff;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;

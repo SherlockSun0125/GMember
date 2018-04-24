@@ -40,7 +40,6 @@
             border-radius: 4px;
             background-color: #E1E1E1;
             background-repeat: repeat-x;
-            background-image: -khtml-gradient(linear, left top, left bottom, from(#EBEBEB), to(#E1E1E1));
             background-image: -moz-linear-gradient(#EBEBEB, #E1E1E1);
             background-image: -ms-linear-gradient(#EBEBEB, #E1E1E1);
             background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #EBEBEB), color-stop(100%, #E1E1E1));
@@ -55,7 +54,6 @@
         .u-moocbtn:hover, .u-moocbtn.hvr {
             background-color: #EDEDED;
             background-repeat: repeat-x;
-            background-image: -khtml-gradient(linear, left top, left bottom, from(#F6F6F6), to(#EDEDED));
             background-image: -moz-linear-gradient(#F6F6F6, #EDEDED);
             background-image: -ms-linear-gradient(#F6F6F6, #EDEDED);
             background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F6F6F6), color-stop(100%, #EDEDED));
@@ -94,7 +92,6 @@
             border-radius: 4px;
             background-color: #E1E1E1;
             background-repeat: repeat-x;
-            background-image: -khtml-gradient(linear, left top, left bottom, from(#EBEBEB), to(#E1E1E1));
             background-image: -moz-linear-gradient(#EBEBEB, #E1E1E1);
             background-image: -ms-linear-gradient(#EBEBEB, #E1E1E1);
             background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #EBEBEB), color-stop(100%, #E1E1E1));
@@ -109,7 +106,6 @@
         .u-moocbtn:hover, .u-moocbtn.hvr {
             background-color: #EDEDED;
             background-repeat: repeat-x;
-            background-image: -khtml-gradient(linear, left top, left bottom, from(#F6F6F6), to(#EDEDED));
             background-image: -moz-linear-gradient(#F6F6F6, #EDEDED);
             background-image: -ms-linear-gradient(#F6F6F6, #EDEDED);
             background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F6F6F6), color-stop(100%, #EDEDED));
@@ -2355,7 +2351,7 @@
             margin: 7px 7px 0 15px;
             width: 18px;
             height: 18px;
-            background: url(//s.stu.126.net/res/images/ui/ui_sprite.png?1367c4a3031b72bbecf3674702d4f731) 0 -779px no-repeat;
+            background: url(ui_sprite.png) 0 -779px no-repeat;
         }
 
         .auto-1523864610056 .text {
@@ -3018,8 +3014,8 @@
 
         @font-face {
             font-family: "ux-icon";
-            src: url(//icon.nosdn.127.net/63481ab29e850abd3dd1dc5ea8ed5a93.eot);
-            src: url(//icon.nosdn.127.net/63481ab29e850abd3dd1dc5ea8ed5a93.eot) format("embedded-opentype"), url(//icon.nosdn.127.net/82dbd8454eafe354f14657effd5be377.ttf) format("truetype"), url(//icon.nosdn.127.net/f987391a915eb2d5c9dae97dd07a1ac2.woff) format("woff"), url(//icon.nosdn.127.net/69f0932faad381a434cdd4f81050a76e.svg) format("svg");
+            src: url(static/nosdn.eot);
+            src: url(static/nosdn.eot) format("embedded-opentype"), url(static/nosdn.ttf) format("truetype"), url(static/nosdn.woff) format("woff"), url(static/nosdn.svg) format("svg");
             font-weight: normal;
             font-style: normal;
         }
@@ -3423,16 +3419,16 @@
                                                                 <div class="flashbox j-flashbox"
                                                                      id="auto-id-1523864610255">
                                                                     <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
-                                                                            codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab"
+                                                                            codebase="swflash.cab"
                                                                             width="100%" height="100%"
                                                                             id="_1523864610254">
-                                                                        <param value="//s.stu.126.net/res/swf/imageUpload.swf?884965992b66cee07fb945929ac4b00f"
+                                                                        <param value="imageUpload.swf"
                                                                                name="movie">
                                                                         <param value="always" name="allowScriptAccess">
                                                                         <param value="transparent" name="wmode">
                                                                         <param value="cbNameSpace=edu.u.imgUpload15&amp;uploadExif=true&amp;uploadUrl=%2F%2Fupload.icourse163.org%2Fapi%2FphotoUpload2.do%3F_upload_mth_%3Dsync_parse%26userdefinesize%3D28x28x1%3B120x120x1%26saveorigin%3Dfalse%26responsetype%3Dxml%26rotatedegree%3D0%26stamptype%3D%26stampstring%3D%26sitefrom%3Dstudy&amp;id=_1523864610254"
                                                                                name="flashvars">
-                                                                        <embed src="//s.stu.126.net/res/swf/imageUpload.swf?884965992b66cee07fb945929ac4b00f"
+                                                                        <embed src="static/imageUpload.swf"
                                                                                name="_1523864610254" width="100%"
                                                                                height="100%"
                                                                                pluginspage="http://www.adobe.com/go/getflashplayer"

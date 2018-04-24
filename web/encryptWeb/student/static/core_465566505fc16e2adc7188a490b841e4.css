@@ -1,18 +1,14 @@
 @charset "UTF-8";
-.globalnavsprite, .u-navcatebtn .cbtn, .u-navcatedialog .arrr, .u-navcatedialog .cateright .close, .u-navapptip .arrr, .u-navapptip .rcon .store, .u-navdropmenu .arrr, .u-navusermenu .arrr, .m-yktNav .userinfo .u-mystudy .u-learn-record .arr {
-    background: url(//s.stu.126.net/res/images/ui/ui_new_yktnav_sprite.png?ba03578d0b26b71be2e299596ecc1747) 9999px 9999px no-repeat;
-}
-
 .buttonsprite, .m-dialog .btn .main.long, .m-dialog .btn .main.long span, .m-dialog .btn .main.small, .m-dialog .btn .main.small span, .m-dialog .btn .slave.long, .m-dialog .btn .slave.long span, .m-dialog .btn .slave.small, .m-dialog .btn .slave.small span, .m-basewin .btn .main, .m-basewin .btn .main span, .m-basewin .btn .slave, .m-basewin .btn .slave span, .m-basewin .btn2 .main.middle, .m-basewin .btn2 .main.middle span, .m-basewin .btn2 .main.small, .m-basewin .btn2 .main.small span, div.u-inset-dialog div.zcnt .m-inset .skip, div.u-inset-dialog div.zcnt .m-inset .skip span, .m-scdialog .btnOk, .m-scdialog .btnOk span, .m-scdialog .btnCancel, .m-scdialog .btnCancel span, .m-login .loginTip .u-btn, .m-login .loginTip .u-btn span, .w-subwarn .w-submitBtn, .w-subwarn .w-submitBtn span, .w-nextBtn, .w-nextBtn span, .m-btn .pre, .m-btn .pre span, .m-btn .next, .m-btn .next span, .m-toPayDialog .btns .okbtn, .m-toPayDialog .btns .okbtn span, .m-toPayDialog .btns .okbtn.sbtn, .m-toPayDialog .btns .okbtn.sbtn span, .m-toPayDialog .btns .closebtn, .m-toPayDialog .btns .closebtn span, .m-toPayDialog .btns .cancelbtn, .m-toPayDialog .btns .cancelbtn span, .m-toPayDialog .btns .cancelbtn.sbtn, .m-toPayDialog .btns .cancelbtn.sbtn span, .u-richeditor-link .btns .btn.ok, .u-richeditor-link .btns .btn.ok span, .u-richeditor-link .btns .btn.cancel, .u-richeditor-link .btns .btn.cancel span, .u-richeditor-uploadCard .btn.choosebtn, .u-richeditor-uploadCard .btn.choosebtn span, .u-richeditor-uploadCard .btn.okbtn, .u-richeditor-uploadCard .btn.okbtn span {
-    background: url(//s.stu.126.net/res/images/btn/button.png?8da8e506b44a05ffa0554aceba35eec0) no-repeat 4449px 4449px;
+    background: url(button.png) no-repeat 4449px 4449px;
 }
 
 .uisprite, .msg-close, .msg-mark, .m-labtop .zpgi, .m-labtop a.js-selected {
-    background: url(//s.stu.126.net/res/images/ui/ui_sprite.png?1367c4a3031b72bbecf3674702d4f731) no-repeat 4449px 4449px;
+    background: url(ui_sprite.png) no-repeat 4449px 4449px;
 }
 
 .coursesprite, .u-paging .pre, .u-paging .next, .u-paging .blank, .u-nav-item li.w-item-done, .u-nav-item li.w-item-done-hover, .u-nav-item li.w-item-cur, .u-nav-item li.w-item-undo, .u-nav-item li.w-item-undo-hover, .w-tip .arrdown, .u-tip {
-    background: url(//s.stu.126.net/res/images/courseLearn.png?91dd8ac1f930a4e4930376ffeee48616) no-repeat 4449px 4449px;
+    background: url(icon.png) no-repeat 4449px 4449px;
 }
 
 *[hidefocus] {
@@ -471,7 +467,7 @@ body {
 .f-anchorLink {
     font-size: 12px;
     height: 17px;
-    background: url(//s.stu.126.net/res/images/ui/ui_sprite.png?1367c4a3031b72bbecf3674702d4f731) no-repeat 0 -700px;
+    background: url(ui_sprite.png) no-repeat 0 -700px;
     background-color: #f7f7f7;
     padding: 0 0 0 21px;
     line-height: 17px;
@@ -520,7 +516,7 @@ body {
     -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
-    background: url(//s.stu.126.net/res/images/bg/bg_nav_rep.png?55d5624d272b00de685a3560d8e1e519) repeat-x;
+    background: url(bg_nav_rep.png) repeat-x;
 }
 
 .f-show {
@@ -555,7 +551,7 @@ body {
 
 .u-more span.icn {
     width: 18px;
-    background: url(//s.stu.126.net/res/images/ui/ui_sprite.png?1367c4a3031b72bbecf3674702d4f731) no-repeat -1px -1673px;
+    background: url(ui_sprite.png) no-repeat -1px -1673px;
     margin-left: 3px;
 }
 
@@ -639,7 +635,7 @@ body {
 }
 
 .s-fc3 {
-    color: #39a030;
+    color: #e84807;
 }
 
 .s-fc4 {
@@ -695,7 +691,7 @@ body {
 }
 
 .f-fcgreen {
-    color: #39a030;
+    color: #e84807;
 }
 
 .f-fcorange {
@@ -711,7 +707,7 @@ body {
 }
 
 a.f-fcgreen {
-    color: #39a030;
+    color: #e84807;
 }
 
 a.f-fcgreen:hover {
@@ -731,7 +727,7 @@ a.f-fcbrightgray {
 }
 
 a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:hover .f-fc6, a.f-fc9:hover, a:hover .f-fc9, a.f-fcf:hover, a:hover .f-fcf {
-    color: #39a030;
+    color: #e84807;
     text-decoration: none;
 }
 
@@ -977,8 +973,8 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
 
 @font-face {
     font-family: 'icomoon';
-    src: url(//s.stu.126.net/res/mocfonts/icomoon.eot?75ab5693f2509f5496861e921ceddf21);
-    src: url(//s.stu.126.net/res/mocfonts/icomoon.eot?75ab5693f2509f5496861e921ceddf21) format("embedded-opentype"), url(//s.stu.126.net/res/mocfonts/icomoon.ttf?2822326f922319b68447877d5a790646) format("truetype"), url(//s.stu.126.net/res/mocfonts/icomoon.woff?8f3d4f6b3b73816ee350b20389462f40) format("woff"), url(//s.stu.126.net/res/mocfonts/icomoon.svg?b709e087e9fd8fc451f7a109b629e9fe) format("svg");
+    src: url(icomoon.eot);
+    src: url(icomoon.eot) format("embedded-opentype"), url(icomoon.ttf) format("truetype"), url(icomoon.woff) format("woff"), url(icomoon.svg) format("svg");
     font-weight: normal;
     font-style: normal;
 }
@@ -1063,9 +1059,6 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
     visibility: visible;
 }
 
-.globalnavsprite, .u-navcatebtn .cbtn, .u-navcatedialog .arrr, .u-navcatedialog .cateright .close, .u-navapptip .arrr, .u-navapptip .rcon .store, .u-navdropmenu .arrr, .u-navusermenu .arrr, .m-yktNav .userinfo .u-mystudy .u-learn-record .arr {
-    background: url(//s.stu.126.net/res/images/ui/ui_new_yktnav_sprite.png) 9999px 9999px no-repeat;
-}
 
 .u-moocbtn {
     display: inline-block;
@@ -2076,12 +2069,12 @@ div.m-pkg-dialog .u-pkgs .u-tabs .itm {
 }
 
 div.m-pkg-dialog .u-pkgs .u-tabs .itm.js-selected, div.m-pkg-dialog .u-pkgs .u-tabs .itm:hover {
-    background: #21a557;
+    background: #e84807;
     color: #fff;
 }
 
 div.m-pkg-dialog .u-pkgs .courses {
-    border: 1px solid #21a557;
+    border: 1px solid #e84807;
 }
 
 div.m-pkg-dialog .u-pkgs .courses .row {
@@ -2265,7 +2258,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     left: 0;
     width: 224px;
     height: 400px;
-    background-color: #39a030;
+    background-color: #e84807;
 }
 
 .u-navcatedialog .cateleft .catebg {
@@ -2325,8 +2318,8 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     left: 0;
     width: 225px;
     height: 57px;
-    border-top: 1px solid #39a030;
-    border-bottom: 1px solid #39a030;
+    border-top: 1px solid #e84807;
+    border-bottom: 1px solid #e84807;
     background-color: #fff;
 }
 
@@ -2630,7 +2623,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .u-navsearchsug .zitm a span {
-    color: #21a557;
+    color: #e84807;
 }
 
 .u-navsearchsug .zitm b {
@@ -2658,7 +2651,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .u-navsearchsug .zitm b.type-series {
-    background-color: #49af4f;
+    background-color: #e84807;
 }
 
 .u-navsearchsug .img {
@@ -2683,13 +2676,13 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 .u-navsearchsug .vip10 {
     height: 20px;
     width: 20px;
-    background: url(//s.stu.126.net/res/images/ui/vipIcons.png?5540d46e65e644e9276464383f69d2dd) no-repeat -27px 0;
+    background: url(vipIcons.png) no-repeat -27px 0;
 }
 
 .u-navsearchsug .vip5 {
     height: 20px;
     width: 20px;
-    background: url(//s.stu.126.net/res/images/ui/vipIcons.png?5540d46e65e644e9276464383f69d2dd) no-repeat 0 0;
+    background: url(ipIcons.png) no-repeat 0 0;
 }
 
 .u-navsearchsug .des {
@@ -2744,7 +2737,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 
 .u-navsearchsug .empty-suggest_zitm.js-selected, .u-navsearchsug .empty-suggest_zitm:hover {
     background-color: #f4f4f4;
-    color: #49af4f;
+    color: #e84807;
 }
 
 .u-navdropmenu {
@@ -2781,7 +2774,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 
 .u-navdropmenu .dropitem:hover {
     background-color: #f8f8f8;
-    color: #31a030;
+    color: #e84807;
 }
 
 .u-navdropmenu .dropitem.last span {
@@ -2882,7 +2875,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     width: 82px;
     height: 34px;
     line-height: 34px;
-    background: #49AF4F;
+    background: #e84807;
     color: #fff;
     border-radius: 2px;
     text-align: center;
@@ -2915,7 +2908,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 .m-tel-login .inputbox .u-logo div {
     width: 22px;
     height: 24px;
-    background: url(//nos.netease.com/edu-image/7A13709D12D506BA8CC110D88FFA1E68.png) -9999px -9999px no-repeat;
+    background: url(icon2.png) -9999px -9999px no-repeat;
 }
 
 .m-tel-login .inputbox .u-logo .u-logo-tel {
@@ -2976,7 +2969,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .m-tel-login .m-error-box .ferrortail {
-    background: url(//webzj.reg.163.com/webapp/res/images/sprite.png?d76abd2c967e810a0760c4d7dd157357) -9999px -9999px no-repeat;
+    background: url(sprite.png) -9999px -9999px no-repeat;
     height: 15px;
     width: 18px;
     background-position: -217px -34px;
@@ -3001,18 +2994,18 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     background: #ddd;
     font-size: 18px;
     line-height: 44px;
-    background: #74B96E;
+    background: #e84807;
     margin-top: 16px;
     margin-bottom: 12px;
 }
 
 .m-tel-login .u-loginbtn.ready {
     cursor: pointer;
-    background-color: #39a030;
+    background-color: #e84807;
 }
 
 .m-tel-login .u-loginbtn.ready:hover {
-    background-color: #4BA743;
+    background-color: #e84807;
 }
 
 .m-tel-login .m-unlogin {
@@ -3040,7 +3033,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     border: solid 1px #aaa;
     color: #999;
     font-size: 12px;
-    background: url(//webzj.reg.163.com/webapp/res/images/sprite.png?d76abd2c967e810a0760c4d7dd157357) -9999px -9999px no-repeat;
+    background: url(sprite.png) -9999px -9999px no-repeat;
 }
 
 .m-tel-login .m-unlogin .b-unlogin .u-checkbox input.un-login {
@@ -3087,7 +3080,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     cursor: pointer;
     font-size: 12px;
     float: right;
-    color: #39a030;
+    color: #e84807;
     line-height: 16px;
 }
 
@@ -3127,7 +3120,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     height: 2px;
     text-align: -9999px;
     width: 170px;
-    background: #2aa126;
+    background: #e84807;
     z-index: 2;
     bottom: -2px;
     left: 0;
@@ -3174,15 +3167,15 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     margin: 15px 0;
     width: 90px;
     height: 25px;
-    background: url(//study.163.com/res/images/sns/snsSprite.png) no-repeat 4449px 4449px;
+    background: url(snsSprite.png) no-repeat 4449px 4449px;
 }
 
 .m-loginbox .side .socialBox .itm0 {
-    background: url(//nos.netease.com/test-edu-image/17AFF62D66F1779376D75F7E4F225EC3.png) no-repeat;
+    background: url(wechat.png) no-repeat;
 }
 
 .m-loginbox .side .socialBox .itm0:hover {
-    background: url(//nos.netease.com/test-edu-image/856ACB7ED2A43FF569364630548B4053.png) no-repeat;
+    background: url(wechat.png) no-repeat;
 }
 
 .m-loginbox .side .socialBox .itm1 {
@@ -3285,7 +3278,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .m-loginbox .reg a em {
-    color: #21a557;
+    color: #e84807;
 }
 
 .m-loginbox .u-tt3 {
@@ -3337,7 +3330,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 .m-retrievePwd-box .boxwrap .m-telcheck-container .inputbox .u-logo div, .m-retrievePwd-box .boxwrap .m-pwdinput-container .inputbox .u-logo div {
     width: 22px;
     height: 24px;
-    background: url(//nos.netease.com/edu-image/2F3FB7E553400651D645FBAA0B301C55.png) -9999px -9999px no-repeat;
+    background: url(icon2.png) -9999px -9999px no-repeat;
 }
 
 .m-retrievePwd-box .boxwrap .m-telcheck-container .inputbox .u-logo .u-logo-tel, .m-retrievePwd-box .boxwrap .m-pwdinput-container .inputbox .u-logo .u-logo-tel {
@@ -3411,13 +3404,13 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 
 .m-retrievePwd-box .boxwrap .m-telcheck-container .code-input-box .u-codebtn, .m-retrievePwd-box .boxwrap .m-pwdinput-container .code-input-box .u-codebtn {
     background: #ffffff;
-    border: 1px solid #2aa126;
+    border: 1px solid #e84807;
     width: 148px;
     height: 44px;
     text-align: center;
     line-height: 44px;
     font-size: 16px;
-    color: #2aa126;
+    color: #e84807;
     cursor: pointer;
 }
 
@@ -3434,7 +3427,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .m-retrievePwd-box .boxwrap .m-telcheck-container .m-error-box .ferrortail, .m-retrievePwd-box .boxwrap .m-pwdinput-container .m-error-box .ferrortail {
-    background: url(//webzj.reg.163.com/webapp/res/images/sprite.png?d76abd2c967e810a0760c4d7dd157357) -9999px -9999px no-repeat;
+    background: url(sprite.png) -9999px -9999px no-repeat;
     height: 15px;
     width: 18px;
     background-position: -217px -34px;
@@ -3452,7 +3445,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .m-retrievePwd-box .boxwrap .m-telcheck-container .u-nextbtn, .m-retrievePwd-box .boxwrap .m-pwdinput-container .u-nextbtn {
-    background: #71bb6b;
+    background: #e84807;
     height: 46px;
     line-height: 46px;
     font-size: 20px;
@@ -3463,11 +3456,11 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 
 .m-retrievePwd-box .boxwrap .m-telcheck-container .u-nextbtn.ready, .m-retrievePwd-box .boxwrap .m-pwdinput-container .u-nextbtn.ready {
     cursor: pointer;
-    background-color: #39a030;
+    background-color: #e84807;
 }
 
 .m-retrievePwd-box .boxwrap .m-telcheck-container .u-nextbtn.ready:hover, .m-retrievePwd-box .boxwrap .m-pwdinput-container .u-nextbtn.ready:hover {
-    background-color: #4BA743;
+    background-color: #e84807;
 }
 
 .m-retrievePwd-box .boxwrap .m-bottom-back {
@@ -3517,7 +3510,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     top: 5px;
     width: 24px;
     height: 35px;
-    background: url(//nos.netease.com/edu-image/2FA9F80612F4A8C77853F8333628E07F.png) 0px -425px no-repeat;
+    background: url(icon3.png) 0px -425px no-repeat;
 }
 
 .m-changePwd-box .boxwrap .m-telcheck-container .inputbox .telnumber, .m-changePwd-box .boxwrap .m-telcheck-container .tel-box .telnumber, .m-changePwd-box .boxwrap .m-pwdinput-container .inputbox .telnumber, .m-changePwd-box .boxwrap .m-pwdinput-container .tel-box .telnumber {
@@ -3550,7 +3543,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 .m-changePwd-box .boxwrap .m-telcheck-container .inputbox .u-logo div, .m-changePwd-box .boxwrap .m-telcheck-container .tel-box .u-logo div, .m-changePwd-box .boxwrap .m-pwdinput-container .inputbox .u-logo div, .m-changePwd-box .boxwrap .m-pwdinput-container .tel-box .u-logo div {
     width: 22px;
     height: 24px;
-    background: url(//nos.netease.com/edu-image/2FA9F80612F4A8C77853F8333628E07F.png) -9999px -9999px no-repeat;
+    background: url(icon3.png) -9999px -9999px no-repeat;
 }
 
 .m-changePwd-box .boxwrap .m-telcheck-container .inputbox .u-logo .u-logo-tel, .m-changePwd-box .boxwrap .m-telcheck-container .tel-box .u-logo .u-logo-tel, .m-changePwd-box .boxwrap .m-pwdinput-container .inputbox .u-logo .u-logo-tel, .m-changePwd-box .boxwrap .m-pwdinput-container .tel-box .u-logo .u-logo-tel {
@@ -3629,13 +3622,13 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 
 .m-changePwd-box .boxwrap .m-telcheck-container .code-input-box .u-codebtn, .m-changePwd-box .boxwrap .m-pwdinput-container .code-input-box .u-codebtn {
     background: #ffffff;
-    border: 1px solid #2aa126;
+    border: 1px solid #e84807;
     width: 148px;
     height: 44px;
     text-align: center;
     line-height: 44px;
     font-size: 16px;
-    color: #2aa126;
+    color: #e84807;
     cursor: pointer;
 }
 
@@ -3652,7 +3645,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .m-changePwd-box .boxwrap .m-telcheck-container .m-error-box .ferrortail, .m-changePwd-box .boxwrap .m-pwdinput-container .m-error-box .ferrortail {
-    background: url(//webzj.reg.163.com/webapp/res/images/sprite.png?d76abd2c967e810a0760c4d7dd157357) -9999px -9999px no-repeat;
+    background: url(sprite.png) -9999px -9999px no-repeat;
     height: 15px;
     width: 18px;
     background-position: -217px -34px;
@@ -3670,7 +3663,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .m-changePwd-box .boxwrap .m-telcheck-container .u-nextbtn, .m-changePwd-box .boxwrap .m-pwdinput-container .u-nextbtn {
-    background: #71bb6b;
+    background: #e84807;
     height: 46px;
     line-height: 46px;
     font-size: 20px;
@@ -3681,11 +3674,11 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 
 .m-changePwd-box .boxwrap .m-telcheck-container .u-nextbtn.ready, .m-changePwd-box .boxwrap .m-pwdinput-container .u-nextbtn.ready {
     cursor: pointer;
-    background-color: #39a030;
+    background-color: #e84807;
 }
 
 .m-changePwd-box .boxwrap .m-telcheck-container .u-nextbtn.ready:hover, .m-changePwd-box .boxwrap .m-pwdinput-container .u-nextbtn.ready:hover {
-    background-color: #4BA743;
+    background-color: #e84807;
 }
 
 .m-changePwd-box .boxwrap .m-bottom-back {
@@ -3755,7 +3748,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 
 .m-tel-image-validate-code_refreshbox {
     font-size: 12px;
-    color: #2AA126;
+    color: #e84807;
     line-height: 34px;
     cursor: pointer;
 }
@@ -3763,7 +3756,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 .m-tel-image-validate-code_btnBox {
     width: 68px;
     height: 34px;
-    background: #2FA030;
+    background: #e84807;
     line-height: 34px;
     text-align: center;
     color: #fff;
@@ -3779,7 +3772,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .m-tel-image-validate-code_errBox .erricon {
-    background: url(http://edu-image.nosdn.127.net/13AA6585F2CA4C8E5F2463EE8292A12D.png?imageView&quality=100) no-repeat;
+    background: url(icon4.png?imageView&quality=100) no-repeat;
     height: 14px;
     width: 14px;
     vertical-align: middle;
@@ -3868,7 +3861,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 
 .m-tel-reg .inputbox .u-logo .u-logo-tel {
     margin-top: 13px;
-    background: url(//nos.netease.com/edu-image/2FA9F80612F4A8C77853F8333628E07F.png) no-repeat 2px -26px;
+    background: url(icon3.png) no-repeat 2px -26px;
     display: inline-block;
     height: 20px;
     width: 20px;
@@ -3876,7 +3869,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 
 .m-tel-reg .inputbox .u-logo .u-logo-code {
     margin-top: 13px;
-    background: url(//nos.netease.com/edu-image/2FA9F80612F4A8C77853F8333628E07F.png) no-repeat 0 -78px;
+    background: url(icon3.png) no-repeat 0 -78px;
     display: inline-block;
     height: 20px;
     width: 20px;
@@ -3884,7 +3877,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 
 .m-tel-reg .inputbox .u-logo .u-logo-pwd {
     margin-top: 13px;
-    background: url(//nos.netease.com/edu-image/2FA9F80612F4A8C77853F8333628E07F.png) no-repeat 0 -52px;
+    background: url(icon3.png) no-repeat 0 -52px;
     display: inline-block;
     height: 20px;
     width: 20px;
@@ -3932,8 +3925,8 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .m-tel-reg .u-codebtn.ready {
-    border: 1px solid #39a030;
-    color: #39a030;
+    border: 1px solid #e84807;
+    color: #e84807;
     cursor: pointer;
 }
 
@@ -3949,7 +3942,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     font-size: 16px;
     height: 44px;
     line-height: 44px;
-    background: #71bb6b;
+    background: #e84807;
     margin-top: 20px;
     cursor: pointer;
     text-align: center;
@@ -3958,7 +3951,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .m-tel-reg .u-loginbtn.ready {
-    background: #39a030;
+    background: #e84807;
 }
 
 .m-tel-reg .m-bottom-back {
@@ -4175,7 +4168,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     overflow: hidden;
     display: block;
     cursor: pointer;
-    background: url(//s.stu.126.net/res/images/login.png?d42b72be833f7cb2f144b1b9fd696961) no-repeat;
+    background: url(login.png) no-repeat;
     background-position: 2px 0;
 }
 
@@ -4208,7 +4201,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     top: -9px;
     width: 20px;
     height: 10px;
-    background: url(//s.stu.126.net/res/images/ui/ui_sprite.png?1367c4a3031b72bbecf3674702d4f731) no-repeat 9999px 9999px;
+    background: url(ui_sprite.png) no-repeat 9999px 9999px;
     background-position: 0 -540px;
 }
 
@@ -4221,17 +4214,6 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     background-color: #fff;
     font-size: 14px;
 }
-
-.m-nav-promote table {
-    display: table;
-    margin: 0 auto;
-    width: 1203px;
-    background-image: url(//nos.netease.com/edu-image/bcb6d9b9-1753-4f6c-9c1f-187d5db325b4.png?imageView&quality=100);
-    background-repeat: no-repeat;
-    overflow: hidden;
-    background-size: 100% 100%;
-}
-
 .m-nav-promote table td {
     text-align: left;
 }
@@ -4283,7 +4265,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     position: absolute;
     height: 26px;
     width: 24px;
-    background-image: url(//nos.netease.com/edu-image/5d3ee19a-1bee-4432-8078-7bde01e8c6afl.png?imageView&quality=100);
+    background-image: url(icon5.png?imageView&quality=100);
     top: -7px;
     left: -23px;
 }
@@ -4292,7 +4274,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     position: absolute;
     height: 29px;
     width: 22px;
-    background-image: url(//nos.netease.com/edu-image/90171b58-2672-463f-ab56-64c054b47a4b.png?imageView&quality=100);
+    background-image: url(icon6.png?imageView&quality=100);
     background-repeat: no-repeat;
     top: 0px;
     right: -21px;
@@ -4351,7 +4333,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     cursor: pointer;
     width: 14px;
     height: 14px;
-    background: url(//s.stu.126.net/res/images/ui/ui_sprite.png) 0px -510px no-repeat;
+    background: url(ui_sprite.png) 0px -510px no-repeat;
 }
 
 .m-maintainInfo {
@@ -4525,7 +4507,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .m-yktNav .userinfo .u-mystudy .u-learn-record li:hover .course-name {
-    color: #30a033;
+    color: #e84807;
 }
 
 .m-yktNav .userinfo .u-mystudy .u-learn-record li img {
@@ -4556,7 +4538,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .m-yktNav .userinfo .u-mystudy .u-learn-record .more:hover {
-    color: #39a030;
+    color: #e84807;
 }
 
 .m-yktNav .userinfo .unlogin {
@@ -4745,7 +4727,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     float: right;
     margin-top: 8px;
     margin-right: 10px;
-    background: url(//nos.netease.com/test-edu-image/87E0380D962D5B2BD332691243A6FF02-1453801344006);
+    background: url(icon7.png);
     background-position: 2px -60px;
 }
 
@@ -4759,7 +4741,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     background-color: #fff;
     float: right;
     height: 34px;
-    border: 1px solid #49af4f;
+    border: 1px solid #e84807;
     padding-right: 34px;
     width: 296px;
     -moz-transition: width 0.2s ease-out 0s;
@@ -4813,11 +4795,11 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .m-yktNav .u-navsearchUI .search-type .selected-type:hover .selected-type-txt {
-    color: #49af4f;
+    color: #e84807;
 }
 
 .m-yktNav .u-navsearchUI .search-type .selected-type:hover .bottom-arr {
-    border-top-color: #49af4f;
+    border-top-color: #e84807;
 }
 
 .m-yktNav .u-navsearchUI .search-type .select-list {
@@ -4825,13 +4807,13 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     padding: 0 9px;
     width: 49px;
     background-color: #fff;
-    border: 1px solid #49af4f;
+    border: 1px solid #e84807;
     border-top: none;
     left: -1px;
 }
 
 .m-yktNav .u-navsearchUI .search-type .select-list:hover {
-    color: #49af4f;
+    color: #e84807;
 }
 
 .m-yktNav .u-navsearchUI .box {
@@ -4871,7 +4853,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .m-yktNav .u-navsearchUI .delete-local:hover {
-    color: #49af4f;
+    color: #e84807;
 }
 
 .m-yktNav .u-navsearchUI .delete-local .clear-trash {
@@ -4888,11 +4870,11 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     cursor: pointer;
     right: 0;
     top: 0;
-    background-image: url(//nos.netease.com/test-edu-image/34BB5668E77F7D10A8581CBFAB5EA5CF.png?imageView&thumbnail=36z36);
+    background-image: url(search.png?imageView&thumbnail=36z36);
 }
 
 .m-yktNav .u-navsearchUI .submit:hover {
-    background-image: url(//nos.netease.com/test-edu-image/9FFE3911A7E9E7C8DA028C542D7287DA.png?imageView&thumbnail=36z36);
+    background-image: url(search.png?imageView&thumbnail=36z36);
 }
 
 .m-yktNav .m-navrgt {
@@ -4944,7 +4926,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .ux-cp-entrance_enterprise:hover, .ux-cp-entrance_admin:hover, .ux-cp-entrance_open:hover {
-    color: #49AF4F;
+    color: #e84807;
 }
 
 .ux-cp-entrance_admin {
@@ -4998,7 +4980,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     width: 82px;
     height: 34px;
     line-height: 34px;
-    background: #49AF4F;
+    background: #e84807;
     color: #fff;
     border-radius: 2px;
     text-align: center;
@@ -5020,11 +5002,6 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 .m-yktFoot .ftwrapper .ftlf {
     width: 430px;
     padding: 50px 0 30px;
-}
-
-.m-yktFoot .ftwrapper .ftlf .logo {
-    height: 46px;
-    background: url(//s.stu.126.net/res/images/logoFoot.png) no-repeat;
 }
 
 .m-yktFoot .ftwrapper .ftlf .txt {
@@ -5070,7 +5047,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     display: block;
     width: 20px;
     height: 20px;
-    background: url(//s.stu.126.net/res/images/ui/shareLinkUI.png) no-repeat;
+    background: url(shareLinkUI.png) no-repeat;
     background-position: -34px -52px;
     margin: 3px 0 0 4px;
 }
@@ -5110,7 +5087,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     height: 10px;
     right: 62px;
     bottom: -9px;
-    background: url(//s.stu.126.net/res/images/qrcode/tip.png) no-repeat;
+    background: url(tip.png) no-repeat;
 }
 
 .m-yktFoot .ftwrapper .share .weixin:hover .tipQrcode, .m-yktFoot .ftwrapper .share .yixin:hover .tipQrcode {
@@ -5131,7 +5108,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     float: left;
     width: 111px;
     height: 32px;
-    background: url(//s.stu.126.net/res/images/ui/download_icon.png) no-repeat 0 0;
+    background: url(download_icon.png) no-repeat 0 0;
 }
 
 .m-yktFoot .ftwrapper .mobile .mlogo2 {
@@ -5163,7 +5140,6 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     border-radius: 4px;
     background-color: #E1E1E1;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#EBEBEB), to(#E1E1E1));
     background-image: -moz-linear-gradient(#EBEBEB, #E1E1E1);
     background-image: -ms-linear-gradient(#EBEBEB, #E1E1E1);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #EBEBEB), color-stop(100%, #E1E1E1));
@@ -5178,7 +5154,6 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 .u-moocbtn:hover, .u-moocbtn.hvr {
     background-color: #EDEDED;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#F6F6F6), to(#EDEDED));
     background-image: -moz-linear-gradient(#F6F6F6, #EDEDED);
     background-image: -ms-linear-gradient(#F6F6F6, #EDEDED);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F6F6F6), color-stop(100%, #EDEDED));
@@ -5206,7 +5181,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     float: left;
     width: 57px;
     height: 57px;
-    background: url(//s.stu.126.net/res/images/ui/dialogicon.png?2d5114c0c0ab97d522d7a08200bc7ed8) no-repeat 4449px 4449px;
+    background: url(dialogicon.png) no-repeat 4449px 4449px;
     padding: 0 20px;
 }
 
@@ -5642,7 +5617,7 @@ div.m-basewin .zcls {
     display: block;
     width: 32px;
     height: 32px;
-    background: url(//s.stu.126.net/res/images/ui/ui_sprite.png?1367c4a3031b72bbecf3674702d4f731) no-repeat 0 0;
+    background: url(ui_sprite.png) no-repeat 0 0;
 }
 
 div.m-basewin .zcls:hover {
@@ -6103,12 +6078,12 @@ div.m-pkg-dialog .u-pkgs .u-tabs .itm {
 }
 
 div.m-pkg-dialog .u-pkgs .u-tabs .itm.js-selected, div.m-pkg-dialog .u-pkgs .u-tabs .itm:hover {
-    background: #21a557;
+    background: #e84807;
     color: #fff;
 }
 
 div.m-pkg-dialog .u-pkgs .courses {
-    border: 1px solid #21a557;
+    border: 1px solid #e84807;
 }
 
 div.m-pkg-dialog .u-pkgs .courses .row {
@@ -6197,7 +6172,6 @@ div.m-pkg-dialog .u-btn-sm {
 div.m-pkg-dialog .u-btn-orange {
     background-color: #ff6900;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#ff9300), to(#ff6900));
     background-image: -moz-linear-gradient(#ff9300, #ff6900);
     background-image: -ms-linear-gradient(#ff9300, #ff6900);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff9300), color-stop(100%, #ff6900));
@@ -6215,7 +6189,6 @@ div.m-pkg-dialog .u-btn-orange {
 div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     background-color: #ff8a00;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#ffad00), to(#ff8a00));
     background-image: -moz-linear-gradient(#ffad00, #ff8a00);
     background-image: -ms-linear-gradient(#ffad00, #ff8a00);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffad00), color-stop(100%, #ff8a00));
@@ -6238,7 +6211,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     float: left;
     width: 15px;
     height: 20px;
-    background: url(//s.stu.126.net/res/images/ui/ui_sprite.png?1367c4a3031b72bbecf3674702d4f731) no-repeat 9999px 9999px;
+    background: url(ui_sprite.png) no-repeat 9999px 9999px;
     background-position: -55px -170px;
 }
 
@@ -6261,7 +6234,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     left: 44%;
     width: 75px;
     height: 22px;
-    background: #fafafa url(//s.stu.126.net/res/images/ui/loading.gif?348e3cea35602e70543b87a77333867e) center center no-repeat;
+    background: #fafafa url(loading.gif) center center no-repeat;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
@@ -6280,7 +6253,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     height: 16px;
     line-height: 16px;
     padding-left: 15px;
-    background: url(//s.stu.126.net/res/images/note.png?5b8156472a22e5f652a31cff1c6075cf) no-repeat 0 -80px;
+    background: url(note.png) no-repeat 0 -80px;
     color: #444;
 }
 
@@ -6290,7 +6263,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .u-backbtn2 {
-    background: url(//s.stu.126.net/res/images/note.png?5b8156472a22e5f652a31cff1c6075cf) no-repeat 9px -80px;
+    background: url(note.png) no-repeat 9px -80px;
     margin: 18px 28px 0 0;
     padding-left: 25px;
     border-left: 1px solid #ddd;
@@ -6310,7 +6283,6 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     border-bottom: 1px solid #EBEBEB;
     background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.3)), to(transparent));
     -webkit-mask-box-image: -webkit-gradient(linear, left bottom, right bottom, color-stop(0, transparent), color-stop(0.5, rgba(0, 0, 0, 0.8)), color-stop(1, transparent));
-    background-image: -moz-radial-gradient(bottom, ellipse farthest-side, rgba(0, 0, 0, 0.3), transparent);
 }
 
 .u-ltshadowup {
@@ -6322,11 +6294,10 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     border-up: 1px solid #EBEBEB;
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(transparent));
     -webkit-mask-box-image: -webkit-gradient(linear, left top, right top, color-stop(0, transparent), color-stop(0.5, rgba(0, 0, 0, 0.8)), color-stop(1, transparent));
-    background-image: -moz-radial-gradient(top, ellipse farthest-side, rgba(0, 0, 0, 0.3), transparent);
 }
 
 .u-editInfo-btn {
-    background: url(//s.stu.126.net/res/images/settings.png?5afad03d9734951c8b38f0ec09fad33c) 0 -14px no-repeat;
+    background: url(settings.png) 0 -14px no-repeat;
     display: block;
     width: 80px;
     height: 20px;
@@ -6352,7 +6323,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     color: #fff;
     text-decoration: none;
     text-align: center;
-    background: url(//s.stu.126.net/res/images/btn/bigBtn.png?d91659c455a4f66f9a16c8f287ce9fc9) no-repeat 0 0;
+    background: url(bigBtn.png) no-repeat 0 0;
 }
 
 .u-bigsideBtn:hover {
@@ -6381,7 +6352,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     font-size: 14px;
     color: #999;
     line-height: 30px;
-    background: url(//s.stu.126.net/res/images/ui/createplan.png?a1108961c6eb92713977101420a88248) 241px -192px no-repeat;
+    background: url(createplan.png) 241px -192px no-repeat;
 }
 
 .u-select .up .txt1 {
@@ -6459,16 +6430,8 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     height: 51px;
 }
 
-.u-cst-10 {
-    background: url(//s.stu.126.net/res/images/ui/courseMark_sprite.png?1b8af89368a8b2fd984b82a05216b60c) -63px -80px no-repeat;
-}
-
-.u-cst-20 {
-    background: url(//s.stu.126.net/res/images/ui/courseMark_sprite.png?1b8af89368a8b2fd984b82a05216b60c) 0 -80px no-repeat;
-}
-
 .u-empty {
-    background: url(//s.stu.126.net/res/images/bg/Kong.png?5d4bc5bb275c307240f600f821a68f03) no-repeat;
+    background: url(Kong.png) no-repeat;
     margin: 10px;
     min-height: 40px;
     text-indent: 60px;
@@ -6483,7 +6446,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .u-emptybig {
-    background: url(//s.stu.126.net/res/images/ui/ui_empty.png?5a585836b5cc345dac24259d9e14eeaf) center 40px no-repeat;
+    background: url(ui_empty.png) center 40px no-repeat;
     padding: 260px 0 40px 0;
 }
 
@@ -6522,12 +6485,6 @@ div.m-registerAct-dialog .zbar {
     display: none;
 }
 
-div.m-registerAct-dialog .zcnt .top {
-    width: 100%;
-    height: 480px;
-    top: -25px;
-    background: url(//s.stu.126.net/res/images/activities/registerAct/bg.png?2a20fd60913f79973178eb171bae2df3) no-repeat center top;
-}
 
 div.m-registerAct-dialog .zcnt .top p {
     margin: 380px 0 0 55px;
@@ -6549,27 +6506,8 @@ div.m-registerAct-dialog .zcnt .bottom {
     top: 455px;
 }
 
-div.m-registerAct-dialog .zcnt .bottom .login {
-    width: 323px;
-    height: 82px;
-    margin: 32px 0 0 228px;
-    background: url(//s.stu.126.net/res/images/activities/registerAct/btn.png?b1aeeb07cf8c6aff70deb29bd110b6ac) -7px -8px;
-}
-
 div.m-registerAct-dialog .zcnt .bottom .login:hover {
     background-position: -7px -98px;
-}
-
-div.m-registerAct-dialog .zcls {
-    width: 14px;
-    height: 14px;
-    top: 16px;
-    right: 18px;
-    background: url(//s.stu.126.net/res/images/activities/registerAct/btn.png?b1aeeb07cf8c6aff70deb29bd110b6ac) -8px -193px;
-}
-
-div.m-registerAct-dialog .zcls:hover {
-    background: url(//s.stu.126.net/res/images/activities/registerAct/btn.png?b1aeeb07cf8c6aff70deb29bd110b6ac) -8px -193px;
 }
 
 div.m-registerAct-dialog20141011 {
@@ -6580,12 +6518,6 @@ div.m-registerAct-dialog20141011 {
 
 div.m-registerAct-dialog20141011 .zbar {
     display: none;
-}
-
-div.m-registerAct-dialog20141011 .zcnt .top {
-    width: 100%;
-    height: 487px;
-    background: url(//s.stu.126.net/res/images/activities/registerAct/bg20141011.png?e6a6659e676b985ec824969a6d1eae1f) no-repeat center top;
 }
 
 div.m-registerAct-dialog20141011 .zcnt .top p {
@@ -6600,28 +6532,11 @@ div.m-registerAct-dialog20141011 .zcnt .bottom {
     top: 487px;
 }
 
-div.m-registerAct-dialog20141011 .zcnt .bottom .login {
-    width: 310px;
-    height: 56px;
-    margin: 30px 0 0 224px;
-    background: url(//s.stu.126.net/res/images/activities/registerAct/btn20141011.png?4c794ea66621f5cafe78848171219921) 0 0;
-}
-
 div.m-registerAct-dialog20141011 .zcnt .bottom .login:hover {
     background-position: 0 -87px;
 }
 
-div.m-registerAct-dialog20141011 .zcls {
-    width: 14px;
-    height: 14px;
-    top: 16px;
-    right: 18px;
-    background: url(//s.stu.126.net/res/images/activities/registerAct/btn20141011.png?4c794ea66621f5cafe78848171219921) -8px -160px;
-}
 
-div.m-registerAct-dialog20141011 .zcls:hover {
-    background: url(//s.stu.126.net/res/images/activities/registerAct/btn20141011.png?4c794ea66621f5cafe78848171219921) -8px -160px;
-}
 
 div.m-registerAct-dialog20141113 {
     width: 759px;
@@ -6633,11 +6548,6 @@ div.m-registerAct-dialog20141113 .zbar {
     display: none;
 }
 
-div.m-registerAct-dialog20141113 .zcnt .top {
-    width: 100%;
-    height: 487px;
-    background: url(//s.stu.126.net/res/images/activities/registerAct/bg201411131.png?8fcc783700dea7721b241b831d074ff3) no-repeat center top;
-}
 
 div.m-registerAct-dialog20141113 .zcnt .top p {
     margin: 385px 0 0 76px;
@@ -6656,29 +6566,6 @@ div.m-registerAct-dialog20141113 .zcnt .top p a {
 div.m-registerAct-dialog20141113 .zcnt .bottom {
     height: 155px;
     top: 487px;
-}
-
-div.m-registerAct-dialog20141113 .zcnt .bottom .login {
-    width: 310px;
-    height: 56px;
-    margin: 30px 0 0 224px;
-    background: url(//s.stu.126.net/res/images/activities/registerAct/btn20141113.png?97602e9cb3a10cd15b7f9d900087e332) 0 0;
-}
-
-div.m-registerAct-dialog20141113 .zcnt .bottom .login:hover {
-    background-position: 0 -63px;
-}
-
-div.m-registerAct-dialog20141113 .zcls {
-    width: 14px;
-    height: 14px;
-    top: 16px;
-    right: 18px;
-    background: url(//s.stu.126.net/res/images/activities/registerAct/btn20141113.png?97602e9cb3a10cd15b7f9d900087e332) 0px -139px;
-}
-
-div.m-registerAct-dialog20141113 .zcls:hover {
-    background: url(//s.stu.126.net/res/images/activities/registerAct/btn20141113.png?97602e9cb3a10cd15b7f9d900087e332) 0px -139px;
 }
 
 .u-msgItem {
@@ -6818,7 +6705,7 @@ div.m-registerAct-dialog20141113 .zcls:hover {
 .m-tel-login .inputbox .u-logo div {
     width: 22px;
     height: 24px;
-    background: url(//nos.netease.com/edu-image/7A13709D12D506BA8CC110D88FFA1E68.png) -9999px -9999px no-repeat;
+    background: url(icon1.png) -9999px -9999px no-repeat;
 }
 
 .m-tel-login .inputbox .u-logo .u-logo-tel {
@@ -6879,7 +6766,7 @@ div.m-registerAct-dialog20141113 .zcls:hover {
 }
 
 .m-tel-login .m-error-box .ferrortail {
-    background: url(//webzj.reg.163.com/webapp/res/images/sprite.png?d76abd2c967e810a0760c4d7dd157357) -9999px -9999px no-repeat;
+    background: url(sprite.png) -9999px -9999px no-repeat;
     height: 15px;
     width: 18px;
     background-position: -217px -34px;
@@ -6904,18 +6791,18 @@ div.m-registerAct-dialog20141113 .zcls:hover {
     background: #ddd;
     font-size: 18px;
     line-height: 44px;
-    background: #74B96E;
+    background: #e84807;
     margin-top: 16px;
     margin-bottom: 12px;
 }
 
 .m-tel-login .u-loginbtn.ready {
     cursor: pointer;
-    background-color: #39a030;
+    background-color: #e84807;
 }
 
 .m-tel-login .u-loginbtn.ready:hover {
-    background-color: #4BA743;
+    background-color: #e84807;
 }
 
 .m-tel-login .m-unlogin {
@@ -6943,7 +6830,7 @@ div.m-registerAct-dialog20141113 .zcls:hover {
     border: solid 1px #aaa;
     color: #999;
     font-size: 12px;
-    background: url(//webzj.reg.163.com/webapp/res/images/sprite.png?d76abd2c967e810a0760c4d7dd157357) -9999px -9999px no-repeat;
+    background: url(sprite.png) -9999px -9999px no-repeat;
 }
 
 .m-tel-login .m-unlogin .b-unlogin .u-checkbox input.un-login {
@@ -6990,7 +6877,7 @@ div.m-registerAct-dialog20141113 .zcls:hover {
     cursor: pointer;
     font-size: 12px;
     float: right;
-    color: #39a030;
+    color: #e84807;
     line-height: 16px;
 }
 
@@ -7028,9 +6915,8 @@ div.m-registerAct-dialog20141113 .zcls:hover {
     display: block;
     content: " ";
     height: 2px;
-    text-align: -9999px;
     width: 170px;
-    background: #2aa126;
+    background: #e84807;
     z-index: 2;
     bottom: -2px;
     left: 0;
@@ -7077,15 +6963,15 @@ div.m-registerAct-dialog20141113 .zcls:hover {
     margin: 15px 0;
     width: 90px;
     height: 25px;
-    background: url(//s.stu.126.net/res/images/sns/snsSprite.png?71fce9d4f9d5f4e2b5b897821ce302af) no-repeat 4449px 4449px;
+    background: url(snsSprite.png) no-repeat 4449px 4449px;
 }
 
 .m-loginbox .side .socialBox .itm0 {
-    background: url(//nos.netease.com/test-edu-image/17AFF62D66F1779376D75F7E4F225EC3.png) no-repeat;
+    background: url(wechat.png) no-repeat;
 }
 
 .m-loginbox .side .socialBox .itm0:hover {
-    background: url(//nos.netease.com/test-edu-image/856ACB7ED2A43FF569364630548B4053.png) no-repeat;
+    background: url(wechat.png) no-repeat;
 }
 
 .m-loginbox .side .socialBox .itm1 {
@@ -7188,7 +7074,7 @@ div.m-registerAct-dialog20141113 .zcls:hover {
 }
 
 .m-loginbox .reg a em {
-    color: #21a557;
+    color: #e84807;
 }
 
 .m-loginbox .u-tt3 {
@@ -7240,7 +7126,7 @@ div.m-registerAct-dialog20141113 .zcls:hover {
 .m-retrievePwd-box .boxwrap .m-telcheck-container .inputbox .u-logo div, .m-retrievePwd-box .boxwrap .m-pwdinput-container .inputbox .u-logo div {
     width: 22px;
     height: 24px;
-    background: url(//nos.netease.com/edu-image/2F3FB7E553400651D645FBAA0B301C55.png) -9999px -9999px no-repeat;
+    background: url(icon2.png) -9999px -9999px no-repeat;
 }
 
 .m-retrievePwd-box .boxwrap .m-telcheck-container .inputbox .u-logo .u-logo-tel, .m-retrievePwd-box .boxwrap .m-pwdinput-container .inputbox .u-logo .u-logo-tel {
@@ -7314,13 +7200,13 @@ div.m-registerAct-dialog20141113 .zcls:hover {
 
 .m-retrievePwd-box .boxwrap .m-telcheck-container .code-input-box .u-codebtn, .m-retrievePwd-box .boxwrap .m-pwdinput-container .code-input-box .u-codebtn {
     background: #ffffff;
-    border: 1px solid #2aa126;
+    border: 1px solid #e84807;
     width: 148px;
     height: 44px;
     text-align: center;
     line-height: 44px;
     font-size: 16px;
-    color: #2aa126;
+    color: #e84807;
     cursor: pointer;
 }
 
@@ -7337,7 +7223,7 @@ div.m-registerAct-dialog20141113 .zcls:hover {
 }
 
 .m-retrievePwd-box .boxwrap .m-telcheck-container .m-error-box .ferrortail, .m-retrievePwd-box .boxwrap .m-pwdinput-container .m-error-box .ferrortail {
-    background: url(//webzj.reg.163.com/webapp/res/images/sprite.png?d76abd2c967e810a0760c4d7dd157357) -9999px -9999px no-repeat;
+    background: url(sprite.png) -9999px -9999px no-repeat;
     height: 15px;
     width: 18px;
     background-position: -217px -34px;
@@ -7355,7 +7241,7 @@ div.m-registerAct-dialog20141113 .zcls:hover {
 }
 
 .m-retrievePwd-box .boxwrap .m-telcheck-container .u-nextbtn, .m-retrievePwd-box .boxwrap .m-pwdinput-container .u-nextbtn {
-    background: #71bb6b;
+    background: #e84807;
     height: 46px;
     line-height: 46px;
     font-size: 20px;
@@ -7366,11 +7252,11 @@ div.m-registerAct-dialog20141113 .zcls:hover {
 
 .m-retrievePwd-box .boxwrap .m-telcheck-container .u-nextbtn.ready, .m-retrievePwd-box .boxwrap .m-pwdinput-container .u-nextbtn.ready {
     cursor: pointer;
-    background-color: #39a030;
+    background-color: #e84807;
 }
 
 .m-retrievePwd-box .boxwrap .m-telcheck-container .u-nextbtn.ready:hover, .m-retrievePwd-box .boxwrap .m-pwdinput-container .u-nextbtn.ready:hover {
-    background-color: #4BA743;
+    background-color: #e84807;
 }
 
 .m-retrievePwd-box .boxwrap .m-bottom-back {
@@ -7420,7 +7306,7 @@ div.m-registerAct-dialog20141113 .zcls:hover {
     top: 5px;
     width: 24px;
     height: 35px;
-    background: url(//nos.netease.com/edu-image/2FA9F80612F4A8C77853F8333628E07F.png) 0px -425px no-repeat;
+    background: url(icon3.png) 0px -425px no-repeat;
 }
 
 .m-changePwd-box .boxwrap .m-telcheck-container .inputbox .telnumber, .m-changePwd-box .boxwrap .m-telcheck-container .tel-box .telnumber, .m-changePwd-box .boxwrap .m-pwdinput-container .inputbox .telnumber, .m-changePwd-box .boxwrap .m-pwdinput-container .tel-box .telnumber {
@@ -7453,7 +7339,7 @@ div.m-registerAct-dialog20141113 .zcls:hover {
 .m-changePwd-box .boxwrap .m-telcheck-container .inputbox .u-logo div, .m-changePwd-box .boxwrap .m-telcheck-container .tel-box .u-logo div, .m-changePwd-box .boxwrap .m-pwdinput-container .inputbox .u-logo div, .m-changePwd-box .boxwrap .m-pwdinput-container .tel-box .u-logo div {
     width: 22px;
     height: 24px;
-    background: url(//nos.netease.com/edu-image/2FA9F80612F4A8C77853F8333628E07F.png) -9999px -9999px no-repeat;
+    background: url(icon3.png) -9999px -9999px no-repeat;
 }
 
 .m-changePwd-box .boxwrap .m-telcheck-container .inputbox .u-logo .u-logo-tel, .m-changePwd-box .boxwrap .m-telcheck-container .tel-box .u-logo .u-logo-tel, .m-changePwd-box .boxwrap .m-pwdinput-container .inputbox .u-logo .u-logo-tel, .m-changePwd-box .boxwrap .m-pwdinput-container .tel-box .u-logo .u-logo-tel {
@@ -7532,13 +7418,13 @@ div.m-registerAct-dialog20141113 .zcls:hover {
 
 .m-changePwd-box .boxwrap .m-telcheck-container .code-input-box .u-codebtn, .m-changePwd-box .boxwrap .m-pwdinput-container .code-input-box .u-codebtn {
     background: #ffffff;
-    border: 1px solid #2aa126;
+    border: 1px solid #e84807;
     width: 148px;
     height: 44px;
     text-align: center;
     line-height: 44px;
     font-size: 16px;
-    color: #2aa126;
+    color: #e84807;
     cursor: pointer;
 }
 
@@ -7555,7 +7441,7 @@ div.m-registerAct-dialog20141113 .zcls:hover {
 }
 
 .m-changePwd-box .boxwrap .m-telcheck-container .m-error-box .ferrortail, .m-changePwd-box .boxwrap .m-pwdinput-container .m-error-box .ferrortail {
-    background: url(//webzj.reg.163.com/webapp/res/images/sprite.png?d76abd2c967e810a0760c4d7dd157357) -9999px -9999px no-repeat;
+    background: url(sprite.png) -9999px -9999px no-repeat;
     height: 15px;
     width: 18px;
     background-position: -217px -34px;
@@ -7573,7 +7459,7 @@ div.m-registerAct-dialog20141113 .zcls:hover {
 }
 
 .m-changePwd-box .boxwrap .m-telcheck-container .u-nextbtn, .m-changePwd-box .boxwrap .m-pwdinput-container .u-nextbtn {
-    background: #71bb6b;
+    background: #e84807;
     height: 46px;
     line-height: 46px;
     font-size: 20px;
@@ -7584,11 +7470,11 @@ div.m-registerAct-dialog20141113 .zcls:hover {
 
 .m-changePwd-box .boxwrap .m-telcheck-container .u-nextbtn.ready, .m-changePwd-box .boxwrap .m-pwdinput-container .u-nextbtn.ready {
     cursor: pointer;
-    background-color: #39a030;
+    background-color: #e84807;
 }
 
 .m-changePwd-box .boxwrap .m-telcheck-container .u-nextbtn.ready:hover, .m-changePwd-box .boxwrap .m-pwdinput-container .u-nextbtn.ready:hover {
-    background-color: #4BA743;
+    background-color: #e84807;
 }
 
 .m-changePwd-box .boxwrap .m-bottom-back {
@@ -7658,7 +7544,7 @@ div.m-registerAct-dialog20141113 .zcls:hover {
 
 .m-tel-image-validate-code_refreshbox {
     font-size: 12px;
-    color: #2AA126;
+    color: #e84807;
     line-height: 34px;
     cursor: pointer;
 }
@@ -7666,7 +7552,7 @@ div.m-registerAct-dialog20141113 .zcls:hover {
 .m-tel-image-validate-code_btnBox {
     width: 68px;
     height: 34px;
-    background: #2FA030;
+    background: #e84807;
     line-height: 34px;
     text-align: center;
     color: #fff;
@@ -7682,7 +7568,7 @@ div.m-registerAct-dialog20141113 .zcls:hover {
 }
 
 .m-tel-image-validate-code_errBox .erricon {
-    background: url(http://edu-image.nosdn.127.net/13AA6585F2CA4C8E5F2463EE8292A12D.png?imageView&quality=100) no-repeat;
+    background: url(icon4.png?imageView&quality=100) no-repeat;
     height: 14px;
     width: 14px;
     vertical-align: middle;
@@ -7835,8 +7721,8 @@ div.m-registerAct-dialog20141113 .zcls:hover {
 }
 
 .m-tel-reg .u-codebtn.ready {
-    border: 1px solid #39a030;
-    color: #39a030;
+    border: 1px solid #e84807;
+    color: #e84807;
     cursor: pointer;
 }
 
@@ -7852,7 +7738,7 @@ div.m-registerAct-dialog20141113 .zcls:hover {
     font-size: 16px;
     height: 44px;
     line-height: 44px;
-    background: #71bb6b;
+    background: #e84807;
     margin-top: 20px;
     cursor: pointer;
     text-align: center;
@@ -7861,7 +7747,7 @@ div.m-registerAct-dialog20141113 .zcls:hover {
 }
 
 .m-tel-reg .u-loginbtn.ready {
-    background: #39a030;
+    background: #e84807;
 }
 
 .m-tel-reg .m-bottom-back {
@@ -8078,7 +7964,7 @@ div.m-registerAct-dialog20141113 .zcls:hover {
     overflow: hidden;
     display: block;
     cursor: pointer;
-    background: url(//s.stu.126.net/res/images/login.png?d42b72be833f7cb2f144b1b9fd696961) no-repeat;
+    background: url(login.png) no-repeat;
     background-position: 2px 0;
 }
 
@@ -8111,7 +7997,7 @@ div.m-registerAct-dialog20141113 .zcls:hover {
     top: -9px;
     width: 20px;
     height: 10px;
-    background: url(//s.stu.126.net/res/images/ui/ui_sprite.png?1367c4a3031b72bbecf3674702d4f731) no-repeat 9999px 9999px;
+    background: url(ui_sprite.png) no-repeat 9999px 9999px;
     background-position: 0 -540px;
 }
 
@@ -8128,7 +8014,7 @@ div.m-registerAct-dialog20141113 .zcls:hover {
     width: 83px;
     height: 34px;
     line-height: 33px;
-    background: url(//s.stu.126.net/res/images/settings.png?5afad03d9734951c8b38f0ec09fad33c) no-repeat 0 -204px;
+    background: url(settings.png) no-repeat 0 -204px;
 }
 
 .u-upd-img-btn .upbtn.hvr {
@@ -8694,7 +8580,6 @@ div.m-registerAct-dialog20141113 .zcls:hover {
     border-radius: 4px;
     background-color: #E1E1E1;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#EBEBEB), to(#E1E1E1));
     background-image: -moz-linear-gradient(#EBEBEB, #E1E1E1);
     background-image: -ms-linear-gradient(#EBEBEB, #E1E1E1);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #EBEBEB), color-stop(100%, #E1E1E1));
@@ -8980,7 +8865,6 @@ div.m-registerAct-dialog20141113 .zcls:hover {
     border-radius: 4px;
     background-color: #E1E1E1;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#EBEBEB), to(#E1E1E1));
     background-image: -moz-linear-gradient(#EBEBEB, #E1E1E1);
     background-image: -ms-linear-gradient(#EBEBEB, #E1E1E1);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #EBEBEB), color-stop(100%, #E1E1E1));
@@ -8995,7 +8879,6 @@ div.m-registerAct-dialog20141113 .zcls:hover {
 .u-moocbtn:hover, .u-moocbtn.hvr {
     background-color: #EDEDED;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#F6F6F6), to(#EDEDED));
     background-image: -moz-linear-gradient(#F6F6F6, #EDEDED);
     background-image: -ms-linear-gradient(#F6F6F6, #EDEDED);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F6F6F6), color-stop(100%, #EDEDED));
@@ -9302,7 +9185,7 @@ div.m-registerAct-dialog20141113 .zcls:hover {
 }
 
 .m-toPayDialog .privilege .keyArea .keyFb.rightFb .warningbox .righttxt {
-    color: #21a557;
+    color: #e84807;
 }
 
 .m-toPayDialog .privilege .keyArea .keyFb.rightFb .warningbox .righttxt em {
@@ -10087,7 +9970,6 @@ div.m-registerAct-dialog20141113 .zcls:hover {
 .syntaxhighlighter .script {
     font-weight: 700 !important;
     color: #ff7800 !important;
-    background-color: none !important;
 }
 
 .syntaxhighlighter .bold, .syntaxhighlighter.printing .script {
@@ -10345,7 +10227,6 @@ div.m-registerAct-dialog20141113 .zcls:hover {
     border-radius: 4px;
     background-color: #E1E1E1;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#EBEBEB), to(#E1E1E1));
     background-image: -moz-linear-gradient(#EBEBEB, #E1E1E1);
     background-image: -ms-linear-gradient(#EBEBEB, #E1E1E1);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #EBEBEB), color-stop(100%, #E1E1E1));
@@ -10360,7 +10241,6 @@ div.m-registerAct-dialog20141113 .zcls:hover {
 .u-moocbtn:hover, .u-moocbtn.hvr {
     background-color: #EDEDED;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#F6F6F6), to(#EDEDED));
     background-image: -moz-linear-gradient(#F6F6F6, #EDEDED);
     background-image: -ms-linear-gradient(#F6F6F6, #EDEDED);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F6F6F6), color-stop(100%, #EDEDED));
@@ -11036,7 +10916,6 @@ div.m-registerAct-dialog20141113 .zcls:hover {
 
 .m-lucky-number-dialog .has-phone-number .go-index {
     margin-top: 7.14%;
-    line-height: auto;
 }
 
 .m-lucky-number-dialog .has-phone-number .d-btn {
@@ -11689,7 +11568,6 @@ div.m-registerAct-dialog20141113 .zcls:hover {
     border-radius: 4px;
     background-color: #E1E1E1;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#EBEBEB), to(#E1E1E1));
     background-image: -moz-linear-gradient(#EBEBEB, #E1E1E1);
     background-image: -ms-linear-gradient(#EBEBEB, #E1E1E1);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #EBEBEB), color-stop(100%, #E1E1E1));
@@ -11704,7 +11582,6 @@ div.m-registerAct-dialog20141113 .zcls:hover {
 .u-moocbtn:hover, .u-moocbtn.hvr {
     background-color: #EDEDED;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#F6F6F6), to(#EDEDED));
     background-image: -moz-linear-gradient(#F6F6F6, #EDEDED);
     background-image: -ms-linear-gradient(#F6F6F6, #EDEDED);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F6F6F6), color-stop(100%, #EDEDED));
@@ -12097,7 +11974,6 @@ div.m-registerAct-dialog20141113 .zcls:hover {
 
 .m-inviteShare .invitebox .ui-pager a.zpgi, .m-inviteShare .invitebox .ui-pager span.zdot {
     display: none;
-    cursor: normal;
 }
 
 .m-inviteShare .invitebox .ui-pager a.zpgi {
@@ -12584,7 +12460,6 @@ div.m-registerAct-dialog20141113 .zcls:hover {
     border-radius: 4px;
     background-color: #E1E1E1;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#EBEBEB), to(#E1E1E1));
     background-image: -moz-linear-gradient(#EBEBEB, #E1E1E1);
     background-image: -ms-linear-gradient(#EBEBEB, #E1E1E1);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #EBEBEB), color-stop(100%, #E1E1E1));
@@ -12599,7 +12474,6 @@ div.m-registerAct-dialog20141113 .zcls:hover {
 .u-moocbtn:hover, .u-moocbtn.hvr {
     background-color: #EDEDED;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#F6F6F6), to(#EDEDED));
     background-image: -moz-linear-gradient(#F6F6F6, #EDEDED);
     background-image: -ms-linear-gradient(#F6F6F6, #EDEDED);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F6F6F6), color-stop(100%, #EDEDED));

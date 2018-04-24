@@ -1,14 +1,6 @@
 @charset "UTF-8";
-.globalnavsprite, .u-navcatebtn .cbtn, .u-navcatedialog .arrr, .u-navcatedialog .cateright .close, .u-navapptip .arrr, .u-navapptip .rcon .store, .u-navdropmenu .arrr, .u-navusermenu .arrr, .m-yktNav .userinfo .u-mystudy .u-learn-record .arr {
-    background: url(//yc.stu.126.net/res/images/ui/ui_new_yktnav_sprite.png?692532cda4aba5b351a71e5ea260df97) 9999px 9999px no-repeat;
-}
-
-.buttonsprite, .m-dialog .btn .main.long, .m-dialog .btn .main.long span, .m-dialog .btn .main.small, .m-dialog .btn .main.small span, .m-dialog .btn .slave.long, .m-dialog .btn .slave.long span, .m-dialog .btn .slave.small, .m-dialog .btn .slave.small span, .m-basewin .btn .main, .m-basewin .btn .main span, .m-basewin .btn .slave, .m-basewin .btn .slave span, .m-basewin .btn2 .main.middle, .m-basewin .btn2 .main.middle span, .m-basewin .btn2 .main.small, .m-basewin .btn2 .main.small span, div.u-inset-dialog div.zcnt .m-inset .skip, div.u-inset-dialog div.zcnt .m-inset .skip span, .m-scdialog .btnOk, .m-scdialog .btnOk span, .m-scdialog .btnCancel, .m-scdialog .btnCancel span, .m-login .loginTip .u-btn, .m-login .loginTip div.u-colorpick .zinf .zbtn, div.u-colorpick .zinf .m-login .loginTip .zbtn, .m-login .loginTip .u-btn span, .m-login .loginTip div.u-colorpick .zinf .zbtn span, div.u-colorpick .zinf .m-login .loginTip .zbtn span {
-    background: url(//yc.stu.126.net/res/images/ui/btn/button.png?8da8e506b44a05ffa0554aceba35eec0) no-repeat 4449px 4449px;
-}
-
 .uisprite {
-    background: url(//yc.stu.126.net/res/images/ui/ui_sprite.png?1cd44298c3232576dc96811ed0f0119e) no-repeat 4449px 4449px;
+    background: url(ui_sprite.png) no-repeat 4449px 4449px;
 }
 
 html, body, h1, h2, h3, h4, h5, h6, div, dl, dt, dd, ul, ol, li, p, blockquote, pre, hr, figure, table, caption, th, td, form, fieldset, legend, input, button, textarea, menu {
@@ -360,7 +352,7 @@ body {
     -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
-    background: url(//s.stu.126.net/res/images/bg/bg_nav_rep.png) repeat-x;
+    background: url(bg_nav_rep.png) repeat-x;
 }
 
 .f-fl {
@@ -382,8 +374,6 @@ body {
     text-align: left;
     color: #666;
     line-height: 22px;
-    word-break: break-word;
-    word-wrap: break-word;
     white-space: pre-wrap;
 }
 
@@ -533,8 +523,8 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
 
 @font-face {
     font-family: 'icomoon';
-    src: url(//yc.stu.126.net/res/fonts/icomoon.eot?461bbb5333367a3661aff460b3292993);
-    src: url(//yc.stu.126.net/res/fonts/icomoon.eot?#iefix) format("embedded-opentype"), url(//yc.stu.126.net/res/fonts/icomoon.ttf?42da55e4c3311ddc2da7961cd129959c) format("truetype"), url(//yc.stu.126.net/res/fonts/icomoon.woff?4a1259c2f39da08d8100d8165d2794c1) format("woff"), url(//yc.stu.126.net/res/fonts/icomoon.svg?abe123d01f9b13781e42e6fdbbfa1c47) format("svg");
+    src: url(icomoon.eot);
+    src: url(icomoon.eot?#iefix) format("embedded-opentype"), url(icomoon.ttf) format("truetype"), url(icomoon.woff) format("woff"), url(icomoon.svg) format("svg");
     font-weight: normal;
     font-style: normal;
 }
@@ -784,10 +774,6 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
     border-width: 1px 0;
 }
 
-.globalnavsprite, .u-navcatebtn .cbtn, .u-navcatedialog .arrr, .u-navcatedialog .cateright .close, .u-navapptip .arrr, .u-navapptip .rcon .store, .u-navdropmenu .arrr, .u-navusermenu .arrr, .m-yktNav .userinfo .u-mystudy .u-learn-record .arr {
-    background: url(//s.stu.126.net/res/images/ui/ui_new_yktnav_sprite.png) 9999px 9999px no-repeat;
-}
-
 .u-moocbtn {
     display: inline-block;
     padding: 4px 9px;
@@ -822,7 +808,6 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
 .u-moocbtn:hover, .u-moocbtn.hvr {
     background-color: #EDEDED;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#F6F6F6), to(#EDEDED));
     background-image: -moz-linear-gradient(#F6F6F6, #EDEDED);
     background-image: -ms-linear-gradient(#F6F6F6, #EDEDED);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F6F6F6), color-stop(100%, #EDEDED));
@@ -857,7 +842,6 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
     border-radius: 4px;
     background-color: #E1E1E1;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#EBEBEB), to(#E1E1E1));
     background-image: -moz-linear-gradient(#EBEBEB, #E1E1E1);
     background-image: -ms-linear-gradient(#EBEBEB, #E1E1E1);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #EBEBEB), color-stop(100%, #E1E1E1));
@@ -872,7 +856,6 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
 .u-moocbtn:hover, .u-moocbtn.hvr {
     background-color: #EDEDED;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#F6F6F6), to(#EDEDED));
     background-image: -moz-linear-gradient(#F6F6F6, #EDEDED);
     background-image: -ms-linear-gradient(#F6F6F6, #EDEDED);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F6F6F6), color-stop(100%, #EDEDED));
@@ -900,7 +883,7 @@ a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:h
     float: left;
     width: 57px;
     height: 57px;
-    background: url(//study.163.com/res/images/ui/dialogicon.png) no-repeat 4449px 4449px;
+    background: url(dialogicon.png) no-repeat 4449px 4449px;
     padding: 0 20px;
 }
 
@@ -1336,7 +1319,7 @@ div.m-basewin .zcls {
     display: block;
     width: 32px;
     height: 32px;
-    background: url(//study.163.com/res/images/ui/ui_sprite.png) no-repeat 0 0;
+    background: url(ui_sprite.png) no-repeat 0 0;
 }
 
 div.m-basewin .zcls:hover {
@@ -1382,7 +1365,7 @@ div.richedit {
 }
 
 .richedit div.zbg {
-    background-image: url(/res/images/nej_editor.png);
+    background-image: url(nej_editor.png);
 }
 
 .richedit .zitm.js-selected, .richedit .zitm:hover {
@@ -1683,7 +1666,7 @@ div.u-inset-dialog div.zcnt .m-inset .skip:active span {
 }
 
 .m-scdialog .icon {
-    background: url(//study.163.com/res/images/ui/ui_sprite.png) 0 -779px no-repeat;
+    background: url(ui_sprite.png) 0 -779px no-repeat;
     height: 18px;
     width: 18px;
 }
@@ -1797,12 +1780,12 @@ div.m-pkg-dialog .u-pkgs .u-tabs .itm {
 }
 
 div.m-pkg-dialog .u-pkgs .u-tabs .itm.js-selected, div.m-pkg-dialog .u-pkgs .u-tabs .itm:hover {
-    background: #21a557;
+    background: #E84800;
     color: #fff;
 }
 
 div.m-pkg-dialog .u-pkgs .courses {
-    border: 1px solid #21a557;
+    border: 1px solid #E84800;
 }
 
 div.m-pkg-dialog .u-pkgs .courses .row {
@@ -1855,7 +1838,6 @@ div.m-pkg-dialog .u-btn, div.m-pkg-dialog div.u-colorpick .zinf .zbtn, div.u-col
     border-radius: 0;
     background-color: #f0f0f0;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#f6f6f6), to(#f0f0f0));
     background-image: -moz-linear-gradient(#f6f6f6, #f0f0f0);
     background-image: -ms-linear-gradient(#f6f6f6, #f0f0f0);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f6f6f6), color-stop(100%, #f0f0f0));
@@ -1872,7 +1854,6 @@ div.m-pkg-dialog .u-btn, div.m-pkg-dialog div.u-colorpick .zinf .zbtn, div.u-col
 div.m-pkg-dialog .u-btn:hover, div.m-pkg-dialog div.u-colorpick .zinf .zbtn:hover, div.u-colorpick .zinf div.m-pkg-dialog .zbtn:hover, div.m-pkg-dialog .u-btn.hvr, div.m-pkg-dialog div.u-colorpick .zinf .hvr.zbtn, div.u-colorpick .zinf div.m-pkg-dialog .hvr.zbtn {
     background-color: #f7f7f7;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#f9f9f9), to(#f7f7f7));
     background-image: -moz-linear-gradient(#f9f9f9, #f7f7f7);
     background-image: -ms-linear-gradient(#f9f9f9, #f7f7f7);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f9f9f9), color-stop(100%, #f7f7f7));
@@ -1891,7 +1872,6 @@ div.m-pkg-dialog .u-btn-sm {
 div.m-pkg-dialog .u-btn-orange {
     background-color: #ff6900;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#ff9300), to(#ff6900));
     background-image: -moz-linear-gradient(#ff9300, #ff6900);
     background-image: -ms-linear-gradient(#ff9300, #ff6900);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff9300), color-stop(100%, #ff6900));
@@ -1909,7 +1889,6 @@ div.m-pkg-dialog .u-btn-orange {
 div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     background-color: #ff8a00;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#ffad00), to(#ff8a00));
     background-image: -moz-linear-gradient(#ffad00, #ff8a00);
     background-image: -ms-linear-gradient(#ffad00, #ff8a00);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffad00), color-stop(100%, #ff8a00));
@@ -2351,7 +2330,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .u-navsearchsug .zitm a span {
-    color: #21a557;
+    color: #E84800;
 }
 
 .u-navsearchsug .zitm b {
@@ -2379,7 +2358,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .u-navsearchsug .zitm b.type-series {
-    background-color: #49af4f;
+    background-color: #E84800;
 }
 
 .u-navsearchsug .img {
@@ -2404,13 +2383,13 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 .u-navsearchsug .vip10 {
     height: 20px;
     width: 20px;
-    background: url(/res/images/ui/vipIcons.png) no-repeat -27px 0;
+    background: url(vipIcons.png) no-repeat -27px 0;
 }
 
 .u-navsearchsug .vip5 {
     height: 20px;
     width: 20px;
-    background: url(/res/images/ui/vipIcons.png) no-repeat 0 0;
+    background: url(vipIcons.png) no-repeat 0 0;
 }
 
 .u-navsearchsug .des {
@@ -2465,7 +2444,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 
 .u-navsearchsug .empty-suggest_zitm.js-selected, .u-navsearchsug .empty-suggest_zitm:hover {
     background-color: #f4f4f4;
-    color: #49af4f;
+    color: #E84800;
 }
 
 .u-navdropmenu {
@@ -2603,7 +2582,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     width: 82px;
     height: 34px;
     line-height: 34px;
-    background: #49AF4F;
+    background: #E84800;
     color: #fff;
     border-radius: 2px;
     text-align: center;
@@ -2846,7 +2825,6 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     display: block;
     content: " ";
     height: 2px;
-    text-align: -9999px;
     width: 170px;
     background: #2aa126;
     z-index: 2;
@@ -3006,7 +2984,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .m-loginbox .reg a em {
-    color: #21a557;
+    color: #E84800;
 }
 
 .m-loginbox .u-tt3 {
@@ -3896,7 +3874,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     overflow: hidden;
     display: block;
     cursor: pointer;
-    background: url(/res/images/login.png) no-repeat;
+    background: url(login.png) no-repeat;
     background-position: 2px 0;
 }
 
@@ -4480,7 +4458,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     background-color: #fff;
     float: right;
     height: 34px;
-    border: 1px solid #49af4f;
+    border: 1px solid #E84800;
     padding-right: 34px;
     width: 296px;
     -moz-transition: width 0.2s ease-out 0s;
@@ -4534,11 +4512,11 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .m-yktNav .u-navsearchUI .search-type .selected-type:hover .selected-type-txt {
-    color: #49af4f;
+    color: #e84807;
 }
 
 .m-yktNav .u-navsearchUI .search-type .selected-type:hover .bottom-arr {
-    border-top-color: #49af4f;
+    border-top-color: #e84807;
 }
 
 .m-yktNav .u-navsearchUI .search-type .select-list {
@@ -4546,13 +4524,13 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     padding: 0 9px;
     width: 49px;
     background-color: #fff;
-    border: 1px solid #49af4f;
+    border: 1px solid #e84807;
     border-top: none;
     left: -1px;
 }
 
 .m-yktNav .u-navsearchUI .search-type .select-list:hover {
-    color: #49af4f;
+    color: #e84807;
 }
 
 .m-yktNav .u-navsearchUI .box {
@@ -4592,7 +4570,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .m-yktNav .u-navsearchUI .delete-local:hover {
-    color: #49af4f;
+    color: #e84807;
 }
 
 .m-yktNav .u-navsearchUI .delete-local .clear-trash {
@@ -4609,11 +4587,11 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     cursor: pointer;
     right: 0;
     top: 0;
-    background-image: url(//nos.netease.com/test-edu-image/34BB5668E77F7D10A8581CBFAB5EA5CF.png?imageView&thumbnail=36z36);
+    background-image: url(search.png?imageView&thumbnail=36z36);
 }
 
 .m-yktNav .u-navsearchUI .submit:hover {
-    background-image: url(//nos.netease.com/test-edu-image/9FFE3911A7E9E7C8DA028C542D7287DA.png?imageView&thumbnail=36z36);
+    background-image: url(search.png?imageView&thumbnail=36z36);
 }
 
 .m-yktNav .m-navrgt {
@@ -4665,7 +4643,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .ux-cp-entrance_enterprise:hover, .ux-cp-entrance_admin:hover, .ux-cp-entrance_open:hover {
-    color: #49AF4F;
+    color: #e84807;
 }
 
 .ux-cp-entrance_admin {
@@ -4719,7 +4697,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     width: 82px;
     height: 34px;
     line-height: 34px;
-    background: #49AF4F;
+    background: #e84807;
     color: #fff;
     border-radius: 2px;
     text-align: center;
@@ -4794,11 +4772,6 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     padding: 50px 0 30px;
 }
 
-.m-yktFoot .ftwrapper .ftlf .logo {
-    height: 46px;
-    background: url(//s.stu.126.net/res/images/logoFoot.png) no-repeat;
-}
-
 .m-yktFoot .ftwrapper .ftlf .txt {
     line-height: 22px;
     margin: 20px 0 30px;
@@ -4842,7 +4815,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     display: block;
     width: 20px;
     height: 20px;
-    background: url(//s.stu.126.net/res/images/ui/shareLinkUI.png) no-repeat;
+    background: url(shareLinkUI.png) no-repeat;
     background-position: -34px -52px;
     margin: 3px 0 0 4px;
 }
@@ -4882,7 +4855,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     height: 10px;
     right: 62px;
     bottom: -9px;
-    background: url(//s.stu.126.net/res/images/qrcode/tip.png) no-repeat;
+    background: url(tip.png) no-repeat;
 }
 
 .m-yktFoot .ftwrapper .share .weixin:hover .tipQrcode, .m-yktFoot .ftwrapper .share .yixin:hover .tipQrcode {
@@ -4903,7 +4876,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     float: left;
     width: 111px;
     height: 32px;
-    background: url(//s.stu.126.net/res/images/ui/download_icon.png) no-repeat 0 0;
+    background: url(download_icon.png) no-repeat 0 0;
 }
 
 .m-yktFoot .ftwrapper .mobile .mlogo2 {
@@ -4917,7 +4890,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .u-tips, .u-tips2 {
-    background-color: #49AF4F;
+    background-color: #e84807;
     padding: 10px;
     color: #fff;
     line-height: 1;
@@ -4970,7 +4943,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .u-share .solo {
-    background: url(//yc.stu.126.net/res/images/ui/shareUI.png?e2653a364a790663aed6c6ece19fd83a) no-repeat;
+    background: url(shareLinkUI.png) no-repeat;
     width: 32px;
     height: 33px;
     font-size: 20px;
@@ -5094,7 +5067,7 @@ div.m-QRCodeDialog .tip {
 }
 
 .u-loadmore:hover {
-    color: #89BC00;
+    color: #e84807;
 }
 
 .m-infomation .top {
@@ -5162,7 +5135,7 @@ div.m-QRCodeDialog .tip {
     left: 44%;
     width: 75px;
     height: 22px;
-    background: #fafafa url(//yc.stu.126.net/res/images/ui/loading.gif?5d029469e46467c043f44f54ab078874) center center no-repeat;
+    background: #fafafa url(loading.gif) center center no-repeat;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
@@ -5193,7 +5166,7 @@ div.m-QRCodeDialog .tip {
     font-size: 14px;
     color: #999;
     line-height: 30px;
-    background: url(//yc.stu.126.net/res/images/ui/ui_sprite.png?1cd44298c3232576dc96811ed0f0119e) 241px -177px no-repeat;
+    background: url(ui_sprite.png) 241px -177px no-repeat;
 }
 
 .u-select .up .txt1 {
@@ -5277,8 +5250,8 @@ div.m-QRCodeDialog .tip {
 
 .u-pager .zbtn:hover, .u-pager .znxt:hover, .u-pager .zprv:hover, .u-pager .zpgi:hover {
     color: #fff;
-    border: 1px solid #70AD00;
-    background: #70AD00;
+    border: 1px solid #e84807;
+    background: #e84807;
 }
 
 .u-pager .js-disabled {
@@ -5294,8 +5267,8 @@ div.m-QRCodeDialog .tip {
 
 .u-pager .js-selected {
     color: #fff;
-    border: 1px solid #70AD00;
-    background: #70AD00 !important;
+    border: 1px solid #e84807;
+    background: #e84807 !important;
 }
 
 .u-tabul {
@@ -5321,12 +5294,12 @@ div.m-QRCodeDialog .tip {
 
 .u-tabul .u-curtab a {
     color: #fff;
-    background-color: #13a654;
+    background-color: #e84807;
 }
 
 .u-tabul .u-curtab a:hover {
     color: #fff;
-    background-color: #13a654;
+    background-color: #e84807;
 }
 
 .u-searchIpt {
@@ -5373,19 +5346,19 @@ div.m-QRCodeDialog .tip {
 }
 
 div.u-colorpick .zbx {
-    background: url(//yc.stu.126.net/res/images/ui/nej_color_btn.png?3f7dbf3bac584b5bddcfef164c01216d) no-repeat -50px -50px;
+    background: url(nej_color_btn.png) no-repeat -50px -50px;
 }
 
 div.u-colorpick .zbg {
-    background: url(//yc.stu.126.net/res/images/ui/nej_color_btn.png?3f7dbf3bac584b5bddcfef164c01216d) no-repeat -50px -50px;
+    background: url(nej_color_btn.png) no-repeat -50px -50px;
 }
 
 div.u-colorpick .zpnl .zshw {
-    background: url(//yc.stu.126.net/res/images/ui/nej_color.png?67bad35dd34aa030a6aed0caac7e91fd) no-repeat;
+    background: url(nej_color.png) no-repeat;
 }
 
 div.u-colorpick .zhlt .zshw {
-    background: url(//yc.stu.126.net/res/images/ui/nej_color_mask.png?c440e28206ea73f439e1545331f9b461) repeat-x;
+    background: url(nej_editor.png) repeat-x;
 }
 
 div.u-colorpick .zinf .zbtn {
@@ -5416,21 +5389,6 @@ div.u-colorpick > div {
     width: 960px;
 }
 
-.u-topxcbg .bg {
-    top: 0;
-    left: -275px;
-    width: 1510px;
-    height: 200px;
-    background: url(//yc.stu.126.net/res/images/common/topbg.png?02fa0085603318b58ffab4a4fdf0366c) center center;
-}
-
-.u-topxcbg .tit {
-    top: 50px;
-    left: 0;
-    width: 461px;
-    height: 34px;
-    background: url(//yc.stu.126.net/res/images/common/topbg_txt.png?debbcfa08e71b709ee6265236093e05c);
-}
 
 .u-topxcbg .sm {
     left: 0;
@@ -5527,7 +5485,7 @@ table.u-table .warn td {
     text-align: center;
     font-size: 14px;
     color: #fff;
-    background: #2cc17b;
+    background: #e84807;
     display: none;
 }
 
@@ -5543,7 +5501,7 @@ table.u-table .warn td {
 .m-weChartBind .downIcon {
     text-align: center;
     color: #fff;
-    background: #2cc17b;
+    background: #e84807;
     height: 12px;
     width: 12px;
     border-radius: 12px;
@@ -5604,7 +5562,7 @@ table.u-table .warn td {
     float: left;
     width: 57px;
     height: 57px;
-    background: url(//yc.stu.126.net/res/images/ui/ui_sprite.png?1cd44298c3232576dc96811ed0f0119e) no-repeat 4449px 4449px;
+    background: url(ui_sprite.png) no-repeat 4449px 4449px;
     margin-right: 20px;
     padding: 0;
 }
@@ -5663,7 +5621,7 @@ table.u-table .warn td {
 }
 
 .m-scdialog .icon {
-    background: url(//yc.stu.126.net/res/images/ui/ui_sprite.png?1cd44298c3232576dc96811ed0f0119e) -62px -156px no-repeat;
+    background: url(ui_sprite.png) -62px -156px no-repeat;
     height: 20px;
     width: 20px;
 }
@@ -5717,7 +5675,7 @@ div.m-basewin .zcls {
     display: block;
     width: 32px;
     height: 32px;
-    background: url(//yc.stu.126.net/res/images/ui/ui_sprite.png?1cd44298c3232576dc96811ed0f0119e) no-repeat -170px -92px;
+    background: url(ui_sprite.png) no-repeat -170px -92px;
 }
 
 div.m-basewin .zcls:hover {
@@ -5815,7 +5773,7 @@ div.u-logwin .zttl {
 .m-tel-login .inputbox .u-logo div {
     width: 22px;
     height: 24px;
-    background: url(//nos.netease.com/edu-image/7A13709D12D506BA8CC110D88FFA1E68.png) -9999px -9999px no-repeat;
+    background: url(icon1.png) -9999px -9999px no-repeat;
 }
 
 .m-tel-login .inputbox .u-logo .u-logo-tel {
@@ -5876,7 +5834,7 @@ div.u-logwin .zttl {
 }
 
 .m-tel-login .m-error-box .ferrortail {
-    background: url(//webzj.reg.163.com/webapp/res/images/sprite.png?d76abd2c967e810a0760c4d7dd157357) -9999px -9999px no-repeat;
+    background: url(sprite.png) -9999px -9999px no-repeat;
     height: 15px;
     width: 18px;
     background-position: -217px -34px;
@@ -5901,18 +5859,18 @@ div.u-logwin .zttl {
     background: #ddd;
     font-size: 18px;
     line-height: 44px;
-    background: #74B96E;
+    background: #e84807;
     margin-top: 16px;
     margin-bottom: 12px;
 }
 
 .m-tel-login .u-loginbtn.ready {
     cursor: pointer;
-    background-color: #39a030;
+    background-color: #E84A10;
 }
 
 .m-tel-login .u-loginbtn.ready:hover {
-    background-color: #4BA743;
+    background-color: #E84A10;
 }
 
 .m-tel-login .m-unlogin {
@@ -5940,7 +5898,7 @@ div.u-logwin .zttl {
     border: solid 1px #aaa;
     color: #999;
     font-size: 12px;
-    background: url(//webzj.reg.163.com/webapp/res/images/sprite.png?d76abd2c967e810a0760c4d7dd157357) -9999px -9999px no-repeat;
+    background: url(sprite.png) -9999px -9999px no-repeat;
 }
 
 .m-tel-login .m-unlogin .b-unlogin .u-checkbox input.un-login {
@@ -5987,7 +5945,7 @@ div.u-logwin .zttl {
     cursor: pointer;
     font-size: 12px;
     float: right;
-    color: #39a030;
+    color: #e84807;
     line-height: 16px;
 }
 
@@ -6029,9 +5987,8 @@ div.u-logwin .zttl {
     display: block;
     content: " ";
     height: 2px;
-    text-align: -9999px;
     width: 170px;
-    background: #2aa126;
+    background: #e84807;
     z-index: 2;
     bottom: -2px;
     left: 0;
@@ -6073,20 +6030,12 @@ div.u-logwin .zttl {
     padding: 0;
 }
 
-.m-loginbox .side .socialBox a {
-    display: block;
-    margin: 15px 0;
-    width: 90px;
-    height: 25px;
-    background: url(//yc.stu.126.net/res/images/sns/snsSprite.png?71fce9d4f9d5f4e2b5b897821ce302af) no-repeat 4449px 4449px;
-}
-
 .m-loginbox .side .socialBox .itm0 {
-    background: url(//nos.netease.com/test-edu-image/17AFF62D66F1779376D75F7E4F225EC3.png) no-repeat;
+    background: url(wechat.png) no-repeat;
 }
 
 .m-loginbox .side .socialBox .itm0:hover {
-    background: url(//nos.netease.com/test-edu-image/856ACB7ED2A43FF569364630548B4053.png) no-repeat;
+    background: url(wechat.png) no-repeat;
 }
 
 .m-loginbox .side .socialBox .itm1 {
@@ -6189,7 +6138,7 @@ div.u-logwin .zttl {
 }
 
 .m-loginbox .reg a em {
-    color: #21a557;
+    color: #e84807;
 }
 
 .m-loginbox .u-tt3 {
@@ -6241,7 +6190,7 @@ div.u-logwin .zttl {
 .m-retrievePwd-box .boxwrap .m-telcheck-container .inputbox .u-logo div, .m-retrievePwd-box .boxwrap .m-pwdinput-container .inputbox .u-logo div {
     width: 22px;
     height: 24px;
-    background: url(//nos.netease.com/edu-image/2F3FB7E553400651D645FBAA0B301C55.png) -9999px -9999px no-repeat;
+    background: url(icon2.png) -9999px -9999px no-repeat;
 }
 
 .m-retrievePwd-box .boxwrap .m-telcheck-container .inputbox .u-logo .u-logo-tel, .m-retrievePwd-box .boxwrap .m-pwdinput-container .inputbox .u-logo .u-logo-tel {
@@ -6315,7 +6264,7 @@ div.u-logwin .zttl {
 
 .m-retrievePwd-box .boxwrap .m-telcheck-container .code-input-box .u-codebtn, .m-retrievePwd-box .boxwrap .m-pwdinput-container .code-input-box .u-codebtn {
     background: #ffffff;
-    border: 1px solid #2aa126;
+    border: 1px solid #e84807;
     width: 148px;
     height: 44px;
     text-align: center;
@@ -6338,7 +6287,7 @@ div.u-logwin .zttl {
 }
 
 .m-retrievePwd-box .boxwrap .m-telcheck-container .m-error-box .ferrortail, .m-retrievePwd-box .boxwrap .m-pwdinput-container .m-error-box .ferrortail {
-    background: url(//webzj.reg.163.com/webapp/res/images/sprite.png?d76abd2c967e810a0760c4d7dd157357) -9999px -9999px no-repeat;
+    background: url(sprite.png) -9999px -9999px no-repeat;
     height: 15px;
     width: 18px;
     background-position: -217px -34px;
@@ -6356,7 +6305,7 @@ div.u-logwin .zttl {
 }
 
 .m-retrievePwd-box .boxwrap .m-telcheck-container .u-nextbtn, .m-retrievePwd-box .boxwrap .m-pwdinput-container .u-nextbtn {
-    background: #71bb6b;
+    background: #E84840;
     height: 46px;
     line-height: 46px;
     font-size: 20px;
@@ -6367,11 +6316,11 @@ div.u-logwin .zttl {
 
 .m-retrievePwd-box .boxwrap .m-telcheck-container .u-nextbtn.ready, .m-retrievePwd-box .boxwrap .m-pwdinput-container .u-nextbtn.ready {
     cursor: pointer;
-    background-color: #39a030;
+    background-color: #e84807;
 }
 
 .m-retrievePwd-box .boxwrap .m-telcheck-container .u-nextbtn.ready:hover, .m-retrievePwd-box .boxwrap .m-pwdinput-container .u-nextbtn.ready:hover {
-    background-color: #4BA743;
+    background-color: #e84807;
 }
 
 .m-retrievePwd-box .boxwrap .m-bottom-back {
@@ -6440,7 +6389,7 @@ div.u-logwin .zttl {
 
 .m-tel-image-validate-code_refreshbox {
     font-size: 12px;
-    color: #2AA126;
+    color: #e84807;
     line-height: 34px;
     cursor: pointer;
 }
@@ -6448,7 +6397,7 @@ div.u-logwin .zttl {
 .m-tel-image-validate-code_btnBox {
     width: 68px;
     height: 34px;
-    background: #2FA030;
+    background: #e84807;
     line-height: 34px;
     text-align: center;
     color: #fff;
@@ -6464,7 +6413,7 @@ div.u-logwin .zttl {
 }
 
 .m-tel-image-validate-code_errBox .erricon {
-    background: url(http://edu-image.nosdn.127.net/13AA6585F2CA4C8E5F2463EE8292A12D.png?imageView&quality=100) no-repeat;
+    background: url(icon4.png?imageView&quality=100) no-repeat;
     height: 14px;
     width: 14px;
     vertical-align: middle;
@@ -6553,7 +6502,7 @@ div.u-logwin .zttl {
 
 .m-tel-reg .inputbox .u-logo .u-logo-tel {
     margin-top: 13px;
-    background: url(//nos.netease.com/edu-image/2FA9F80612F4A8C77853F8333628E07F.png) no-repeat 2px -26px;
+    background: url(icon3.png) no-repeat 2px -26px;
     display: inline-block;
     height: 20px;
     width: 20px;
@@ -6561,7 +6510,7 @@ div.u-logwin .zttl {
 
 .m-tel-reg .inputbox .u-logo .u-logo-code {
     margin-top: 13px;
-    background: url(//nos.netease.com/edu-image/2FA9F80612F4A8C77853F8333628E07F.png) no-repeat 0 -78px;
+    background: url(icon3.png) no-repeat 0 -78px;
     display: inline-block;
     height: 20px;
     width: 20px;
@@ -6569,7 +6518,7 @@ div.u-logwin .zttl {
 
 .m-tel-reg .inputbox .u-logo .u-logo-pwd {
     margin-top: 13px;
-    background: url(//nos.netease.com/edu-image/2FA9F80612F4A8C77853F8333628E07F.png) no-repeat 0 -52px;
+    background: url(icon3.png) no-repeat 0 -52px;
     display: inline-block;
     height: 20px;
     width: 20px;
@@ -6618,8 +6567,8 @@ div.u-logwin .zttl {
 
 .m-tel-reg .u-codebtn.ready {
     cursor: pointer;
-    border: 1px solid #39a030;
-    color: #39a030;
+    border: 1px solid #e84807;
+    color: #e84807;
 }
 
 .m-tel-reg .u-counting {
@@ -6634,7 +6583,7 @@ div.u-logwin .zttl {
     font-size: 16px;
     height: 44px;
     line-height: 44px;
-    background: #71bb6b;
+    background: #e84807;
     margin-top: 20px;
     cursor: pointer;
     text-align: center;
@@ -6643,7 +6592,7 @@ div.u-logwin .zttl {
 }
 
 .m-tel-reg .u-loginbtn.ready {
-    background: #39a030;
+    background: #e84807;
 }
 
 .m-tel-reg .m-bottom-back {
@@ -6827,7 +6776,7 @@ div.u-logwin .zttl {
     overflow: hidden;
     display: block;
     cursor: pointer;
-    background: url(//s.stu.126.net/res/images/login.png) no-repeat;
+    background: url(login.png) no-repeat;
     background-position: 2px 0;
 }
 
@@ -6940,7 +6889,6 @@ div.u-logwin .zttl {
     border-radius: 0;
     background-color: #f0f0f0;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#f6f6f6), to(#f0f0f0));
     background-image: -moz-linear-gradient(#f6f6f6, #f0f0f0);
     background-image: -ms-linear-gradient(#f6f6f6, #f0f0f0);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f6f6f6), color-stop(100%, #f0f0f0));
@@ -6959,7 +6907,6 @@ div.u-logwin .zttl {
 .u-btn:hover, div.u-colorpick .zinf .zbtn:hover, .u-btn.hvr, div.u-colorpick .zinf .hvr.zbtn {
     background-color: #f7f7f7;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#f9f9f9), to(#f7f7f7));
     background-image: -moz-linear-gradient(#f9f9f9, #f7f7f7);
     background-image: -ms-linear-gradient(#f9f9f9, #f7f7f7);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f9f9f9), color-stop(100%, #f7f7f7));
@@ -6971,7 +6918,7 @@ div.u-logwin .zttl {
 }
 
 .u-btn-sm {
-    padding: 5px 6px;
+    padding: 5px 0px;
     font-size: 12px;
     line-height: 14px;
     min-width: 50px;
@@ -6987,7 +6934,6 @@ div.u-logwin .zttl {
 .u-btn-primary {
     background-color: #69B1F8;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#6FB7FF), to(#69B1F8));
     background-image: -moz-linear-gradient(#6FB7FF, #69B1F8);
     background-image: -ms-linear-gradient(#6FB7FF, #69B1F8);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6FB7FF), color-stop(100%, #69B1F8));
@@ -7003,8 +6949,6 @@ div.u-logwin .zttl {
 .u-btn-primary:hover, .u-btn-primary.hvr {
     background-color: #7AC1F9;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#7EC5FF), to(#7AC1F9));
-    background-image: -moz-linear-gradient(#7EC5FF, #7AC1F9);
     background-image: -ms-linear-gradient(#7EC5FF, #7AC1F9);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7EC5FF), color-stop(100%, #7AC1F9));
     background-image: -webkit-linear-gradient(#7EC5FF, #7AC1F9);
@@ -7015,35 +6959,33 @@ div.u-logwin .zttl {
 }
 
 .u-btn-default {
-    background-color: #13932d;
+    background-color: #E84807;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#30b656), to(#13932d));
-    background-image: -moz-linear-gradient(#30b656, #13932d);
-    background-image: -ms-linear-gradient(#30b656, #13932d);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #30b656), color-stop(100%, #13932d));
-    background-image: -webkit-linear-gradient(#30b656, #13932d);
-    background-image: -o-linear-gradient(#30b656, #13932d);
-    background-image: linear-gradient(#30b656, #13932d);
+    background-image: -moz-linear-gradient(#E84840, #E84807);
+    background-image: -ms-linear-gradient(#E84840, #E84807);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #E84840), color-stop(100%, #E84807));
+    background-image: -webkit-linear-gradient(#E84840, #E84807);
+    background-image: -o-linear-gradient(#E84840, #E84807);
+    background-image: linear-gradient(#E84840, #E84807);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff$startColor', endColorstr='#ff$endColor', GradientType=0);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-    -webkit-box-shadow: 2px 2px 0px rgba(19, 147, 45, 0.3);
-    -moz-box-shadow: 2px 2px 0px rgba(19, 147, 45, 0.3);
-    box-shadow: 2px 2px 0px rgba(19, 147, 45, 0.3);
-    border-bottom-color: #14912f;
-    border-right-color: #14912f;
+    -webkit-box-shadow: 2px 2px 0px rgba(232, 30, 6, 0.3);
+    -moz-box-shadow: 2px 2px 0px rgba(232, 30, 6, 0.3);
+    box-shadow: 2px 2px 0px rgba(232, 30, 6, 0.3);
+    border-bottom-color: #E84800;
+    border-right-color: #E84800;
     color: #fff;
 }
 
 .u-btn-default:hover, .u-btn-default.hvr {
-    background-color: #16a834;
+    background-color: #E84807;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#33c45c), to(#16a834));
-    background-image: -moz-linear-gradient(#33c45c, #16a834);
-    background-image: -ms-linear-gradient(#33c45c, #16a834);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #33c45c), color-stop(100%, #16a834));
-    background-image: -webkit-linear-gradient(#33c45c, #16a834);
-    background-image: -o-linear-gradient(#33c45c, #16a834);
-    background-image: linear-gradient(#33c45c, #16a834);
+    background-image: -moz-linear-gradient(#E84840, #E84807);
+    background-image: -ms-linear-gradient(#E84840, #E84807);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #E84840), color-stop(100%, #E84807));
+    background-image: -webkit-linear-gradient(#E84840, #E84807);
+    background-image: -o-linear-gradient(#E84840, #E84807);
+    background-image: linear-gradient(#E84840, #E84807);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff$startColor', endColorstr='#ff$endColor', GradientType=0);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
@@ -7051,7 +6993,6 @@ div.u-logwin .zttl {
 .u-btn-whiteGreen {
     background-color: #FFF;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#FFF), to(#FFF));
     background-image: -moz-linear-gradient(#FFF, #FFF);
     background-image: -ms-linear-gradient(#FFF, #FFF);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FFF), color-stop(100%, #FFF));
@@ -7060,20 +7001,19 @@ div.u-logwin .zttl {
     background-image: linear-gradient(#FFF, #FFF);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff$startColor', endColorstr='#ff$endColor', GradientType=0);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-    border-color: #83b600;
-    color: #61A500;
+    border-color: #E84800;
+    color: #e84807;
 }
 
 .u-btn-whiteGreen:hover, .u-btn-whiteGreen.hvr {
-    background-color: #83b600;
+    background-color: #E84800;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#83b600), to(#83b600));
-    background-image: -moz-linear-gradient(#83b600, #83b600);
-    background-image: -ms-linear-gradient(#83b600, #83b600);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #83b600), color-stop(100%, #83b600));
-    background-image: -webkit-linear-gradient(#83b600, #83b600);
-    background-image: -o-linear-gradient(#83b600, #83b600);
-    background-image: linear-gradient(#83b600, #83b600);
+    background-image: -moz-linear-gradient(#E84800, #E84800);
+    background-image: -ms-linear-gradient(#E84800, #E84800);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #E84800), color-stop(100%, #E84800));
+    background-image: -webkit-linear-gradient(#E84800, #E84800);
+    background-image: -o-linear-gradient(#E84800, #E84800);
+    background-image: linear-gradient(#E84800, #E84800);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff$startColor', endColorstr='#ff$endColor', GradientType=0);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
     border-color: #FFF;
@@ -7083,7 +7023,6 @@ div.u-logwin .zttl {
 .u-btn-disabled {
     background-color: #eee;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#eee), to(#eee));
     background-image: -moz-linear-gradient(#eee, #eee);
     background-image: -ms-linear-gradient(#eee, #eee);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eee), color-stop(100%, #eee));
@@ -7103,7 +7042,6 @@ div.u-logwin .zttl {
 .u-btn-disabled:hover, .u-btn-disabled.hvr {
     background-color: #eee;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#eee), to(#eee));
     background-image: -moz-linear-gradient(#eee, #eee);
     background-image: -ms-linear-gradient(#eee, #eee);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eee), color-stop(100%, #eee));
@@ -7137,7 +7075,6 @@ div.u-logwin .zttl {
 .u-btn-orange:hover, .u-btn-orange.hvr {
     background-color: #ff8a00;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#ffad00), to(#ff8a00));
     background-image: -moz-linear-gradient(#ffad00, #ff8a00);
     background-image: -ms-linear-gradient(#ffad00, #ff8a00);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffad00), color-stop(100%, #ff8a00));
@@ -7149,32 +7086,30 @@ div.u-logwin .zttl {
 }
 
 .u-btn-green {
-    background-color: #1aa43a;
+    background-color: #E84807;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#1aa43a), to(#1aa43a));
-    background-image: -moz-linear-gradient(#1aa43a, #1aa43a);
-    background-image: -ms-linear-gradient(#1aa43a, #1aa43a);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1aa43a), color-stop(100%, #1aa43a));
-    background-image: -webkit-linear-gradient(#1aa43a, #1aa43a);
-    background-image: -o-linear-gradient(#1aa43a, #1aa43a);
-    background-image: linear-gradient(#1aa43a, #1aa43a);
+    background-image: -moz-linear-gradient(#E84807, #E84807);
+    background-image: -ms-linear-gradient(#E84807, #E84807);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #E84807), color-stop(100%, #E84807));
+    background-image: -webkit-linear-gradient(#E84807, #E84807);
+    background-image: -o-linear-gradient(#E84807, #E84807);
+    background-image: linear-gradient(#E84807, #E84807);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff$startColor', endColorstr='#ff$endColor', GradientType=0);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-    border-color: #1aa43a;
+    border-color: #E84807;
     color: #fff;
-    border-bottom: 1px solid #1aa43a;
+    border-bottom: 1px solid #E84807;
 }
 
 .u-btn-green:hover, .u-btn-green.hvr {
-    background-color: #1cb540;
+    background-color: #E84807;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#1cb540), to(#1cb540));
-    background-image: -moz-linear-gradient(#1cb540, #1cb540);
-    background-image: -ms-linear-gradient(#1cb540, #1cb540);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1cb540), color-stop(100%, #1cb540));
-    background-image: -webkit-linear-gradient(#1cb540, #1cb540);
-    background-image: -o-linear-gradient(#1cb540, #1cb540);
-    background-image: linear-gradient(#1cb540, #1cb540);
+    background-image: -moz-linear-gradient(#E84807, #E84807);
+    background-image: -ms-linear-gradient(#E84807, #E84807);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #E84807), color-stop(100%, #E84807));
+    background-image: -webkit-linear-gradient(#E84807, #E84807);
+    background-image: -o-linear-gradient(#E84807, #E84807);
+    background-image: linear-gradient(#E84807, #E84807);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff$startColor', endColorstr='#ff$endColor', GradientType=0);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
@@ -7186,7 +7121,6 @@ div.u-logwin .zttl {
     border-radius: 0;
     background-color: #E8E8E8;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#fff), to(#E8E8E8));
     background-image: -moz-linear-gradient(#fff, #E8E8E8);
     background-image: -ms-linear-gradient(#fff, #E8E8E8);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #E8E8E8));
@@ -7198,7 +7132,7 @@ div.u-logwin .zttl {
 }
 
 .u-btn-group .u-btn:hover, .u-btn-group div.u-colorpick .zinf .zbtn:hover, div.u-colorpick .zinf .u-btn-group .zbtn:hover {
-    color: #61A500;
+    color: #e84807;
 }
 
 .u-btn-group .u-btn-disabled {
@@ -7211,8 +7145,8 @@ div.u-logwin .zttl {
 }
 
 .u-btn-group .u-btn-active {
-    background: #4EA45B;
-    border-color: #3C8440;
+    background: #E84A10;
+    border-color:#e84807;
     color: #fff;
     cursor: default;
     -webkit-box-shadow: inset 1px 1px 6px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
@@ -7312,7 +7246,7 @@ div.u-logwin .zttl {
 }
 
 .u-sugInput .ar a {
-    color: green;
+    color: #E84A00;
     padding-left: 4px;
 }
 
@@ -7367,10 +7301,10 @@ div.u-logwin .zttl {
 }
 
 .u-progress .proArea .progress {
-    background: url(//yc.stu.126.net/res/images/collegeAdmin/upload_bar_bg.png?3563639ff2e3986b9fd7e075f3dfcb6d) center top repeat-x;
+    background: url(upload_bar_bg.png) center top repeat-x;
     background-repeat: repeat-x;
     border: 1px solid;
-    border-color: #e0ebd6 transparent #bfd9a5 #7eb746;
+    border-color: #e0ebd6 transparent #bfd9a5 #e84807;
     height: 7px;
     width: 0;
     top: -1px;
@@ -7449,7 +7383,7 @@ div.m-fileNameDialog {
 }
 
 .u-richeditor .zbg {
-    background: url(//yc.stu.126.net/res/images/eduEditor/themes/eduEditor/images/richEditer.png?a44bce86ad0a18bb1f2dc8a229c37bb0) no-repeat 4999px 4999px;
+    background: url(richEditer.png) no-repeat 4999px 4999px;
 }
 
 .u-richeditor .zarea {
@@ -7960,7 +7894,7 @@ div.m-fileNameDialog {
     width: auto !important;
     color: blue !important;
     background: #FFF !important;
-    border: 1px solid #6ce26c !important;
+    border: 1px solid #E84840 !important;
     padding: 0.1em 0.8em 0 !important;
 }
 
@@ -7983,7 +7917,7 @@ div.m-fileNameDialog {
     font-size: 10px !important;
     z-index: 10 !important;
     color: #FFF !important;
-    background: #6ce26c !important;
+    background: #E84800 !important;
     border: none !important;
 }
 
@@ -8031,7 +7965,7 @@ div.m-fileNameDialog {
 }
 
 .syntaxhighlighter .gutter .line.highlighted {
-    background-color: #6ce26c !important;
+    background-color: #E84800 !important;
     color: #FFF !important;
 }
 
@@ -8062,7 +7996,7 @@ div.m-fileNameDialog {
 }
 
 .syntaxhighlighter.printing .comments, .syntaxhighlighter.printing .comments a, .syntaxhighlighter .comments, .syntaxhighlighter .comments a {
-    color: #008200 !important;
+    color: #e84807 !important;
 }
 
 .syntaxhighlighter.printing .string, .syntaxhighlighter.printing .string a, .syntaxhighlighter.collapsed .toolbar a, .syntaxhighlighter .string, .syntaxhighlighter .string a {
@@ -8083,7 +8017,7 @@ div.m-fileNameDialog {
 }
 
 .syntaxhighlighter.printing .value, .syntaxhighlighter .value {
-    color: #090 !important;
+    color: #E84A10 !important;
 }
 
 .syntaxhighlighter.printing .functions, .syntaxhighlighter.printing .color2, .syntaxhighlighter.printing .color2 a, .syntaxhighlighter .functions, .syntaxhighlighter .color2, .syntaxhighlighter .color2 a {
@@ -8119,12 +8053,12 @@ div.m-fileNameDialog {
 
 .u-richeditor-math .m-mathedit .chinatip {
     font-size: 12px;
-    color: #2aa157;
+    color: #e84807;
 }
 
 .u-richeditor-math .m-mathedit .savetip {
     font-size: 14px;
-    color: #2aa157;
+    color: #e84807;
 }
 
 .u-richeditor-math .m-mathedit .imgsrea {
@@ -8175,7 +8109,7 @@ div.m-fileNameDialog {
 .u-richeditor-math .m-mathedit .latexMsg {
     height: 30px;
     lien-height: 30px;
-    color: green;
+    color: #e84807;
 }
 
 .u-richeditor-math .m-mathedit .tipinfo {
@@ -8222,7 +8156,7 @@ div.m-fileNameDialog {
 
 .u-richeditor-math .m-mathedit .selected {
     background-color: #d9d9d9;
-    color: #2aa157;
+    color: #e84807;
 }
 
 .u-richeditor-math .m-mathedit .eqitem-2 {
@@ -8475,7 +8409,7 @@ div.m-fileNameDialog {
 
 .player .control .progressBar .timeBar {
     top: 0;
-    background-color: #8ec800;
+    background-color: #e84807;
     width: 0;
     height: 100%;
 }
@@ -8591,7 +8525,7 @@ div.m-fileNameDialog {
     height: 80px;
     width: 100%;
     bottom: 10px;
-    background: #8ec800;
+    background: #e84807;
     border-radius: 0 0 4px 4px;
     opacity: 1;
     filter: alpha(opacity=100);
@@ -8601,13 +8535,13 @@ div.m-fileNameDialog {
 .player .control .con .volume .volumeSlide .icon {
     width: 100%;
     height: 5px;
-    background-color: #b6e83c;
+    background-color: #e84807;
     top: 10px;
     z-index: 1000;
 }
 
 .player .control .con .volume .volumeSlide .icon:hover {
-    background-color: #c7f84e;
+    background-color: #e84807;
 }
 
 .player .control .con .volume .icon {
@@ -8689,7 +8623,7 @@ div.m-fileNameDialog {
 }
 
 .player .control .con .rate ul li:hover, .player .control .con .quality ul li:hover, .player .control .con .subtitle ul li:hover {
-    color: #8ec800;
+    color: #e84807;
 }
 
 .player .control .con .rate {
@@ -8763,7 +8697,7 @@ div.m-fileNameDialog {
 }
 
 .player .control .con .subtitle ul li.selected span {
-    color: #84b803;
+    color: #e84807;
 }
 
 .player .control .con .subtitle.unfold ul {
@@ -8966,7 +8900,7 @@ div.m-fileNameDialog {
     width: 100%;
     height: 100%;
     cursor: pointer;
-    background: transparent 0 0 repeat url(//yc.stu.126.net/res/images/html5Video/transparent.png?0bd236f89117deef4b58186fba6720a6);
+    background: transparent 0 0 repeat url(transparent.png);
 }
 
 .player .display .replay, .player .display .loading {
@@ -8995,7 +8929,7 @@ div.m-fileNameDialog {
 }
 
 .player .display .replay .image, .player .display .loading .image {
-    background: url(//yc.stu.126.net/res/images/html5Video/loading.png?0c7e51815236682f144cee8b44704713) center no-repeat;
+    background: url(loading.png) center no-repeat;
     -webkit-animation: loadingrotate 1.5s infinite linear;
     -ms-animation: loadingrotate 1.5s infinite linear;
     -moz-animation: loadingrotate 1.5s infinite linear;
@@ -9162,7 +9096,7 @@ div.m-fileNameDialog {
 
 .u-tp-ttop .backbtn {
     line-height: 38px;
-    color: #65a200;
+    color: #e84807;
     font-size: 14px;
 }
 
@@ -9345,7 +9279,7 @@ a.help:hover {
 
 .u-gx-ttop .backbtn {
     line-height: 38px;
-    color: #65a200;
+    color: #e84807;
     font-size: 14px;
 }
 
@@ -9373,7 +9307,7 @@ a.help:hover {
 
 .u-gx-bottom .backbtn {
     line-height: 38px;
-    color: #65a200;
+    color: #e84807;
     font-size: 14px;
 }
 
@@ -9566,7 +9500,7 @@ table.tlist .editbtn, table.tlist .delbtn, table.tlist .lookbtn {
 }
 
 table.tlist .fzr {
-    color: #90c600;
+    color: #e84807;
     width: 100px;
     line-height: 19px;
     margin: 18px 0 0 0;
