@@ -1,10 +1,10 @@
 @charset "UTF-8";
 .learnsprite, .m-learnbox .empty span, .u-tbi + .u-tbl:before, .u-learnLesson .icon, .m-homework .statusHead .jd .jdtab .status, .m-homework .u-homework-evaluatelist .u-evaProg .point, .m-homework .u-homework-evaluatelist .u-evaProg .point .u-tip .icn, .u-forumnotice .notice .item .icon, .u-forumlistwrap .ttitle a.morelink, .u-panelitem .icon, .u-moocbl span, .u-learnProgress-tab .ic, .u-learnProgress-tab.u-curtab .ic {
-    background: url(//yc.stu.126.net/res/images/pages/learn/learn_sprite.png?2eb4d16bc85001a39dbe63be1afcdd19) no-repeat 4449px 4449px;
+    background: url(learn_sprite.png) no-repeat 4449px 4449px;
 }
 
 .uisprite, .m-learnleft .top .spocicon {
-    background: url(//yc.stu.126.net/res/images/ui/ui_sprite.png?1cd44298c3232576dc96811ed0f0119e) no-repeat 4449px 4449px;
+    background: url(ui_sprite.png) no-repeat 4449px 4449px;
 }
 
 .u-learn-modulewidth {
@@ -1110,7 +1110,7 @@
 }
 
 .m-learnunitUI .ux-video-player-notSupportFlash_txt a {
-    color: #10ae58;
+    color: #E84807;
 }
 
 .m-learnunitUI .unitctBox {
@@ -1156,7 +1156,7 @@
 .m-learnunitUI .unitctBar .download {
     position: relative;
     margin-right: 20px;
-    color: #10ae58;
+    color: #E84807;
 }
 
 .m-learnunitUI .unitctBar .download .downloadDiv {
@@ -3193,7 +3193,7 @@ table.tlist .centerPage {
 }
 
 .u-ojPanel .main .ls .i-item:hover h5 {
-    color: #10ae58;
+    color: #E84807;
 }
 
 .u-OJHistoryDialog {
@@ -3877,7 +3877,7 @@ body {
 div.m-fight-dialog {
     width: 600px;
     height: 490px;
-    background: url(//yc.stu.126.net/res/images/pages/learn/fight_success.png?8e8e24e488760976e54bc5de84109a92) top center no-repeat;
+    background: url(fight_success.png) top center no-repeat;
     background-color: #fff;
 }
 

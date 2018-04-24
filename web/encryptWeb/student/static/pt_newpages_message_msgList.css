@@ -86,7 +86,7 @@ a {
 }
 
 a:hover {
-    color: #10ae58;
+    color: #E84807;
 }
 
 html, body {
@@ -155,7 +155,7 @@ body {
 }
 
 .g-doc, .g-wrap, .g-flow, .g-superflow, .g-all {
-    width: 100%;
+    width: 960px;
     margin: 0 auto;
     text-align: left;
 }
@@ -560,7 +560,7 @@ body {
 }
 
 .u-more:hover span {
-    color: #10ae58;
+    color: #E84807;
 }
 
 .u-more:hover .icn {
@@ -1836,7 +1836,7 @@ div.u-inset-dialog div.zcnt .m-inset .skipBtn {
 }
 
 div.u-inset-dialog div.zcnt .m-inset .skipBtn:hover {
-    color: #10ae58;
+    color: #E84807;
 }
 
 div.u-inset-dialog div.zcnt .m-inset .skip {
@@ -3994,7 +3994,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .m-loginbox .itm-1 .u-forget {
-    color: #10ae58;
+    color: #E84807;
 }
 
 .m-loginbox .itm-1 .u-reg {
@@ -4002,7 +4002,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
     top: 10px;
     right: 14px;
     font-size: 12px;
-    color: #10ae58;
+    color: #E84807;
 }
 
 .m-loginbox .tiptlt {
@@ -4053,7 +4053,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .m-loginbox .tips a {
-    color: #10ae58;
+    color: #E84807;
     font-size: 12px;
 }
 
@@ -4078,7 +4078,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 
 .m-login .loginTip .anobtn {
     font-size: 12px;
-    color: #10ae58;
+    color: #E84807;
     margin-top: 25px;
 }
 
@@ -4336,7 +4336,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .m-nav-mindbindtips .cntwrap a {
-    color: #10ae58;
+    color: #E84807;
 }
 
 .m-nav-mindbindtips .cntwrap a:hover {
@@ -4381,8 +4381,8 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 
 .m-yktNav .m-logo {
     float: left;
-    height: 50px;
-    margin-top: 2px;
+    height: 35px;
+    margin-top: 11px;
     overflow: hidden;
     margin-right: 35px;
 }
@@ -4593,7 +4593,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .m-yktNav .userinfo .unlogin .noteventwrap a:hover {
-    color: #10ae58;
+    color: #E84807;
 }
 
 .m-yktNav .userinfo .unlogin .noteventwrap a.j-nav-loginBtn {
@@ -4668,7 +4668,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .m-yktNav .userinfo .login .username:hover {
-    color: #10ae58;
+    color: #E84807;
 }
 
 .m-yktNav .userinfo .login .mystudy {
@@ -4679,7 +4679,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .m-yktNav .userinfo .login .mystudy:hover {
-    color: #10ae58;
+    color: #E84807;
 }
 
 .m-yktNav .userinfo .login .mes, .m-yktNav .userinfo .login .cart {
@@ -4692,7 +4692,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .m-yktNav .userinfo .login .mes:hover, .m-yktNav .userinfo .login .cart:hover {
-    color: #10ae58;
+    color: #E84807;
 }
 
 .m-yktNav .userinfo .login .mes .num, .m-yktNav .userinfo .login .cart .num {
@@ -5863,7 +5863,7 @@ div.u-inset-dialog div.zcnt .m-inset .skipBtn {
 }
 
 div.u-inset-dialog div.zcnt .m-inset .skipBtn:hover {
-    color: #10ae58;
+    color: #E84807;
 }
 
 div.u-inset-dialog div.zcnt .m-inset .skip {
@@ -6286,7 +6286,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 
 .u-backbtn:hover, .u-backbtn2:hover {
     background-position: 0 -96px;
-    color: #10ae58;
+    color: #E84807;
 }
 
 .u-backbtn2 {
@@ -6298,7 +6298,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 
 .u-backbtn2:hover {
     background-position: 9px -96px;
-    color: #10ae58;
+    color: #E84807;
 }
 
 .u-ltshadowdown {
@@ -6336,7 +6336,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .u-editInfo-btn:hover {
-    color: #10ae58;
+    color: #E84807;
     text-decoration: underline;
 }
 
@@ -6479,7 +6479,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .u-empty a {
-    color: #10ae58;
+    color: #E84807;
 }
 
 .u-emptybig {
@@ -6498,7 +6498,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .u-emptybig .emptytext a {
-    color: #10ae58;
+    color: #E84807;
 }
 
 .u-emptybig .tiptext {
@@ -6510,7 +6510,7 @@ div.m-pkg-dialog .u-btn-orange:hover, div.m-pkg-dialog .u-btn-orange.hvr {
 }
 
 .u-emptybig .tiptext a {
-    color: #10ae58;
+    color: #E84807;
 }
 
 div.m-registerAct-dialog {
@@ -6696,7 +6696,7 @@ div.m-registerAct-dialog20141113 .zcls:hover {
 }
 
 .msg-cnt a {
-    color: #10ae58;
+    color: #E84807;
     font-weight: normal;
 }
 
@@ -6726,7 +6726,7 @@ div.m-registerAct-dialog20141113 .zcls:hover {
 }
 
 .msg-unread a {
-    color: #10ae58;
+    color: #E84807;
     font-weight: bold;
 }
 
@@ -7897,7 +7897,7 @@ div.m-registerAct-dialog20141113 .zcls:hover {
 }
 
 .m-loginbox .itm-1 .u-forget {
-    color: #10ae58;
+    color: #E84807;
 }
 
 .m-loginbox .itm-1 .u-reg {
@@ -7905,7 +7905,7 @@ div.m-registerAct-dialog20141113 .zcls:hover {
     top: 10px;
     right: 14px;
     font-size: 12px;
-    color: #10ae58;
+    color: #E84807;
 }
 
 .m-loginbox .tiptlt {
@@ -7956,7 +7956,7 @@ div.m-registerAct-dialog20141113 .zcls:hover {
 }
 
 .m-loginbox .tips a {
-    color: #10ae58;
+    color: #E84807;
     font-size: 12px;
 }
 
@@ -7981,7 +7981,7 @@ div.m-registerAct-dialog20141113 .zcls:hover {
 
 .m-login .loginTip .anobtn {
     font-size: 12px;
-    color: #10ae58;
+    color: #E84807;
     margin-top: 25px;
 }
 
@@ -8163,7 +8163,7 @@ div.m-registerAct-dialog20141113 .zcls:hover {
 
 .u-upd-img-icon .upbtn.hvr {
     background-position: -3px -472px;
-    color: #10ae58;
+    color: #E84807;
 }
 
 .u-upd-img-icon .flashbox {
@@ -9247,7 +9247,7 @@ div.m-registerAct-dialog20141113 .zcls:hover {
 }
 
 .m-toPayDialog .treaty a {
-    color: #10ae58;
+    color: #E84807;
     font-size: 12px;
 }
 
@@ -11171,7 +11171,7 @@ div.m-registerAct-dialog20141113 .zcls:hover {
 
 .ui-pager a.js-selected, .ui-pager a.js-selected:hover {
     font-weight: bolder;
-    color: #10ae58;
+    color: #E84807;
     background: none;
     cursor: default;
 }
