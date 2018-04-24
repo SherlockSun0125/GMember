@@ -1,17 +1,15 @@
-<!DOCTYPE html>
-<html xmlns="//www.w3.org/1999/xhtml" xml:lang="zh" lang="zh">
+<%@page contentType="text/html; charset=utf-8" %>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>公告</title>
     <!--样式-->
     <link rel="stylesheet" href="static/core_62c0700cc15bd051f36fa48b7a5c1a26.css">
-    <link rel="stylesheet" href="static/pt_newpages_course_learn_d01c5770104c02453f4cbb3bdf52d195.css">
+    <link rel="stylesheet" href="static/pt_newpages_course_learn.css">
 </head>
 
 
 <body>
 <div id="g-container">
-
     <!--头部-->
     <div class="f-pf g-headwrap" id="j-fixed-head">
         <div class="g-hd f-bg1 m-yktNav " id="j-topnav">
@@ -28,31 +26,31 @@
                             <div class="login f-cb">
                                 <div class="u-mystudy f-pr f-cb f-fr">
                                     <a class="mystudy nitem f-f0" data-index="用户退出" target="_blank"
-                                       href="exit.html" hidefocus="true">退出</a>
+                                       href="exit.jsp" hidefocus="true">退出</a>
                                 </div>
 
                                 <div class="name j-userinfo" id="auto-id-1523840858750">
                                     <div class="f-pr">
                                         <div class="face">
                                             <img class="j-nav-myimg"
-                                                 src="static/68CEAD4577B0AA238B267D0D5FB0AA2B.jpg"
+                                                 src="static/head1.jpg"
                                                  width="30px" height="30px" alt="头像">
                                         </div>
                                     </div>
                                 </div>
                                 <a class="username self f-thide" target="_self" data-index="点击用户名"
-                                   href="setting.html">
+                                   href="setting.jsp">
                                     <span class=" f-fs1 f-f0">PaulSuen</span>
                                 </a>
-                                <i class="line"></i>
+                                <i class="line" style="padding-top: 2%"></i>
                                 <a data-index="消息" class="mes f-pr f-cb j-nav-mescenter"
-                                   href="messageT.html" title="查看更多消息" target="_blank">
+                                   href="messageT.jsp" title="查看更多消息" target="_blank">
                                     <span>消息</span>
                                     <em class="num hidddenClass j-nav-msgnum">0</em>
                                 </a>
                                 <div class="u-mystudy f-pr f-cb f-fr">
                                     <a class="mystudy nitem f-f0" id="j-nav-my-class" data-index="我的学习" target="_self"
-                                       href="stuHome.html" hidefocus="true">我的学习</a>
+                                       href="stuHome.jsp" hidefocus="true">我的学习</a>
                                 </div>
                             </div>
                         </div>
@@ -72,7 +70,7 @@
             <div class="g-sd1">
                 <div class="m-learnleft">
                     <div id="j-courseTabList">
-                        <a class="u-learnProgress-tab j-tabitem f-f0 f-fc3 f-cb">
+                        <a class="u-learnProgress-tab j-tabitem f-f0 f-fc3 f-cb" href="myTopic.jsp">
                             <div class="ic f-fl"></div>
                             <span class="f-fl">我的帖子</span>
                         </a>
@@ -83,7 +81,7 @@
 
                             <li class="u-greentab j-tabitem f-f0 last" data-name="讨论区" data-type="7"
                                 data-id="2001487096" >
-                                <a class="f-thide f-fc3" href="forum1.html">讨论区</a>
+                                <a class="f-thide f-fc3" href="forum1.jsp">讨论区</a>
                             </li>
                         </ul>
                     </div>

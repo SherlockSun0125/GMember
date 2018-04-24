@@ -1,26 +1,24 @@
-<!DOCTYPE html>
-<html xmlns="//www.w3.org/1999/xhtml" xml:lang="zh" lang="zh">
+<%@page contentType="text/html; charset=utf-8" %>
+<html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>账号设置</title>
     <!--样式-->
     <link rel="stylesheet" href="static/core_465566505fc16e2adc7188a490b841e4.css">
     <style type="text/css">
-        @charset "UTF-8";
         .buttonsprite, .u-sugInput .add, .u-sugInput .add span, .m-infoEdit .editBox .accMail .add .btn, .m-infoEdit .editBox .accMail .add .btn span, .m-infoEdit .editBox .accMail .verify .btn1, .m-infoEdit .editBox .accMail .verify .btn1 span, .m-infoEdit .editBox .accMail .verify .btn2, .m-infoEdit .editBox .accMail .verify .btn2 span, .m-infoEdit .editBox .addEdu, .m-infoEdit .editBox .addEdu span, .m-infoEdit .footer .btn, .m-infoEdit .footer .btn span, .m-AccBox .m-accBaseInfo .urlEditBox .btn, .m-AccBox .m-accBaseInfo .urlEditBox .btn span, .epayAccount .add .btn, .epayAccount .add .btn span, .epayAccount .verify .btn1, .epayAccount .verify .btn1 span, .epayAccount .verify .btn2, .epayAccount .verify .btn2 span, .m-AccBox .u-bindItem .opr .btn, .m-AccBox .u-bindItem .opr .btn span, .m-epayBind .actEpayBtn, .m-epayBind .actEpayBtn span, .m-setBox .btn, .m-setBox .btn span, .m-setBox .m-settingsAddress .footer .btn, .m-setBox .m-settingsAddress .footer .btn span {
-            background: url(//s.stu.126.net/res/images/btn/button.png?8da8e506b44a05ffa0554aceba35eec0) no-repeat 4449px 4449px;
+            background: url(static/button.png) no-repeat 4449px 4449px;
         }
 
         .uisprite, .w-tag .u-close {
-            background: url(//s.stu.126.net/res/images/ui/ui_sprite.png?1367c4a3031b72bbecf3674702d4f731) no-repeat 4449px 4449px;
+            background: url(static/ui_sprite.png) no-repeat 4449px 4449px;
         }
 
         .snssprite, .m-AccBox .u-bindItem .icn {
-            background: url(//s.stu.126.net/res/images/sns/snsSprite.png?71fce9d4f9d5f4e2b5b897821ce302af) no-repeat 4449px 4449px;
+            background: url(static/snsSprite.png) no-repeat 4449px 4449px;
         }
 
         .settingsSprite, .m-epayBind .info {
-            background: url(//s.stu.126.net/res/images/settings.png?5afad03d9734951c8b38f0ec09fad33c) no-repeat 4449px 4449px;
+            background: url(static/settings.png) no-repeat 4449px 4449px;
         }
 
         .u-moocbtn {
@@ -74,7 +72,7 @@
         }
 
         .setingsicon, .m-infoEdit .header .authIcon {
-            background: url(//s.stu.126.net/res/images/settings.png?5afad03d9734951c8b38f0ec09fad33c) 4449px 4449px no-repeat;
+            background: url(static/settings.png) 4449px 4449px no-repeat;
         }
 
         .u-moocbtn {
@@ -323,15 +321,6 @@
             background-position: -62px -143px;
         }
 
-        .w-tag-big-hover {
-            background-position: -54px -104px;
-        }
-
-        .m-telbindsetbox {
-            width: 618px;
-            min-height: 350px;
-        }
-
         .m-telbindsetbox input {
             font-family: "Micorsoft Yahei", "Arial", "Hiragino Sans GB", \5fae\8f6f\96c5\9ed1, "Helvetica", "sans-serif" !important;
         }
@@ -393,19 +382,19 @@
         .m-telbindsetbox .wrap .u-logo-tel {
             width: 22px;
             height: 24px;
-            background: url(//nos.netease.com/edu-image/7A13709D12D506BA8CC110D88FFA1E68.png) -9999px -9999px no-repeat;
+            background: url(static/icon1.png) -9999px -9999px no-repeat;
             background-position: 0 -78px;
         }
 
         .m-telbindsetbox .wrap .u-logo-code {
             width: 22px;
             height: 24px;
-            background: url(//nos.netease.com/edu-image/7A13709D12D506BA8CC110D88FFA1E68.png) -9999px -9999px no-repeat;
+            background: url(static/icon1.png) -9999px -9999px no-repeat;
             background-position: 0 -108px;
         }
 
         .m-telbindsetbox .wrap .u-logo-pwd {
-            background: url(//nos.netease.com/edu-image/7A13709D12D506BA8CC110D88FFA1E68.png) no-repeat 0 -45px;
+            background: url(static/icon1.png) no-repeat 0 -45px;
             height: 22px;
             width: 24px;
             margin-top: 2px;
@@ -413,7 +402,7 @@
 
         .m-telbindsetbox .wrap .next {
             display: inline-block;
-            background: url(//nos.netease.com/test-edu-image/83752CCE385E15DFE05E8ADC29EDF882.png) no-repeat 0 -386px;
+            background: url(static/icon1.png) no-repeat 0 -386px;
             width: 35px;
             height: 35px;
             vertical-align: middle;
@@ -490,7 +479,7 @@
         }
 
         .m-telbindsetbox .wrap .m-error-box .ferrortail {
-            background: url(//webzj.reg.163.com/webapp/res/images/sprite.png?d76abd2c967e810a0760c4d7dd157357) -9999px -9999px no-repeat;
+            background: url(static/sprite.png) -9999px -9999px no-repeat;
             height: 15px;
             width: 18px;
             background-position: -217px -34px;
@@ -684,7 +673,7 @@
             margin: 0;
         }
 
-        .m-infoEdit .editBox .accMail .verify .btn1 {
+        .m-infoEdit .editBox .accMail .verify {
             display: block;
             width: 100px;
             width: 100px;
@@ -763,7 +752,7 @@
         }
 
         .m-infoEdit .editBox .accMail .verify .change:hover {
-            color: #10ae58;
+            color: #E84807;
         }
 
         .m-infoEdit .editBox .sex {
@@ -1008,7 +997,7 @@
         }
 
         .m-AccBox .m-accBaseInfo .opra:hover {
-            color: #10ae58;
+            color: #E84807;
         }
 
         .m-AccBox .m-accBaseInfo .editInfo {
@@ -1081,7 +1070,7 @@
         }
 
         .m-AccBox .m-accBaseInfo .m-bindAccounts .thirdParty .j-thirdAccs .color-g:hover {
-            color: #10ae58;
+            color: #E84807;
         }
 
         .m-AccBox .m-accBaseInfo .m-bindAccounts .thirdParty .j-thirdAccs .nick {
@@ -1458,7 +1447,7 @@
         }
 
         .epayAccount .verify .change:hover {
-            color: #10ae58;
+            color: #E84807;
         }
 
         .m-AccBox .m-accBind, .m-AccBox .m-epayBind {
@@ -1743,7 +1732,7 @@
         }
 
         .u-logSelectDialog .mainType .m-logHeader .headIcon, .u-logSelectDialog .slaveType .m-logHeader .headIcon {
-            background: url(//nos.netease.com/edu-image/BE56BE32E60D5DDE53DFD8D8C641BC92.png) no-repeat center center;
+            background: url(static/whiteDot.png) no-repeat center center;
             width: 50px;
             height: 50px;
             top: -25px;
@@ -1909,7 +1898,7 @@
         }
 
         .u-logSelectDialog .btn {
-            background: url(//s.stu.126.net/res/images/btn/button.png?8da8e506b44a05ffa0554aceba35eec0) no-repeat 4449px 4449px;
+            background: url(static/button.png) no-repeat 4449px 4449px;
             margin-top: 30px;
             display: block;
             width: 85px;
@@ -2028,12 +2017,12 @@
         }
 
         .m-setBox .boxTab a:hover {
-            color: #10ae58;
+            color: #E84807;
         }
 
         .m-setBox .boxTab .current {
             color: #fff;
-            background-color: #10ae58;
+            background-color: #E84807;
         }
 
         .m-setBox .boxTab .current:hover {
@@ -2379,7 +2368,7 @@
         }
 
         .auto-1523864610056 a {
-            color: #10ae58;
+            color: #E84807;
         }
 
         .auto-1523864610056 a:hover {
@@ -2391,7 +2380,7 @@
             cursor: pointer;
             width: 12px;
             height: 12px;
-            background: url(//s.stu.126.net/res/images/ui/ui_sprite.png?1367c4a3031b72bbecf3674702d4f731) -9px -11px no-repeat;
+            background: url(static/ui_sprite.png) -9px -11px no-repeat;
         }
 
         .u-share {
@@ -2405,41 +2394,6 @@
             margin-left: 9px;
             line-height: 16px;
             font-size: 12px;
-        }
-
-        .u-share .netease, .u-share .sina, .u-share .kaixin, .u-share .renren, .u-share .douban, .u-share .qzone {
-            background: url(//s.stu.126.net/res/images/ui/shareUI.png?9dc31f85784660da0572188aadf3b7b4) no-repeat;
-        }
-
-        .u-share .netease {
-            background-position: 1px -30px;
-        }
-
-        .u-share .sina {
-            background-position: 1px 1px;
-        }
-
-        .u-share .renren {
-            background-position: 1px -149px;
-        }
-
-        .u-share .kaixin {
-            background-position: 1px -180px;
-        }
-
-        .u-share .douban {
-            background-position: 1px -58px;
-        }
-
-        .u-share .qzone {
-            background-position: 1px -120px;
-        }
-
-        .u-share .solo {
-            margin-left: 5px;
-            width: 0px;
-            text-indent: -9999px;
-            overflow: hidden;
         }
 
         .auto-1523864610060 {
@@ -2459,28 +2413,28 @@
 
         .auto-1523864610060 .warningbox .wrong {
             float: left;
-            background: url(//s.stu.126.net/res/images/ui/common.png?2c88f76b988838114d44dc3ba8c13781) no-repeat -40px 0;
+            background: url(static/common.png) no-repeat -40px 0;
             height: 20px;
             width: 20px;
         }
 
         .auto-1523864610060 .warningbox .warn {
             float: left;
-            background: url(//s.stu.126.net/res/images/ui/common.png?2c88f76b988838114d44dc3ba8c13781) no-repeat 0 0;
+            background: url(static/common.png) no-repeat 0 0;
             height: 20px;
             width: 20px;
         }
 
         .auto-1523864610060 .warningbox .right {
             float: left;
-            background: url(//s.stu.126.net/res/images/ui/common.png?2c88f76b988838114d44dc3ba8c13781) no-repeat -20px 0;
+            background: url(static/common.png) no-repeat -20px 0;
             height: 20px;
             width: 20px;
         }
 
         .auto-1523864610060 .warningbox .normal {
             float: left;
-            background: url(//s.stu.126.net/res/images/ui/common.png?2c88f76b988838114d44dc3ba8c13781) no-repeat -60px 0;
+            background: url(static/common.png) no-repeat -60px 0;
             height: 20px;
             width: 20px;
         }
@@ -2500,7 +2454,7 @@
 
         .auto-1523864610060 .loadingbox .icon {
             float: left;
-            background: url(//s.stu.126.net/res/images/ui/loading_circle.gif?8ae1afcd44a2a3ea3c8f86bc74702b05) no-repeat 0 0;
+            background: url(static/loading_circle.gif) no-repeat 0 0;
             height: 16px;
             width: 20px;
         }
@@ -2529,64 +2483,9 @@
             padding-right: 6px;
         }
 
-        .u-usrAttOp {
-            background: url(//s.stu.126.net/res/images/ui/friendsUI.png?48e99b3394435f5d1f897f917fa6bdfe) no-repeat;
-            width: 54px;
-            height: 21px;
-            text-align: left;
-            font: 12px/21px '宋体';
-        }
-
-        .u-usrAttOp.j-active {
-            color: #fff;
-            background-position: 0 0;
-            cursor: pointer;
-            padding-left: 22px;
-            width: 32px;
-        }
-
-        .u-usrAttOp-white.j-active {
-            background-position: 0 -60px;
-            color: #333;
-        }
-
-        .u-usrAttOp.j-active:hover {
-            background-position: 0 -30px;
-            color: #fff;
-        }
-
-        .u-usrAttOp.j-disable {
-            color: #333;
-            cursor: default;
-            padding-left: 23px;
-        }
-
-        .u-usrAttOp.j-disable-1 {
-            background-position: 0 -90px;
-            width: 83px;
-        }
-
-        .u-usrAttOp.j-disable-3 {
-            background-position: 0 -120px;
-            width: 96px;
-        }
-
-        .u-usrAttOp .sep {
-            color: #ccc;
-        }
-
-        .u-usrAttOp .op {
-            color: #999;
-            padding-right: 7px;
-        }
-
         .u-usrAttOp .op:hover, .u-usrattop .op:active {
             color: #21a557;
             text-decoration: underline;
-        }
-
-        .auto-1523864610067 {
-            padding: 20px 20px 32px 20px;
         }
 
         .auto-1523864610067 .u-title {
@@ -2640,13 +2539,13 @@
         .auto-1523864610083 .testing {
             height: 27px;
             width: 32px;
-            background: url(//s.stu.126.net/res/images/ui/audio_playing.gif?7f182522ccbcca25afdccfe1334a9345) no-repeat 1px 1px;
+            background: url(static/audio_playing.gif) no-repeat 1px 1px;
         }
 
         .auto-1523864610083 .endtesting {
             height: 27px;
             width: 32px;
-            background: url(//s.stu.126.net/res/images/ui/ui_sprite.png?1367c4a3031b72bbecf3674702d4f731) no-repeat -51px -1594px;
+            background: url(static/ui_sprite.png) no-repeat -51px -1594px;
         }
 
         .auto-1523864610083 .analysis {
@@ -2706,7 +2605,7 @@
             width: 24px;
             border: 1px solid #ddd;
             border-radius: 0 4px 4px 0;
-            background: url(//s.stu.126.net/res/images/ui/audio_loading.gif?26fa5c3d3ea79713e9811a7dcf77e046) no-repeat 1px -1px;
+            background: url(static/audio_loading.gif) no-repeat 1px -1px;
             background-color: #f2f2f5;
             cursor: pointer;
         }
@@ -2717,7 +2616,7 @@
             border: 1px solid #ddd;
             border-left: none;
             border-radius: 0 4px 4px 0;
-            background: url(//s.stu.126.net/res/images/ui/ui_sprite.png?1367c4a3031b72bbecf3674702d4f731) no-repeat 7px -1613px;
+            background: url(static/ui_sprite.png) no-repeat 7px -1613px;
             background-color: #f2f2f5;
             cursor: pointer;
         }
@@ -2738,7 +2637,7 @@
             border: 1px solid #ddd;
             border-left: none;
             border-radius: 0 4px 4px 0;
-            background: url(//s.stu.126.net/res/images/ui/ui_sprite.png?1367c4a3031b72bbecf3674702d4f731) no-repeat 7px -1593px;
+            background: url(static/ui_sprite.png) no-repeat 7px -1593px;
             background-color: #f2f2f5;
             cursor: pointer;
         }
@@ -2999,7 +2898,7 @@
             margin-top: 10px;
             height: 16px;
             line-height: 16px;
-            color: #10ae58;
+            color: #E84807;
             margin-bottom: 10px;
         }
 
@@ -3062,15 +2961,6 @@
             background-position: -15px -30px;
         }
 
-        .auto-1523864610092-parent {
-            position: absolute;
-            left: -1px;
-            border: 1px solid #d5d5d5;
-            width: 100%;
-            background: #FAFAFA;
-            z-index: 999;
-        }
-
         .auto-1523864610092-parent .j-cnt {
             width: 100%;
             color: #444;
@@ -3099,12 +2989,12 @@
         }
 
         .auto-1523864610092-parent .zitm:hover, .auto-1523864610092-parent .zitm:hover p {
-            color: #10ae58;
+            color: #E84807;
             background-color: #ECECEE;
         }
 
         .auto-1523864610092-parent .js-selected, .auto-1523864610092-parent .js-selected p {
-            color: #10ae58;
+            color: #E84807;
             background-color: #ECECEE;
         }
 
@@ -3146,1668 +3036,6 @@
             line-height: 1;
         }
 
-        .ux-icon-OJ-question:before {
-            content: "\EA01";
-        }
-
-        .ux-icon-QQ:before {
-            content: "\EA02";
-        }
-
-        .ux-icon-add-big:before {
-            content: "\EA03";
-        }
-
-        .ux-icon-angle-double-left:before {
-            content: "\EA04";
-        }
-
-        .ux-icon-angle-double-right:before {
-            content: "\EA05";
-        }
-
-        .ux-icon-answer-question:before {
-            content: "\EA06";
-        }
-
-        .ux-icon-arr-right-small:before {
-            content: "\EA07";
-        }
-
-        .ux-icon-arrange:before {
-            content: "\EA08";
-        }
-
-        .ux-icon-arrow-down:before {
-            content: "\EA09";
-        }
-
-        .ux-icon-arrow-left:before {
-            content: "\EA0A";
-        }
-
-        .ux-icon-arrow-top:before {
-            content: "\EA0B";
-        }
-
-        .ux-icon-attachment:before {
-            content: "\EA0C";
-        }
-
-        .ux-icon-audio-text-1:before {
-            content: "\EA0D";
-        }
-
-        .ux-icon-audio-text:before {
-            content: "\EA0E";
-        }
-
-        .ux-icon-audio:before {
-            content: "\EA0F";
-        }
-
-        .ux-icon-back:before {
-            content: "\EA10";
-        }
-
-        .ux-icon-blank-state:before {
-            content: "\EA11";
-        }
-
-        .ux-icon-blocked:before {
-            content: "\EA12";
-        }
-
-        .ux-icon-book-1:before {
-            content: "\EA13";
-        }
-
-        .ux-icon-book:before {
-            content: "\EA14";
-        }
-
-        .ux-icon-calculating-signs:before {
-            content: "\EA15";
-        }
-
-        .ux-icon-caret-down:before {
-            content: "\EA16";
-        }
-
-        .ux-icon-caret-left:before {
-            content: "\EA17";
-        }
-
-        .ux-icon-caret-right:before {
-            content: "\EA18";
-        }
-
-        .ux-icon-caret-up:before {
-            content: "\EA19";
-        }
-
-        .ux-icon-cart:before {
-            content: "\EA1A";
-        }
-
-        .ux-icon-cart3:before {
-            content: "\EA1B";
-        }
-
-        .ux-icon-cash:before {
-            content: "\EA1C";
-        }
-
-        .ux-icon-cash2:before {
-            content: "\EA1D";
-        }
-
-        .ux-icon-category-forum:before {
-            content: "\EA1E";
-        }
-
-        .ux-icon-category-live:before {
-            content: "\EA1F";
-        }
-
-        .ux-icon-category-pdf:before {
-            content: "\EA20";
-        }
-
-        .ux-icon-category-replay:before {
-            content: "\EA21";
-        }
-
-        .ux-icon-category-scorm:before {
-            content: "\EA22";
-        }
-
-        .ux-icon-category-test:before {
-            content: "\EA23";
-        }
-
-        .ux-icon-category-text:before {
-            content: "\EA24";
-        }
-
-        .ux-icon-category-unknown:before {
-            content: "\EA25";
-        }
-
-        .ux-icon-category-video:before {
-            content: "\EA26";
-        }
-
-        .ux-icon-cert-manage:before {
-            content: "\EA27";
-        }
-
-        .ux-icon-chat-circle:before {
-            content: "\EA28";
-        }
-
-        .ux-icon-check-slim:before {
-            content: "\EA29";
-        }
-
-        .ux-icon-check:before {
-            content: "\EA2A";
-        }
-
-        .ux-icon-clock:before {
-            content: "\EA2B";
-        }
-
-        .ux-icon-close:before {
-            content: "\EA2C";
-        }
-
-        .ux-icon-collect:before {
-            content: "\EA2D";
-        }
-
-        .ux-icon-combined-shape:before {
-            content: "\EA2E";
-        }
-
-        .ux-icon-comment:before {
-            content: "\EA2F";
-        }
-
-        .ux-icon-continue:before {
-            content: "\EA30";
-        }
-
-        .ux-icon-cooperation:before {
-            content: "\EA31";
-        }
-
-        .ux-icon-course-content:before {
-            content: "\EA32";
-        }
-
-        .ux-icon-course-discuss:before {
-            content: "\EA33";
-        }
-
-        .ux-icon-course-intro:before {
-            content: "\EA34";
-        }
-
-        .ux-icon-course-manage:before {
-            content: "\EA35";
-        }
-
-        .ux-icon-course-slim:before {
-            content: "\EA36";
-        }
-
-        .ux-icon-create-course:before {
-            content: "\EA37";
-        }
-
-        .ux-icon-credit-setting:before {
-            content: "\EA38";
-        }
-
-        .ux-icon-credit:before {
-            content: "\EA39";
-        }
-
-        .ux-icon-data-interface:before {
-            content: "\EA3A";
-        }
-
-        .ux-icon-data:before {
-            content: "\EA3B";
-        }
-
-        .ux-icon-delete:before {
-            content: "\EA3C";
-        }
-
-        .ux-icon-dialog:before {
-            content: "\EA3D";
-        }
-
-        .ux-icon-discuss:before {
-            content: "\EA3E";
-        }
-
-        .ux-icon-document-small:before {
-            content: "\EA3F";
-        }
-
-        .ux-icon-document:before {
-            content: "\EA40";
-        }
-
-        .ux-icon-douban:before {
-            content: "\EA41";
-        }
-
-        .ux-icon-download:before {
-            content: "\EA42";
-        }
-
-        .ux-icon-edit:before {
-            content: "\EA43";
-        }
-
-        .ux-icon-elite:before {
-            content: "\EA44";
-        }
-
-        .ux-icon-empty-criterial:before {
-            content: "\EA45";
-        }
-
-        .ux-icon-empty-status:before {
-            content: "\EA46";
-        }
-
-        .ux-icon-empty:before {
-            content: "\EA47";
-        }
-
-        .ux-icon-enter-fullscreen:before {
-            content: "\EA48";
-        }
-
-        .ux-icon-error-circle:before {
-            content: "\EA49";
-        }
-
-        .ux-icon-exam:before {
-            content: "\EA4A";
-        }
-
-        .ux-icon-exchange:before {
-            content: "\EA4B";
-        }
-
-        .ux-icon-exercise:before {
-            content: "\EA4C";
-        }
-
-        .ux-icon-exit-fullscreen:before {
-            content: "\EA4D";
-        }
-
-        .ux-icon-eye:before {
-            content: "\EA4E";
-        }
-
-        .ux-icon-feedback:before {
-            content: "\EA4F";
-        }
-
-        .ux-icon-file-export:before {
-            content: "\EA50";
-        }
-
-        .ux-icon-folder:before {
-            content: "\EA51";
-        }
-
-        .ux-icon-folder2:before {
-            content: "\EA52";
-        }
-
-        .ux-icon-front:before {
-            content: "\EA53";
-        }
-
-        .ux-icon-gear:before {
-            content: "\EA54";
-        }
-
-        .ux-icon-gift:before {
-            content: "\EA55";
-        }
-
-        .ux-icon-halfcircle:before {
-            content: "\EA56";
-        }
-
-        .ux-icon-hand-down:before {
-            content: "\EA57";
-        }
-
-        .ux-icon-hand-up:before {
-            content: "\EA58";
-        }
-
-        .ux-icon-headphone:before {
-            content: "\EA59";
-        }
-
-        .ux-icon-home:before {
-            content: "\EA5A";
-        }
-
-        .ux-icon-hyper-link:before {
-            content: "\EA5B";
-        }
-
-        .ux-icon-icourse:before {
-            content: "\EA5C";
-        }
-
-        .ux-icon-im:before {
-            content: "\EA5D";
-        }
-
-        .ux-icon-key:before {
-            content: "\EA5E";
-        }
-
-        .ux-icon-learn-content:before {
-            content: "\EA5F";
-        }
-
-        .ux-icon-learn-select:before {
-            content: "\EA60";
-        }
-
-        .ux-icon-list:before {
-            content: "\EA61";
-        }
-
-        .ux-icon-live-notify-text:before {
-            content: "\EA62";
-        }
-
-        .ux-icon-live-playback-text:before {
-            content: "\EA63";
-        }
-
-        .ux-icon-live-text:before {
-            content: "\EA64";
-        }
-
-        .ux-icon-live-tips:before {
-            content: "\EA65";
-        }
-
-        .ux-icon-live:before {
-            content: "\EA66";
-        }
-
-        .ux-icon-lock-circle:before {
-            content: "\EA67";
-        }
-
-        .ux-icon-lock:before {
-            content: "\EA68";
-        }
-
-        .ux-icon-loop2:before {
-            content: "\EA69";
-        }
-
-        .ux-icon-management:before {
-            content: "\EA6A";
-        }
-
-        .ux-icon-message:before {
-            content: "\EA6B";
-        }
-
-        .ux-icon-microphone:before {
-            content: "\EA6C";
-        }
-
-        .ux-icon-minus-big:before {
-            content: "\EA6D";
-        }
-
-        .ux-icon-minus:before {
-            content: "\EA6E";
-        }
-
-        .ux-icon-mobile-plat:before {
-            content: "\EA6F";
-        }
-
-        .ux-icon-mobileview:before {
-            content: "\EA70";
-        }
-
-        .ux-icon-move:before {
-            content: "\EA71";
-        }
-
-        .ux-icon-mune-lines:before {
-            content: "\EA72";
-        }
-
-        .ux-icon-mute:before {
-            content: "\EA73";
-        }
-
-        .ux-icon-netease:before {
-            content: "\EA74";
-        }
-
-        .ux-icon-new-label:before {
-            content: "\EA75";
-        }
-
-        .ux-icon-no-pass-label:before {
-            content: "\EA76";
-        }
-
-        .ux-icon-no-picture:before {
-            content: "\EA77";
-        }
-
-        .ux-icon-notice:before {
-            content: "\EA78";
-        }
-
-        .ux-icon-noword:before {
-            content: "\EA79";
-        }
-
-        .ux-icon-object-question:before {
-            content: "\EA7A";
-        }
-
-        .ux-icon-order:before {
-            content: "\EA7B";
-        }
-
-        .ux-icon-org-content:before {
-            content: "\EA7C";
-        }
-
-        .ux-icon-org-content2:before {
-            content: "\EA7D";
-        }
-
-        .ux-icon-org-test:before {
-            content: "\EA7E";
-        }
-
-        .ux-icon-org-tutor:before {
-            content: "\EA7F";
-        }
-
-        .ux-icon-org-utility:before {
-            content: "\EA80";
-        }
-
-        .ux-icon-out-of-order:before {
-            content: "\EA81";
-        }
-
-        .ux-icon-password:before {
-            content: "\EA82";
-        }
-
-        .ux-icon-pause:before {
-            content: "\EA83";
-        }
-
-        .ux-icon-payCard:before {
-            content: "\EA84";
-        }
-
-        .ux-icon-people:before {
-            content: "\EA85";
-        }
-
-        .ux-icon-permission-manage:before {
-            content: "\EA86";
-        }
-
-        .ux-icon-phone-number:before {
-            content: "\EA87";
-        }
-
-        .ux-icon-phone:before {
-            content: "\EA88";
-        }
-
-        .ux-icon-phone2:before {
-            content: "\EA89";
-        }
-
-        .ux-icon-play-1:before {
-            content: "\EA8A";
-        }
-
-        .ux-icon-play-fill:before {
-            content: "\EA8B";
-        }
-
-        .ux-icon-playback:before {
-            content: "\EA8C";
-        }
-
-        .ux-icon-playing:before {
-            content: "\EA8D";
-        }
-
-        .ux-icon-plus-circle:before {
-            content: "\EA8E";
-        }
-
-        .ux-icon-plus:before {
-            content: "\EA8F";
-        }
-
-        .ux-icon-popularize:before {
-            content: "\EA90";
-        }
-
-        .ux-icon-pre-live:before {
-            content: "\EA91";
-        }
-
-        .ux-icon-preview:before {
-            content: "\EA92";
-        }
-
-        .ux-icon-qiyemail:before {
-            content: "\EA93";
-        }
-
-        .ux-icon-question-circle:before {
-            content: "\EA94";
-        }
-
-        .ux-icon-questionnaire-slim:before {
-            content: "\EA95";
-        }
-
-        .ux-icon-quiz-slim:before {
-            content: "\EA96";
-        }
-
-        .ux-icon-qzone:before {
-            content: "\EA97";
-        }
-
-        .ux-icon-recheck:before {
-            content: "\EA98";
-        }
-
-        .ux-icon-recommend-label:before {
-            content: "\EA99";
-        }
-
-        .ux-icon-recommend:before {
-            content: "\EA9A";
-        }
-
-        .ux-icon-renren:before {
-            content: "\EA9B";
-        }
-
-        .ux-icon-reply:before {
-            content: "\EA9C";
-        }
-
-        .ux-icon-resource-manage:before {
-            content: "\EA9D";
-        }
-
-        .ux-icon-richText:before {
-            content: "\EA9E";
-        }
-
-        .ux-icon-right-slim:before {
-            content: "\EA9F";
-        }
-
-        .ux-icon-right:before {
-            content: "\EAA0";
-        }
-
-        .ux-icon-sad:before {
-            content: "\EAA1";
-        }
-
-        .ux-icon-score:before {
-            content: "\EAA2";
-        }
-
-        .ux-icon-scorm:before {
-            content: "\EAA3";
-        }
-
-        .ux-icon-scroll-top:before {
-            content: "\EAA4";
-        }
-
-        .ux-icon-seal:before {
-            content: "\EAA5";
-        }
-
-        .ux-icon-search:before {
-            content: "\EAA6";
-        }
-
-        .ux-icon-secret:before {
-            content: "\EAA7";
-        }
-
-        .ux-icon-secure-number:before {
-            content: "\EAA8";
-        }
-
-        .ux-icon-service:before {
-            content: "\EAA9";
-        }
-
-        .ux-icon-share:before {
-            content: "\EAAA";
-        }
-
-        .ux-icon-sign-up:before {
-            content: "\EAAB";
-        }
-
-        .ux-icon-smile:before {
-            content: "\EAAC";
-        }
-
-        .ux-icon-square-close:before {
-            content: "\EAAD";
-        }
-
-        .ux-icon-standard:before {
-            content: "\EAAE";
-        }
-
-        .ux-icon-star:before {
-            content: "\EAAF";
-        }
-
-        .ux-icon-success-circle-empty:before {
-            content: "\EAB0";
-        }
-
-        .ux-icon-success-circle:before {
-            content: "\EAB1";
-        }
-
-        .ux-icon-success:before {
-            content: "\EAB2";
-        }
-
-        .ux-icon-surprise:before {
-            content: "\EAB3";
-        }
-
-        .ux-icon-tag:before {
-            content: "\EAB4";
-        }
-
-        .ux-icon-teach-bussiness:before {
-            content: "\EAB5";
-        }
-
-        .ux-icon-teach-info:before {
-            content: "\EAB6";
-        }
-
-        .ux-icon-test-slim:before {
-            content: "\EAB7";
-        }
-
-        .ux-icon-test:before {
-            content: "\EAB8";
-        }
-
-        .ux-icon-test2:before {
-            content: "\EAB9";
-        }
-
-        .ux-icon-thin-caret-down:before {
-            content: "\EABA";
-        }
-
-        .ux-icon-thin-caret-up:before {
-            content: "\EABB";
-        }
-
-        .ux-icon-unknown:before {
-            content: "\EABC";
-        }
-
-        .ux-icon-upload-clound:before {
-            content: "\EABD";
-        }
-
-        .ux-icon-upvote1:before {
-            content: "\EABE";
-        }
-
-        .ux-icon-upvote2:before {
-            content: "\EABF";
-        }
-
-        .ux-icon-video-camera:before {
-            content: "\EAC0";
-        }
-
-        .ux-icon-video-text:before {
-            content: "\EAC1";
-        }
-
-        .ux-icon-video:before {
-            content: "\EAC2";
-        }
-
-        .ux-icon-volume:before {
-            content: "\EAC3";
-        }
-
-        .ux-icon-warning-circle-circular:before {
-            content: "\EAC4";
-        }
-
-        .ux-icon-warning-circle-empty:before {
-            content: "\EAC5";
-        }
-
-        .ux-icon-warning-circle:before {
-            content: "\EAC6";
-        }
-
-        .ux-icon-warning:before {
-            content: "\EAC7";
-        }
-
-        .ux-icon-wave:before {
-            content: "\EAC8";
-        }
-
-        .ux-icon-wechat-friend:before {
-            content: "\EAC9";
-        }
-
-        .ux-icon-wechat:before {
-            content: "\EACA";
-        }
-
-        .ux-icon-wechat2:before {
-            content: "\EACB";
-        }
-
-        .ux-icon-weibo:before {
-            content: "\EACC";
-        }
-
-        .ux-icon-wrong-slim:before {
-            content: "\EACD";
-        }
-
-        .ux-icon-wrong:before {
-            content: "\EACE";
-        }
-
-        .ux-icon-ykt-logo:before {
-            content: "\EACF";
-        }
-
-        .ux-icon-OJ-question-after:after {
-            content: "\EA01";
-        }
-
-        .ux-icon-QQ-after:after {
-            content: "\EA02";
-        }
-
-        .ux-icon-add-big-after:after {
-            content: "\EA03";
-        }
-
-        .ux-icon-angle-double-left-after:after {
-            content: "\EA04";
-        }
-
-        .ux-icon-angle-double-right-after:after {
-            content: "\EA05";
-        }
-
-        .ux-icon-answer-question-after:after {
-            content: "\EA06";
-        }
-
-        .ux-icon-arr-right-small-after:after {
-            content: "\EA07";
-        }
-
-        .ux-icon-arrange-after:after {
-            content: "\EA08";
-        }
-
-        .ux-icon-arrow-down-after:after {
-            content: "\EA09";
-        }
-
-        .ux-icon-arrow-left-after:after {
-            content: "\EA0A";
-        }
-
-        .ux-icon-arrow-top-after:after {
-            content: "\EA0B";
-        }
-
-        .ux-icon-attachment-after:after {
-            content: "\EA0C";
-        }
-
-        .ux-icon-audio-text-1-after:after {
-            content: "\EA0D";
-        }
-
-        .ux-icon-audio-text-after:after {
-            content: "\EA0E";
-        }
-
-        .ux-icon-audio-after:after {
-            content: "\EA0F";
-        }
-
-        .ux-icon-back-after:after {
-            content: "\EA10";
-        }
-
-        .ux-icon-blank-state-after:after {
-            content: "\EA11";
-        }
-
-        .ux-icon-blocked-after:after {
-            content: "\EA12";
-        }
-
-        .ux-icon-book-1-after:after {
-            content: "\EA13";
-        }
-
-        .ux-icon-book-after:after {
-            content: "\EA14";
-        }
-
-        .ux-icon-calculating-signs-after:after {
-            content: "\EA15";
-        }
-
-        .ux-icon-caret-down-after:after {
-            content: "\EA16";
-        }
-
-        .ux-icon-caret-left-after:after {
-            content: "\EA17";
-        }
-
-        .ux-icon-caret-right-after:after {
-            content: "\EA18";
-        }
-
-        .ux-icon-caret-up-after:after {
-            content: "\EA19";
-        }
-
-        .ux-icon-cart-after:after {
-            content: "\EA1A";
-        }
-
-        .ux-icon-cart3-after:after {
-            content: "\EA1B";
-        }
-
-        .ux-icon-cash-after:after {
-            content: "\EA1C";
-        }
-
-        .ux-icon-cash2-after:after {
-            content: "\EA1D";
-        }
-
-        .ux-icon-category-forum-after:after {
-            content: "\EA1E";
-        }
-
-        .ux-icon-category-live-after:after {
-            content: "\EA1F";
-        }
-
-        .ux-icon-category-pdf-after:after {
-            content: "\EA20";
-        }
-
-        .ux-icon-category-replay-after:after {
-            content: "\EA21";
-        }
-
-        .ux-icon-category-scorm-after:after {
-            content: "\EA22";
-        }
-
-        .ux-icon-category-test-after:after {
-            content: "\EA23";
-        }
-
-        .ux-icon-category-text-after:after {
-            content: "\EA24";
-        }
-
-        .ux-icon-category-unknown-after:after {
-            content: "\EA25";
-        }
-
-        .ux-icon-category-video-after:after {
-            content: "\EA26";
-        }
-
-        .ux-icon-cert-manage-after:after {
-            content: "\EA27";
-        }
-
-        .ux-icon-chat-circle-after:after {
-            content: "\EA28";
-        }
-
-        .ux-icon-check-slim-after:after {
-            content: "\EA29";
-        }
-
-        .ux-icon-check-after:after {
-            content: "\EA2A";
-        }
-
-        .ux-icon-clock-after:after {
-            content: "\EA2B";
-        }
-
-        .ux-icon-close-after:after {
-            content: "\EA2C";
-        }
-
-        .ux-icon-collect-after:after {
-            content: "\EA2D";
-        }
-
-        .ux-icon-combined-shape-after:after {
-            content: "\EA2E";
-        }
-
-        .ux-icon-comment-after:after {
-            content: "\EA2F";
-        }
-
-        .ux-icon-continue-after:after {
-            content: "\EA30";
-        }
-
-        .ux-icon-cooperation-after:after {
-            content: "\EA31";
-        }
-
-        .ux-icon-course-content-after:after {
-            content: "\EA32";
-        }
-
-        .ux-icon-course-discuss-after:after {
-            content: "\EA33";
-        }
-
-        .ux-icon-course-intro-after:after {
-            content: "\EA34";
-        }
-
-        .ux-icon-course-manage-after:after {
-            content: "\EA35";
-        }
-
-        .ux-icon-course-slim-after:after {
-            content: "\EA36";
-        }
-
-        .ux-icon-create-course-after:after {
-            content: "\EA37";
-        }
-
-        .ux-icon-credit-setting-after:after {
-            content: "\EA38";
-        }
-
-        .ux-icon-credit-after:after {
-            content: "\EA39";
-        }
-
-        .ux-icon-data-interface-after:after {
-            content: "\EA3A";
-        }
-
-        .ux-icon-data-after:after {
-            content: "\EA3B";
-        }
-
-        .ux-icon-delete-after:after {
-            content: "\EA3C";
-        }
-
-        .ux-icon-dialog-after:after {
-            content: "\EA3D";
-        }
-
-        .ux-icon-discuss-after:after {
-            content: "\EA3E";
-        }
-
-        .ux-icon-document-small-after:after {
-            content: "\EA3F";
-        }
-
-        .ux-icon-document-after:after {
-            content: "\EA40";
-        }
-
-        .ux-icon-douban-after:after {
-            content: "\EA41";
-        }
-
-        .ux-icon-download-after:after {
-            content: "\EA42";
-        }
-
-        .ux-icon-edit-after:after {
-            content: "\EA43";
-        }
-
-        .ux-icon-elite-after:after {
-            content: "\EA44";
-        }
-
-        .ux-icon-empty-criterial-after:after {
-            content: "\EA45";
-        }
-
-        .ux-icon-empty-status-after:after {
-            content: "\EA46";
-        }
-
-        .ux-icon-empty-after:after {
-            content: "\EA47";
-        }
-
-        .ux-icon-enter-fullscreen-after:after {
-            content: "\EA48";
-        }
-
-        .ux-icon-error-circle-after:after {
-            content: "\EA49";
-        }
-
-        .ux-icon-exam-after:after {
-            content: "\EA4A";
-        }
-
-        .ux-icon-exchange-after:after {
-            content: "\EA4B";
-        }
-
-        .ux-icon-exercise-after:after {
-            content: "\EA4C";
-        }
-
-        .ux-icon-exit-fullscreen-after:after {
-            content: "\EA4D";
-        }
-
-        .ux-icon-eye-after:after {
-            content: "\EA4E";
-        }
-
-        .ux-icon-feedback-after:after {
-            content: "\EA4F";
-        }
-
-        .ux-icon-file-export-after:after {
-            content: "\EA50";
-        }
-
-        .ux-icon-folder-after:after {
-            content: "\EA51";
-        }
-
-        .ux-icon-folder2-after:after {
-            content: "\EA52";
-        }
-
-        .ux-icon-front-after:after {
-            content: "\EA53";
-        }
-
-        .ux-icon-gear-after:after {
-            content: "\EA54";
-        }
-
-        .ux-icon-gift-after:after {
-            content: "\EA55";
-        }
-
-        .ux-icon-halfcircle-after:after {
-            content: "\EA56";
-        }
-
-        .ux-icon-hand-down-after:after {
-            content: "\EA57";
-        }
-
-        .ux-icon-hand-up-after:after {
-            content: "\EA58";
-        }
-
-        .ux-icon-headphone-after:after {
-            content: "\EA59";
-        }
-
-        .ux-icon-home-after:after {
-            content: "\EA5A";
-        }
-
-        .ux-icon-hyper-link-after:after {
-            content: "\EA5B";
-        }
-
-        .ux-icon-icourse-after:after {
-            content: "\EA5C";
-        }
-
-        .ux-icon-im-after:after {
-            content: "\EA5D";
-        }
-
-        .ux-icon-key-after:after {
-            content: "\EA5E";
-        }
-
-        .ux-icon-learn-content-after:after {
-            content: "\EA5F";
-        }
-
-        .ux-icon-learn-select-after:after {
-            content: "\EA60";
-        }
-
-        .ux-icon-list-after:after {
-            content: "\EA61";
-        }
-
-        .ux-icon-live-notify-text-after:after {
-            content: "\EA62";
-        }
-
-        .ux-icon-live-playback-text-after:after {
-            content: "\EA63";
-        }
-
-        .ux-icon-live-text-after:after {
-            content: "\EA64";
-        }
-
-        .ux-icon-live-tips-after:after {
-            content: "\EA65";
-        }
-
-        .ux-icon-live-after:after {
-            content: "\EA66";
-        }
-
-        .ux-icon-lock-circle-after:after {
-            content: "\EA67";
-        }
-
-        .ux-icon-lock-after:after {
-            content: "\EA68";
-        }
-
-        .ux-icon-loop2-after:after {
-            content: "\EA69";
-        }
-
-        .ux-icon-management-after:after {
-            content: "\EA6A";
-        }
-
-        .ux-icon-message-after:after {
-            content: "\EA6B";
-        }
-
-        .ux-icon-microphone-after:after {
-            content: "\EA6C";
-        }
-
-        .ux-icon-minus-big-after:after {
-            content: "\EA6D";
-        }
-
-        .ux-icon-minus-after:after {
-            content: "\EA6E";
-        }
-
-        .ux-icon-mobile-plat-after:after {
-            content: "\EA6F";
-        }
-
-        .ux-icon-mobileview-after:after {
-            content: "\EA70";
-        }
-
-        .ux-icon-move-after:after {
-            content: "\EA71";
-        }
-
-        .ux-icon-mune-lines-after:after {
-            content: "\EA72";
-        }
-
-        .ux-icon-mute-after:after {
-            content: "\EA73";
-        }
-
-        .ux-icon-netease-after:after {
-            content: "\EA74";
-        }
-
-        .ux-icon-new-label-after:after {
-            content: "\EA75";
-        }
-
-        .ux-icon-no-pass-label-after:after {
-            content: "\EA76";
-        }
-
-        .ux-icon-no-picture-after:after {
-            content: "\EA77";
-        }
-
-        .ux-icon-notice-after:after {
-            content: "\EA78";
-        }
-
-        .ux-icon-noword-after:after {
-            content: "\EA79";
-        }
-
-        .ux-icon-object-question-after:after {
-            content: "\EA7A";
-        }
-
-        .ux-icon-order-after:after {
-            content: "\EA7B";
-        }
-
-        .ux-icon-org-content-after:after {
-            content: "\EA7C";
-        }
-
-        .ux-icon-org-content2-after:after {
-            content: "\EA7D";
-        }
-
-        .ux-icon-org-test-after:after {
-            content: "\EA7E";
-        }
-
-        .ux-icon-org-tutor-after:after {
-            content: "\EA7F";
-        }
-
-        .ux-icon-org-utility-after:after {
-            content: "\EA80";
-        }
-
-        .ux-icon-out-of-order-after:after {
-            content: "\EA81";
-        }
-
-        .ux-icon-password-after:after {
-            content: "\EA82";
-        }
-
-        .ux-icon-pause-after:after {
-            content: "\EA83";
-        }
-
-        .ux-icon-payCard-after:after {
-            content: "\EA84";
-        }
-
-        .ux-icon-people-after:after {
-            content: "\EA85";
-        }
-
-        .ux-icon-permission-manage-after:after {
-            content: "\EA86";
-        }
-
-        .ux-icon-phone-number-after:after {
-            content: "\EA87";
-        }
-
-        .ux-icon-phone-after:after {
-            content: "\EA88";
-        }
-
-        .ux-icon-phone2-after:after {
-            content: "\EA89";
-        }
-
-        .ux-icon-play-1-after:after {
-            content: "\EA8A";
-        }
-
-        .ux-icon-play-fill-after:after {
-            content: "\EA8B";
-        }
-
-        .ux-icon-playback-after:after {
-            content: "\EA8C";
-        }
-
-        .ux-icon-playing-after:after {
-            content: "\EA8D";
-        }
-
-        .ux-icon-plus-circle-after:after {
-            content: "\EA8E";
-        }
-
-        .ux-icon-plus-after:after {
-            content: "\EA8F";
-        }
-
-        .ux-icon-popularize-after:after {
-            content: "\EA90";
-        }
-
-        .ux-icon-pre-live-after:after {
-            content: "\EA91";
-        }
-
-        .ux-icon-preview-after:after {
-            content: "\EA92";
-        }
-
-        .ux-icon-qiyemail-after:after {
-            content: "\EA93";
-        }
-
-        .ux-icon-question-circle-after:after {
-            content: "\EA94";
-        }
-
-        .ux-icon-questionnaire-slim-after:after {
-            content: "\EA95";
-        }
-
-        .ux-icon-quiz-slim-after:after {
-            content: "\EA96";
-        }
-
-        .ux-icon-qzone-after:after {
-            content: "\EA97";
-        }
-
-        .ux-icon-recheck-after:after {
-            content: "\EA98";
-        }
-
-        .ux-icon-recommend-label-after:after {
-            content: "\EA99";
-        }
-
-        .ux-icon-recommend-after:after {
-            content: "\EA9A";
-        }
-
-        .ux-icon-renren-after:after {
-            content: "\EA9B";
-        }
-
-        .ux-icon-reply-after:after {
-            content: "\EA9C";
-        }
-
-        .ux-icon-resource-manage-after:after {
-            content: "\EA9D";
-        }
-
-        .ux-icon-richText-after:after {
-            content: "\EA9E";
-        }
-
-        .ux-icon-right-slim-after:after {
-            content: "\EA9F";
-        }
-
-        .ux-icon-right-after:after {
-            content: "\EAA0";
-        }
-
-        .ux-icon-sad-after:after {
-            content: "\EAA1";
-        }
-
-        .ux-icon-score-after:after {
-            content: "\EAA2";
-        }
-
-        .ux-icon-scorm-after:after {
-            content: "\EAA3";
-        }
-
-        .ux-icon-scroll-top-after:after {
-            content: "\EAA4";
-        }
-
-        .ux-icon-seal-after:after {
-            content: "\EAA5";
-        }
-
-        .ux-icon-search-after:after {
-            content: "\EAA6";
-        }
-
-        .ux-icon-secret-after:after {
-            content: "\EAA7";
-        }
-
-        .ux-icon-secure-number-after:after {
-            content: "\EAA8";
-        }
-
-        .ux-icon-service-after:after {
-            content: "\EAA9";
-        }
-
-        .ux-icon-share-after:after {
-            content: "\EAAA";
-        }
-
-        .ux-icon-sign-up-after:after {
-            content: "\EAAB";
-        }
-
-        .ux-icon-smile-after:after {
-            content: "\EAAC";
-        }
-
-        .ux-icon-square-close-after:after {
-            content: "\EAAD";
-        }
-
-        .ux-icon-standard-after:after {
-            content: "\EAAE";
-        }
-
-        .ux-icon-star-after:after {
-            content: "\EAAF";
-        }
-
-        .ux-icon-success-circle-empty-after:after {
-            content: "\EAB0";
-        }
-
-        .ux-icon-success-circle-after:after {
-            content: "\EAB1";
-        }
-
-        .ux-icon-success-after:after {
-            content: "\EAB2";
-        }
-
-        .ux-icon-surprise-after:after {
-            content: "\EAB3";
-        }
-
-        .ux-icon-tag-after:after {
-            content: "\EAB4";
-        }
-
-        .ux-icon-teach-bussiness-after:after {
-            content: "\EAB5";
-        }
-
-        .ux-icon-teach-info-after:after {
-            content: "\EAB6";
-        }
-
-        .ux-icon-test-slim-after:after {
-            content: "\EAB7";
-        }
-
-        .ux-icon-test-after:after {
-            content: "\EAB8";
-        }
-
-        .ux-icon-test2-after:after {
-            content: "\EAB9";
-        }
-
-        .ux-icon-thin-caret-down-after:after {
-            content: "\EABA";
-        }
-
-        .ux-icon-thin-caret-up-after:after {
-            content: "\EABB";
-        }
-
-        .ux-icon-unknown-after:after {
-            content: "\EABC";
-        }
-
-        .ux-icon-upload-clound-after:after {
-            content: "\EABD";
-        }
-
-        .ux-icon-upvote1-after:after {
-            content: "\EABE";
-        }
-
-        .ux-icon-upvote2-after:after {
-            content: "\EABF";
-        }
-
-        .ux-icon-video-camera-after:after {
-            content: "\EAC0";
-        }
-
-        .ux-icon-video-text-after:after {
-            content: "\EAC1";
-        }
-
-        .ux-icon-video-after:after {
-            content: "\EAC2";
-        }
-
-        .ux-icon-volume-after:after {
-            content: "\EAC3";
-        }
-
-        .ux-icon-warning-circle-circular-after:after {
-            content: "\EAC4";
-        }
-
-        .ux-icon-warning-circle-empty-after:after {
-            content: "\EAC5";
-        }
-
-        .ux-icon-warning-circle-after:after {
-            content: "\EAC6";
-        }
-
-        .ux-icon-warning-after:after {
-            content: "\EAC7";
-        }
-
-        .ux-icon-wave-after:after {
-            content: "\EAC8";
-        }
-
-        .ux-icon-wechat-friend-after:after {
-            content: "\EAC9";
-        }
-
-        .ux-icon-wechat-after:after {
-            content: "\EACA";
-        }
-
-        .ux-icon-wechat2-after:after {
-            content: "\EACB";
-        }
-
-        .ux-icon-weibo-after:after {
-            content: "\EACC";
-        }
-
-        .ux-icon-wrong-slim-after:after {
-            content: "\EACD";
-        }
-
-        .ux-icon-wrong-after:after {
-            content: "\EACE";
-        }
-
-        .ux-icon-ykt-logo-after:after {
-            content: "\EACF";
-        }
-
-        .auto-1523864610101 {
-            width: 620px;
-            height: 325px;
-            padding: 0 20px 0;
-        }
-
         .auto-1523864610101 .bread {
             border-bottom: 1px solid #ddd;
             height: 35px;
@@ -4831,19 +3059,7 @@
         }
 
         .auto-1523864610101 .option:hover {
-            color: #10ae58;
-        }
-
-        .m-side-operation {
-            display: none;
-            position: fixed;
-            right: 30px;
-            bottom: 112px;
-            z-index: 1000;
-            font-size: 14px;
-            border: 1px solid #ccc;
-            background: #fff;
-            width: 60px;
+            color: #E84807;
         }
 
         .m-side-operation .side-service-item {
@@ -5020,7 +3236,7 @@
         }
 
         .auto-1523864610126 img {
-            color: #10ae58;
+            color: #E84807;
             width: 140px;
             height: 260px;
         }
@@ -5099,7 +3315,7 @@
         <div class="g-flow">
             <div class="f-pr f-cb">
                 <div style="position: absolute;top:2px;bottom:2px;">
-                    <a class="f-fl" hidefocus="true" href="stuHome.html" target="_self" data-index="logo">
+                    <a class="f-fl" hidefocus="true" href="stuHome.jsp" target="_self" data-index="logo">
                         <img class="f-fl img" src="static/hitwh_logo_white.png" title="学生主页" width="540px"
                              style="margin-top: 2px;margin-bottom: 1px">
                     </a>
@@ -5109,31 +3325,31 @@
                         <div class="login f-cb">
                             <div class="u-mystudy f-pr f-cb f-fr">
                                 <a class="mystudy nitem f-f0" data-index="用户退出" target="_blank"
-                                   href="exit.html" hidefocus="true">退出</a>
+                                   href="exit.jsp" hidefocus="true">退出</a>
                             </div>
 
                             <div class="name j-userinfo" id="auto-id-1523840858750">
                                 <div class="f-pr">
                                     <div class="face">
                                         <img class="j-nav-myimg"
-                                             src="static/68CEAD4577B0AA238B267D0D5FB0AA2B.jpg"
+                                             src="static/head1.jpg"
                                              width="30px" height="30px" alt="头像">
                                     </div>
                                 </div>
                             </div>
                             <a class="username self f-thide" target="_self" data-index="点击用户名"
-                               href="setting.html">
+                               href="setting.jsp">
                                 <span class=" f-fs1 f-f0">PaulSuen</span>
                             </a>
-                            <i class="line"></i>
+                            <i class="line" style="padding-top: 2%"></i>
                             <a data-index="消息" class="mes f-pr f-cb j-nav-mescenter"
-                               href="messageT.html" title="查看更多消息" target="_blank">
+                               href="messageT.jsp" title="查看更多消息" target="_blank">
                                 <span>消息</span>
                                 <em class="num hidddenClass j-nav-msgnum">0</em>
                             </a>
                             <div class="u-mystudy f-pr f-cb f-fr">
                                 <a class="mystudy nitem f-f0" id="j-nav-my-class" data-index="我的学习" target="_self"
-                                   href="stuHome.html" hidefocus="true">我的学习</a>
+                                   href="stuHome.jsp" hidefocus="true">我的学习</a>
                             </div>
                         </div>
                     </div>
@@ -5196,7 +3412,7 @@
                                         <div class="j-pic eBcon auto-1523864610230-parent">
                                             <div class="f-cb auto-1523864610230">
                                                 <div class="imgbox"><img class="img j-img"
-                                                                         src="static/68CEAD4577B0AA238B267D0D5FB0AA2B.jpg">
+                                                                         src="static/head1.jpg">
                                                 </div>
                                                 <div class="infobox">
                                                     <div class="info">支持jpg、gif、png格式的图片，建议文件小于20M</div>
@@ -5274,7 +3490,7 @@
                                                                 name="inputtxt" class="j-textarea inputtxt"
                                                                 id="auto-id-1523864610263"
                                                                 style="width: 395px; height: 74px;"></textarea> <label
-                                                                class="j-hint inputhint" for="inputtxt"
+                                                                class="j-hint inputhint"
                                                                 id="auto-id-1523864610261" style="display: none;">用一段话介绍你自己，会在你的个人页面显示，最多输入80字</label>
                                                         </div>
                                                     </div>
@@ -5305,12 +3521,12 @@
                                         <div class="f-fl rnIpt f-cb">
                                             <div class="j-rnIpt auto-1523864610052-parent">
                                                 <div class="m-baseinputui auto-1523864610052"
-                                                     style="width: 285px; height: 23px;"><textarea name="inputtxt"
-                                                                                                   class="j-textarea inputtxt"
-                                                                                                   id="auto-id-1523864610274"
-                                                                                                   style="width: 285px; height: 23px;"></textarea>
-                                                    <label class="j-hint inputhint" for="inputtxt"
-                                                           id="auto-id-1523864610272" style="display: none;"></label>
+                                                     style="width: 285px; height: 23px;">
+                                                    <textarea name="inputtxt" class="j-textarea inputtxt"
+                                                              id="auto-id-1523864610274"
+                                                              style="width: 285px; height: 23px;"></textarea>
+                                                    <label class="j-hint inputhint" id="auto-id-1523864610272"
+                                                           style="display: none;"></label>
                                                 </div>
                                             </div>
                                             <div class="tip f-fs0 s-fc6">便于老师确认学生信息</div>
@@ -5332,19 +3548,19 @@
                                                         <div class="j-addFb f-fl"></div>
                                                     </div>
                                                     <div class="j-verify verify f-cb">
-                                                        <div class="f-fl mailN">m17862700872@163.com</div>
-                                                        <a class="btn btn1 f-fl" target="_blank"
-                                                           id="auto-id-1523864610284" style="display: none;"><span>发送验证邮件</span></a>
-                                                        <a class="f-fl change" id="auto-id-1523864610281">修改邮箱</a>
-                                                        <div class="f-fl"></div>
+                                                        <div class="m-baseinputui auto-1523864610052"
+                                                             style="width: 285px; height: 23px;">
+                                                            <textarea name="inputtxt" class="j-textarea inputtxt"
+                                                                      style="width: 285px; height: 23px;"></textarea>
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div class="j-mailTxt mailTxt auto-1523864610060-parent"
                                                      style="margin-top: -5px;">
                                                     <div class="m-feedbackinfo auto-1523864610060">
-                                                        <div class="warningbox j-warningbox f-cb"><span
-                                                                class="j-warningicon right"></span><span
-                                                                class="warning j-warning righttxt">用于接收来自学校老师和企业导师的邮件通知，非常重要</span>
+                                                        <div class="warningbox j-warningbox f-cb">
+                                                            <%--<span class="j-warningicon right"></span>--%>
+                                                            <span class="tip f-fs0 s-fc6">用于接收来自学校老师和企业导师的邮件通知，非常重要</span>
                                                         </div>
                                                         <div class="loadingbox j-loadingbox f-cb"
                                                              style="display: none;"><span class="icon"></span><span
@@ -5359,17 +3575,10 @@
                                     <td class="title">手机号码</td>
                                     <td>
                                         <div class="f-fl phoneIpt f-cb">
-                                            <div class="j-phoneIpt">
-                                                <div class="accMail" style="margin-bottom: 0;">
-                                                    <div class="mailOpr">
-                                                        <div class="f-cb add j-add-wrap" style="display: none;"><a
-                                                                class="btn f-cb j-tel-add" style="margin:0"
-                                                                id="auto-id-1523864610287"><span>添加</span></a></div>
-                                                        <div class="verify f-cb j-modify-wrap">
-                                                            <div class="f-fl mailN j-tel-num">17862700872</div>
-                                                            <a class="f-fl change j-tel-modify"
-                                                               id="auto-id-1523864610288">修改手机号</a></div>
-                                                    </div>
+                                            <div class="j-qqIpt auto-1523864610052-parent">
+                                                <div class="m-baseinputui auto-1523864610052"
+                                                     style="width: 285px; height: 23px;"><textarea name="inputtxt" class="j-textarea inputtxt" style="width: 285px; height: 23px;"></textarea>
+                                                    <label class="j-hint inputhint" style="display: none;"></label>
                                                 </div>
                                             </div>
                                             <div class="tip f-fs0 s-fc6">用于对学生进行提醒等服务</div>
@@ -5387,7 +3596,7 @@
                                                                                                    class="j-textarea inputtxt"
                                                                                                    id="auto-id-1523864610294"
                                                                                                    style="width: 285px; height: 23px;"></textarea>
-                                                    <label class="j-hint inputhint" for="inputtxt"
+                                                    <label class="j-hint inputhint"
                                                            id="auto-id-1523864610292" style="display: none;"></label>
                                                 </div>
                                             </div>

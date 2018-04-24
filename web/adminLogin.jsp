@@ -1,24 +1,24 @@
 <%@page contentType="text/html; charset=utf-8" %>
 <html>
 <head>
-    <title>Bootstrap Admin</title>
+    <title>管理员登录</title>
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="encryptWeb/admin/lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="encryptWeb/admin/lib/font-awesome/css/font-awesome.css">
 
-    <script src="lib/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <script src="encryptWeb/admin/lib/jquery-1.11.1.min.js" type="text/javascript"></script>
 
 
     <link rel="stylesheet" type="text/css" href="css/theme.css">
     <link rel="stylesheet" type="text/css" href="css/premium.css">
 
 
-    <script src="lib/bootstrap/js/bootstrap.js"></script>
+    <script src="encryptWeb/admin/lib/bootstrap/js/bootstrap.js"></script>
     <script type="text/javascript">
         $("[rel=tooltip]").tooltip();
         $(function () {

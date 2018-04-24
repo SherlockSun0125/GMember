@@ -262,8 +262,8 @@
                 // alert(name.value+"=="+pwd.value);
                 // var login=document.getElementById("casLoginForm");
                 // alert(login.innerText);
-                // login.action("encryptWeb/student/stuHome.html");
-                // login.redirect("encryptWeb/student/stuHome.html");
+                // login.action("encryptWeb/student/stuHome.jsp");
+                // login.redirect("encryptWeb/student/stuHome.jsp");
                 // window.location.href='404.jsp';
                 // setTimeout("javascript:location.href='404.jsp'", 5000);
                 // window.location="https://www.baidu.com/";
@@ -291,7 +291,7 @@
         <div class="clearfloat"></div>
         <div class="auth_tab_content">
             <div tabid="01" class="auth_tab_content_item">
-                <form id="casLoginForm" class="fm-v clearfix amp-login-form" role="form" method="post" action="encryptWeb/student/stuHome.html">
+                <form id="casLoginForm" class="fm-v clearfix amp-login-form" role="form" method="post" action="encryptWeb/student/stuHome.jsp">
                     <p>
                         <i class="auth_icon auth_icon_user"></i>
                         <input id="username" name="username" placeholder="用户名" class="auth_input" type="text" value=""/>

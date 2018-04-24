@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<!-- saved from url=(0076)#/learn/forumindex -->
-<html xmlns="//www.w3.org/1999/xhtml" xml:lang="zh" lang="zh">
+<%@page contentType="text/html; charset=utf-8" %>
+<html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>讨论区</title>
     <!--三个重要的CSS文件-->
     <link rel="stylesheet" href="static/core_62c0700cc15bd051f36fa48b7a5c1a26.css">
-    <link rel="stylesheet" href="static/pt_newpages_course_learn_d01c5770104c02453f4cbb3bdf52d195.css">
+    <link rel="stylesheet" href="static/pt_newpages_course_learn.css">
     <style type="text/css">
         .auto-1523950289788 .top {
             height: 28px;
@@ -81,31 +79,31 @@
                             <div class="login f-cb">
                                 <div class="u-mystudy f-pr f-cb f-fr">
                                     <a class="mystudy nitem f-f0" data-index="用户退出" target="_blank"
-                                       href="exit.html" hidefocus="true">退出</a>
+                                       href="exit.jsp" hidefocus="true">退出</a>
                                 </div>
 
                                 <div class="name j-userinfo" id="auto-id-1523840858750">
                                     <div class="f-pr">
                                         <div class="face">
                                             <img class="j-nav-myimg"
-                                                 src="static/68CEAD4577B0AA238B267D0D5FB0AA2B.jpg"
+                                                 src="static/head1.jpg"
                                                  width="30px" height="30px" alt="头像">
                                         </div>
                                     </div>
                                 </div>
                                 <a class="username self f-thide" target="_self" data-index="点击用户名"
-                                   href="setting.html">
+                                   href="setting.jsp">
                                     <span class=" f-fs1 f-f0">PaulSuen</span>
                                 </a>
-                                <i class="line"></i>
+                                <i class="line" style="padding-top: 2%"></i>
                                 <a data-index="消息" class="mes f-pr f-cb j-nav-mescenter"
-                                   href="messageT.html" title="查看更多消息" target="_blank">
+                                   href="messageT.jsp" title="查看更多消息" target="_blank">
                                     <span>消息</span>
                                     <em class="num hidddenClass j-nav-msgnum">0</em>
                                 </a>
                                 <div class="u-mystudy f-pr f-cb f-fr">
                                     <a class="mystudy nitem f-f0" id="j-nav-my-class" data-index="我的学习" target="_self"
-                                       href="stuHome.html" hidefocus="true">我的学习</a>
+                                       href="stuHome.jsp" hidefocus="true">我的学习</a>
                                 </div>
                             </div>
                         </div>
@@ -126,14 +124,14 @@
                 <div class="m-learnleft">
                     <div id="j-courseTabList">
                         <a class="u-learnProgress-tab j-tabitem f-f0 f-fc3 f-cb" data-type="30"
-                           id="auto-id-1523950289735">
+                           id="auto-id-1523950289735" href="myTopic.jsp">
                             <div class="ic f-fl"></div>
                             <span class="f-fl">我的帖子</span>
                         </a>
                         <ul class="tab u-tabul">
                             <li class="u-greentab j-tabitem f-f0 first" data-name="公告" data-type="1"
                                 data-id="2001487091" id="auto-id-1523950289736">
-                                <a class="f-thide f-fc3" href="forum1_announce.html">公告</a>
+                                <a class="f-thide f-fc3" href="forum1_announce.jsp">公告</a>
                             </li>
                             <li class="u-greentab j-tabitem f-f0 last u-curtab" data-name="讨论区" data-type="7"
                                 data-id="2001487096" id="auto-id-1523950289741">
@@ -184,7 +182,7 @@
                                                 <div class="u-baseinputui">
                                                     <input type="text" name="inputtxt" class="j-textarea inputtxt"
                                                            id="auto-id-1523950290675">
-                                                    <label class="j-hint inputhint" for="inputtxt"
+                                                    <label class="j-hint inputhint"
                                                            id="auto-id-1523950290673">搜索该阶段下主题/回复/评论等</label></div>
                                             </div>
                                             <div class="sug" style="display:none">
@@ -212,7 +210,7 @@
                         <!--发帖按钮-->
                         <div class="f-cb">
                             <a class="u-btn u-btn-primary j-newTopicBtn f-fl" style="margin-bottom:40px;"
-                               href="">发起主题</a>
+                               href="newTopic.jsp">发起主题</a>
                         </div>
 
                         <!--子版块-->
@@ -272,7 +270,7 @@
                                         <a class="u-btn u-btn-sm u-btn-left u-btn-active">最新发表</a>
                                         <a class="u-btn u-btn-sm">最新回复</a>
                                         <a class="u-btn u-btn-sm">回复数</a>
-                                        <a class="u-btn u-btn-sm u-btn-right">投票数</a>
+                                        <a class="u-btn u-btn-sm u-btn-right">点赞数</a>
                                     </div>
                                 </div>
                                 <div class="f-cb auto-1523950289417-parent">
@@ -313,7 +311,7 @@
                                                         </span>
                                                         <p class="f-fc9 f-pa watch">浏览：8</p>
                                                         <p class="f-fc9 f-pa reply">回复：1</p>
-                                                        <p class="f-fc9 f-pa vote">投票：0</p>
+                                                        <p class="f-fc9 f-pa vote">点赞：0</p>
                                                     </li>
                                                 </div>
                                                 <!--第二贴-->
@@ -338,14 +336,14 @@
                                                         </span>
                                                         <p class="f-fc9 f-pa watch">浏览：3</p>
                                                         <p class="f-fc9 f-pa reply">回复：0</p>
-                                                        <p class="f-fc9 f-pa vote">投票：0</p>
+                                                        <p class="f-fc9 f-pa vote">点赞：0</p>
                                                     </li>
                                                 </div>
                                                 <!--第三贴,最后一贴-->
                                                 <div class="last">
                                                     <li class="u-forumli">
                                                         <div class="f-cb cnt">
-                                                            <a class="f-fc3 f-f0 lb10 j-link" href="#" target="_self">判断题</a>
+                                                            <a class="f-fc3 f-f0 lb10 j-link" href="#" target="_self">帖子名称</a>
                                                         </div>
                                                         <span>
                                                             <span class="j-txt">
@@ -378,7 +376,7 @@
                                                         </span>
                                                         <p class="f-fc9 f-pa watch">浏览：11</p>
                                                         <p class="f-fc9 f-pa reply">回复：1</p>
-                                                        <p class="f-fc9 f-pa vote">投票：0</p>
+                                                        <p class="f-fc9 f-pa vote">点赞：0</p>
                                                     </li>
                                                 </div>
                                             </div>

@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html xmlns="//www.w3.org/1999/xhtml" xml:lang="zh" lang="zh">
+<%@page contentType="text/html; charset=utf-8" %>
+<html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>我的消息</title>
     <!--样式-->
-    <link rel="stylesheet" href="static/pt_newpages_message_msgList_ca1f241fe634af006ef88b2c3487815e.css">
+    <link rel="stylesheet" href="static/pt_newpages_message_msgList.css">
     <style type="text/css">
         .um-message-tab-view_item {
         width: 136px;
@@ -3327,7 +3327,7 @@
         <div class="g-flow">
             <div class="f-pr f-cb">
                 <div style="position: absolute;top:2px;bottom:2px;">
-                    <a class="f-fl" hidefocus="true" href="stuHome.html" target="_self" data-index="logo">
+                    <a class="f-fl" hidefocus="true" href="stuHome.jsp" target="_self" data-index="logo">
                         <img class="f-fl img" src="static/hitwh_logo_white.png" title="学生主页" width="540px"
                              style="margin-top: 2px;margin-bottom: 1px">
                     </a>
@@ -3340,31 +3340,31 @@
 
                             <div class="u-mystudy f-pr f-cb f-fr">
                                 <a class="mystudy nitem f-f0" data-index="用户退出" target="_blank"
-                                   href="exit.html" hidefocus="true">退出</a>
+                                   href="exit.jsp" hidefocus="true">退出</a>
                             </div>
 
                             <div class="name j-userinfo" id="auto-id-1523840858750">
                                 <div class="f-pr">
                                     <div class="face">
                                         <img class="j-nav-myimg"
-                                             src="static/68CEAD4577B0AA238B267D0D5FB0AA2B.jpg"
+                                             src="static/head1.jpg"
                                              width="30px" height="30px" alt="头像">
                                     </div>
                                 </div>
                             </div>
                             <a class="username self f-thide" target="_self" data-index="点击用户名"
-                               href="setting.html">
+                               href="setting.jsp">
                                 <span class=" f-fs1 f-f0">PaulSuen</span>
                             </a>
-                            <i class="line"></i>
+                            <i class="line" style="padding-top: 2%"></i>
                             <a data-index="消息" class="mes f-pr f-cb j-nav-mescenter"
-                               href="messageT.html" title="查看更多消息" target="_blank">
+                               href="messageT.jsp" title="查看更多消息" target="_blank">
                                 <span>消息</span>
                                 <em class="num hidddenClass j-nav-msgnum">0</em>
                             </a>
                             <div class="u-mystudy f-pr f-cb f-fr">
                                 <a class="mystudy nitem f-f0" id="j-nav-my-class" data-index="我的进度" target="_self"
-                                   href="stuHome.html" hidefocus="true">我的学习</a>
+                                   href="stuHome.jsp" hidefocus="true">我的学习</a>
                             </div>
                         </div>
                     </div>
@@ -3382,8 +3382,8 @@
         <div class="um-message-tab">
             <div class="um-message-tab-view" style="border-top: #ddd 1px solid">
                 <a class="um-message-tab-view_item z-crt" style="border-left: #ddd 1px solid" href="" style=" color: #343d42;">教师提醒</a>
-                <a class="um-message-tab-view_item" style="border-left: #ddd 1px solid" href="messageE.html" style=" color: #343d42;">导师提醒</a>
-                <a class="um-message-tab-view_item" style="border-left: #ddd 1px solid" href="messageC.html" style=" color: #343d42;">互动提醒</a>
+                <a class="um-message-tab-view_item" style="border-left: #ddd 1px solid" href="messageE.jsp" style=" color: #343d42;">导师提醒</a>
+                <a class="um-message-tab-view_item" style="border-left: #ddd 1px solid" href="messageC.jsp" style=" color: #343d42;">互动提醒</a>
             </div>
         </div>
     </div>
