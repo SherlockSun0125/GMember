@@ -1,0 +1,1 @@
+window.NEJ_CONF = {p_frame: ["//nos.netease.com/edu-common-public/res/nej_proxy_frame.html", "//up.study.163.com/res/nej_proxy_frame.html"]};
