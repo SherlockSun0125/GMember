@@ -104,15 +104,13 @@
             text-decoration: none;
         }
 
-
-
         .auth_tab {
             width: 339px;
             margin-left: 125px;
-            background-color: rgba(255,255,255,0.1);
+            background-color: rgba(255, 255, 255, 0.1);
             position: fixed;
             top: 100px;
-            right:50px;
+            right: 50px;
         }
 
         .auth_tab_links li {
@@ -212,7 +210,6 @@
             border-color: #18a689;
         }
 
-
         .full_width {
             display: block;
         }
@@ -253,12 +250,12 @@
     </style>
     <script>
         function check() {
-            var name=document.getElementById("username");
-            var pwd=document.getElementById("password");
+            var name = document.getElementById("username");
+            var pwd = document.getElementById("password");
             // alert(name.value+"=="+pwd.value);
-            if(name.value=="" || pwd.value==""){
+            if (name.value == "" || pwd.value == "") {
                 // alert("账号或密码不能为空！");
-            }else{
+            } else {
                 // alert(name.value+"=="+pwd.value);
                 // var login=document.getElementById("casLoginForm");
                 // alert(login.innerText);
@@ -275,72 +272,77 @@
 <div style="position:absolute;bottom:0px;width: 100%;height: 100%">
     <div class="span5 logo" style="width: 100%;background-color: #002a80;">
         <a class="logo-img" href="home.jsp" title="responsive template"
-           style="margin-left: 10px;margin-top: 3px;margin-bottom: 3px;"><img src="images/myimg/hitwh_logo.png" lt="哈工大威海校徽"/></a>
+           style="margin-left: 10px;margin-top: 3px;margin-bottom: 3px;"><img src="images/myimg/hitwh_logo.png"
+                                                                              lt="哈工大威海校徽"/></a>
     </div>
     <div>
         <img src="images/myimg/hit_silde3.jpg" width="100%" height="85%">
     </div>
 </div>
 
-    <div class="auth_tab">
-        <div class="auth_tab_links">
-            <ul>
-                <li id="accountLogin" style="width:100%;" class="selected" tabid="01"><span>学生用户登录</span></li>
-            </ul>
-        </div>
-        <div class="clearfloat"></div>
-        <div class="auth_tab_content">
-            <div tabid="01" class="auth_tab_content_item">
-                <form id="casLoginForm" class="fm-v clearfix amp-login-form" role="form" method="post" action="encryptWeb/student/stuHome.jsp">
-                    <p>
-                        <i class="auth_icon auth_icon_user"></i>
-                        <input id="username" name="username" placeholder="用户名" class="auth_input" type="text" value=""/>
-                        <span id="usernameError" style="display:none;" class="auth_error">请输入用户名</span>
-                    </p>
+<div class="auth_tab">
+    <div class="auth_tab_links">
+        <ul>
+            <li id="accountLogin" style="width:100%;" class="selected" tabid="01"><span>学生用户登录</span></li>
+        </ul>
+    </div>
+    <div class="clearfloat"></div>
+    <div class="auth_tab_content">
+        <div tabid="01" class="auth_tab_content_item">
+            <form id="casLoginForm" class="fm-v clearfix amp-login-form" role="form" method="post"
+                  action="encryptWeb/student/stuHome.jsp">
+                <p>
+                    <i class="auth_icon auth_icon_user"></i>
+                    <input id="username" name="username" placeholder="用户名" class="auth_input" type="text" value=""/>
+                    <span id="usernameError" style="display:none;" class="auth_error">请输入用户名</span>
+                </p>
 
-                    <p>
-                        <i class="auth_icon auth_icon_pwd"></i>
-                        <input id="password" name="password" placeholder="密码" class="auth_input" type="password"
-                               value="" autocomplete="off"/>
-                        <span id="passwordError" style="display:none;" class="auth_error">请输入密码</span>
-                    </p>
+                <p>
+                    <i class="auth_icon auth_icon_pwd"></i>
+                    <input id="password" name="password" placeholder="密码" class="auth_input" type="password"
+                           value="" autocomplete="off"/>
+                    <span id="passwordError" style="display:none;" class="auth_error">请输入密码</span>
+                </p>
 
-                    <p id="cpatchaDiv"> </p>
-                    <p>
-                        <label onmousedown="">   <input type="checkbox" name="rememberMe" id="rememberMe"/> 一周内免登录</label>
-                    </p>
+                <p id="cpatchaDiv"></p>
+                <p>
+                    <label onmousedown=""> <input type="checkbox" name="rememberMe" id="rememberMe"/> 一周内免登录</label>
+                </p>
 
-                    <p>
-                        <%--<button type="submit" class="auth_login_btn primary full_width">登录--%>
-                        <%--</button>--%>
-                        <input type="submit" value="登录" onclick="check()" class="auth_login_btn primary full_width"/>
-                    </p>
-                    <a id="getBackPasswordMainPage" href="" class="auth_login_forgetp">
-                        <%--<small>登录遇到问题？绑定邮箱/手机？找回/修改密码？二次认证设置？</small>--%>
+                <p>
+                    <%--<button type="submit" class="auth_login_btn primary full_width">登录--%>
+                    <%--</button>--%>
+                    <input type="submit" value="登录" onclick="check()" class="auth_login_btn primary full_width"/>
+                </p>
+                <div style="text-align: right">
+                    <a id="getBackPasswordMainPage" href="apply.jsp" class="auth_login_forgetp">
+                        <small>尚未加入？点击申请</small>
                     </a>
-                    <div><br></div>
-                    <div>
-                        <small>1、帐号为学号。</small>
-                    </div>
-                    <div>
-                        <small>2、初始密码默认身份证号后6位。</small>
-                    </div>
-                    <div>
-                        <small>3、如忘记密码请尽快联系管理员。</small>
-                    </div>
-                    <div><br></div>
-                    <div>
-                        <small>温馨提示：个人应妥善保管个人帐号密码，不能随意告诉他人，由帐号密码管理不善造成的不良后果由个人负责。</small>
-                    </div>
+                    <br/>
+                    <br/>
+                </div>
+                <div>
+                    <small>1、帐号为学号。</small>
+                </div>
+                <div>
+                    <small>2、初始密码默认身份证号后6位。</small>
+                </div>
+                <div>
+                    <small>3、如忘记密码请尽快联系管理员。</small>
+                </div>
+                <div><br></div>
+                <div>
+                    <small>温馨提示：个人应妥善保管个人帐号密码，不能随意告诉他人，由帐号密码管理不善造成的不良后果由个人负责。</small>
+                </div>
 
-                    <input type="hidden" name="lt"
-                           value="LT-4941804-d9Jd5HW2ebP3di1UrRwGTSrjgB9iQe1523453839894-VAct-cas"/>
-                    <input type="hidden" name="dllt" value="userNamePasswordLogin"/>
-                    <input type="hidden" name="execution" value="e2s1"/>
-                    <input type="hidden" name="_eventId" value="submit"/>
-                    <input type="hidden" name="rmShown" value="1">
-                </form>
-            </div>
+                <input type="hidden" name="lt"
+                       value="LT-4941804-d9Jd5HW2ebP3di1UrRwGTSrjgB9iQe1523453839894-VAct-cas"/>
+                <input type="hidden" name="dllt" value="userNamePasswordLogin"/>
+                <input type="hidden" name="execution" value="e2s1"/>
+                <input type="hidden" name="_eventId" value="submit"/>
+                <input type="hidden" name="rmShown" value="1">
+            </form>
+        </div>
     </div>
 </div>
 
