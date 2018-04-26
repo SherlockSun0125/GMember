@@ -53,9 +53,18 @@
             color: #999;
         }
 
-        .auto-1523950289788  {
+        .auto-1523950289788 {
             color: #999;
         }
+
+        .u-learnProgress-tab .ic_2 {
+            width: 16px;
+            height: 16px;
+            margin: 12px 0 0 10px;
+            background-image: url("static/icon9.png");
+            background-position: -32px 0px;
+        }
+
     </style>
 </head>
 
@@ -123,14 +132,19 @@
                 <div class="m-learnleft">
                     <div id="j-courseTabList">
                         <a class="u-learnProgress-tab j-tabitem f-f0 f-fc3 f-cb" data-type="30"
-                           id="auto-id-1523950289735" href="myTopic.jsp">
+                           href="myTopic.jsp">
                             <div class="ic f-fl"></div>
                             <span class="f-fl">我的帖子</span>
+                        </a>
+                        <a class="u-learnProgress-tab j-tabitem f-f0 f-fc3 f-cb" data-type="30"
+                           href="myLog.jsp">
+                            <div class="ic_2 f-fl"></div>
+                            <span class="f-fl">我的日志</span>
                         </a>
                         <ul class="tab u-tabul">
                             <li class="u-greentab j-tabitem f-f0 first" data-name="公告" data-type="1"
                                 data-id="2001487091" id="auto-id-1523950289736">
-                                <a class="f-thide f-fc3" href="forum1_announce.jsp">公告</a>
+                                <a class="f-thide f-fc3" href="forum1_announce.jsp">公告栏</a>
                             </li>
                             <li class="u-greentab j-tabitem f-f0 last u-curtab" data-name="讨论区" data-type="7"
                                 data-id="2001487096" id="auto-id-1523950289741">
@@ -163,10 +177,10 @@
                                                 <li class="item f-thide" title="全部讨论区">
                                                     全部讨论区
                                                 </li>
-                                                <li class="item f-thide" title="老师答疑区" >
+                                                <li class="item f-thide" title="老师答疑区">
                                                     老师答疑区
                                                 </li>
-                                                <li class="item f-thide" title="企业交流区" >
+                                                <li class="item f-thide" title="企业交流区">
                                                     企业交流区
                                                 </li>
                                                 <li class="item f-thide" title="综合讨论区">
@@ -229,7 +243,8 @@
                                                 <div class="f-fl f-thide left">发表关于任务的内容希望能够得到老师回答的疑问。</div>
                                             </div>
                                         </div>
-                                    </div> <div class="u-panelitem f-cb">
+                                    </div>
+                                    <div class="u-panelitem f-cb">
                                         <div class="f-fl icon icon-2"></div>
                                         <div class="f-fl con">
                                             <a class="tit f-fc f-f0 f-fc3" href="#">企业交流区</a>

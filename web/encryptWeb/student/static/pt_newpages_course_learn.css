@@ -3938,7 +3938,7 @@ div.m-fight-dialog .m-celebrate .top .address .t {
 }
 
 div.m-fight-dialog .m-celebrate .top .address a {
-    color: #16914e;
+    color: #e84807;
 }
 
 div.m-fight-dialog .m-celebrate .top .address a:hover {
@@ -3989,7 +3989,7 @@ div.m-fight-dialog .m-celebrate .bottom .okBtn:hover {
     width: 16px;
     height: 16px;
     margin: 12px 0 0 10px;
-    background-position: 0 -414px;
+    background-position: 0px -414px;
 }
 
 .u-learnProgress-tab span {

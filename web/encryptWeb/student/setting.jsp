@@ -3374,7 +3374,7 @@
                                 </tr>
                                 <tr class="b-10"></tr>
                                 <tr>
-                                    <td class="title"><em class="f-sign">*</em>昵称</td>
+                                    <td class="title"><em class="f-sign">*</em>学号</td>
 
                                     <td>
                                         <div class="j-nickName eBcon auto-1523864610227-parent">
@@ -3383,7 +3383,7 @@
                                                     <input type="text" class="j-input" id="auto-id-1523864610246"
                                                            style="width: 175px; height: 25px;"> <label class="j-label"
                                                                                                        id="auto-id-1523864610244"
-                                                                                                       style="display: none;">请输入昵称</label>
+                                                                                                       style="display: none;">请输入学号</label>
                                                 </div>
                                                 <div class="infobox j-infobox auto-1523864610060-parent">
                                                     <div class="m-feedbackinfo auto-1523864610060"
@@ -3397,7 +3397,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="tip f-fs0 s-fc6">请填写为学号</div>
+                                            <div class="tip f-fs0 s-fc6">请填写学号</div>
                                         </div>
 
                                     </td>
@@ -3512,7 +3512,7 @@
                                 </tr>
                                 <tr class="b-10"></tr>
                                 <tr>
-                                    <td class="title">真实姓名</td>
+                                    <td class="title"><em class="f-sign">*</em>真实姓名</td>
                                     <td>
                                         <div class="f-fl rnIpt f-cb">
                                             <div class="j-rnIpt auto-1523864610052-parent">
@@ -3568,7 +3568,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="title">手机号码</td>
+                                    <td class="title"><em class="f-sign">*</em>手机号码</td>
                                     <td>
                                         <div class="f-fl phoneIpt f-cb">
                                             <div class="j-qqIpt auto-1523864610052-parent">

@@ -1,14 +1,14 @@
 <%--
   Created by IntelliJ IDEA.
   User: chong
-  Date: 2018/4/23
-  Time: 14:37
+  Date: 2018/4/26
+  Time: 18:08
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" %>
+<%@ page contentType="text/html;charset=UTF-8"%>
 <html>
 <head>
-    <title>我的帖子</title>
+    <title>我的日志</title>
     <!--三个重要的CSS文件-->
     <link rel="stylesheet" href="static/core_62c0700cc15bd051f36fa48b7a5c1a26.css">
     <link rel="stylesheet" href="static/pt_newpages_course_learn.css">
@@ -18,7 +18,7 @@
             height: 16px;
             margin: 12px 0 0 10px;
             background-image: url("static/icon9.png");
-            background-position: -32px 0px;
+            background-position: -48px 0px;
         }
     </style>
 </head>
@@ -83,12 +83,11 @@
         <div class="g-sd1">
             <div class="m-learnleft">
                 <div id="j-courseTabList">
-                    <a class="u-learnProgress-tab j-tabitem f-f0 f-fc3 f-cb u-curtab" data-type="30"
-                       id="auto-id-1523950289735">
+                    <a class="u-learnProgress-tab j-tabitem f-f0 f-fc3 f-cb" data-type="30" href="myTopic.jsp">
                         <div class="ic f-fl"></div>
                         <span class="f-fl ">我的帖子</span>
                     </a>
-                    <a class="u-learnProgress-tab j-tabitem f-f0 f-fc3 f-cb" data-type="30"
+                    <a class="u-learnProgress-tab j-tabitem f-f0 f-fc3 f-cb u-curtab" data-type="30"
                        href="myLog.jsp">
                         <div class="ic_2 f-fl"></div>
                         <span class="f-fl">我的日志</span>
@@ -119,7 +118,7 @@
                     <!--发帖按钮-->
                     <div class="f-cb">
                         <a class="j-newTopicBtn f-fl" style="margin-bottom:40px;"
-                           href="newTopic.jsp"><img src="static/sendPost.png"></a>
+                           href="newTopic.jsp"><img src="static/addLog.png" style="width: 120px"></a>
                     </div>
 
                     <!--帖子展示-->

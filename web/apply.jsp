@@ -44,7 +44,7 @@
         .td1 {
             text-align: right;
             padding-right: 2em;
-            width: 4em;
+            width: 5em;
             /*background-color: red;*/
         }
 
@@ -65,6 +65,12 @@
         #srank {
             width: 250px;
         }
+        em{
+            font-weight: bold;
+            color: #cc3333;
+            padding-right: 5px;
+            vertical-align: middle;
+        }
     </style>
 </head>
 <body>
@@ -81,7 +87,7 @@
             <div class="span12">
                 <nav id="menu" class="clearfix">
                     <ul>
-                        <li class="current"><a href="./home.jsp"><span class="name">主页</span></a>
+                        <li><a href="./home.jsp"><span class="name">主页</span></a>
                         </li>
                         <li><a href="news.jsp"><span class="name">新闻中心</span></a>
                         </li>
@@ -89,7 +95,7 @@
                         </li>
                         <li><a href="enterprise.jsp"><span class="name">合作企业</span></a>
                         </li>
-                        <li><a><span class="name">用户中心</span></a>
+                        <li class="current"><a><span class="name">用户中心</span></a>
                             <ul>
                                 <li><a href="studentLogin.jsp">学生用户登录</a></li>
                                 <li><a href="teacherLogin.jsp">教师用户登录</a></li>
@@ -115,27 +121,27 @@
         <div class="row" style="padding-left: 30px;text-align: center">
             <form class="form-actions" style="text-align: center">
 
-                <table style="margin-left:35%">
+                <table style="margin-left:35%;">
                     <thead style="text-align: left">
                     <small style="color: dimgray;text-align: left;">请认真填写申请人资料</small>
                     </thead>
                     <tr>
-                        <td class="td1"><label for="sname">姓名</label></td>
+                        <td class="td1"><label for="sname"><em>*</em>姓名</label></td>
                         <td class="td2"><input type="text" id="sname" class="input-text" style="border-radius: 9px"/>
                         </td>
                     </tr>
                     <tr>
-                        <td class="td1"><label for="sno">学号</label></td>
+                        <td class="td1"><label for="sno"><em>*</em>学号</label></td>
                         <td class="td2"><input type="text" id="sno" class="input-text" style="border-radius: 9px;"></td>
                     </tr>
                     <tr>
-                        <td class="td1">性别</td>
+                        <td class="td1"><em>*</em>性别</td>
                         <td class="td2"><input type="radio" name="sex" class="">男&nbsp;&nbsp;
                             <input type="radio" name="sex" class="">女
                         </td>
                     </tr>
                     <tr>
-                        <td class="td1"><label for="slevel">参与阶段</label></td>
+                        <td class="td1"><label for="slevel"><em>*</em>参与阶段</label></td>
                         <td class="td2">
                             <select id="slevel">
                                 <option value="level-0">遴选阶段</option>
@@ -147,7 +153,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="td1"><label for="srank">专业排名</label></td>
+                        <td class="td1"><label for="srank"><em>*</em>专业排名</label></td>
                         <td class="td2">
                             <select id="srank">
                                 <option value="rank-0">前2%</option>
@@ -162,13 +168,17 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="td1"><label for="slanguage">外语水平</label></td>
+                        <td class="td1"><label for="slanguage"><em>*</em>外语水平</label></td>
                         <td class="td2">
                             <input type="text" id="slanguage" class="input-text">
                         </td>
                     </tr>
                     <tr>
-                        <td class="td1"><label for="smail">邮箱</label></td>
+                        <td class="td1"><label for="sphone"><em>*</em>手机号</label></td>
+                        <td class="td2"><input type="text" class="input-text" id="sphone"></td>
+                    </tr>
+                    <tr>
+                        <td class="td1"><label for="smail"><em>*</em>邮箱</label></td>
                         <td class="td2"><input type="email" class="input-text" id="smail"></td>
                     </tr>
                     <tr>
