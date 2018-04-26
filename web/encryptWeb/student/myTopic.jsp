@@ -143,7 +143,7 @@
                                             <div class="first">
                                                 <li class="u-forumli">
                                                     <div class="f-cb cnt">
-                                                        <a class="f-fc3 f-f0 lb10 j-link" href="#" target="_self">帖子1</a>
+                                                        <a>[老师答疑区]</a><a class="f-fc3 f-f0 lb10 j-link" href="#" target="_self">帖子1</a>
                                                     </div>
                                                     <span>
                                                             <span class="j-txt">
@@ -180,7 +180,7 @@
                                             <div class="second">
                                                 <li class="u-forumli">
                                                     <div class="f-cb cnt">
-                                                        <a class="f-fc3 f-f0 lb10 j-link" href="#" target="_self">帖子2</a>
+                                                        <a>[企业交流区]</a><a class="f-fc3 f-f0 lb10 j-link" href="#" target="_self">帖子2</a>
                                                     </div>
                                                     <span>
                                                             <span class="j-txt">
@@ -205,8 +205,7 @@
                                             <div class="last">
                                                 <li class="u-forumli">
                                                     <div class="f-cb cnt">
-                                                        <a class="f-fc3 f-f0 lb10 j-link" href="#"
-                                                           target="_self">帖子3</a>
+                                                        <a>[综合讨论区]</a><a class="f-fc3 f-f0 lb10 j-link" href="#" target="_self">帖子3</a>
                                                     </div>
                                                     <span>
                                                             <span class="j-txt">

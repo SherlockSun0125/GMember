@@ -234,7 +234,7 @@
                                     <div class="u-panelitem f-cb">
                                         <div class="f-fl icon icon-2"></div>
                                         <div class="f-fl con">
-                                            <a class="tit f-fc f-f0 f-fc3" href="#">老师答疑区</a>
+                                            <a class="tit f-fc f-f0 f-fc3" href="teacher_area.jsp">老师答疑区</a>
                                             <div class="f-cb f-fc9">
                                                 <div class="f-fr right">
                                                     <a href="#" class="topiclink f-fl f-thide">老师&nbsp;我有疑问</a>
@@ -247,7 +247,7 @@
                                     <div class="u-panelitem f-cb">
                                         <div class="f-fl icon icon-2"></div>
                                         <div class="f-fl con">
-                                            <a class="tit f-fc f-f0 f-fc3" href="#">企业交流区</a>
+                                            <a class="tit f-fc f-f0 f-fc3" href="company_area.jsp">企业交流区</a>
                                             <div class="f-cb f-fc9">
                                                 <div class="f-fr right">
                                                     <a href="#" class="topiclink f-fl f-thide">导师&nbsp;我有疑问</a>
@@ -260,7 +260,7 @@
                                     <div class="u-panelitem f-cb">
                                         <div class="f-fl icon icon-1"></div>
                                         <div class="f-fl con">
-                                            <a class="tit f-fc f-f0 f-fc3" href="#">综合讨论区</a>
+                                            <a class="tit f-fc f-f0 f-fc3" href="general_area.jsp">综合讨论区</a>
                                             <div class="f-cb f-fc9">
                                                 <div class="f-fr right">
                                                     <a href="#" class="topiclink f-fl f-thide">xxx</a>

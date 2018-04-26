@@ -110,29 +110,19 @@
             <div class="g-mn1c m-learnbox" id="courseLearn-inner-box">
 
                 <div class="m-forumindex">
-                    <!--中间体最上方-->
-
-                    <div class="u-forumnotice">
-                        <div class="j-forumnotice fnotice"></div>
-                    </div>
                     <!--发帖按钮-->
                     <div class="f-cb">
-                        <a class="j-newTopicBtn f-fl" style="margin-bottom:40px;"
-                           href="newTopic.jsp"><img src="static/addLog.png" style="width: 120px"></a>
+                        <a class="j-newTopicBtn f-fl" style="margin-bottom:40px;margin-top: 12px;"
+                           href="newLog.jsp"><img src="static/addLog.png" style="width: 120px"></a>
                     </div>
 
                     <!--帖子展示-->
                     <div class="u-forumlistwrap j-alltopiclist">
                         <div class="m-flwrap">
                             <div class="ttitle">
-                                <h4 class="f-fl f-fc3">全部主题</h4>
+                                <h4 class="f-fl f-fc3">全部日志</h4>
                                 <div class="f-fl u-coursecate j-lessonuit"></div>
-                                <div class="u-btn-group f-fr">
-                                    <a class="u-btn u-btn-sm u-btn-left u-btn-active">主题</a>
-                                    <a class="u-btn u-btn-sm">回复</a>
-                                    <a class="u-btn u-btn-sm">点赞</a>
-                                    <%--<a class="u-btn u-btn-sm u-btn-right">点赞数</a>--%>
-                                </div>
+
                             </div>
                             <div class="f-cb auto-1523950289417-parent">
                                 <div class="m-basepool f-cb auto-1523950289417">
@@ -142,44 +132,25 @@
                                             <div class="first">
                                                 <li class="u-forumli">
                                                     <div class="f-cb cnt">
-                                                        <a class="f-fc3 f-f0 lb10 j-link" href="#" target="_self">帖子1</a>
+                                                        <a></a><a class="f-fc3 f-f0 lb10 j-link" href="#" target="_self">日志1</a>
                                                     </div>
                                                     <span>
                                                             <span class="j-txt">
-                                                                <span class="j-name auto-1523950289507-parent">
-                                                                    <span class="auto-1523950289507">
-                                                                        <span class="userInfo j-userInfo"
-                                                                              id="auto-id-1523950289953" title=""
-                                                                              style="">
-                                                                            <a class="f-fcgreen userName" href="#"
-                                                                               title="140410401">140410401</a>
-                                                                        </span>
-                                                                    </span>
-                                                                </span>
+                                                                <a>[工程学习阶段]</a>
                                                                 <span class="lb10 f-fc9">于2018年04月11日发表</span>
                                                             </span>
 
-                                                            <span class="j-txt" style="display: none;"></span>
-                                                            <span class="j-txt">
-                                                                <span class="lb10 f-fc9 j-partEle">|</span>
-                                                                <span class="lb10 j-name auto-1523950289507-parent">
-                                                                    <span class="auto-1523950289507">
-                                                                        <span class="anonyInfo j-anonyInfo" style="">匿名发表</span>
-                                                                    </span>
-                                                                </span>
-                                                                <span class="lb10 f-fc9">最后回复（13:20）</span>
-                                                            </span>
                                                         </span>
-                                                    <p class="f-fc9 f-pa watch">浏览：8</p>
-                                                    <p class="f-fc9 f-pa reply">回复：1</p>
-                                                    <p class="f-fc9 f-pa vote">点赞：0</p>
+                                                    <p class="f-fc9 f-pa watch">教师评价：0</p>
+                                                    <p class="f-fc9 f-pa reply">导师评价：1</p>
+                                                    <%--<p class="f-fc9 f-pa vote">点赞：0</p>--%>
                                                 </li>
                                             </div>
                                             <!--第二贴-->
                                             <div class="second">
                                                 <li class="u-forumli">
                                                     <div class="f-cb cnt">
-                                                        <a class="f-fc3 f-f0 lb10 j-link" href="#" target="_self">帖子2</a>
+                                                        <a class="f-fc3 f-f0 lb10 j-link" href="#" target="_self">日志2</a>
                                                     </div>
                                                     <span>
                                                             <span class="j-txt">
@@ -205,7 +176,7 @@
                                                 <li class="u-forumli">
                                                     <div class="f-cb cnt">
                                                         <a class="f-fc3 f-f0 lb10 j-link" href="#"
-                                                           target="_self">帖子3</a>
+                                                           target="_self">日志3</a>
                                                     </div>
                                                     <span>
                                                             <span class="j-txt">
@@ -222,19 +193,7 @@
                                                                 <span class="lb10 f-fc9">于2018年03月25日发表</span>
                                                             </span>
                                                             <span class="j-txt" style="display: none;"></span>
-                                                            <span class="j-txt">
-                                                                <span class="lb10 f-fc9 j-partEle">|</span>
-                                                                <span class="lb10 j-name auto-1523950289507-parent">
-                                                                    <span class="auto-1523950289507">
-                                                                        <span class="userInfo j-userInfo"
-                                                                              id="auto-id-1523950289908" title="">
-                                                                            <a class="f-fcgreen userName" href="#"
-                                                                               title="140410405">140410405</a>
-                                                                        </span>
-                                                                    </span>
-                                                                </span>
-                                                                <span class="lb10 f-fc9">最后回复（4月4日）</span>
-                                                            </span>
+
                                                         </span>
                                                     <p class="f-fc9 f-pa watch">浏览：11</p>
                                                     <p class="f-fc9 f-pa reply">回复：1</p>

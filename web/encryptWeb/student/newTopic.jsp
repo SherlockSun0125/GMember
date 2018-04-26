@@ -8,6 +8,15 @@
     <link rel="stylesheet" name="cssUrl" href=" static/c999847cabf4398b84d69b7ef2f1ef78.css">
     <link rel="stylesheet" href=" static/core_62c0700cc15bd051f36fa48b7a5c1a26.css">
     <link rel="stylesheet" href="static/pt_newpages_course_learn.css">
+    <style type="text/css">
+        .u-learnProgress-tab .ic_2 {
+            width: 16px;
+            height: 16px;
+            margin: 12px 0 0 10px;
+            background-image: url("static/icon9.png");
+            background-position: -48px 0px;
+        }
+    </style>
 </head>
 
 <body>
@@ -77,12 +86,17 @@
                             <div class="ic f-fl"></div>
                             <span class="f-fl">我的帖子</span>
                         </a>
+                        <a class="u-learnProgress-tab j-tabitem f-f0 f-fc3 f-cb u-curtab" data-type="30"
+                           href="myLog.jsp">
+                            <div class="ic_2 f-fl"></div>
+                            <span class="f-fl">我的日志</span>
+                        </a>
                         <ul class="tab u-tabul">
                             <li class="u-greentab j-tabitem f-f0 first" data-name="公告" data-type="1"
                                 data-id="2001487091" id="auto-id-1523965034572">
                                 <a class="f-thide f-fc3" href="forum1_announce.jsp">公告</a>
                             </li>
-                            <li class="u-greentab j-tabitem f-f0 last u-curtab" data-name="讨论区" data-type="7"
+                            <li class="u-greentab j-tabitem f-f0 last" data-name="讨论区" data-type="7"
                                 data-id="2001487096" id="auto-id-1523965034577">
                                 <a class="f-thide f-fc3">讨论区</a>
                             </li>
@@ -95,15 +109,6 @@
             <div class="g-mn1">
                 <div class="g-mn1c m-learnbox" id="courseLearn-inner-box">
                     <div class="m-forumtopic f-cb">
-
-
-                        <%--<div class="u-nav f-cb j-nav">--%>
-                            <%--<div class="u-forumbreadnav">--%>
-                                <%--<a href="">讨论区</a>--%>
-                                <%--<span class="f-icon split"></span>--%>
-                                <%--<span>发起新主题</span></div>--%>
-                        <%--</div>--%>
-
                         <div class="j-enable" style="">
                             <div class="u-gx-inputwarp f-cb j-forumRes" style="position:relative; z-index:150;">
                                 <div class="tit f-f0 f-cb">
