@@ -9,16 +9,16 @@
 <html>
 <head>
     <title>申请加入</title>
-    <meta name="viewport" content="width=100%; initial-scale=1; maximum-scale=1; minimum-scale=1; user-scalable=no;" />
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/apple-touch-icon-144-precomposed.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/apple-touch-icon-114-precomposed.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-72-precomposed.png" />
-    <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-57-precomposed.png" />
-    <link href="css/bootstrap-2.min.css" type="text/css" rel="stylesheet" />
-    <link href="css/style.css" type="text/css" rel="stylesheet" />
-    <link href="css/prettyPhoto.css" type="text/css" rel="stylesheet" />
-    <link href="css/font-icomoon.css" type="text/css" rel="stylesheet" />
-    <link href="css/font-awesome.css" type="text/css" rel="stylesheet" />
+    <meta name="viewport" content="width=100%; initial-scale=1; maximum-scale=1; minimum-scale=1; user-scalable=no;"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-57-precomposed.png"/>
+    <link href="css/bootstrap-2.min.css" type="text/css" rel="stylesheet"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet"/>
+    <link href="css/prettyPhoto.css" type="text/css" rel="stylesheet"/>
+    <link href="css/font-icomoon.css" type="text/css" rel="stylesheet"/>
+    <link href="css/font-awesome.css" type="text/css" rel="stylesheet"/>
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
@@ -34,6 +34,38 @@
     <script type="text/javascript" src="js/jquery.ui.totop.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/ajax-mail.js"></script>
+    <style>
+        tr {
+            height: 30px;
+            /*background-color: red;*/
+            margin: 0 5px;
+        }
+
+        .td1 {
+            text-align: right;
+            padding-right: 2em;
+            width: 4em;
+            /*background-color: red;*/
+        }
+
+        .td2 {
+            height: 50px;
+        }
+
+        .td2 > .input-text {
+            height: 30px;
+            width: 250px;
+            border-radius: 20px;
+        }
+
+        #slevel {
+            width: 250px;
+        }
+
+        #srank {
+            width: 250px;
+        }
+    </style>
 </head>
 <body>
 <!--头部-->
@@ -80,15 +112,84 @@
 <!--container-->
 <section id="container">
     <div class="container">
-        <!-- Docs nav
-        ================================================== -->
-        <div class="row" style="padding-left: 50px;background-color: red">
-            <form>
-                <div class="form-group">
-                    <label class="icon-email"></label>
+        <div class="row" style="padding-left: 30px;text-align: center">
+            <form class="form-actions" style="text-align: center">
 
-                </div>
-
+                <table style="margin-left:35%">
+                    <thead style="text-align: left">
+                    <small style="color: dimgray;text-align: left;">请认真填写申请人资料</small>
+                    </thead>
+                    <tr>
+                        <td class="td1"><label for="sname">姓名</label></td>
+                        <td class="td2"><input type="text" id="sname" class="input-text" style="border-radius: 9px"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td1"><label for="sno">学号</label></td>
+                        <td class="td2"><input type="text" id="sno" class="input-text" style="border-radius: 9px;"></td>
+                    </tr>
+                    <tr>
+                        <td class="td1">性别</td>
+                        <td class="td2"><input type="radio" name="sex" class="">男&nbsp;&nbsp;
+                            <input type="radio" name="sex" class="">女
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td1"><label for="slevel">参与阶段</label></td>
+                        <td class="td2">
+                            <select id="slevel">
+                                <option value="level-0">遴选阶段</option>
+                                <option value="level-1">工程学习阶段</option>
+                                <option value="level-2">校企合作阶段</option>
+                                <option value="level-3">毕业设计阶段</option>
+                                <option value="level-4">就业推荐阶段</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td1"><label for="srank">专业排名</label></td>
+                        <td class="td2">
+                            <select id="srank">
+                                <option value="rank-0">前2%</option>
+                                <option value="rank-1">前5%</option>
+                                <option value="rank-2">前10%</option>
+                                <option value="rank-3">前20%</option>
+                                <option value="rank-4">前30%</option>
+                                <option value="rank-2">前40%</option>
+                                <option value="rank-3">前50%</option>
+                                <option value="rank-4">其他</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td1"><label for="slanguage">外语水平</label></td>
+                        <td class="td2">
+                            <input type="text" id="slanguage" class="input-text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td1"><label for="smail">邮箱</label></td>
+                        <td class="td2"><input type="email" class="input-text" id="smail"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="right">
+                            <label for="sgrade" style="text-align: left">&nbsp;&nbsp;所获奖项</label>
+                            <textarea id="sgrade" style="width: 100%;height: 100px"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td1"><label>上传附件</label></td>
+                        <td class="td2">
+                            <input type="file">
+                        </td>
+                    </tr>
+                    <tr></tr>
+                    <tr align="center">
+                        <td colspan="2">
+                            <button type="submit" class="btn-success" style="width: 5em;height: 2.5em;border-radius: 9px">确定</button>
+                        </td>
+                    </tr>
+                </table>
             </form>
         </div>
     </div>
