@@ -132,7 +132,7 @@
                                             <div class="first">
                                                 <li class="u-forumli">
                                                     <div class="f-cb cnt">
-                                                        <a></a><a class="f-fc3 f-f0 lb10 j-link" href="#" target="_self">日志1</a>
+                                                        <a></a><a class="f-fc3 f-f0 lb10 j-link" href="logDetails.jsp" target="_self">日志1</a>
                                                     </div>
                                                     <span>
                                                             <span class="j-txt">
@@ -150,54 +150,34 @@
                                             <div class="second">
                                                 <li class="u-forumli">
                                                     <div class="f-cb cnt">
-                                                        <a class="f-fc3 f-f0 lb10 j-link" href="#" target="_self">日志2</a>
+                                                        <a class="f-fc3 f-f0 lb10 j-link" href="logDetails.jsp" target="_self">日志2</a>
                                                     </div>
                                                     <span>
                                                             <span class="j-txt">
-                                                                <span class="j-name auto-1523950289507-parent">
-                                                                    <span class="auto-1523950289507">
-                                                                     <span class="userInfo j-userInfo"
-                                                                           id="auto-id-1523950289946" title="" style="">
-                                                                            <a class="f-fcgreen userName" href="#"
-                                                                               title="140410402">140410401</a>
-                                                                        </span>
-                                                                    </span>
-                                                                </span>
+                                                                <a>[校企合作阶段]</a>
                                                                 <span class="lb10 f-fc9">于2018年03月28日发表</span>
                                                             </span>
                                                         </span>
-                                                    <p class="f-fc9 f-pa watch">浏览：3</p>
-                                                    <p class="f-fc9 f-pa reply">回复：0</p>
-                                                    <p class="f-fc9 f-pa vote">点赞：0</p>
+                                                    <p class="f-fc9 f-pa watch">教师评价：1</p>
+                                                    <p class="f-fc9 f-pa reply">导师评价：0</p>
                                                 </li>
                                             </div>
                                             <!--第三贴,最后一贴-->
                                             <div class="last">
                                                 <li class="u-forumli">
                                                     <div class="f-cb cnt">
-                                                        <a class="f-fc3 f-f0 lb10 j-link" href="#"
-                                                           target="_self">日志3</a>
+                                                        <a class="f-fc3 f-f0 lb10 j-link" href="logDetails.jsp" target="_self">日志3</a>
                                                     </div>
                                                     <span>
                                                             <span class="j-txt">
-                                                                <span class="j-name auto-1523950289507-parent">
-                                                                    <span class="auto-1523950289507">
-                                                                        <span class="userInfo j-userInfo"
-                                                                              id="auto-id-1523950289939" title=""
-                                                                              style="">
-                                                                            <a class="f-fcgreen userName" href="#"
-                                                                               title="140410403">140410401</a>
-                                                                        </span>
-                                                                    </span>
-                                                                </span>
+                                                                <a>[毕业设计阶段]</a>
                                                                 <span class="lb10 f-fc9">于2018年03月25日发表</span>
                                                             </span>
                                                             <span class="j-txt" style="display: none;"></span>
 
                                                         </span>
-                                                    <p class="f-fc9 f-pa watch">浏览：11</p>
-                                                    <p class="f-fc9 f-pa reply">回复：1</p>
-                                                    <p class="f-fc9 f-pa vote">点赞：0</p>
+                                                    <p class="f-fc9 f-pa watch">教师评价：1</p>
+                                                    <p class="f-fc9 f-pa reply">导师评价：1</p>
                                                 </li>
                                             </div>
                                         </div>

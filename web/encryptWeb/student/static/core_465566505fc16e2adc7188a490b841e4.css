@@ -7568,7 +7568,7 @@ div.m-registerAct-dialog20141113 .zcnt .bottom {
 }
 
 .m-tel-image-validate-code_errBox .erricon {
-    background: url(icon4.png?imageView&quality=100) no-repeat;
+    background: url(icon4.png) no-repeat;
     height: 14px;
     width: 14px;
     vertical-align: middle;
@@ -7657,7 +7657,7 @@ div.m-registerAct-dialog20141113 .zcnt .bottom {
 
 .m-tel-reg .inputbox .u-logo .u-logo-tel {
     margin-top: 13px;
-    background: url(//nos.netease.com/edu-image/2FA9F80612F4A8C77853F8333628E07F.png) no-repeat 2px -26px;
+    background: url(icon3.png) no-repeat 2px -26px;
     display: inline-block;
     height: 20px;
     width: 20px;
@@ -7665,7 +7665,7 @@ div.m-registerAct-dialog20141113 .zcnt .bottom {
 
 .m-tel-reg .inputbox .u-logo .u-logo-code {
     margin-top: 13px;
-    background: url(//nos.netease.com/edu-image/2FA9F80612F4A8C77853F8333628E07F.png) no-repeat 0 -78px;
+    background: url(icon3.png) no-repeat 0 -78px;
     display: inline-block;
     height: 20px;
     width: 20px;
@@ -8044,7 +8044,7 @@ div.m-registerAct-dialog20141113 .zcnt .bottom {
     font-size: 12px;
     color: #999;
     text-indent: 20px;
-    background: url(//s.stu.126.net/res/images/note.png?5b8156472a22e5f652a31cff1c6075cf) -52px -117px no-repeat;
+    background: url(note.png) -52px -117px no-repeat;
 }
 
 .u-upd-img-icon .upbtn.hvr {
@@ -8224,7 +8224,7 @@ div.m-registerAct-dialog20141113 .zcnt .bottom {
     box-shadow: inset 0 -3px 6px #f6f6f6;
     border-bottom: 1px solid #f4f4f4;
     line-height: 50px;
-    background: url(//s.stu.126.net/res/images/bg/test-bar-bg.png?5f50a00732502c1a2c9e88c317887303) repeat-x;
+    background: url(test-bar-bg.png) repeat-x;
 }
 
 .w-title-bar .w-bar-name {
@@ -8647,7 +8647,7 @@ div.m-registerAct-dialog20141113 .zcnt .bottom {
     padding: 16px 20px;
     box-shadow: inset 0 -3px 6px #f6f6f6;
     border-bottom: 1px solid #f4f4f4;
-    background: url(//s.stu.126.net/res/images/bg/test-bar-bg.png?5f50a00732502c1a2c9e88c317887303) repeat-x;
+    background: url(test-bar-bg.png) repeat-x;
 }
 
 .m-labtop .tit {
@@ -8771,7 +8771,7 @@ div.m-registerAct-dialog20141113 .zcnt .bottom {
 }
 
 .m-labtop .cur {
-    color: #19b861;
+    color: #e84807;
 }
 
 .m-labtop .nobg {
@@ -8894,9 +8894,6 @@ div.m-registerAct-dialog20141113 .zcnt .bottom {
     min-width: 50px;
 }
 
-.paysprite, .m-toPayDialog .treatyFb {
-    background: url(//s.stu.126.net/res/images/pay/payIcons.png?edfb0ebe9e96f67408b27a9a90a3f515) no-repeat 4449px 4449px;
-}
 
 .m-toPayDialog {
     width: 406px;
@@ -9911,7 +9908,7 @@ div.m-registerAct-dialog20141113 .zcnt .bottom {
     font-size: 10px !important;
     z-index: 10 !important;
     color: #FFF !important;
-    background: #6ce26c !important;
+    background: #e84807 !important;
     border: none !important;
 }
 
@@ -9959,7 +9956,7 @@ div.m-registerAct-dialog20141113 .zcnt .bottom {
 }
 
 .syntaxhighlighter .gutter .line.highlighted {
-    background-color: #6ce26c !important;
+    background-color: #e84807 !important;
     color: #FFF !important;
 }
 
@@ -9989,7 +9986,7 @@ div.m-registerAct-dialog20141113 .zcnt .bottom {
 }
 
 .syntaxhighlighter.printing .comments, .syntaxhighlighter.printing .comments a, .syntaxhighlighter .comments, .syntaxhighlighter .comments a {
-    color: #008200 !important;
+    color: #e84807 !important;
 }
 
 .syntaxhighlighter.printing .string, .syntaxhighlighter.printing .string a, .syntaxhighlighter.collapsed .toolbar a, .syntaxhighlighter .string, .syntaxhighlighter .string a {
@@ -10630,7 +10627,7 @@ div.m-registerAct-dialog20141113 .zcnt .bottom {
     height: 16px;
     top: 20px;
     right: 20px;
-    background: transparent url(//nos.netease.com/edu-image/4466DE7D9DA466817955EE00D40DD6E7.png) center center no-repeat;
+    background: transparent url(exit.png) center center no-repeat;
     background-size: 16px 16px;
 }
 
@@ -10696,7 +10693,7 @@ div.m-registerAct-dialog20141113 .zcnt .bottom {
     margin-top: 20px;
     border-radius: 7px;
     font-size: 16.8px;
-    background-color: #08d346;
+    background-color: #e84807;
     color: #fff;
 }
 
@@ -10732,7 +10729,7 @@ div.m-registerAct-dialog20141113 .zcnt .bottom {
     float: left;
     width: 60px;
     height: 60px;
-    background: url(//nos.netease.com/edu-image/12C15D2DBEB627E70D4EAD2035B862CB.png) 0 0 no-repeat;
+    background: url(icon8.png) 0 0 no-repeat;
     background-size: 220px 220px;
     margin-left: 0;
     padding-left: 0;
@@ -10782,7 +10779,7 @@ div.m-registerAct-dialog20141113 .zcnt .bottom {
     height: 22px;
     top: 3.125%;
     right: 3.125%;
-    background: transparent url(//nos.netease.com/edu-image/4466DE7D9DA466817955EE00D40DD6E7.png) center center no-repeat;
+    background: transparent url(exit.png) center center no-repeat;
     background-size: 22px;
 }
 
@@ -10831,7 +10828,7 @@ div.m-registerAct-dialog20141113 .zcnt .bottom {
     margin-top: 3.7%;
     border-radius: 7px;
     font-size: 3.2em;
-    background-color: #08d346;
+    background-color: #e84a07;
     color: #fff;
 }
 
@@ -10859,7 +10856,7 @@ div.m-registerAct-dialog20141113 .zcnt .bottom {
     margin-top: 3.7%;
     border-radius: 7px;
     font-size: 3.2em;
-    background-color: #08d346;
+    background-color: #e84a07;
     color: #fff;
 }
 
@@ -10890,7 +10887,7 @@ div.m-registerAct-dialog20141113 .zcnt .bottom {
     float: left;
     width: 40px;
     height: 40px;
-    background: url(//nos.netease.com/edu-image/12C15D2DBEB627E70D4EAD2035B862CB.png) 0 0 no-repeat;
+    background: url(icon9.png) 0 0 no-repeat;
     background-size: 148px 148px;
     margin-left: 0;
     padding-left: 0;
@@ -11162,13 +11159,6 @@ div.m-registerAct-dialog20141113 .zcnt .bottom {
     border-left: 1px solid #891d0b;
 }
 
-.game-u-dimcode {
-    width: 120px;
-    height: 120px;
-    margin: 68px auto 0;
-    background: url(//s.stu.126.net/res/images/game/qrcode.png?9dff5d7c46b10d5328f244993a725f9c) 0 0/100% 100% no-repeat;
-}
-
 .game-g-center iframe {
     margin-left: 200px;
     height: 100%;
@@ -11213,7 +11203,7 @@ div.m-registerAct-dialog20141113 .zcnt .bottom {
     width: 80px;
     vertical-align: top;
     position: relative;
-    background: url(//s.stu.126.net/res/images/game/shut_down_btn.png?24c0e9a78afece2e90cb58f1d3f84e3d) 0 100% no-repeat;
+    background: url(shut_down_btn.png) 0 100% no-repeat;
 }
 
 .game-m-float {
@@ -11223,7 +11213,7 @@ div.m-registerAct-dialog20141113 .zcnt .bottom {
     width: 182px;
     height: 451px;
     position: relative;
-    background: url(//s.stu.126.net/res/images/game/float_bar.png?94d8c30e9c6fe6a496a6eed460e661ec) 0 100% no-repeat;
+    background: url(float_bar.png) 0 100% no-repeat;
 }
 
 .game-m-link {
@@ -11265,28 +11255,11 @@ div.m-registerAct-dialog20141113 .zcnt .bottom {
     border-left: 1px solid #891d0b;
 }
 
-.game-u-dimcode {
-    width: 120px;
-    height: 120px;
-    margin: 68px auto 0;
-    position: relative;
-    background: url(//img0.ph.126.net/miuVVnlTgtwaTGzOknQ0sA==/6630851161909437930.png) 0 100% no-repeat;
-}
-
 .game-j-share {
     position: absolute;
     top: 0px;
     width: 100%;
     display: none;
-}
-
-.game-m-share {
-    position: relative;
-    padding-top: 1px;
-    height: 582px;
-    width: 759px;
-    margin: 100px auto 0;
-    background: url(//s.stu.126.net/res/images/game/sharePC.png?4ba1fde749936cef666a60279c3c090b) 0 0/100% 100% no-repeat;
 }
 
 .game-weixin {
@@ -11315,21 +11288,6 @@ div.m-registerAct-dialog20141113 .zcnt .bottom {
     margin-right: 0;
 }
 
-.game-u-weibo {
-    background-image: url(//s.stu.126.net/res/images/game/weibo.png?cbc136f0a7509451e087ad5e6d428008);
-}
-
-.game-u-qq {
-    background-image: url(//s.stu.126.net/res/images/game/qq.png?c7fc6c1e5c662e1accc7c33faa5f5b7c);
-}
-
-.game-u-renren {
-    background-image: url(//s.stu.126.net/res/images/game/renren.png?b9b3f6293a11a2fa3a3f14b0f88ec844);
-}
-
-.game-u-icourse {
-    background-image: url(//s.stu.126.net/res/images/game/weixin.png?fd9b9ec2064a4cfd6367bab2246d4cef);
-}
 
 .game-u-shareclose {
     position: absolute;
@@ -11397,10 +11355,6 @@ div.m-registerAct-dialog20141113 .zcnt .bottom {
     -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
-}
-
-.m-mailRecommend .wrapper .cell1 {
-    background: url(//s.stu.126.net/res/images/mailRecommend/r1.png?409fc79995f5705b1665a29bf6a7b0e1) top left no-repeat;
 }
 
 .m-mailRecommend .wrapper .cell1 .index, .m-mailRecommend .wrapper .cell1 .download {
@@ -11508,10 +11462,6 @@ div.m-registerAct-dialog20141113 .zcnt .bottom {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
 }
 
-.m-mailRecommend-v5 .wrapper .cell1 {
-    background: url(//s.stu.126.net/res/images/mailRecommend/r1_v5.png?4e10325af4045f5368d492abfe312270) top left no-repeat;
-}
-
 .m-mailRecommend-v5 .wrapper .cell1 .index, .m-mailRecommend-v5 .wrapper .cell1 .download {
     display: block;
     position: absolute;
@@ -11539,14 +11489,9 @@ div.m-registerAct-dialog20141113 .zcnt .bottom {
 .m-mailRecommend-v5 .wrapper .cell3 {
     height: 314px;
 }
-
-.m-mailRecommend-v5 .wrapper .cell9 {
-    background: url(//s.stu.126.net/res/images/mailRecommend/r9.png?4dd21e43674a8c5fbcdb52899474a913) top left no-repeat;
-}
-
 @charset "UTF-8";
 .buttonsprite, .m-failure .m-failshow .u-right .btnArea .homeBtn, .m-failure .m-failshow .u-right .btnArea .homeBtn span, .m-inviteShare .invitebox .sendLinkBtn, .m-inviteShare .invitebox .sendLinkBtn span, .m-inviteShare .invitebox .u-cmtwrp .sendInviteBtn, .m-inviteShare .invitebox .u-cmtwrp .sendInviteBtn span, .m-inviteShare .linkBox .sendLinkBtn, .m-inviteShare .linkBox .sendLinkBtn span, .m-inviteShare .unBind .toBind, .m-inviteShare .unBind .toBind span {
-    background: url(//s.stu.126.net/res/images/btn/button.png?8da8e506b44a05ffa0554aceba35eec0) no-repeat 4449px 4449px;
+    background: url(button.png) no-repeat 4449px 4449px;
 }
 
 .u-moocbtn {
@@ -11598,7 +11543,7 @@ div.m-registerAct-dialog20141113 .zcnt .bottom {
 }
 
 .snsSprite, .m-inviteShare .rightSide .tabitem span, .m-inviteShare .invitebox .nav .navItem, .m-inviteShare .invitebox .ui-pager a.zbtn, .u-inviteFriend .nickName em {
-    background: url(//s.stu.126.net/res/images/sns/snsSprite.png?71fce9d4f9d5f4e2b5b897821ce302af) no-repeat 4449px 4449px;
+    background: url(snsSprite.png) no-repeat 4449px 4449px;
 }
 
 .m-failure {
@@ -11612,12 +11557,6 @@ div.m-registerAct-dialog20141113 .zcnt .bottom {
     top: 20%;
     width: 285px;
     height: 100px;
-}
-
-.m-failure .m-failshow .u-left {
-    width: 50px;
-    height: 100px;
-    background: url(//s.stu.126.net/res/images/youdaoBind.png?1f72c758065bc11550d606b3b37652b9) no-repeat -55px -30px;
 }
 
 .m-failure .m-failshow .u-right {

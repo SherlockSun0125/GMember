@@ -96,16 +96,6 @@ body {
     border-radius: 4px;
 }
 
-::-moz-scrollbar {
-    width: 6px;
-    background-color: transparent;
-}
-
-::-moz-scrollbar-thumb {
-    background-color: #666;
-    border-radius: 4px;
-}
-
 .g-hd:after, .g-bd:after, .g-ft:after, .m-nav ul:after {
     clear: both;
     content: '.';
@@ -288,7 +278,7 @@ body {
 }
 
 .s-fc3 {
-    color: #39a030;
+    color: #e84807;
 }
 
 .s-fc4 {
@@ -344,7 +334,7 @@ body {
 }
 
 .f-fcgreen {
-    color: #39a030;
+    color: #e84807;
 }
 
 .f-fcorange {
@@ -352,7 +342,7 @@ body {
 }
 
 a.f-fcgreen {
-    color: #39a030;
+    color: #e84807;
 }
 
 a.f-fcgreen:hover {
@@ -360,7 +350,7 @@ a.f-fcgreen:hover {
 }
 
 a.f-fc0:hover, a:hover .f-fc0, a.f-fc3:hover, a:hover .f-fc3, a.f-fc6:hover, a:hover .f-fc6, a.f-fc9:hover, a:hover .f-fc9, a.f-fcf:hover, a:hover .f-fcf {
-    color: #39a030;
+    color: #e84807;
     text-decoration: none;
 }
 

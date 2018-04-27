@@ -295,7 +295,7 @@
                                                 <div class="first">
                                                     <li class="u-forumli">
                                                         <div class="f-cb cnt">
-                                                            <a class="f-fc3 f-f0 lb10 j-link" href="#" target="_self">老师&nbsp;我有疑问</a>
+                                                            <a class="f-fc3 f-f0 lb10 j-link" href="topicDetails.jsp" target="_self">老师&nbsp;我有疑问</a>
                                                         </div>
                                                         <span>
                                                             <span class="j-txt">
