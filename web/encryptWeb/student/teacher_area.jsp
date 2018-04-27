@@ -1,7 +1,14 @@
-<%@page contentType="text/html; charset=utf-8" %>
+<%--
+  Created by IntelliJ IDEA.
+  User: chong
+  Date: 2018/4/26
+  Time: 20:50
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8"%>
 <html>
 <head>
-    <title>讨论区</title>
+    <title>老师答疑区</title>
     <!--三个重要的CSS文件-->
     <link rel="stylesheet" href="static/core_62c0700cc15bd051f36fa48b7a5c1a26.css">
     <link rel="stylesheet" href="static/pt_newpages_course_learn.css">
@@ -162,7 +169,9 @@
                     <div class="m-forumindex">
                         <!--中间体最上方-->
                         <div class="u-forumtop f-cb">
-                            <div class="j-forumName f-fl f-thide"><h2>讨论区</h2></div>
+                            <div class="j-forumName f-fl f-thide"><a style="color: black;" href="forum1.jsp">讨论区</a>
+                                <span class="f-icon split"></span>
+                                <span style="color: lightgrey">老师答疑区</span></div>
                             <div class="f-fr j-searchUI">
                                 <div class="u-forumSearch f-cb">
                                     <div class="f-fl auto-1523950289788-parent">
@@ -209,11 +218,9 @@
                             </div>
                         </div>
 
+                        <h2>老师答疑区</h2>
                         <p class="indexDes f-fc6 j-forumIntro">
-                            欢迎大家来到讨论区！本讨论区供各位同学就课程问题进行交流学习。<br>
-                            1.&nbsp;尽量不要发无意义的贴子。<br>
-                            2.&nbsp;帖子标题务必清晰明白。<br>
-                            3.&nbsp;不要有问题，马上发贴，而是先看看讨论区是不是已经有人发过类似帖子了。
+                            <br/>发表关于任务的内容希望能够得到老师回答的疑问。
                         </p>
 
                         <div class="u-forumnotice">
@@ -223,55 +230,7 @@
                         <!--发帖按钮-->
                         <div class="f-cb">
                             <a class="j-newTopicBtn f-fl" style="margin-bottom:40px;"
-                               href="newTopic.jsp"><img src="static/sendPost.png" style="width: 120px"></a>
-                        </div>
-
-                        <!--子版块-->
-                        <div class="u-forumlistwrap">
-                            <div class="ttitle f-cb"><h4 class="f-fl f-fc3">子板块</h4></div>
-                            <div class="listwrap j-panels">
-                                <div>
-                                    <div class="u-panelitem f-cb">
-                                        <div class="f-fl icon icon-2"></div>
-                                        <div class="f-fl con">
-                                            <a class="tit f-fc f-f0 f-fc3" href="teacher_area.jsp">老师答疑区</a>
-                                            <div class="f-cb f-fc9">
-                                                <div class="f-fr right">
-                                                    <a href="#" class="topiclink f-fl f-thide">老师&nbsp;我有疑问</a>
-                                                    <span class="f-fc9">（13:20）</span>
-                                                </div>
-                                                <div class="f-fl f-thide left">发表关于任务的内容希望能够得到老师回答的疑问。</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="u-panelitem f-cb">
-                                        <div class="f-fl icon icon-2"></div>
-                                        <div class="f-fl con">
-                                            <a class="tit f-fc f-f0 f-fc3" href="company_area.jsp">企业交流区</a>
-                                            <div class="f-cb f-fc9">
-                                                <div class="f-fr right">
-                                                    <a href="#" class="topiclink f-fl f-thide">导师&nbsp;我有疑问</a>
-                                                    <span class="f-fc9">（4月14日）</span>
-                                                </div>
-                                                <div class="f-fl f-thide left">这里呈现的是在与企业导师的讨论。</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="u-panelitem f-cb">
-                                        <div class="f-fl icon icon-1"></div>
-                                        <div class="f-fl con">
-                                            <a class="tit f-fc f-f0 f-fc3" href="general_area.jsp">综合讨论区</a>
-                                            <div class="f-cb f-fc9">
-                                                <div class="f-fr right">
-                                                    <a href="#" class="topiclink f-fl f-thide">xxx</a>
-                                                    <span class="f-fc9">（3月8日）</span>
-                                                </div>
-                                                <div class="f-fl f-thide left">发表任何想与大家分享的经验及想法！</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                               href="newTopic.jsp"><img src="static/sendPost.png"></a>
                         </div>
 
                         <!--帖子展示-->

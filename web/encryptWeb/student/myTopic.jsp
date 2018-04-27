@@ -119,7 +119,7 @@
                     <!--发帖按钮-->
                     <div class="f-cb">
                         <a class="j-newTopicBtn f-fl" style="margin-bottom:40px;"
-                           href="newTopic.jsp"><img src="static/sendPost.png"></a>
+                           href="newTopic.jsp"><img src="static/sendPost.png" style="width: 120px"></a>
                     </div>
 
                     <!--帖子展示-->
