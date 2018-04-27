@@ -51321,7 +51321,6 @@ I$("ec6d1e8cfe0c334f6e8d8cbe61fc3a93", function () {
                 ralateUid: "3130318443",
                 baseUrl: "http://service.weibo.com/share/share.php?"
             },
-            QQ: {baseUrl: "http://connect.qq.com/widget/shareqq/index.html?"},
             qzone: {baseUrl: "http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?"},
             netease: "HrJOJ17S62E4ipIa",
             language: "zh_cn",
@@ -59806,43 +59805,6 @@ I$("9801d114d44f4d7b587689813ccf1ff2", function () {
                 "cps-promoter-commission-detail": "/m/cps/promoter/commission/detail/",
                 "cps-promoter-income": "/m/cps/promoter/income/"
             }
-        },
-        modules: {
-            "/m/cps": "module-cps/src/layout/index.html",
-            "/m/cps/admin": "module-cps/src/admin/index.html",
-            "/m/cps/admin/cpscourselist/": "module-cps/src/admin/cpscourselist/index.html",
-            "/m/cps/admin/channelmanage": "module-cps/src/admin/channelmanage/index.html",
-            "/m/cps/admin/channelmanage/flowmainlist/": "module-cps/src/admin/channelmanage/flowmainlist/index.html",
-            "/m/cps/admin/channelmanage/promoterlist/": "module-cps/src/admin/channelmanage/promoterlist/index.html",
-            "/m/cps/admin/channeladd/": "module-cps/src/admin/channeladd/index.html",
-            "/m/cps/admin/flowmaindetail/": "module-cps/src/admin/flowmaindetail/index.html",
-            "/m/cps/admin/promoterdetail/": "module-cps/src/admin/promoterdetail/index.html",
-            "/m/cps/cp": "module-cps/src/cp/index.html",
-            "/m/cps/cp/application": "module-cps/src/cp/application/index.html",
-            "/m/cps/cp/application/unverify/": "module-cps/src/cp/application/unverify/index.html",
-            "/m/cps/cp/application/verified/": "module-cps/src/cp/application/verified/index.html",
-            "/m/cps/cp/application/verifydetail/": "module-cps/src/cp/application/verifydetail/index.html",
-            "/m/cps/cp/application/verifieddetail/": "module-cps/src/cp/application/verifieddetail/index.html",
-            "/m/cps/cp/cpscourse": "module-cps/src/cp/cpscourse/index.html",
-            "/m/cps/cp/cpscourse/edit/": "module-cps/src/cp/cpscourse/edit/index.html",
-            "/m/cps/cp/cpscourse/list/": "module-cps/src/cp/cpscourse/list/index.html",
-            "/m/cps/cp/promoter": "module-cps/src/cp/promoter/index.html",
-            "/m/cps/cp/promoter/list/": "module-cps/src/cp/promoter/list/index.html",
-            "/m/cps/cp/promoter/detail/": "module-cps/src/cp/promoter/detail/index.html",
-            "/m/cps/promoter": "module-cps/src/promoter/index.html",
-            "/m/cps/promoter/apply/": "module-cps/src/promoter/apply/index.html",
-            "/m/cps/promoter/auth/": "module-cps/src/promoter/auth/index.html",
-            "/m/cps/promoter/accountinfo/": "module-cps/src/promoter/accountinfo/index.html",
-            "/m/cps/promoter/editpay/": "module-cps/src/promoter/editpay/index.html",
-            "/m/cps/promoter/statistics/": "module-cps/src/promoter/statistics/index.html",
-            "/m/cps/promoter/inviteinfo/": "module-cps/src/promoter/inviteinfo/index.html",
-            "/m/cps/promoter/invitefail/": "module-cps/src/promoter/invitefail/index.html",
-            "/m/cps/promoter/invitesuccess/": "module-cps/src/promoter/invitesuccess/index.html",
-            "/m/cps/promoter/invitecard/": "module-cps/src/promoter/invitecard/index.html",
-            "/m/cps/promoter/commission": "module-cps/src/promoter/commission/index.html",
-            "/m/cps/promoter/commission/list/": "module-cps/src/promoter/commission/list/index.html",
-            "/m/cps/promoter/commission/detail/": "module-cps/src/promoter/commission/detail/index.html",
-            "/m/cps/promoter/income/": "module-cps/src/promoter/income/index.html"
         }
     }
 });

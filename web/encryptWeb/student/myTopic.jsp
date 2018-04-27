@@ -143,15 +143,13 @@
                                             <div class="first">
                                                 <li class="u-forumli">
                                                     <div class="f-cb cnt">
-                                                        <a>[老师答疑区]</a><a class="f-fc3 f-f0 lb10 j-link" href="#" target="_self">帖子1</a>
+                                                        <a>[老师答疑区]</a><a class="f-fc3 f-f0 lb10 j-link" href="topicDetails.jsp" target="_self">帖子1</a>
                                                     </div>
                                                     <span>
                                                             <span class="j-txt">
                                                                 <span class="j-name auto-1523950289507-parent">
                                                                     <span class="auto-1523950289507">
-                                                                        <span class="userInfo j-userInfo"
-                                                                              id="auto-id-1523950289953" title=""
-                                                                              style="">
+                                                                        <span class="userInfo j-userInfo"title=""style="">
                                                                             <a class="f-fcgreen userName" href="#"
                                                                                title="140410401">140410401</a>
                                                                         </span>
@@ -160,7 +158,6 @@
                                                                 <span class="lb10 f-fc9">于2018年04月11日发表</span>
                                                             </span>
 
-                                                            <span class="j-txt" style="display: none;"></span>
                                                             <span class="j-txt">
                                                                 <span class="lb10 f-fc9 j-partEle">|</span>
                                                                 <span class="lb10 j-name auto-1523950289507-parent">

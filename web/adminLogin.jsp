@@ -88,7 +88,6 @@
                     <label>密码</label>
                     <input type="password" class="form-controlspan12 form-control">
                 </div>
-                <%--<a href="index.html" class="btn btn-primary pull-right">登录</a>--%>
                 <input type="submit" class="btn btn-primary pull-right" value="登录">
                 <div class="clearfix"></div>
             </form>

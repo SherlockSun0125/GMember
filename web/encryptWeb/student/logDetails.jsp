@@ -6291,15 +6291,17 @@
                 <div class="g-mn1c m-learnbox" id="courseLearn-inner-box">
                     <div class="u-learn-modulewidth" id="auto-id-1524789537183">
                         <div class="j-breadNavBox">
-                            <div class="u-forumbreadnav"><a
-                                    href="https://mooc.study.163.com/learn/1000003015?tid=2001462006#/learn/forumindex">讨论区</a><span
-                                    class="f-icon split"></span><a
-                                    href="https://mooc.study.163.com/learn/1000003015?tid=2001462006#/learn/forumpanel?id=2001502062">综合讨论区</a><span
-                                    class="f-icon split"></span><span>主题详情</span></div>
+                            <div class="u-forumbreadnav">
+                                <a href="forum1.jsp">讨论区</a>
+                                <span class="f-icon split"></span>
+                                <a href="general_area.jsp">综合讨论区</a>
+                                <span class="f-icon split"></span>
+                                <span>主题详情</span>
+                            </div>
                         </div>
                         <div class="j-detailBox auto-1524789536709-parent" id="auto-id-1524789537182">
                             <div class="auto-1524789536709" id="auto-id-1524789537181">
-                                <div class="j-post auto-1524789536693-parent">
+                                <div class="j-post">
                                     <div class="auto-1524789536693">
                                         <div class="f-cb"><h3 class="j-title title f-fl">大家学C++的速度咋样？</h3><a
                                                 class="f-fr u-btn u-btn-sm u-btn-default j-transBtn"
@@ -6311,31 +6313,39 @@
                                                 <div class="u-forumtag j-tagTeacherNode">老师参与</div>
                                             </div>
                                         </div>
-                                        <div class="content f-richEditorText j-content" id="auto-id-1524789536990"><p>
-                                            如题。<img src="static/illustration.jpg"></p></div>
+                                        <div class="content f-richEditorText j-content" id="auto-id-1524789536990">
+                                            <p>如题。<img src="static/illustration.jpg"></p>
+                                        </div>
                                         <div class="infobar f-cb">
                                             <div class="j-infoBox">
-                                                <div class="f-fl name j-name auto-1524789536686-parent"><span
-                                                        class="auto-1524789536686">    		<span
-                                                        class="anonyInfo j-anonyInfo" style="display: none;">匿名发表</span>    		<span
-                                                        class="userInfo j-userInfo" id="auto-id-1524789537955" title=""><a
-                                                        class="f-fcgreen userName"
-                                                        href="https://mooc.study.163.com/learn/1000003015?tid=2001462006#/learn/forumpersonal?uid=4928090"
-                                                        title="PaulSuen">PaulSuen</a></span>       </span></div>
+                                                <div class="f-fl name j-name auto-1524789536686-parent">
+                                                    <span class="auto-1524789536686">
+                                                        <span lass="anonyInfo j-anonyInfo"
+                                                              style="display: none;">匿名发表</span>
+                                                        <span class="userInfo j-userInfo" id="auto-id-1524789537955"
+                                                              title="">
+                                                            <a class="f-fcgreen userName" href="" title="PaulSuen">PaulSuen</a>
+                                                        </span>
+                                                    </span>
+                                                </div>
                                                 <div class="f-fl f-fc9 time j-time">6分钟前</div>
                                             </div>
-                                            <div class="f-fl f-fc9 j-fromUnitBox" style="display: none;">来自课件“<a
-                                                    class="j-fromUnit f-fcgreen"></a>”
+                                            <div class="f-fl f-fc9 j-fromUnitBox" style="display: none;">
+                                                来自课件“<a class="j-fromUnit f-fcgreen"></a>”
                                             </div>
                                         </div>
-                                        <div class="optbar f-cb"><a hidefocus="true"
-                                                                    class="f-fl followBtn u-btn u-btn-sm j-followBtn followed"
-                                                                    id="auto-id-1524789536987"> <span
-                                                class="first j-followInner"><i></i>关注</span> <span
-                                                class="second j-followInner"><i></i>已关注</span> <span
-                                                class="secHvr j-followInner">取消关注</span> </a> <a hidefocus="true"
-                                                                                                 class="f-fl replyBtn u-btn u-btn-sm j-replyBtn"
-                                                                                                 id="auto-id-1524789536988"><span><i></i>回复</span></a>
+                                        <div class="optbar f-cb">
+                                            <a hidefocus="true"
+                                               class="f-fl followBtn u-btn u-btn-sm j-followBtn followed"
+                                               id="auto-id-1524789536987">
+                                                <span class="first j-followInner"><i></i>关注</span>
+                                                <span class="second j-followInner"><i></i>已关注</span>
+                                                <span class="secHvr j-followInner">取消关注</span>
+                                            </a>
+                                            <a hidefocus="true" class="f-fl replyBtn u-btn u-btn-sm j-replyBtn"
+                                               id="auto-id-1524789536988">
+                                                <span><i></i>回复</span>
+                                            </a>
                                             <div class="f-cb f-fr optBox j-optBox">
                                                 <div class="f-fl j-editDivider divider">|</div>
                                                 <a hidefocus="true" class="f-fl f-fc9 editBtn j-editBtn"
@@ -6390,7 +6400,7 @@
                                                                         class="userInfo j-userInfo"
                                                                         id="auto-id-1524789537958" title=""><a
                                                                         class="f-fcgreen userName"
-                                                                        href="https://mooc.study.163.com/learn/1000003015?tid=2001462006#/learn/forumpersonal?uid=4928090"
+                                                                        href="#"
                                                                         title="PaulSuen">PaulSuen</a></span>       </span>
                                                             </div>
                                                             <div class="f-fl f-fc9 time j-time">6分钟前</div>
@@ -6439,23 +6449,22 @@
                                                                                             赞同
                                                                                         </div>
                                                                                     </div>
-                                                                                    <div class="f-richEditorText j-content edueditor_styleclass_2"
-                                                                                         id="auto-id-1524789537772"><p>
-                                                                                        好吧。。</p></div>
+                                                                                    <div class="f-richEditorText j-content edueditor_styleclass_2">
+                                                                                        <p>好吧。。</p>
+                                                                                    </div>
                                                                                     <div class="bar f-cb">
-                                                                                        <div class="f-fl name j-name auto-1524789536686-parent">
-                                                                                            <span class="auto-1524789536686">    		<span
-                                                                                                    class="anonyInfo j-anonyInfo"
-                                                                                                    style="display: none;">匿名发表</span>    		<span
-                                                                                                    class="userInfo j-userInfo"
-                                                                                                    id="auto-id-1524789537951"
-                                                                                                    title=""><a
-                                                                                                    class="f-fcgreen userName"
-                                                                                                    href="https://mooc.study.163.com/learn/1000003015?tid=2001462006#/learn/forumpersonal?uid=4928090"
-                                                                                                    title="PaulSuen">PaulSuen</a></span>       </span>
+                                                                                        <div class="f-fl name j-name">
+                                                                                            <span>
+                                                                                                <span class="userInfo j-userInfo"
+                                                                                                      title="">
+                                                                                                    <a class="f-fcgreen userName"
+                                                                                                       href="#"
+                                                                                                       title="PaulSuen">PaulSuen</a>
+                                                                                                </span>
+                                                                                            </span>
                                                                                         </div>
                                                                                         <div class="f-fl f-fc9 time j-time">
-                                                                                            3分钟前
+                                                                                            三分钟前
                                                                                         </div>
                                                                                         <div class="f-fr j-manBox"
                                                                                              style="display: none;"></div>
@@ -6472,7 +6481,6 @@
                                                                                         </div>
                                                                                         <a hidefocus="true"
                                                                                            class="f-fr f-fc9 opt cmtBtn j-cmtBtn"
-                                                                                           id="auto-id-1524789537442"
                                                                                            style="display: none;">评论(0)</a>
                                                                                         <div class="j-cmtDivider f-fr divider"
                                                                                              style="display: none;">|
@@ -6480,22 +6488,18 @@
                                                                                         <div class="f-fr votebox j-vote auto-1524789536688-parent">
                                                                                             <div class="f-cb auto-1524789536688">
                                                                                                 <div class="up f-fl j-up hvr"
-                                                                                                     id="auto-id-1524789537448"
                                                                                                      title="顶"></div>
                                                                                                 <p class="num f-fl f-thide j-num"
                                                                                                    title="0">0</p>
                                                                                                 <div class="down f-fl j-down hvr"
-                                                                                                     id="auto-id-1524789537449"
                                                                                                      title="踩"></div>
                                                                                             </div>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
-                                                                            <div class="auto-1524789536701 auto-1524789536697-parent last"
-                                                                                 id="auto-id-1524789537774">
+                                                                            <div class="auto-1524789536701 auto-1524789536697-parent last">
                                                                                 <div class="m-detailInfoItem f-pr auto-1524789536697"
-                                                                                     id="auto-id-1524789537476"
                                                                                      style="z-index: 100;">
                                                                                     <div class="tagCt f-cb j-tagBox"
                                                                                          style="display: none;">
@@ -6511,15 +6515,14 @@
                                                                                     <div class="bar f-cb"
                                                                                          id="auto-id-1524789537475">
                                                                                         <div class="f-fl name j-name auto-1524789536686-parent">
-                                                                                            <span class="auto-1524789536686">    		<span
-                                                                                                    class="anonyInfo j-anonyInfo"
-                                                                                                    style="display: none;">匿名发表</span>    		<span
-                                                                                                    class="userInfo j-userInfo"
-                                                                                                    id="auto-id-1524789537941"
-                                                                                                    title=""><a
-                                                                                                    class="f-fcgreen userName"
-                                                                                                    href="https://mooc.study.163.com/learn/1000003015?tid=2001462006#/learn/forumpersonal?uid=4928090"
-                                                                                                    title="PaulSuen">PaulSuen</a></span>       </span>
+                                                                                            <span>
+                                                                                                <span class="userInfo j-userInfo"
+                                                                                                      title="">
+                                                                                                    <a class="f-fcgreen userName"
+                                                                                                       href="#"
+                                                                                                       title="PaulSuen">PaulSuen</a>
+                                                                                                </span>
+                                                                                            </span>
                                                                                         </div>
                                                                                         <div class="f-fl f-fc9 time j-time">
                                                                                             3分钟前
@@ -6544,15 +6547,13 @@
                                                                                         <div class="j-cmtDivider f-fr divider"
                                                                                              style="display: none;">|
                                                                                         </div>
-                                                                                        <div class="f-fr votebox j-vote auto-1524789536688-parent">
+                                                                                        <div class="f-fr votebox j-vote">
                                                                                             <div class="f-cb auto-1524789536688">
                                                                                                 <div class="up f-fl j-up hvr"
-                                                                                                     id="auto-id-1524789537470"
                                                                                                      title="顶"></div>
                                                                                                 <p class="num f-fl f-thide j-num"
                                                                                                    title="0">0</p>
                                                                                                 <div class="down f-fl j-down hvr"
-                                                                                                     id="auto-id-1524789537471"
                                                                                                      title="踩"></div>
                                                                                             </div>
                                                                                         </div>
@@ -6560,51 +6561,30 @@
                                                                                 </div>
                                                                             </div>
                                                                         </div>
-                                                                        <div class="u-pager f-pr j-data-pager auto-1524789536594-parent"
-                                                                             style="display: none;">
-                                                                            <div class="auto-1524789536594"
-                                                                                 id="auto-id-1524789537195"><a
-                                                                                    href="https://mooc.study.163.com/learn/1000003015?tid=2001462006#"
-                                                                                    class="zbtn zprv js-disabled"
-                                                                                    id="auto-id-1524789537198">上一页</a><a
-                                                                                    href="https://mooc.study.163.com/learn/1000003015?tid=2001462006#"
-                                                                                    class="zpgi zpg1 js-selected"
-                                                                                    id="auto-id-1524789537204">1</a><a
-                                                                                    href="https://mooc.study.163.com/learn/1000003015?tid=2001462006#"
-                                                                                    class="zpgi zpg2"
-                                                                                    id="auto-id-1524789537206"
-                                                                                    style="display: none;"></a><a
-                                                                                    href="https://mooc.study.163.com/learn/1000003015?tid=2001462006#"
-                                                                                    class="zpgi zpg3"
-                                                                                    id="auto-id-1524789537208"
-                                                                                    style="display: none;"></a><a
-                                                                                    href="https://mooc.study.163.com/learn/1000003015?tid=2001462006#"
-                                                                                    class="zpgi zpg4"
-                                                                                    id="auto-id-1524789537210"
-                                                                                    style="display: none;"></a><a
-                                                                                    href="https://mooc.study.163.com/learn/1000003015?tid=2001462006#"
-                                                                                    class="zpgi zpg5"
-                                                                                    id="auto-id-1524789537212"
-                                                                                    style="display: none;"></a><a
-                                                                                    href="https://mooc.study.163.com/learn/1000003015?tid=2001462006#"
-                                                                                    class="zpgi zpg6"
-                                                                                    id="auto-id-1524789537214"
-                                                                                    style="display: none;"></a><a
-                                                                                    href="https://mooc.study.163.com/learn/1000003015?tid=2001462006#"
-                                                                                    class="zpgi zpg7"
-                                                                                    id="auto-id-1524789537216"
-                                                                                    style="display: none;"></a><a
-                                                                                    href="https://mooc.study.163.com/learn/1000003015?tid=2001462006#"
-                                                                                    class="zpgi zpg8"
-                                                                                    id="auto-id-1524789537218"
-                                                                                    style="display: none;"></a><a
-                                                                                    href="https://mooc.study.163.com/learn/1000003015?tid=2001462006#"
-                                                                                    class="zpgi zpg9"
-                                                                                    id="auto-id-1524789537220"
-                                                                                    style="display: none;"></a><a
-                                                                                    href="https://mooc.study.163.com/learn/1000003015?tid=2001462006#"
-                                                                                    class="zbtn znxt js-disabled"
-                                                                                    id="auto-id-1524789537200">下一页</a>
+                                                                        <div class="u-pager f-pr j-data-pager">
+                                                                            <div>
+                                                                                <a href="#"
+                                                                                   class="zbtn zprv js-disabled">上一页</a>
+                                                                                <a href="#"
+                                                                                   class="zpgi zpg1 js-selected">1</a>
+                                                                                <a href="#" class="zpgi zpg2"
+                                                                                   style="display: none;"></a>
+                                                                                <a href="#" class="zpgi zpg3"
+                                                                                   style="display: none;"></a>
+                                                                                <a href="#" class="zpgi zpg4"
+                                                                                   style="display: none;"></a>
+                                                                                <a href="#" class="zpgi zpg5"
+                                                                                   style="display: none;"></a>
+                                                                                <a href="#" class="zpgi zpg6"
+                                                                                   style="display: none;"></a>
+                                                                                <a href="#" class="zpgi zpg7"
+                                                                                   style="display: none;"></a>
+                                                                                <a href="#" class="zpgi zpg8"
+                                                                                   style="display: none;"></a>
+                                                                                <a href="#" class="zpgi zpg9"
+                                                                                   style="display: none;"></a>
+                                                                                <a href="#"
+                                                                                   class="zbtn znxt js-disabled">下一页</a>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -6613,17 +6593,14 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div class="m-add-comment j-addcomment auto-1524789536699-parent"
-                                                                 id="auto-id-1524789537350">
-                                                                <div class="auto-1524789536699"
-                                                                     id="auto-id-1524789537349"><p
-                                                                        class="small j-unlogbox" style="display: none;">
-                                                                    发表观点要登录哦！点击<a hidefocus="true"
-                                                                                  class="j-loginbtn loginbtn"
-                                                                                  id="auto-id-1524789537190">登录</a></p>
-                                                                    <p class="small j-logupbox"
-                                                                       id="auto-id-1524789537189" style="">添加评论...</p>
-                                                                    <div class="j-logdownbox" id="auto-id-1524789537348"
+                                                            <div class="m-add-comment j-addcomment">
+                                                                <div class="auto-1524789536699">
+                                                                    <p class="small j-unlogbox" style="display: none;">
+                                                                        发表观点要登录哦！点击
+                                                                        <a hidefocus="true" class="j-loginbtn loginbtn">登录</a>
+                                                                    </p>
+                                                                    <p class="small j-logupbox" style="">添加评论...</p>
+                                                                    <div class="j-logdownbox"
                                                                          style="display: none;"></div>
                                                                 </div>
                                                             </div>
@@ -6631,8 +6608,7 @@
                                                         <div class="j-triangle triangle" style="right: 100px;"></div>
                                                     </div>
                                                 </div>
-                                                <div class="f-pr auto-1524789536705 auto-1524789536697-parent last"
-                                                     id="auto-id-1524789537477" style="z-index: 0;">
+                                                <div class="f-pr last" style="z-index: 0;">
                                                     <div class="m-detailInfoItem f-pr auto-1524789536697"
                                                          style="z-index: 100;">
                                                         <div class="tagCt f-cb j-tagBox" style="display: none;">
@@ -6642,74 +6618,50 @@
                                                         <div class="f-richEditorText j-content edueditor_styleclass_1 edueditor_styleclass_4">
                                                             <p>真没人气</p></div>
                                                         <div class="bar f-cb">
-                                                            <div class="f-fl name j-name auto-1524789536686-parent">
-                                                                <span class="auto-1524789536686">    		<span
-                                                                        class="anonyInfo j-anonyInfo"
-                                                                        style="display: none;">匿名发表</span>    		<span
-                                                                        class="userInfo j-userInfo"
-                                                                        id="auto-id-1524789537948" title=""><a
-                                                                        class="f-fcgreen userName"
-                                                                        href="https://mooc.study.163.com/learn/1000003015?tid=2001462006#/learn/forumpersonal?uid=4928090"
-                                                                        title="PaulSuen">PaulSuen</a></span>       </span>
+                                                            <div class="f-fl name j-name">
+                                                                <span>
+                                                                    <span class="anonyInfo j-anonyInfo"
+                                                                          style="display: none;">匿名发表</span>
+                                                                    <span class="userInfo j-userInfo" title="">
+                                                                    <a class="f-fcgreen userName" href=""
+                                                                       title="PaulSuen">PaulSuen</a>
+                                                                </span>
+                                                                </span>
                                                             </div>
                                                             <div class="f-fl f-fc9 time j-time">3分钟前</div>
                                                             <div class="f-fr j-manBox" style="display: none;"></div>
                                                             <a hidefocus="true"
-                                                               class="f-fr f-fc9 opt delBtn j-reportBtn"
-                                                               id="auto-id-1524789537358">举报</a>
+                                                               class="f-fr f-fc9 opt delBtn j-reportBtn">举报</a>
                                                             <div class="f-fr divider">|</div>
-                                                            <a hidefocus="true" class="f-fr f-fc9 opt delBtn j-delBtn"
-                                                               id="auto-id-1524789537359">删除</a>
+                                                            <a hidefocus="true" class="f-fr f-fc9 opt delBtn j-delBtn">删除</a>
                                                             <div class="j-delDivider f-fr divider">|</div>
                                                             <a hidefocus="true" class="f-fr f-fc9 opt cmtBtn j-cmtBtn"
-                                                               id="auto-id-1524789537360" style="">评论(0)</a>
+                                                               style="">评论(0)</a>
                                                             <div class="j-cmtDivider f-fr divider" style="">|</div>
-                                                            <div class="f-fr votebox j-vote auto-1524789536688-parent">
+                                                            <div class="f-fr votebox j-vote">
                                                                 <div class="f-cb auto-1524789536688">
-                                                                    <div class="up f-fl j-up hvr"
-                                                                         id="auto-id-1524789537366" title="顶"></div>
+                                                                    <div class="up f-fl j-up hvr" title="顶"></div>
                                                                     <p class="num f-fl f-thide j-num" title="0">0</p>
-                                                                    <div class="down f-fl j-down hvr"
-                                                                         id="auto-id-1524789537367" title="踩"></div>
+                                                                    <div class="down f-fl j-down hvr" title="踩"></div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="u-pager f-pr j-data-pager auto-1524789536594-parent"
-                                                 style="display: none;">
-                                                <div class="auto-1524789536594" id="auto-id-1524789537005"><a
-                                                        href="https://mooc.study.163.com/learn/1000003015?tid=2001462006#"
-                                                        class="zbtn zprv js-disabled" id="auto-id-1524789537008">上一页</a><a
-                                                        href="https://mooc.study.163.com/learn/1000003015?tid=2001462006#"
-                                                        class="zpgi zpg1 js-selected" id="auto-id-1524789537014">1</a><a
-                                                        href="https://mooc.study.163.com/learn/1000003015?tid=2001462006#"
-                                                        class="zpgi zpg2" id="auto-id-1524789537016"
-                                                        style="display: none;"></a><a
-                                                        href="https://mooc.study.163.com/learn/1000003015?tid=2001462006#"
-                                                        class="zpgi zpg3" id="auto-id-1524789537018"
-                                                        style="display: none;"></a><a
-                                                        href="https://mooc.study.163.com/learn/1000003015?tid=2001462006#"
-                                                        class="zpgi zpg4" id="auto-id-1524789537020"
-                                                        style="display: none;"></a><a
-                                                        href="https://mooc.study.163.com/learn/1000003015?tid=2001462006#"
-                                                        class="zpgi zpg5" id="auto-id-1524789537022"
-                                                        style="display: none;"></a><a
-                                                        href="https://mooc.study.163.com/learn/1000003015?tid=2001462006#"
-                                                        class="zpgi zpg6" id="auto-id-1524789537024"
-                                                        style="display: none;"></a><a
-                                                        href="https://mooc.study.163.com/learn/1000003015?tid=2001462006#"
-                                                        class="zpgi zpg7" id="auto-id-1524789537026"
-                                                        style="display: none;"></a><a
-                                                        href="https://mooc.study.163.com/learn/1000003015?tid=2001462006#"
-                                                        class="zpgi zpg8" id="auto-id-1524789537028"
-                                                        style="display: none;"></a><a
-                                                        href="https://mooc.study.163.com/learn/1000003015?tid=2001462006#"
-                                                        class="zpgi zpg9" id="auto-id-1524789537030"
-                                                        style="display: none;"></a><a
-                                                        href="https://mooc.study.163.com/learn/1000003015?tid=2001462006#"
-                                                        class="zbtn znxt js-disabled" id="auto-id-1524789537010">下一页</a>
+                                            <div class="u-pager f-pr j-data-pager">
+                                                <div>
+                                                    <a href="#" class="zbtn zprv js-disabled">上一页</a>
+                                                    <a href="#" class="zpgi zpg1 js-selected">1</a>
+                                                    <a href="#" class="zpgi zpg2" style="display: none;"></a>
+                                                    <a href="#" class="zpgi zpg3" style="display: none;"></a>
+                                                    <a href="" class="zpgi zpg4" style="display: none;"></a>
+                                                    <a href="#" class="zpgi zpg5" style="display: none;"></a>
+                                                    <a href="#" class="zpgi zpg6" style="display: none;"></a>
+                                                    <a href="#" class="zpgi zpg7" style="display: none;"></a>
+                                                    <a href="#" class="zpgi zpg8" style="display: none;"></a>
+                                                    <a href="#" class="zpgi zpg9" style="display: none;"></a>
+                                                    <a href="#" class="zbtn znxt js-disabled">下一页</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -6717,6 +6669,8 @@
                                                 class="f-f0 f-fc9 j-none-txt f-ib"></span></div>
                                     </div>
                                 </div>
+
+                                <!--输入框-->
                                 <div class="j-reply-add auto-1524789536695-parent" id="auto-id-1524789537456">
                                     <div class="ui-richEditor f-cb f-pr auto-1524789536695" id="auto-id-1524789537455">
                                         <div class="rich-wrap" id="auto-id-1524789537454">
