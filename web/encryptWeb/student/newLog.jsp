@@ -16,6 +16,32 @@
             background-image: url("static/icon9.png");
             background-position: -48px 0px;
         }
+        .file {
+            position: relative;
+            display: inline-block;
+            background: #D0EEFF;
+            border: 1px solid #99D3F5;
+            border-radius: 4px;
+            padding: 8px 24px;
+            overflow: hidden;
+            color: #1E88C7;
+            text-decoration: none;
+            text-indent: 0;
+            line-height: 20px;
+        }
+        .file input {
+            position: absolute;
+            font-size: 100px;
+            right: 0;
+            top: 0;
+            opacity: 0;
+        }
+        .file:hover {
+            background: #AADFFD;
+            border-color: #78C3F3;
+            color: #004974;
+            text-decoration: none;
+        }
     </style>
 </head>
 
@@ -335,18 +361,27 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="f-cb type"><input type="checkbox" id="NiMingFaBiao"
-                                                          class="j-topicType noName"><label for="NiMingFaBiao"
-                                                                                            class="nolabelName">匿名发表</label>
+                            <div class="f-cb type" style="display: none">
+                                <input type="checkbox" id="NiMingFaBiao"class="j-topicType noName">
+                                <label for="NiMingFaBiao" class="nolabelName">匿名发表</label>
                             </div>
-                            <a class="u-btn u-btn-primary j-publish" id="auto-id-1523965034911">发表</a></div>
+                            <div>
+                                <a class="file">
+                                <input type="file" name="上传附件" id="" value="上传附件">上传附件
+                                </a>
+                                <br/>
+                                <br/>
+                            </div>
+                            <div style="margin-left: 30%">
+                                <a class="u-btn u-btn-primary j-publish" style="border-radius: 9px">发表</a>
+                            </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
+</div>
 
 </body>
 </html>

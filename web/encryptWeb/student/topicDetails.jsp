@@ -6356,6 +6356,7 @@
                                     </div>
                                 </div>
 
+                                <!--回复-->
                                 <div class="j-reply-all allbox">
                                     <div class="m-basepool f-cb">
                                         <div class="j-list" style="">
@@ -6392,7 +6393,7 @@
                                                         </div>
                                                     </div>
 
-                                                    <!--回复1之回复-->
+                                                    <!--回复1之回复1-->
                                                     <div class="m-commentWrapper f-pr f-cb auto-1524789536703"
                                                          id="auto-id-1524789537352" style="z-index: 99;">
                                                         <div class="wrap f-fr" id="auto-id-1524789537351">
@@ -6416,9 +6417,7 @@
                                                                                             赞同
                                                                                         </div>
                                                                                     </div>
-                                                                                    <div class="f-richEditorText j-content edueditor_styleclass_2">
-                                                                                        <p>好吧。。</p>
-                                                                                    </div>
+                                                                                    <div class="f-richEditorText j-content edueditor_styleclass_2"><p>回复</p></div>
                                                                                     <div class="bar f-cb">
                                                                                         <div class="f-fl name j-name">
                                                                                             <span>
@@ -6426,24 +6425,19 @@
                                                                                                       title="">
                                                                                                     <a class="f-fcgreen userName"
                                                                                                        href="#"
-                                                                                                       title="PaulSuen">PaulSuen</a>
+                                                                                                       title="140410403">140410403</a>
                                                                                                 </span>
                                                                                             </span>
                                                                                         </div>
                                                                                         <div class="f-fl f-fc9 time j-time">
-                                                                                            三分钟前
+                                                                                            于2018年04月12日发表
                                                                                         </div>
                                                                                         <div class="f-fr j-manBox"
                                                                                              style="display: none;"></div>
                                                                                         <a hidefocus="true"
-                                                                                           class="f-fr f-fc9 opt delBtn j-reportBtn"
-                                                                                           id="auto-id-1524789537440">举报</a>
-                                                                                        <div class="f-fr divider">|
-                                                                                        </div>
-                                                                                        <a hidefocus="true"
                                                                                            class="f-fr f-fc9 opt delBtn j-delBtn"
-                                                                                           id="auto-id-1524789537441">删除</a>
-                                                                                        <div class="j-delDivider f-fr divider">
+                                                                                           id="auto-id-1524789537441" style="display: none;">删除</a>
+                                                                                        <div class="j-delDivider f-fr divider" style="display:none">
                                                                                             |
                                                                                         </div>
                                                                                         <a hidefocus="true"
@@ -6465,6 +6459,7 @@
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
+                                                                            <!--回复一之回复二-->
                                                                             <div class="auto-1524789536701 auto-1524789536697-parent last">
                                                                                 <div class="m-detailInfoItem f-pr auto-1524789536697"
                                                                                      style="z-index: 100;">
@@ -6477,8 +6472,7 @@
                                                                                             赞同
                                                                                         </div>
                                                                                     </div>
-                                                                                    <div class="f-richEditorText j-content edueditor_styleclass_3 edueditor_styleclass_5">
-                                                                                        <p>。。。</p></div>
+                                                                                    <div class="f-richEditorText j-content edueditor_styleclass_3 edueditor_styleclass_5"><p>回复</p></div>
                                                                                     <div class="bar f-cb"
                                                                                          id="auto-id-1524789537475">
                                                                                         <div class="f-fl name j-name auto-1524789536686-parent">
@@ -6487,24 +6481,19 @@
                                                                                                       title="">
                                                                                                     <a class="f-fcgreen userName"
                                                                                                        href="#"
-                                                                                                       title="PaulSuen">PaulSuen</a>
+                                                                                                       title="140410402">140410402</a>
                                                                                                 </span>
                                                                                             </span>
                                                                                         </div>
                                                                                         <div class="f-fl f-fc9 time j-time">
-                                                                                            3分钟前
+                                                                                            于2018年04月13日发表
                                                                                         </div>
                                                                                         <div class="f-fr j-manBox"
                                                                                              style="display: none;"></div>
                                                                                         <a hidefocus="true"
-                                                                                           class="f-fr f-fc9 opt delBtn j-reportBtn"
-                                                                                           id="auto-id-1524789537462">举报</a>
-                                                                                        <div class="f-fr divider">|
-                                                                                        </div>
-                                                                                        <a hidefocus="true"
                                                                                            class="f-fr f-fc9 opt delBtn j-delBtn"
-                                                                                           id="auto-id-1524789537463">删除</a>
-                                                                                        <div class="j-delDivider f-fr divider">
+                                                                                           id="auto-id-1524789537463" style="display: none;">删除</a>
+                                                                                        <div class="j-delDivider f-fr divider" style="display: none;">
                                                                                             |
                                                                                         </div>
                                                                                         <a hidefocus="true"
@@ -6582,26 +6571,20 @@
                                                             <div class="u-forumtag u-forumtag1 j-tagTopNode">置顶</div>
                                                             <div class="u-forumtag j-tagAgreeNode">赞同</div>
                                                         </div>
-                                                        <div class="f-richEditorText j-content edueditor_styleclass_1 edueditor_styleclass_4">
-                                                            <p>真没人气</p></div>
+                                                        <div class="f-richEditorText j-content edueditor_styleclass_1 edueditor_styleclass_4"><p>回复2</p></div>
                                                         <div class="bar f-cb">
                                                             <div class="f-fl name j-name">
                                                                 <span>
-                                                                    <span class="anonyInfo j-anonyInfo"
-                                                                          style="display: none;">匿名发表</span>
                                                                     <span class="userInfo j-userInfo" title="">
                                                                     <a class="f-fcgreen userName" href=""
-                                                                       title="PaulSuen">PaulSuen</a>
+                                                                       title="140410405">140410405</a>
                                                                 </span>
                                                                 </span>
                                                             </div>
-                                                            <div class="f-fl f-fc9 time j-time">3分钟前</div>
+                                                            <div class="f-fl f-fc9 time j-time">于2018年04月11日发表</div>
                                                             <div class="f-fr j-manBox" style="display: none;"></div>
-                                                            <a hidefocus="true"
-                                                               class="f-fr f-fc9 opt delBtn j-reportBtn">举报</a>
-                                                            <div class="f-fr divider">|</div>
-                                                            <a hidefocus="true" class="f-fr f-fc9 opt delBtn j-delBtn">删除</a>
-                                                            <div class="j-delDivider f-fr divider">|</div>
+                                                            <a hidefocus="true" class="f-fr f-fc9 opt delBtn j-delBtn" style="display: none">删除</a>
+                                                            <div class="j-delDivider f-fr divider" style="display:none">|</div>
                                                             <a hidefocus="true" class="f-fr f-fc9 opt cmtBtn j-cmtBtn"
                                                                style="">评论(0)</a>
                                                             <div class="j-cmtDivider f-fr divider" style="">|</div>
@@ -6810,29 +6793,25 @@
                                                     </div>
                                                     <div class="zarea j-area"
                                                          style="width: 100%; height: 200px; z-index: 999; overflow: hidden;">
-                                                        <iframe id="ueditor_6" width="100%" height="100%"
-                                                                frameborder="0"
-                                                                src="javascript:void(function(){document.open();document.write(&quot;&lt;!DOCTYPE html&gt;&lt;html xmlns=&#39;http://www.w3.org/1999/xhtml&#39; class=&#39;view&#39; &gt;&lt;head&gt;&lt;style type=&#39;text/css&#39;&gt;.view{padding:0;word-wrap:break-word;cursor:text;height:90%;}
+                                                        <iframe id="ueditor_6" width="100%" height="100%" frameborder="0" src="javascript:void(function(){document.open();document.write(&quot;&lt;!DOCTYPE html&gt;&lt;html xmlns=&#39;http://www.w3.org/1999/xhtml&#39; class=&#39;view&#39; &gt;&lt;head&gt;&lt;style type=&#39;text/css&#39;&gt;.view{padding:0;word-wrap:break-word;cursor:text;height:90%;}
 body{margin:8px;font-family:sans-serif;font-size:16px;}p{margin:5px 0;}&lt;/style&gt;&lt;style&gt;.view{ font-size:12px; border:0; text-align:left; color:#666; line-height:22px; word-break:break-word; word-wrap:break-word;}                        .view em{ font-style:italic;}                        .view p{ margin:0; padding:0;}                        .view div{ margin:10px 0; padding:0;}                        .view sup, .view blockquote{ border-left:3px solid #D0E5F2; font-style:normal; padding: 0 0 0 10px; vertical-align:baseline; margin:0; font-size:14px;}                        .viewimg{ max-height:520px; max-width:520px; vertical-align:middle;}                        .view code{ min-height:25px; font-family:monospace; white-space:pre-wrap; margin:.5em 0; padding:.4em .6em; border-radius:8px; background:#EFEFEF;}                        .view table{ border-collapse:collapse; border-spacing:0; border:1px solid #E4E4E4}                        .view table th, .view table td{ border:1px solid #E4E4E4; padding:5px;}&lt;/style&gt;&lt;/head&gt;&lt;body class=&#39;view&#39; &gt;&lt;/body&gt;&lt;script type=&#39;text/javascript&#39;  id=&#39;_initialScript&#39;&gt;setTimeout(function(){editor = window.parent.UE.instants[&#39;ueditorInstant6&#39;];editor.setup(document);},0);var _tmpScript = document.getElementById(&#39;_initialScript&#39;);_tmpScript.parentNode.removeChild(_tmpScript);&lt;/script&gt;&lt;/html&gt;&quot;);document.close();}())"
                                                                 src="static/saved_resource.html"></iframe>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="rich-opt f-cb" id="auto-id-1524789537453"><label
-                                                    class="j-anony f-fl"><input type="checkbox" hidefocus="true"
-                                                                                class="j-anonycheck">&nbsp;&nbsp;匿名发表</label>
+                                            <div class="rich-opt f-cb" id="auto-id-1524789537453">
+                                                <label class="j-anony f-fl" style="display:none">
+                                                <input type="checkbox" hidefocus="true" class="j-anonycheck">
+                                                    &nbsp;&nbsp;匿名发表</label>
                                                 <a hidefocus="true"
                                                    class="j-edit-btn editbtn u-btn u-btn-sm u-btn-primary f-fr"
-                                                   id="auto-id-1524789537035">发表回复</a> <a hidefocus="true"
-                                                                                          class="j-close-btn cancelbtn f-fc9 f-fr"
-                                                                                          id="auto-id-1524789537036"
-                                                                                          style="display: none;">取消</a>
+                                                   id="auto-id-1524789537035">发表回复</a>
+                                                <a hidefocus="true" class="j-close-btn cancelbtn f-fc9 f-fr" id="auto-id-1524789537036" style="display: none;">取消</a>
                                             </div>
                                         </div>
                                         <div class="unlogin j-unloginbox" style="display: none;">
-                                            <div class="autowrap f-cb"><p class="f-fl">发表观点要登录哦！</p><a hidefocus="true"
-                                                                                                       class="j-login-btn loginbtn u-btn u-btn-sm u-btn-primary f-fl"
-                                                                                                       id="auto-id-1524789537037">立即登录</a>
+                                            <div class="autowrap f-cb"><p class="f-fl">发表观点要登录哦！</p>
+                                                <a hidefocus="true" class="j-login-btn loginbtn u-btn u-btn-sm u-btn-primary f-fl" id="auto-id-1524789537037">立即登录</a>
                                             </div>
                                         </div>
                                     </div>

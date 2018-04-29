@@ -155,7 +155,7 @@
                             </li>
                             <li class="u-greentab j-tabitem f-f0 last u-curtab" data-name="讨论区" data-type="7"
                                 data-id="2001487096" id="auto-id-1523950289741">
-                                <a class="f-thide f-fc3">讨论区</a>
+                                <a class="f-thide f-fc3" href="forum1.jsp">讨论区</a>
                             </li>
                         </ul>
                     </div>
@@ -230,7 +230,7 @@
                         <!--发帖按钮-->
                         <div class="f-cb">
                             <a class="j-newTopicBtn f-fl" style="margin-bottom:40px;"
-                               href="newTopic.jsp"><img src="static/sendPost.png"></a>
+                               href="newTopic.jsp"><img src="static/sendPost.png" width="120px"></a>
                         </div>
 
                         <!--帖子展示-->

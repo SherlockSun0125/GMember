@@ -176,94 +176,68 @@
             </ul>
         </li>
 
-        <%--<li><a href="faq.html" class="nav-header"><i class="fa fa-fw fa-comment"></i> Faq</a></li>--%>
     </ul>
 </div>
 
 <%--中间部分--%>
 <div class="content">
     <div class="main-content">
-        <div class="panel panel-default">
-            <a href="#page-stats" class="panel-heading" data-toggle="collapse">网站状态</a>
-            <div id="page-stats" class="panel-collapse panel-body collapse in">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6">
-                        <div class="knob-container">
-                            <input class="knob" data-width="200" data-min="0" data-max="300"
-                                   data-displayPrevious="true" value="150" data-fgColor="#92A3C2" data-readOnly=true;>
-                            <h3 class="text-muted text-center">企业数量</h3>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="knob-container">
-                            <input class="knob" data-width="200" data-min="0" data-max="1000"
-                                   data-displayPrevious="true" value="200" data-fgColor="#92A3C2" data-readOnly=true;>
-                            <h3 class="text-muted text-center">学生人数</h3>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="knob-container">
-                            <input class="knob" data-width="200" data-min="0" data-max="2500"
-                                   data-displayPrevious="true" value="100" data-fgColor="#92A3C2" data-readOnly=true;>
-                            <h3 class="text-muted text-center">通知新闻数量</h3>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="knob-container">
-                            <input class="knob" data-width="200" data-min="0" data-max="15000"
-                                   data-displayPrevious="true" value="10067" data-fgColor="#92A3C2" data-readOnly=true;>
-                            <h3 class="text-muted text-center">帖子数</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+        <button href="" style="padding:2px 10px;border-radius: 8px " class="btn-success">增加教师</button>
+        <br/>
+        <br/>
         <%--下一--%>
         <div class="row">
             <%--下左一--%>
-            <div class="col-sm-6 col-md-6">
+            <div class="col-sm-12 col-md-12">
                 <div class="panel panel-default">
-                    <div class="panel-heading no-collapse">最近登录用户<span class="label label-warning">6</span>
+                    <div class="panel-heading no-collapse">教师管理
+                        <span class="label label-warning">教师数量：10</span>
                     </div>
                     <table class="table table-bordered table-striped">
                         <thead>
                         <tr>
+                            <th>工号</th>
                             <th>姓名</th>
-                            <th>学号</th>
-                            <th>时间</th>
+                            <th>手机号</th>
+                            <th>邮箱</th>
+                            <th>密码</th>
+                            <th>性别</th>
+                            <th>年龄</th>
+                            <th>院系</th>
+                            <th>
+                                操作
+                            </th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
-                            <td>刘一</td>
-                            <td>140410401</td>
-                            <td>2018/4/22&nbsp;&nbsp;9:44:51</td>
+                            <td>1223</td>
+                            <td>张三</td>
+                            <td>17862700888</td>
+                            <td>123@163.com</td>
+                            <td>123456</td>
+                            <td>男</td>
+                            <td>40</td>
+                            <td>计算机科学与技术学院</td>
+                            <td>
+                                <a>修改</a>
+                                <a>删除</a>
+                            </td>
                         </tr>
                         <tr>
-                            <td>刘一</td>
-                            <td>140410401</td>
-                            <td>2018/4/22&nbsp;&nbsp;9:44:51</td>
+
                         </tr>
                         <tr>
-                            <td>刘一</td>
-                            <td>140410401</td>
-                            <td>2018/4/22&nbsp;&nbsp;9:44:51</td>
+
                         </tr>
                         <tr>
-                            <td>刘一</td>
-                            <td>140410401</td>
-                            <td>2018/4/22&nbsp;&nbsp;9:44:51</td>
+
                         </tr>
                         <tr>
-                            <td>刘一</td>
-                            <td>140410401</td>
-                            <td>2018/4/22&nbsp;&nbsp;9:44:51</td>
+
                         </tr>
                         <tr>
-                            <td>刘一</td>
-                            <td>140410401</td>
-                            <td>2018/4/22&nbsp;&nbsp;9:44:51</td>
+
                         </tr>
                         </tbody>
                     </table>

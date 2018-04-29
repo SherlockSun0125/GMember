@@ -7,164 +7,6 @@
     <!--样式-->
     <link rel="stylesheet" href="static/pt_newpages_cp_user_homepage.css">
     <style type="text/css">
-        *[hidefocus] {
-            outline: none;
-        }
-
-        body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
-            padding: 0;
-            margin: 0;
-        }
-
-        fieldset, img, html, body, iframe {
-            border: 0;
-        }
-
-        table {
-            border-collapse: collapse;
-            border-spacing: 0;
-        }
-
-        li {
-            list-style: none;
-        }
-
-        caption, th {
-            font-weight: normal;
-            font-style: normal;
-            text-align: left;
-        }
-
-        em {
-            font-style: normal;
-        }
-
-        strong {
-            font-weight: bold;
-        }
-
-        body, textarea, select, input {
-            font-family: "Arial", "Hiragino Sans GB", \5fae\8f6f\96c5\9ed1, "Helvetica", "sans-serif";
-            outline: none;
-            border: 0;
-        }
-
-        textarea {
-            resize: none;
-        }
-
-        input {
-            vertical-align: baseline;
-            margin: 0px;
-        }
-
-        body {
-            background-color: #fff;
-        }
-
-        h1, h2, h3, h4, h5, h6 {
-            font-weight: normal;
-        }
-
-        a, button {
-            cursor: pointer;
-        }
-
-        html, body {
-            width: 100%;
-            height: 100%;
-        }
-
-        html {
-            overflow: auto;
-        }
-
-        body {
-            text-align: left;
-            background: #fff;
-        }
-
-        textarea {
-            overflow: auto;
-        }
-
-        .g-hd:after, .m-nav ul:after {
-            clear: both;
-            content: '.';
-            display: block;
-            height: 0;
-            visibility: hidden;
-        }
-
-        .g-hd, .m-nav ul {
-            zoom: 1;
-        }
-
-        body {
-            min-width: 1205px;
-            position: relative;
-            height: auto !important;
-            min-height: 100%;
-        }
-
-        @keyframes fadeInOut {
-            0% {
-                opacity: 0;
-            }
-            50% {
-                opacity: 0;
-            }
-            100% {
-                opacity: 1;
-            }
-        }
-
-        .x-zoomImg img {
-            vertical-align: middle;
-            -webkit-transition: all, 1s, ease;
-            -moz-transition: all, 1s, ease;
-            transition: all, 1s, ease;
-        }
-
-        .x-zoomImg img:hover {
-            -webkit-transform: scale(1.2);
-            -moz-transform: scale(1.2);
-            -ms-transform: scale(1.2);
-            -o-transform: scale(1.2);
-            transform: scale(1.2);
-        }
-
-        .x-hoverItem {
-            -webkit-transition-property: opacity, -webkit-transform;
-            -moz-transition-property: opacity, -webkit-transform;
-            -ms-transition-property: opacity, -webkit-transform;
-            -o-transition-property: opacity, -webkit-transform;
-            transition-property: opacity, -webkit-transform;
-            -webkit-transition-duration: 0.15s;
-            -moz-transition-duration: 0.15s;
-            -ms-transition-duration: 0.15s;
-            -o-transition-duration: 0.15s;
-            transition-duration: 0.15s;
-            -webkit-transition-timing-function: ease-out;
-            -moz-transition-timing-function: ease-out;
-            -ms-transition-timing-function: ease-out;
-            -o-transition-timing-function: ease-out;
-            transition-timing-function: ease-out;
-            -webkit-transform: scale(0.9);
-            opacity: 0;
-            pointer-events: none;
-            display: none \9;
-            visibility: hidden;
-        }
-
-        .x-hoverItem:hover {
-            opacity: 1;
-            -webkit-transform: scale(1);
-            pointer-events: all;
-            display: block \9;
-            visibility: visible;
-        }
-
         .f-f0 {
             font-family: "Arial", "Hiragino Sans GB", \5fae\8f6f\96c5\9ed1, "Helvetica", "sans-serif";
         }
@@ -177,10 +19,6 @@
         a:hover {
             color: #49AF4F;
             text-decoration: none;
-        }
-
-        a.f-fcgreen:hover, a.f-fcg:hover {
-            text-decoration: underline;
         }
 
         .f-fl {
@@ -290,64 +128,9 @@
             background: #f4f4f4;
         }
 
-
         .ux-user-info {
             background: url(static/user-bg.png) center center no-repeat;
             height: 220px;
-        }
-
-        .ux-user-info-center {
-            width: 1205px;
-            margin: 0 auto;
-            padding-top: 29px;
-        }
-
-        .ux-user-info-top_img {
-            width: 80px;
-            height: 80px;
-            margin: 0 auto;
-            border: 4px solid rgba(250, 250, 250, 0.6);
-            border-radius: 50%;
-            overflow: hidden;
-        }
-
-        .ux-user-info-top_img img {
-            width: 100%;
-        }
-
-        .ux-user-info-bottom {
-            font-family: MicrosoftYaHei;
-            color: #FFFFFF;
-            text-align: center;
-        }
-
-        .ux-user-info-bottom_name {
-            font-size: 20px;
-            margin: 20px 0 10px;
-        }
-
-        .ux-user-info-bottom_position {
-            font-size: 14px;
-        }
-
-        .ux-user-info-bottom_edit {
-            color: #FFFFFF;
-            margin-left: 20px;
-        }
-
-        .ux-user-info-bottom_edit:hover {
-            color: #FFFFFF;
-        }
-
-        .ux-user-info-bottom_description {
-            font-size: 14px;
-            line-height: 22px;
-        }
-
-        .ux-user-info_show {
-            width: 1205px;
-            margin: 90px auto 0;
-            text-align: center;
         }
 
         .ux-user-info_show img {
@@ -398,8 +181,8 @@
                                 <em class="num hidddenClass j-nav-msgnum">0</em>
                             </a>
                             <div class="u-mystudy f-pr f-cb f-fr">
-                                <a class="mystudy nitem f-f0" id="j-nav-my-class" data-index="我的学习" target="_self"
-                                   href="stuHome.jsp" hidefocus="true">我的学习</a>
+                                <a class="mystudy nitem f-f0" id="j-nav-my-class" data-index="我的管理" target="_self"
+                                   href="stuHome.jsp" hidefocus="true">我的管理</a>
                             </div>
                         </div>
                     </div>
@@ -410,95 +193,14 @@
 </div>
 
 <!-- 中间部分-->
-<div class="ux-user-info" style="margin:0;padding:0;">
-    <div class="ux-user-info-center">
-        <div class="ux-user-info-top">
-            <div class="ux-user-info-top_img">
-                <img src="static/head1.jpg">
-            </div>
-        </div>
-        <div class="ux-user-info-bottom">
-            <div class="ux-user-info-bottom_name">PaulSuen</div>
-            <div class="ux-user-info-bottom_description f-pr">
-                <span>个人简介</span>
-            </div>
-        </div>
+<div class="container" style="margin:0;padding:0;">
+    <div class="row">
+    <div style="width: 20%;height: 100%;background-color: red;border:1px red solid;">
+
     </div>
-    <div class="ux-user-info_show">
-        <div class="container">
-            <!-- !important -->
-            <div class="row highlights">
-                <div class="span3">
-                    <div class="hl-circle">
-                        <a class="hl-icon1" href="forum1.jsp">forum</a>
-                    </div>
+    <div style="width:80%;height:100%;background-color: green;border: 1px green  solid;">
 
-                    <div class="highlights-content clearfix">
-                        <h5>工程学习阶段</h5>
-
-                        <p>
-                            显示一些进度信息
-                        </p>
-
-                        <a class="btn-small btn-hl" href="forum1.jsp">
-                            <span>进入讨论区</span>
-                        </a>
-                        <!-- button small end -->
-                    </div>
-                </div>
-                <div class="span3 ">
-                    <div class="hl-circle">
-                        <a class="hl-icon2" href="forum2.jsp">forum</a>
-                    </div>
-
-                    <div class="highlights-content clearfix">
-                        <h5>校企合作阶段</h5>
-
-                        <p>
-                            显示一些进度信息
-                        </p>
-
-                        <a class="btn-small btn-hl" href="forum2.jsp">
-                            <span>进入讨论区</span>
-                        </a><!-- button small end -->
-                    </div>
-                </div>
-                <div class="span3">
-                    <div class="hl-circle">
-                        <a class="hl-icon3" href="forum3.jsp">forum</a>
-                    </div>
-
-                    <div class="highlights-content clearfix">
-                        <h5>毕业设计阶段</h5>
-
-                        <p>
-                            显示一些进度信息
-                        </p>
-
-                        <a class="btn-small btn-hl" href="forum3.jsp">
-                            <span>进入讨论区</span>
-                        </a><!-- button small end -->
-                    </div>
-                </div>
-                <div class="span3 highlights">
-                    <div class="hl-circle">
-                        <a class="hl-icon4" href="forum4.jsp">forum</a>
-                    </div>
-
-                    <div class="highlights-content clearfix">
-                        <h5>就业推荐阶段</h5>
-
-                        <p>
-                            显示一些进度信息
-                        </p>
-
-                        <a class="btn-small btn-hl" href="forum4.jsp">
-                            <span>进入讨论区</span>
-                        </a><!-- button small end -->
-                    </div>
-                </div>
-            </div>
-        </div>
+    </div>
     </div>
 </div>
 

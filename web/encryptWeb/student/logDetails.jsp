@@ -6287,25 +6287,22 @@
             </div>
 
 
+            <!--中间-->
             <div class="g-mn1">
                 <div class="g-mn1c m-learnbox" id="courseLearn-inner-box">
                     <div class="u-learn-modulewidth" id="auto-id-1524789537183">
                         <div class="j-breadNavBox">
                             <div class="u-forumbreadnav">
-                                <a href="forum1.jsp">讨论区</a>
+                                <a href="general_area.jsp">工程学习阶段</a>
                                 <span class="f-icon split"></span>
-                                <a href="general_area.jsp">综合讨论区</a>
-                                <span class="f-icon split"></span>
-                                <span>主题详情</span>
+                                <span>日志详情</span>
                             </div>
                         </div>
                         <div class="j-detailBox auto-1524789536709-parent" id="auto-id-1524789537182">
                             <div class="auto-1524789536709" id="auto-id-1524789537181">
                                 <div class="j-post">
                                     <div class="auto-1524789536693">
-                                        <div class="f-cb"><h3 class="j-title title f-fl">大家学C++的速度咋样？</h3><a
-                                                class="f-fr u-btn u-btn-sm u-btn-default j-transBtn"
-                                                style="display:none" id="auto-id-1524789536989">迁移至“过往学期精华贴”</a>
+                                        <div class="f-cb"><h3 class="j-title title f-fl">帖子标题1</h3>
                                             <div class="f-cb f-fr j-tagBox" style="display: none;">
                                                 <div class="u-forumtag u-forumtag1 j-tagTopNode">置顶</div>
                                                 <div class="u-forumtag j-tagAgreeNode">赞同</div>
@@ -6313,299 +6310,86 @@
                                                 <div class="u-forumtag j-tagTeacherNode">老师参与</div>
                                             </div>
                                         </div>
-                                        <div class="content f-richEditorText j-content" id="auto-id-1524789536990">
-                                            <p>如题。<img src="static/illustration.jpg"></p>
+                                        <div class="content f-richEditorText j-content">
+                                            <p>内容.<br/><br/><img src="static/illustration.jpg"></p>
                                         </div>
                                         <div class="infobar f-cb">
                                             <div class="j-infoBox">
-                                                <div class="f-fl name j-name auto-1524789536686-parent">
-                                                    <span class="auto-1524789536686">
-                                                        <span lass="anonyInfo j-anonyInfo"
-                                                              style="display: none;">匿名发表</span>
-                                                        <span class="userInfo j-userInfo" id="auto-id-1524789537955"
-                                                              title="">
-                                                            <a class="f-fcgreen userName" href="" title="PaulSuen">PaulSuen</a>
+                                                <div class="f-fl name j-name">
+                                                        <span class="userInfo j-userInfo" title="">
+                                                            <a class="f-fcgreen userName" href="" title="140410401">140410401</a>
                                                         </span>
-                                                    </span>
                                                 </div>
-                                                <div class="f-fl f-fc9 time j-time">6分钟前</div>
-                                            </div>
-                                            <div class="f-fl f-fc9 j-fromUnitBox" style="display: none;">
-                                                来自课件“<a class="j-fromUnit f-fcgreen"></a>”
+                                                <div class="f-fl f-fc9 time j-time">于2018年04月11日发表</div>
                                             </div>
                                         </div>
                                         <div class="optbar f-cb">
-                                            <a hidefocus="true"
-                                               class="f-fl followBtn u-btn u-btn-sm j-followBtn followed"
-                                               id="auto-id-1524789536987">
-                                                <span class="first j-followInner"><i></i>关注</span>
-                                                <span class="second j-followInner"><i></i>已关注</span>
-                                                <span class="secHvr j-followInner">取消关注</span>
-                                            </a>
-                                            <a hidefocus="true" class="f-fl replyBtn u-btn u-btn-sm j-replyBtn"
-                                               id="auto-id-1524789536988">
-                                                <span><i></i>回复</span>
-                                            </a>
                                             <div class="f-cb f-fr optBox j-optBox">
-                                                <div class="f-fl j-editDivider divider">|</div>
+                                                <a hidefocus="true" class="f-fr f-fc9 opt delBtn j-delBtn" id="auto-id-1524789537053">删除</a>
+                                                <div class="f-fr divider">|</div>
+                                                <div class="f-fl j-editDivider divider" style="display:none">|</div>
                                                 <a hidefocus="true" class="f-fl f-fc9 editBtn j-editBtn"
                                                    id="auto-id-1524789536985">编辑</a>
-                                                <div class="f-fl divider">|</div>
-                                                <a hidefocus="true" class="f-fl f-fc9 editBtn j-reportBtn"
-                                                   id="auto-id-1524789536986">举报</a>
-                                                <div class="f-fl j-manBox" style="display: none;"></div>
                                             </div>
-                                            <div class="f-fr votebox j-vote auto-1524789536688-parent">
+                                            <div class="f-fr votebox j-vote" style="display: none">
                                                 <div class="f-cb auto-1524789536688">
-                                                    <div class="up f-fl j-up hvr" id="auto-id-1524789536996"
-                                                         title="顶"></div>
+                                                    <div class="up f-fl j-up hvr" title="顶"></div>
                                                     <p class="num f-fl f-thide j-num" title="0">0</p>
-                                                    <div class="down f-fl j-down hvr" id="auto-id-1524789536997"
-                                                         title="踩"></div>
+                                                    <div class="down f-fl j-down hvr" title="踩"></div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="j-banState"></div>
-                                <div class="rinfobox f-cb"><h4 class="j-reply-info f-fl">共2回复</h4>
-                                    <div class="j-reply-sort f-fr auto-1524789536707-parent">
-                                        <div class="auto-1524789536707"> 排序方式：<a class="j-time double upsort"
-                                                                                 id="auto-id-1524789537000" style="">回复时间<span></span></a><span
-                                                class="divider"></span><a class="j-vote single nosort"
-                                                                          id="auto-id-1524789537001" style="">投票数</a>
+                                <div class="rinfobox f-cb">
+                                    <h4 class="j-reply-info f-fl">共2回复</h4>
+                                    <div class="j-reply-sort f-fr auto-1524789536707-parent" style="display: none">
+                                        <div class="auto-1524789536707"> 排序方式：
+                                            <a class="j-time double upsort" id="auto-id-1524789537000" style="">
+                                                回复时间<span></span>
+                                            </a>
+                                            <span class="divider"></span>
+                                            <a class="j-vote single nosort" style="">点赞数</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="j-reply-all allbox auto-1524789536595-parent" id="auto-id-1524789537180">
-                                    <div class="m-basepool f-cb auto-1524789536595" id="auto-id-1524789537179">
-                                        <div class="j-list" id="auto-id-1524789537178" style="">
-                                            <div class="m-data-lists f-cb f-pr j-data-list auto-1524789536705-parent"
-                                                 id="auto-id-1524789537177">
-                                                <div class="f-pr auto-1524789536705 auto-1524789536697-parent auto-1524789536703-parent first"
-                                                     id="auto-id-1524789537176" style="z-index: 0;">
-                                                    <div class="m-detailInfoItem f-pr auto-1524789536697"
-                                                         id="auto-id-1524789537175" style="z-index: 100;">
+
+                                <!--回复-->
+                                <div class="j-reply-all allbox">
+                                    <div class="m-basepool f-cb">
+                                        <div class="j-list" style="">
+                                            <div class="m-data-lists f-cb f-pr j-data-list">
+                                                <div class="f-pr auto-1524789536705 first" style="z-index: 0;">
+                                                    <div class="m-detailInfoItem f-pr auto-1524789536697" style="z-index: 100;">
                                                         <div class="tagCt f-cb j-tagBox" style="display: none;">
                                                             <div class="u-forumtag u-forumtag1 j-tagTopNode">置顶</div>
                                                             <div class="u-forumtag j-tagAgreeNode">赞同</div>
                                                         </div>
                                                         <div class="f-richEditorText j-content edueditor_styleclass_0"
-                                                             id="auto-id-1524789537474"><p>没有人吗？<br></p></div>
-                                                        <div class="bar f-cb" id="auto-id-1524789537174">
-                                                            <div class="f-fl name j-name auto-1524789536686-parent">
-                                                                <span class="auto-1524789536686">    		<span
-                                                                        class="anonyInfo j-anonyInfo"
-                                                                        style="display: none;">匿名发表</span>    		<span
-                                                                        class="userInfo j-userInfo"
-                                                                        id="auto-id-1524789537958" title=""><a
-                                                                        class="f-fcgreen userName"
-                                                                        href="#"
-                                                                        title="PaulSuen">PaulSuen</a></span>       </span>
+                                                             id="auto-id-1524789537474"><p>教师评价1<br></p></div>
+                                                        <div class="bar f-cb">
+                                                            <div class="f-fl name j-name">
+                                                                <span>
+                                                                    <span class="userInfo j-userInfo" title="">
+                                                                        <a class="f-fcgreen userName" href="#" title="教师1">教师1</a>
+                                                                    </span>
+                                                                </span>
                                                             </div>
-                                                            <div class="f-fl f-fc9 time j-time">6分钟前</div>
+                                                            <div class="f-fl f-fc9 time j-time">于2018年04月11日发表</div>
                                                             <div class="f-fr j-manBox" style="display: none;"></div>
-                                                            <a hidefocus="true"
-                                                               class="f-fr f-fc9 opt delBtn j-reportBtn"
-                                                               id="auto-id-1524789537052">举报</a>
-                                                            <div class="f-fr divider">|</div>
-                                                            <a hidefocus="true" class="f-fr f-fc9 opt delBtn j-delBtn"
-                                                               id="auto-id-1524789537053">删除</a>
-                                                            <div class="j-delDivider f-fr divider">|</div>
-                                                            <a hidefocus="true" class="f-fr f-fc9 opt cmtBtn j-cmtBtn"
-                                                               id="auto-id-1524789537054">评论(2)</a>
-                                                            <div class="j-cmtDivider f-fr divider">|</div>
-                                                            <div class="f-fr votebox j-vote auto-1524789536688-parent">
+                                                            <a hidefocus="true" class="f-fr f-fc9 opt delBtn j-delBtn" style="display: none;">删除</a>
+                                                            <div class="j-delDivider f-fr divider" style="display: none">|</div>
+                                                            <a hidefocus="true" class="f-fr f-fc9 opt cmtBtn j-cmtBtn" style="display: none;">评论(2)</a>
+                                                            <div class="j-cmtDivider f-fr divider" style="display: none;">|</div>
+                                                            <div class="f-fr votebox j-vote" style="display: none;">
                                                                 <div class="f-cb auto-1524789536688">
-                                                                    <div class="up f-fl j-up hvr"
-                                                                         id="auto-id-1524789537060" title="顶"></div>
+                                                                    <div class="up f-fl j-up hvr" title="顶"></div>
                                                                     <p class="num f-fl f-thide j-num" title="0">0</p>
-                                                                    <div class="down f-fl j-down hvr"
-                                                                         id="auto-id-1524789537061" title="踩"></div>
+                                                                    <div class="down f-fl j-down hvr" title="踩"></div>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                    </div>
-                                                    <div class="m-commentWrapper f-pr f-cb auto-1524789536703"
-                                                         id="auto-id-1524789537352" style="z-index: 99;">
-                                                        <div class="wrap f-fr" id="auto-id-1524789537351">
-                                                            <div class="m-comment-pool j-commentpool auto-1524789536595-parent"
-                                                                 id="auto-id-1524789537778">
-                                                                <div class="m-basepool f-cb auto-1524789536595"
-                                                                     id="auto-id-1524789537777">
-                                                                    <div class="j-list" style=""
-                                                                         id="auto-id-1524789537776">
-                                                                        <div class="m-data-lists f-cb f-pr j-data-list auto-1524789536701-parent"
-                                                                             id="auto-id-1524789537775">
-                                                                            <div class="auto-1524789536701 auto-1524789536697-parent first">
-                                                                                <div class="m-detailInfoItem f-pr auto-1524789536697"
-                                                                                     id="auto-id-1524789537773">
-                                                                                    <div class="tagCt f-cb j-tagBox"
-                                                                                         style="display: none;">
-                                                                                        <div class="u-forumtag u-forumtag1 j-tagTopNode">
-                                                                                            置顶
-                                                                                        </div>
-                                                                                        <div class="u-forumtag j-tagAgreeNode">
-                                                                                            赞同
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="f-richEditorText j-content edueditor_styleclass_2">
-                                                                                        <p>好吧。。</p>
-                                                                                    </div>
-                                                                                    <div class="bar f-cb">
-                                                                                        <div class="f-fl name j-name">
-                                                                                            <span>
-                                                                                                <span class="userInfo j-userInfo"
-                                                                                                      title="">
-                                                                                                    <a class="f-fcgreen userName"
-                                                                                                       href="#"
-                                                                                                       title="PaulSuen">PaulSuen</a>
-                                                                                                </span>
-                                                                                            </span>
-                                                                                        </div>
-                                                                                        <div class="f-fl f-fc9 time j-time">
-                                                                                            三分钟前
-                                                                                        </div>
-                                                                                        <div class="f-fr j-manBox"
-                                                                                             style="display: none;"></div>
-                                                                                        <a hidefocus="true"
-                                                                                           class="f-fr f-fc9 opt delBtn j-reportBtn"
-                                                                                           id="auto-id-1524789537440">举报</a>
-                                                                                        <div class="f-fr divider">|
-                                                                                        </div>
-                                                                                        <a hidefocus="true"
-                                                                                           class="f-fr f-fc9 opt delBtn j-delBtn"
-                                                                                           id="auto-id-1524789537441">删除</a>
-                                                                                        <div class="j-delDivider f-fr divider">
-                                                                                            |
-                                                                                        </div>
-                                                                                        <a hidefocus="true"
-                                                                                           class="f-fr f-fc9 opt cmtBtn j-cmtBtn"
-                                                                                           style="display: none;">评论(0)</a>
-                                                                                        <div class="j-cmtDivider f-fr divider"
-                                                                                             style="display: none;">|
-                                                                                        </div>
-                                                                                        <div class="f-fr votebox j-vote auto-1524789536688-parent">
-                                                                                            <div class="f-cb auto-1524789536688">
-                                                                                                <div class="up f-fl j-up hvr"
-                                                                                                     title="顶"></div>
-                                                                                                <p class="num f-fl f-thide j-num"
-                                                                                                   title="0">0</p>
-                                                                                                <div class="down f-fl j-down hvr"
-                                                                                                     title="踩"></div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="auto-1524789536701 auto-1524789536697-parent last">
-                                                                                <div class="m-detailInfoItem f-pr auto-1524789536697"
-                                                                                     style="z-index: 100;">
-                                                                                    <div class="tagCt f-cb j-tagBox"
-                                                                                         style="display: none;">
-                                                                                        <div class="u-forumtag u-forumtag1 j-tagTopNode">
-                                                                                            置顶
-                                                                                        </div>
-                                                                                        <div class="u-forumtag j-tagAgreeNode">
-                                                                                            赞同
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="f-richEditorText j-content edueditor_styleclass_3 edueditor_styleclass_5">
-                                                                                        <p>。。。</p></div>
-                                                                                    <div class="bar f-cb"
-                                                                                         id="auto-id-1524789537475">
-                                                                                        <div class="f-fl name j-name auto-1524789536686-parent">
-                                                                                            <span>
-                                                                                                <span class="userInfo j-userInfo"
-                                                                                                      title="">
-                                                                                                    <a class="f-fcgreen userName"
-                                                                                                       href="#"
-                                                                                                       title="PaulSuen">PaulSuen</a>
-                                                                                                </span>
-                                                                                            </span>
-                                                                                        </div>
-                                                                                        <div class="f-fl f-fc9 time j-time">
-                                                                                            3分钟前
-                                                                                        </div>
-                                                                                        <div class="f-fr j-manBox"
-                                                                                             style="display: none;"></div>
-                                                                                        <a hidefocus="true"
-                                                                                           class="f-fr f-fc9 opt delBtn j-reportBtn"
-                                                                                           id="auto-id-1524789537462">举报</a>
-                                                                                        <div class="f-fr divider">|
-                                                                                        </div>
-                                                                                        <a hidefocus="true"
-                                                                                           class="f-fr f-fc9 opt delBtn j-delBtn"
-                                                                                           id="auto-id-1524789537463">删除</a>
-                                                                                        <div class="j-delDivider f-fr divider">
-                                                                                            |
-                                                                                        </div>
-                                                                                        <a hidefocus="true"
-                                                                                           class="f-fr f-fc9 opt cmtBtn j-cmtBtn"
-                                                                                           id="auto-id-1524789537464"
-                                                                                           style="display: none;">评论(0)</a>
-                                                                                        <div class="j-cmtDivider f-fr divider"
-                                                                                             style="display: none;">|
-                                                                                        </div>
-                                                                                        <div class="f-fr votebox j-vote">
-                                                                                            <div class="f-cb auto-1524789536688">
-                                                                                                <div class="up f-fl j-up hvr"
-                                                                                                     title="顶"></div>
-                                                                                                <p class="num f-fl f-thide j-num"
-                                                                                                   title="0">0</p>
-                                                                                                <div class="down f-fl j-down hvr"
-                                                                                                     title="踩"></div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="u-pager f-pr j-data-pager">
-                                                                            <div>
-                                                                                <a href="#"
-                                                                                   class="zbtn zprv js-disabled">上一页</a>
-                                                                                <a href="#"
-                                                                                   class="zpgi zpg1 js-selected">1</a>
-                                                                                <a href="#" class="zpgi zpg2"
-                                                                                   style="display: none;"></a>
-                                                                                <a href="#" class="zpgi zpg3"
-                                                                                   style="display: none;"></a>
-                                                                                <a href="#" class="zpgi zpg4"
-                                                                                   style="display: none;"></a>
-                                                                                <a href="#" class="zpgi zpg5"
-                                                                                   style="display: none;"></a>
-                                                                                <a href="#" class="zpgi zpg6"
-                                                                                   style="display: none;"></a>
-                                                                                <a href="#" class="zpgi zpg7"
-                                                                                   style="display: none;"></a>
-                                                                                <a href="#" class="zpgi zpg8"
-                                                                                   style="display: none;"></a>
-                                                                                <a href="#" class="zpgi zpg9"
-                                                                                   style="display: none;"></a>
-                                                                                <a href="#"
-                                                                                   class="zbtn znxt js-disabled">下一页</a>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="j-none empty" style="display: none;">
-                                                                        <span class="f-f0 f-fc9 j-none-txt f-ib"></span>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="m-add-comment j-addcomment">
-                                                                <div class="auto-1524789536699">
-                                                                    <p class="small j-unlogbox" style="display: none;">
-                                                                        发表观点要登录哦！点击
-                                                                        <a hidefocus="true" class="j-loginbtn loginbtn">登录</a>
-                                                                    </p>
-                                                                    <p class="small j-logupbox" style="">添加评论...</p>
-                                                                    <div class="j-logdownbox"
-                                                                         style="display: none;"></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="j-triangle triangle" style="right: 100px;"></div>
                                                     </div>
                                                 </div>
                                                 <div class="f-pr last" style="z-index: 0;">
@@ -6615,30 +6399,24 @@
                                                             <div class="u-forumtag u-forumtag1 j-tagTopNode">置顶</div>
                                                             <div class="u-forumtag j-tagAgreeNode">赞同</div>
                                                         </div>
-                                                        <div class="f-richEditorText j-content edueditor_styleclass_1 edueditor_styleclass_4">
-                                                            <p>真没人气</p></div>
+                                                        <div class="f-richEditorText j-content edueditor_styleclass_1 edueditor_styleclass_4"><p>导师评价2</p></div>
                                                         <div class="bar f-cb">
                                                             <div class="f-fl name j-name">
                                                                 <span>
-                                                                    <span class="anonyInfo j-anonyInfo"
-                                                                          style="display: none;">匿名发表</span>
                                                                     <span class="userInfo j-userInfo" title="">
                                                                     <a class="f-fcgreen userName" href=""
-                                                                       title="PaulSuen">PaulSuen</a>
+                                                                       title="导师1">导师1</a>
                                                                 </span>
                                                                 </span>
                                                             </div>
-                                                            <div class="f-fl f-fc9 time j-time">3分钟前</div>
+                                                            <div class="f-fl f-fc9 time j-time">于2018年04月11日发表</div>
                                                             <div class="f-fr j-manBox" style="display: none;"></div>
-                                                            <a hidefocus="true"
-                                                               class="f-fr f-fc9 opt delBtn j-reportBtn">举报</a>
-                                                            <div class="f-fr divider">|</div>
-                                                            <a hidefocus="true" class="f-fr f-fc9 opt delBtn j-delBtn">删除</a>
-                                                            <div class="j-delDivider f-fr divider">|</div>
+                                                            <a hidefocus="true" class="f-fr f-fc9 opt delBtn j-delBtn" style="display: none">删除</a>
+                                                            <div class="j-delDivider f-fr divider" style="display:none">|</div>
                                                             <a hidefocus="true" class="f-fr f-fc9 opt cmtBtn j-cmtBtn"
-                                                               style="">评论(0)</a>
-                                                            <div class="j-cmtDivider f-fr divider" style="">|</div>
-                                                            <div class="f-fr votebox j-vote">
+                                                               style="display: none;" >评论(0)</a>
+                                                            <div class="j-cmtDivider f-fr divider"style="display: none;">|</div>
+                                                            <div class="f-fr votebox j-vote" style="display: none;">
                                                                 <div class="f-cb auto-1524789536688">
                                                                     <div class="up f-fl j-up hvr" title="顶"></div>
                                                                     <p class="num f-fl f-thide j-num" title="0">0</p>
@@ -6649,7 +6427,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="u-pager f-pr j-data-pager">
+                                            <div class="u-pager f-pr j-data-pager" >
                                                 <div>
                                                     <a href="#" class="zbtn zprv js-disabled">上一页</a>
                                                     <a href="#" class="zpgi zpg1 js-selected">1</a>
@@ -6671,7 +6449,7 @@
                                 </div>
 
                                 <!--输入框-->
-                                <div class="j-reply-add auto-1524789536695-parent" id="auto-id-1524789537456">
+                                <div class="j-reply-add auto-1524789536695-parent" style="display: none;">
                                     <div class="ui-richEditor f-cb f-pr auto-1524789536695" id="auto-id-1524789537455">
                                         <div class="rich-wrap" id="auto-id-1524789537454">
                                             <div class="rich-editor j-richeditor auto-1524789536593-parent">
