@@ -259,8 +259,8 @@
                 // alert(name.value+"=="+pwd.value);
                 // var login=document.getElementById("casLoginForm");
                 // alert(login.innerText);
-                // login.action("encryptWeb/student/stuHome.jsp");
-                // login.redirect("encryptWeb/student/stuHome.jsp");
+                // login.action("encryptWeb/Student/stuHome.jsp");
+                // login.redirect("encryptWeb/Student/stuHome.jsp");
                 // window.location.href='404.jsp';
                 // setTimeout("javascript:location.href='404.jsp'", 5000);
                 // window.location="https://www.baidu.com/";
