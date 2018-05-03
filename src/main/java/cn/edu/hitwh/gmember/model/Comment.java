@@ -1,7 +1,5 @@
 package cn.edu.hitwh.gmember.model;
 
-import javafx.scene.chart.PieChart;
-
 import java.util.Date;
 
 public class Comment {
