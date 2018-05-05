@@ -14,7 +14,7 @@
 
 /*!
  * ZRender, a lightweight canvas library with a MVC architecture, data-driven 
- * and provides an event model like DOM.
+ * and provides an event pojo like DOM.
  *  
  * Copyright (c) 2013, Baidu Inc.
  * All rights reserved.

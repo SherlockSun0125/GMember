@@ -112,11 +112,11 @@
             <i class="fa fa-fw fa-dashboard"></i>&nbsp;&nbsp;学生管理<i class="fa fa-collapse"></i></a></li>
         <li>
             <ul class="dashboard-menu nav nav-list collapse"><!--"class=in"的时候展开-->
-                <li><a href=""><span class="fa fa-caret-right"></span> 学生遴选阶段</a></li>
-                <li><a href=""><span class="fa fa-caret-right"></span> 工程学习阶段</a></li>
-                <li><a href=""><span class="fa fa-caret-right"></span> 校企合作阶段</a></li>
-                <li><a href=""><span class="fa fa-caret-right"></span> 毕业设计阶段</a></li>
-                <li><a href=""><span class="fa fa-caret-right"></span> 就业推荐阶段</a></li>
+                <li><a href="studentL0.jsp"><span class="fa fa-caret-right"></span> 学生遴选阶段</a></li>
+                <li><a href="studentL1.jsp"><span class="fa fa-caret-right"></span> 工程学习阶段</a></li>
+                <li><a href="studentL2.jsp"><span class="fa fa-caret-right"></span> 校企合作阶段</a></li>
+                <li><a href="studentL3.jsp"><span class="fa fa-caret-right"></span> 毕业设计阶段</a></li>
+                <li><a href="studentL4.jsp"><span class="fa fa-caret-right"></span> 就业推荐阶段</a></li>
                 <%--<li><a href="calendar.html"><span class="fa fa-caret-right"></span> Calendar</a></li>--%>
             </ul>
         </li>
@@ -155,10 +155,10 @@
         <li>
             <ul class="legal-menu nav nav-list collapse">
                 <li><a href=""><span class="fa fa-caret-right"></span> 综合要闻</a></li>
-                <li><a href=""><span class="fa fa-caret-right"></span> 校园资讯</a>
-                <li><a href=""><span class="fa fa-caret-right"></span> 教学科研</a>
-                <li><a href=""><span class="fa fa-caret-right"></span> 专题新闻</a>
-                </li>
+                <li><a href=""><span class="fa fa-caret-right"></span> 校园资讯</a></li>
+                <li><a href=""><span class="fa fa-caret-right"></span> 教学科研</a></li>
+                <li><a href=""><span class="fa fa-caret-right"></span> 专题新闻</a></li>
+                <li><a href=""><span class="fa fa-caret-right"></span> 上传新闻</a></li>
             </ul>
         </li>
 
@@ -173,6 +173,7 @@
                 <li><a href=""><span class="fa fa-caret-right"></span> 通知公告</a></li>
                 <li><a href=""><span class="fa fa-caret-right"></span> 院系通知</a></li>
                 <li><a href=""><span class="fa fa-caret-right"></span> 学术科研</a></li>
+                <li><a href=""><span class="fa fa-caret-right"></span> 上传公告</a></li>
             </ul>
         </li>
 
