@@ -22,5 +22,6 @@
         <!-- resource是基于classpath来查找的 -->
         <mapper resource="mybatisMapper/adminMapper.xml"/>
         <mapper resource="mybatisMapper/studentMapper.xml"/>
+        <mapper resource="mybatisMapper/teacherMapper.xml"/>
     </mappers>
 </configuration>

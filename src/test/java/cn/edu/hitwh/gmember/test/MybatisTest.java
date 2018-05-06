@@ -1,7 +1,7 @@
 package cn.edu.hitwh.gmember.test;
 
-import cn.edu.hitwh.gmember.mapper.AdminMapper;
-import cn.edu.hitwh.gmember.pojo.Admin;
+import cn.edu.hitwh.gmember.mapper.TeacherMapper;
+import cn.edu.hitwh.gmember.pojo.Teacher;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -12,7 +12,6 @@ import java.io.Reader;
 
 public class MybatisTest {
     public static void main(String[] args){
-        String admin_id="001";
         String resource = "MyBatisConfig.xml";
         Reader reader=null;
         SqlSession session;
@@ -23,19 +22,19 @@ public class MybatisTest {
         }
         SqlSessionFactory sqlSessionFactory=new SqlSessionFactoryBuilder().build(reader);
         session = sqlSessionFactory.openSession();
-        AdminMapper adminMapper=session.getMapper(AdminMapper.class);
-        Admin admin=adminMapper.findAdminById(admin_id);
-        System.out.println("Admin:"+admin.toString());
+//        AdminMapper adminMapper=session.getMapper(AdminMapper.class);
+//        Admin admin=adminMapper.findAdminById(admin_id);
+//        System.out.println("Admin:"+admin.toString());
 
 
-        /*
-        StudentMapper studentMapper=session.getMapper(StudentMapper.class);
-        Student student=studentMapper.selectAll();
-        System.out.println("学生姓名："+student.getStu_name());
-        student=studentMapper.findStuById(stu_id);
-        System.out.println("成功啊："+student.getStu_name());
+//        StudentMapper studentMapper=session.getMapper(StudentMapper.class);
+//        Student student2=studentMapper.findStuById(id);
+//        System.out.println("编号为"+id+"的学生为"+student2.getStu_name());
+        TeacherMapper teacherMapper=session.getMapper(TeacherMapper.class);
+        String id="2001";
+        Teacher teacher=teacherMapper.findTeaById(id);
+        System.out.println("id为"+id+"的教师信息为"+teacher.toString());
         session.close();
-        */
 
 //        try{
 //            System.out.println("========================================第二个try=====================================");

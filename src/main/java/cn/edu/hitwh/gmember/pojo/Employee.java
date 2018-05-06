@@ -8,11 +8,11 @@ public class Employee {
     private int emp_age;
     private String emp_phone;
     private String emp_mail;
-    private int com_id;
+    private String com_id;
 
     public Employee()   {}
 
-    public Employee(String emp_id, String emp_name, String emp_pwd, String emp_sex, int emp_age, String emp_phone, String emp_mail, int com_id) {
+    public Employee(String emp_id, String emp_name, String emp_pwd, String emp_sex, int emp_age, String emp_phone, String emp_mail, String com_id) {
         this.emp_id = emp_id;
         this.emp_name = emp_name;
         this.emp_pwd = emp_pwd;
@@ -51,7 +51,7 @@ public class Employee {
         this.emp_mail = emp_mail;
     }
 
-    public void setCom_id(int com_id) {
+    public void setCom_id(String com_id) {
         this.com_id = com_id;
     }
 
@@ -83,7 +83,7 @@ public class Employee {
         return emp_mail;
     }
 
-    public int getCom_id() {
+    public String getCom_id() {
         return com_id;
     }
 
@@ -97,7 +97,7 @@ public class Employee {
                 ", emp_age=" + emp_age +
                 ", emp_phone='" + emp_phone + '\'' +
                 ", emp_mail='" + emp_mail + '\'' +
-                ", com_id=" + com_id +
+                ", com_id=" + com_id + '\''+
                 '}';
     }
 }
