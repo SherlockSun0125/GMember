@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: chong
-  Date: 2018/5/7
-  Time: 10:31
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8"%>
 <html>
 <head>
@@ -12,6 +5,9 @@
     <!--三个重要的CSS文件-->
     <link rel="stylesheet" href="../static/core_62c0700cc15bd051f36fa48b7a5c1a26.css">
     <link rel="stylesheet" href="../static/pt_newpages_course_learn.css">
+    <link rel="stylesheet" href="../../../bootstrap/css/bootstrap.min.css">
+    <script type="text/javascript" src="../../../bootstrap/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="../../../bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
 <!--头部-->
@@ -109,19 +105,71 @@
                                 <h4 class="f-fl f-fc3">全部课程</h4>
                                 <div class="f-fl u-coursecate j-lessonuit"></div>
                             </div>
-                            <div>
-                                <table>
+                            <div style="margin-top: 10px;padding-left: 0;">
+                                <table class="table table-bordered table-hover table-striped">
                                     <thead>
-                                        <td>111</td>
-                                        <td>111</td>
-                                        <td>111</td>
-                                        <td>111</td>
+                                        <td class="col-lg-1">课程名称</td>
+                                        <td>课程号</td>
+                                        <td>课序号</td>
+                                        <td>课程属性</td>
+                                        <td>考试类型</td>
+                                        <td>上课地点</td>
+                                        <td>上课时间</td>
+                                        <td>上课周次</td>
+                                        <td>考试时间</td>
+                                        <td>任课教师</td>
+                                        <td>变更信息</td>
                                     </thead>
                                     <tr>
                                         <td>222</td>
                                         <td>222</td>
                                         <td>222</td>
                                         <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>
+                                            <a href="">更改</a>
+                                            <span>&smid;</span>
+                                            <a href="">删除</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>
+                                            <a href="">更改</a>
+                                            <span>&smid;</span>
+                                            <a href="">删除</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>
+                                            <a href="">更改</a>
+                                            <span>&smid;</span>
+                                            <a href="">删除</a>
+                                        </td>
                                     </tr>
                                 </table>
                             </div>
