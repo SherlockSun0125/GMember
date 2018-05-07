@@ -29,7 +29,7 @@
         <div class="g-flow">
             <div class="f-pr f-cb">
                 <div style="position: absolute;top:2px;bottom:2px;">
-                    <a class="f-fl" hidefocus="true" href="#" target="_self" data-index="logo">
+                    <a class="f-fl" hidefocus="true" href="stuHome.jsp" target="_self" data-index="logo">
                         <img class="f-fl img" src="static/hitwh_logo_white.png" title="学生主页" width="540px"
                              style="margin-top: 2px;margin-bottom: 1px">
                     </a>
@@ -63,7 +63,7 @@
                             </a>
                             <div class="u-mystudy f-pr f-cb f-fr">
                                 <a class="mystudy nitem f-f0" id="j-nav-my-class" data-index="我的学习" target="_self"
-                                   href="stuHome.jsp" hidefocus="true">我的学习</a>
+                                   href="forum.jsp" hidefocus="true">讨论区</a>
                             </div>
                         </div>
                     </div>
@@ -88,18 +88,18 @@
                         <div class="ic f-fl"></div>
                         <span class="f-fl ">我的帖子</span>
                     </a>
-                    <a class="u-learnProgress-tab j-tabitem f-f0 f-fc3 f-cb" data-type="30"
-                       href="myLog.jsp">
-                        <div class="ic_2 f-fl"></div>
-                        <span class="f-fl">我的日志</span>
-                    </a>
+                    <%--<a class="u-learnProgress-tab j-tabitem f-f0 f-fc3 f-cb" data-type="30"--%>
+                       <%--href="myLog.jsp">--%>
+                        <%--<div class="ic_2 f-fl"></div>--%>
+                        <%--<span class="f-fl">我的日志</span>--%>
+                    <%--</a>--%>
                     <ul class="tab u-tabul">
                         <li class="u-greentab j-tabitem f-f0 first" data-name="公告" data-type="1">
-                            <a class="f-thide f-fc3" href="forum1_announce.jsp">公告</a>
+                            <a class="f-thide f-fc3" href="forumAnnounce.jsp">公告</a>
                         </li>
                         <li class="u-greentab j-tabitem f-f0 last" data-name="讨论区" data-type="7"
                             data-id="2001487096" id="auto-id-1523950289741">
-                            <a class="f-thide f-fc3"  href="forum1.jsp">讨论区</a>
+                            <a class="f-thide f-fc3"  href="forum.jsp">讨论区</a>
                         </li>
                     </ul>
                 </div>

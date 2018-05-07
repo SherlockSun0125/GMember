@@ -326,19 +326,6 @@
             margin: 20px 0 10px;
         }
 
-        .ux-user-info-bottom_position {
-            font-size: 14px;
-        }
-
-        .ux-user-info-bottom_edit {
-            color: #FFFFFF;
-            margin-left: 20px;
-        }
-
-        .ux-user-info-bottom_edit:hover {
-            color: #FFFFFF;
-        }
-
         .ux-user-info-bottom_description {
             font-size: 14px;
             line-height: 22px;
@@ -365,7 +352,7 @@
         <div class="g-flow">
             <div class="f-pr f-cb">
                 <div style="position: absolute;top:2px;bottom:2px;">
-                    <a class="f-fl" hidefocus="true" href="#" target="_self" data-index="logo">
+                    <a class="f-fl" hidefocus="true" data-index="logo">
                         <img class="f-fl img" src="static/hitwh_logo_white.png" title="学生主页" width="540px"
                              style="margin-top: 2px;margin-bottom: 1px">
                     </a>
@@ -399,7 +386,7 @@
                             </a>
                             <div class="u-mystudy f-pr f-cb f-fr">
                                 <a class="mystudy nitem f-f0" id="j-nav-my-class" data-index="我的学习" target="_self"
-                                   href="stuHome.jsp" hidefocus="true">我的学习</a>
+                                   href="forum.jsp" hidefocus="true">讨论区</a>
                             </div>
                         </div>
                     </div>
@@ -430,7 +417,7 @@
             <div class="row highlights">
                 <div class="span3">
                     <div class="hl-circle">
-                        <a class="hl-icon1" href="forum1.jsp">forum</a>
+                        <a class="hl-icon1" href="levelOne/myLog.jsp">工程学习阶段</a>
                     </div>
 
                     <div class="highlights-content clearfix">
@@ -440,15 +427,15 @@
                             显示一些进度信息
                         </p>
 
-                        <a class="btn-small btn-hl" href="forum1.jsp">
-                            <span>进入讨论区</span>
+                        <a class="btn-small btn-hl" href="levelOne/myLog.jsp">
+                            <span>进入</span>
                         </a>
                         <!-- button small end -->
                     </div>
                 </div>
                 <div class="span3 ">
                     <div class="hl-circle">
-                        <a class="hl-icon2" href="forum2.jsp">forum</a>
+                        <a class="hl-icon2" href="levelTwo/levelTwo.jsp">校企合作阶段</a>
                     </div>
 
                     <div class="highlights-content clearfix">
@@ -458,14 +445,14 @@
                             显示一些进度信息
                         </p>
 
-                        <a class="btn-small btn-hl" href="forum2.jsp">
-                            <span>进入讨论区</span>
+                        <a class="btn-small btn-hl" href="levelTwo/levelTwo.jsp">
+                            <span>进入</span>
                         </a><!-- button small end -->
                     </div>
                 </div>
                 <div class="span3">
                     <div class="hl-circle">
-                        <a class="hl-icon3" href="forum3.jsp">forum</a>
+                        <a class="hl-icon3" href="levelThree/levelThree.jsp">毕业设计阶段</a>
                     </div>
 
                     <div class="highlights-content clearfix">
@@ -475,14 +462,14 @@
                             显示一些进度信息
                         </p>
 
-                        <a class="btn-small btn-hl" href="forum3.jsp">
+                        <a class="btn-small btn-hl" href="levelThree/levelThree.jsp">
                             <span>进入讨论区</span>
                         </a><!-- button small end -->
                     </div>
                 </div>
                 <div class="span3 highlights">
                     <div class="hl-circle">
-                        <a class="hl-icon4" href="forum4.jsp">forum</a>
+                        <a class="hl-icon4" href="levelFour/levelFour.jsp">就业推荐阶段</a>
                     </div>
 
                     <div class="highlights-content clearfix">
@@ -492,7 +479,7 @@
                             显示一些进度信息
                         </p>
 
-                        <a class="btn-small btn-hl" href="forum4.jsp">
+                        <a class="btn-small btn-hl" href="levelFour/levelFour.jsp">
                             <span>进入讨论区</span>
                         </a><!-- button small end -->
                     </div>

@@ -151,7 +151,7 @@
                             </a>
                             <div class="u-mystudy f-pr f-cb f-fr">
                                 <a class="mystudy nitem f-f0" id="j-nav-my-class" data-index="我的学习" target="_self"
-                                   href="../../studentLogin.jsp" hidefocus="true">我的学习</a>
+                                   href="../../studentLogin.jsp" hidefocus="true">讨论区</a>
                             </div>
                         </div>
                     </div>

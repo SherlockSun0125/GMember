@@ -103,15 +103,15 @@ EDU("7136a61f8b931fd05a1681c7f028ff20", function () {
         e.dispatcher._$regist(o.umi("learnExamSubjective"), "learn/homework.html");
         e.dispatcher._$regist(o.umi("learnExamOJ"), "learn/oj.html");
         e.dispatcher._$regist(o.umi("notEnroll"), "learn/notEnroll.html");
-        e.dispatcher._$regist(o.umi("learnForumIndex"), "learn/forum1.jsp");
-        e.dispatcher._$regist(o.umi("learnForumPanel"), "learn/forum1.jsp");
-        e.dispatcher._$regist(o.umi("learnForumSearch"), "learn/forum1.jsp");
-        e.dispatcher._$regist(o.umi("learnForumPersonal"), "learn/forum1.jsp");
-        e.dispatcher._$regist(o.umi("learnForumDetail"), "learn/forum1.jsp");
-        e.dispatcher._$regist(o.umi("learnForumTopic"), "learn/forum1.jsp");
-        e.dispatcher._$regist(o.umi("learnForumEasyTopic"), "learn/forum1.jsp");
-        e.dispatcher._$regist(o.umi("forumNoticeDetail"), "learn/forum1.jsp");
-        e.dispatcher._$regist(o.umi("forumUserRanking"), "learn/forum1.jsp");
+        e.dispatcher._$regist(o.umi("learnForumIndex"), "learn/forum.jsp");
+        e.dispatcher._$regist(o.umi("learnForumPanel"), "learn/forum.jsp");
+        e.dispatcher._$regist(o.umi("learnForumSearch"), "learn/forum.jsp");
+        e.dispatcher._$regist(o.umi("learnForumPersonal"), "learn/forum.jsp");
+        e.dispatcher._$regist(o.umi("learnForumDetail"), "learn/forum.jsp");
+        e.dispatcher._$regist(o.umi("learnForumTopic"), "learn/forum.jsp");
+        e.dispatcher._$regist(o.umi("learnForumEasyTopic"), "learn/forum.jsp");
+        e.dispatcher._$regist(o.umi("forumNoticeDetail"), "learn/forum.jsp");
+        e.dispatcher._$regist(o.umi("forumUserRanking"), "learn/forum.jsp");
         e.dispatcher._$active();
         var a = e.decodeURIComponent(location.hash);
         if (a && o._$isRightUMI(a, [o.umi("learnAnnounce"), o.umi("learnScore"), o.umi("learnCustom"), o.umi("learnContent"), o.umi("learnTestList"), o.umi("learnQuiz"), o.umi("learnQuizScore"), o.umi("learnHomework"), o.umi("learnOJHomework"), o.umi("learnExamObjective"), o.umi("learnExamList"), o.umi("learnExamObjectScore"), o.umi("learnExamSubjective"), o.umi("learnExamOJ"), o.umi("learnForumIndex"), o.umi("learnForumPanel"), o.umi("learnForumPersonal"), o.umi("learnForumSearch"), o.umi("learnForumDetail"), o.umi("learnForumTopic"), o.umi("learnForumEasyTopic"), o.umi("forumNoticeDetail"), o.umi("forumUserRanking")])) e.dispatcher._$redirect(a, !0); else e.dispatcher._$redirect(o.umi("learnAnnounce"), !0)

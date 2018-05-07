@@ -1,23 +1,16 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: chong
-  Date: 2018/4/26
-  Time: 18:08
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8"%>
 <html>
 <head>
     <title>我的日志</title>
     <!--三个重要的CSS文件-->
-    <link rel="stylesheet" href="static/core_62c0700cc15bd051f36fa48b7a5c1a26.css">
-    <link rel="stylesheet" href="static/pt_newpages_course_learn.css">
+    <link rel="stylesheet" href="../static/core_62c0700cc15bd051f36fa48b7a5c1a26.css">
+    <link rel="stylesheet" href="../static/pt_newpages_course_learn.css">
     <style type="text/css">
         .u-learnProgress-tab .ic_2 {
             width: 16px;
             height: 16px;
             margin: 12px 0 0 10px;
-            background-image: url("static/icon9.png");
+            background-image: url("../static/icon9.png");
             background-position: -48px 0px;
         }
     </style>
@@ -29,8 +22,8 @@
         <div class="g-flow">
             <div class="f-pr f-cb">
                 <div style="position: absolute;top:2px;bottom:2px;">
-                    <a class="f-fl" hidefocus="true" href="#" target="_self" data-index="logo">
-                        <img class="f-fl img" src="static/hitwh_logo_white.png" title="学生主页" width="540px"
+                    <a class="f-fl" hidefocus="true" href="../stuHome.jsp" target="_self" data-index="logo">
+                        <img class="f-fl img" src="../static/hitwh_logo_white.png" title="学生主页" width="540px"
                              style="margin-top: 2px;margin-bottom: 1px">
                     </a>
                 </div>
@@ -39,31 +32,31 @@
                         <div class="login f-cb">
                             <div class="u-mystudy f-pr f-cb f-fr">
                                 <a class="mystudy nitem f-f0" data-index="用户退出" target="_blank"
-                                   href="exit.jsp" hidefocus="true">退出</a>
+                                   href="../exit.jsp" hidefocus="true">退出</a>
                             </div>
 
                             <div class="name j-userinfo" id="auto-id-1523840858750">
                                 <div class="f-pr">
                                     <div class="face">
                                         <img class="j-nav-myimg"
-                                             src="static/head1.jpg"
+                                             src="../static/head1.jpg"
                                              width="30px" height="30px" alt="头像">
                                     </div>
                                 </div>
                             </div>
                             <a class="username self f-thide" target="_self" data-index="点击用户名"
-                               href="setting.jsp">
+                               href="../setting.jsp">
                                 <span class=" f-fs1 f-f0">PaulSuen</span>
                             </a>
                             <i class="line" style="padding-top: 2%"></i>
                             <a data-index="消息" class="mes f-pr f-cb j-nav-mescenter"
-                               href="messageT.jsp" title="查看更多消息" target="_blank">
+                               href="../messageT.jsp" title="查看更多消息" target="_blank">
                                 <span>消息</span>
                                 <em class="num hidddenClass j-nav-msgnum">0</em>
                             </a>
                             <div class="u-mystudy f-pr f-cb f-fr">
                                 <a class="mystudy nitem f-f0" id="j-nav-my-class" data-index="我的学习" target="_self"
-                                   href="stuHome.jsp" hidefocus="true">我的学习</a>
+                                   href="../forum.jsp" hidefocus="true">讨论区</a>
                             </div>
                         </div>
                     </div>
@@ -83,22 +76,17 @@
         <div class="g-sd1">
             <div class="m-learnleft">
                 <div id="j-courseTabList">
-                    <a class="u-learnProgress-tab j-tabitem f-f0 f-fc3 f-cb" data-type="30" href="myTopic.jsp">
+                    <a class="u-learnProgress-tab j-tabitem f-f0 f-fc3 f-cb u-curtab"  data-type="30">
                         <div class="ic f-fl"></div>
-                        <span class="f-fl ">我的帖子</span>
-                    </a>
-                    <a class="u-learnProgress-tab j-tabitem f-f0 f-fc3 f-cb u-curtab" data-type="30"
-                       href="myLog.jsp">
-                        <div class="ic_2 f-fl"></div>
-                        <span class="f-fl">我的日志</span>
+                        <span class="f-fl">学习日志</span>
                     </a>
                     <ul class="tab u-tabul">
-                        <li class="u-greentab j-tabitem f-f0 first" data-name="公告" data-type="1">
-                            <a class="f-thide f-fc3" href="forum1_announce.jsp">公告</a>
+                        <li class="u-greentab j-tabitem f-f0 first" data-name="我的课程" data-type="1">
+                            <a class="f-thide f-fc3" href="myCourse.jsp">我的课程</a>
                         </li>
-                        <li class="u-greentab j-tabitem f-f0 last" data-name="讨论区" data-type="7"
+                        <li class="u-greentab j-tabitem f-f0 last" data-name="我的项目" data-type="7"
                             data-id="2001487096" id="auto-id-1523950289741">
-                            <a class="f-thide f-fc3"  href="forum1.jsp">讨论区</a>
+                            <a class="f-thide f-fc3"  href="myProject.jsp">我的项目</a>
                         </li>
                     </ul>
                 </div>
@@ -113,7 +101,7 @@
                     <!--发帖按钮-->
                     <div class="f-cb">
                         <a class="j-newTopicBtn f-fl" style="margin-bottom:40px;margin-top: 12px;"
-                           href="newLog.jsp"><img src="static/addLog.png" style="width: 120px"></a>
+                           href="newLog.jsp"><img src="../static/addLog.png" style="width: 120px"></a>
                     </div>
 
                     <!--帖子展示-->
@@ -136,7 +124,6 @@
                                                     </div>
                                                     <span>
                                                             <span class="j-txt">
-                                                                <a>[工程学习阶段]</a>
                                                                 <span class="lb10 f-fc9">于2018年04月11日发表</span>
                                                             </span>
 
@@ -154,7 +141,6 @@
                                                     </div>
                                                     <span>
                                                             <span class="j-txt">
-                                                                <a>[校企合作阶段]</a>
                                                                 <span class="lb10 f-fc9">于2018年03月28日发表</span>
                                                             </span>
                                                         </span>
@@ -170,7 +156,6 @@
                                                     </div>
                                                     <span>
                                                             <span class="j-txt">
-                                                                <a>[毕业设计阶段]</a>
                                                                 <span class="lb10 f-fc9">于2018年03月25日发表</span>
                                                             </span>
                                                             <span class="j-txt" style="display: none;"></span>

@@ -3372,7 +3372,7 @@
                             </a>
                             <div class="u-mystudy f-pr f-cb f-fr">
                                 <a class="mystudy nitem f-f0" id="j-nav-my-class" data-index="我的进度" target="_self"
-                                   href="stuHome.jsp" hidefocus="true">我的学习</a>
+                                   href="forum.jsp" hidefocus="true">讨论区</a>
                             </div>
                         </div>
                     </div>
