@@ -86,11 +86,6 @@
                             <div class="ic f-fl"></div>
                             <span class="f-fl">我的帖子</span>
                         </a>
-                        <a class="u-learnProgress-tab j-tabitem f-f0 f-fc3 f-cb u-curtab" data-type="30"
-                           href="levelOne/myLog.jsp">
-                            <div class="ic_2 f-fl"></div>
-                            <span class="f-fl">我的日志</span>
-                        </a>
                         <ul class="tab u-tabul">
                             <li class="u-greentab j-tabitem f-f0 first" data-name="公告" data-type="1"
                                 data-id="2001487091" id="auto-id-1523965034572">

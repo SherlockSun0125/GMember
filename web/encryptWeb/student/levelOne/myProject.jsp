@@ -12,6 +12,14 @@
     <!--三个重要的CSS文件-->
     <link rel="stylesheet" href="../static/core_62c0700cc15bd051f36fa48b7a5c1a26.css">
     <link rel="stylesheet" href="../static/pt_newpages_course_learn.css">
+    <link rel="stylesheet" href="../../../bootstrap/css/bootstrap.min.css">
+    <script type="text/javascript" src="../../../bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../../bootstrap/jquery-2.2.4.min.js"></script>
+    <style>
+        th{
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
 <!--头部-->
@@ -74,7 +82,7 @@
         <div class="g-sd1">
             <div class="m-learnleft">
                 <div id="j-courseTabList">
-                    <a class="u-learnProgress-tab j-tabitem f-f0 f-fc3 f-cb"  data-type="30">
+                    <a class="u-learnProgress-tab j-tabitem f-f0 f-fc3 f-cb"  data-type="30" href="myLog.jsp">
                         <div class="ic f-fl"></div>
                         <span class="f-fl">学习日志</span>
                     </a>
@@ -102,102 +110,74 @@
                            href="newLog.jsp"><img src="../static/addProject.png" style="width: 120px"></a>
                     </div>
 
-                    <!--帖子展示-->
+                    <!--项目展示-->
                     <div class="u-forumlistwrap j-alltopiclist">
                         <div class="m-flwrap">
                             <div class="ttitle">
-                                <h4 class="f-fl f-fc3">全部日志</h4>
+                                <h4 class="f-fl f-fc3">全部课程</h4>
                                 <div class="f-fl u-coursecate j-lessonuit"></div>
-
                             </div>
-                            <div class="f-cb auto-1523950289417-parent">
-                                <div class="m-basepool f-cb auto-1523950289417">
-                                    <div class="j-list" style="">
-                                        <div class="m-data-lists f-cb f-pr j-data-list">
-                                            <!--第一帖-->
-                                            <div class="first">
-                                                <li class="u-forumli">
-                                                    <div class="f-cb cnt">
-                                                        <a></a><a class="f-fc3 f-f0 lb10 j-link" href="logDetails.jsp" target="_self">日志1</a>
-                                                    </div>
-                                                    <span>
-                                                            <span class="j-txt">
-                                                                <span class="lb10 f-fc9">于2018年04月11日发表</span>
-                                                            </span>
-
-                                                        </span>
-                                                    <p class="f-fc9 f-pa watch">教师评价：0</p>
-                                                    <p class="f-fc9 f-pa reply">导师评价：1</p>
-                                                    <%--<p class="f-fc9 f-pa vote">点赞：0</p>--%>
-                                                </li>
-                                            </div>
-                                            <!--第二贴-->
-                                            <div class="second">
-                                                <li class="u-forumli">
-                                                    <div class="f-cb cnt">
-                                                        <a class="f-fc3 f-f0 lb10 j-link" href="logDetails.jsp" target="_self">日志2</a>
-                                                    </div>
-                                                    <span>
-                                                            <span class="j-txt">
-                                                                <span class="lb10 f-fc9">于2018年03月28日发表</span>
-                                                            </span>
-                                                        </span>
-                                                    <p class="f-fc9 f-pa watch">教师评价：1</p>
-                                                    <p class="f-fc9 f-pa reply">导师评价：0</p>
-                                                </li>
-                                            </div>
-                                            <!--第三贴,最后一贴-->
-                                            <div class="last">
-                                                <li class="u-forumli">
-                                                    <div class="f-cb cnt">
-                                                        <a class="f-fc3 f-f0 lb10 j-link" href="logDetails.jsp" target="_self">日志3</a>
-                                                    </div>
-                                                    <span>
-                                                            <span class="j-txt">
-                                                                <span class="lb10 f-fc9">于2018年03月25日发表</span>
-                                                            </span>
-                                                            <span class="j-txt" style="display: none;"></span>
-
-                                                        </span>
-                                                    <p class="f-fc9 f-pa watch">教师评价：1</p>
-                                                    <p class="f-fc9 f-pa reply">导师评价：1</p>
-                                                </li>
-                                            </div>
-                                        </div>
-
-                                        <!--分页-->
-                                        <div class="u-pager f-pr j-data-pager auto-1523950289416-parent"
-                                             style="display: none;">
-                                            <div class="auto-1523950289416" id="auto-id-1523950289864">
-                                                <a href="#" class="zbtn zprv js-disabled"
-                                                   id="auto-id-1523950289867">上一页</a>
-                                                <a href="" class="zpgi zpg1 js-selected"
-                                                   id="auto-id-1523950289873">1</a>
-                                                <a href="#" class="zpgi zpg2" id="auto-id-1523950289875"
-                                                   style="display: none;"></a>
-                                                <a href="#" class="zpgi zpg3" id="auto-id-1523950289877"
-                                                   style="display: none;"></a>
-                                                <a href="#" class="zpgi zpg4" id="auto-id-1523950289879"
-                                                   style="display: none;"></a>
-                                                <a href="#" class="zpgi zpg5" id="auto-id-1523950289881"
-                                                   style="display: none;"></a>
-                                                <a href="#" class="zpgi zpg6" id="auto-id-1523950289883"
-                                                   style="display: none;"></a>
-                                                <a href="#" class="zpgi zpg7" id="auto-id-1523950289885"
-                                                   style="display: none;"></a>
-                                                <a href="#" class="zpgi zpg8" id="auto-id-1523950289887"
-                                                   style="display: none;"></a>
-                                                <a href="#" class="zpgi zpg9" id="auto-id-1523950289889"
-                                                   style="display: none;"></a>
-                                                <a href="#" class="zbtn znxt js-disabled"
-                                                   id="auto-id-1523950289869">下一页</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="j-none empty" style="display:none">
-                                        <span class="f-f0 f-fc9 j-none-txt f-ib">还没有主题</span>
-                                    </div>
-                                </div>
+                            <div style="margin-top: 10px;padding-left: 0;">
+                                <table class="table table-bordered table-hover table-striped">
+                                    <thead>
+                                        <th class="col-lg-1">项目名称</th>
+                                        <th>所属课程</th>
+                                        <th>负责教师</th>
+                                        <th>项目语言</th>
+                                        <th>项目时间</th>
+                                        <th>项目地点</th>
+                                        <th>主要成员</th>
+                                        <th>项目简介</th>
+                                        <th>项目更新</th>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>
+                                            <a href="">更改</a>
+                                            <span>&smid;</span>
+                                            <a href="">删除</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>
+                                            <a href="">更改</a>
+                                            <span>&smid;</span>
+                                            <a href="">删除</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>222</td>
+                                        <td>
+                                            <a href="">更改</a>
+                                            <span>&smid;</span>
+                                            <a href="">删除</a>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>
