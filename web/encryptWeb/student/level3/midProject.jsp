@@ -96,14 +96,14 @@
                     <!--发帖按钮-->
                     <div class="f-cb">
                         <a class="j-newTopicBtn f-fl" style="margin-bottom:40px;margin-top: 12px;"
-                           href="newLog.jsp"><img src="../static/addLog.png" style="width: 120px"></a>
+                           href="newLog.jsp"><img src="../static/uploadReport.png" style="width: 120px"></a>
                     </div>
 
                     <!--帖子展示-->
                     <div class="u-forumlistwrap j-alltopiclist">
                         <div class="m-flwrap">
                             <div class="ttitle">
-                                <h4 class="f-fl f-fc3">全部日志</h4>
+                                <h4 class="f-fl f-fc3">报告详情</h4>
                                 <div class="f-fl u-coursecate j-lessonuit"></div>
                             </div>
 

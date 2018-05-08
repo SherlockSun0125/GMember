@@ -72,14 +72,14 @@
                         <span class="f-fl">毕设日志</span>
                     </a>
                     <ul class="tab u-tabul">
-                        <li class="u-greentab j-tabitem f-f0 first u-curtab" data-name="开题" data-type="1">
+                        <li class="u-greentab j-tabitem f-f0 first" data-name="开题" data-type="1">
                             <a class="f-thide f-fc3" href="startProject.jsp">毕设开题</a>
                         </li>
                         <li class="u-greentab j-tabitem f-f0" data-name="中期" data-type="7"
                             data-id="2001487096">
                             <a class="f-thide f-fc3"  href="midProject.jsp">毕设中期</a>
                         </li>
-                        <li class="u-greentab j-tabitem f-f0 last" data-name="终期" data-type="7"
+                        <li class="u-greentab j-tabitem f-f0 last u-curtab" data-name="终期" data-type="7"
                             data-id="2001487096">
                             <a class="f-thide f-fc3"  href="endProject.jsp">毕设终期</a>
                         </li>
@@ -96,18 +96,20 @@
                     <!--发帖按钮-->
                     <div class="f-cb">
                         <a class="j-newTopicBtn f-fl" style="margin-bottom:40px;margin-top: 12px;"
-                           href="newLog.jsp"><img src="../static/addLog.png" style="width: 120px"></a>
+                           href="newLog.jsp"><img src="../static/uploadReport.png" style="width: 120px"></a>
                     </div>
 
                     <!--帖子展示-->
                     <div class="u-forumlistwrap j-alltopiclist">
                         <div class="m-flwrap">
                             <div class="ttitle">
-                                <h4 class="f-fl f-fc3">全部日志</h4>
+                                <h4 class="f-fl f-fc3">报告详情</h4>
                                 <div class="f-fl u-coursecate j-lessonuit"></div>
                             </div>
                             <div>
-                                一个表格，显示信息，并支持导入信息
+
+                                一个表格，展示信息
+
                             </div>
                         </div>
                     </div>

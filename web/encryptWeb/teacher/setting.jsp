@@ -3311,7 +3311,7 @@
         <div class="g-flow">
             <div class="f-pr f-cb">
                 <div style="position: absolute;top:2px;bottom:2px;">
-                    <a class="f-fl" hidefocus="true" href="stuHome.jsp" target="_self" data-index="logo">
+                    <a class="f-fl" hidefocus="true" href="teaHome.jsp" target="_self" data-index="logo">
                         <img class="f-fl img" src="static/hitwh_logo_white.png" title="学生主页" width="540px"
                              style="margin-top: 2px;margin-bottom: 1px">
                     </a>

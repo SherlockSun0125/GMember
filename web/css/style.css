@@ -1134,27 +1134,43 @@ a[class^='hl-icon']{
     -moz-transition:all 0.3s ease-in-out 0s;
     -o-transition: all 0.3s ease-in-out 0s;
 }
-.hl-icon1{background: url("../images/icon1.png") no-repeat center center;
-    display: block;
-    height: 120px;
-    text-indent: -9999px;
-    width: 120px;}
-.hl-icon2{background: url("../images/icon2.png") no-repeat center center;
+
+.hl-icon1{
+    background: url("../images/icon1.png") no-repeat center center;
     display: block;
     height: 120px;
     text-indent: -9999px;
     width: 120px;
 }
-.hl-icon3{background: url("../images/icon3.png") no-repeat center center;
+.hl-icon2{
+    background: url("../images/icon2.png") no-repeat center center;
     display: block;
     height: 120px;
     text-indent: -9999px;
-    width: 120px;}
-.hl-icon4{background: url("../images/icon4.png") no-repeat center center;
+    width: 120px;
+}
+.hl-icon3{
+    background: url("../images/icon3.png") no-repeat center center;
     display: block;
     height: 120px;
     text-indent: -9999px;
-    width: 120px;}
+    width: 120px;
+}
+.hl-icon4{
+    background: url("../images/icon4.png") no-repeat center center;
+    display: block;
+    height: 120px;
+    text-indent: -9999px;
+    width: 120px;
+}
+.hl-icon5{
+    background: url("../images/icon5.png") no-repeat center center;
+    display: block;
+    height: 120px;
+    text-indent: -9999px;
+    width: 120px;
+}
+
 /*Our Works*/
 .our-works h4{
     font-weight: 600;

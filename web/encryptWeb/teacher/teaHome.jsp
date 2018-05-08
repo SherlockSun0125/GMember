@@ -175,7 +175,7 @@
         }
 
         a:hover {
-            color: #49AF4F;
+            color: #e84807;
             text-decoration: none;
         }
 
@@ -326,19 +326,6 @@
             margin: 20px 0 10px;
         }
 
-        .ux-user-info-bottom_position {
-            font-size: 14px;
-        }
-
-        .ux-user-info-bottom_edit {
-            color: #FFFFFF;
-            margin-left: 20px;
-        }
-
-        .ux-user-info-bottom_edit:hover {
-            color: #FFFFFF;
-        }
-
         .ux-user-info-bottom_description {
             font-size: 14px;
             line-height: 22px;
@@ -365,7 +352,7 @@
         <div class="g-flow">
             <div class="f-pr f-cb">
                 <div style="position: absolute;top:2px;bottom:2px;">
-                    <a class="f-fl" hidefocus="true" href="#" target="_self" data-index="logo">
+                    <a class="f-fl" hidefocus="true" target="_self" data-index="logo">
                         <img class="f-fl img" src="static/hitwh_logo_white.png" title="教师主页" width="540px"
                              style="margin-top: 2px;margin-bottom: 1px">
                     </a>
@@ -393,13 +380,13 @@
                             </a>
                             <i class="line" style="padding-top: 2%"></i>
                             <a data-index="消息" class="mes f-pr f-cb j-nav-mescenter"
-                               href="messageT.jsp" title="查看更多消息" target="_blank">
+                               href="forumMessage.jsp" title="查看更多消息" target="_blank">
                                 <span>消息</span>
                                 <em class="num hidddenClass j-nav-msgnum">0</em>
                             </a>
                             <div class="u-mystudy f-pr f-cb f-fr">
                                 <a class="mystudy nitem f-f0" id="j-nav-my-class" data-index="讨论区" target="_self"
-                                   href="teaHome.jsp" hidefocus="true">讨论区</a>
+                                   href="forum.jsp" hidefocus="true">讨论区</a>
                             </div>
                         </div>
                     </div>
@@ -427,73 +414,97 @@
     <div class="ux-user-info_show">
         <div class="container">
             <!-- !important -->
-            <div class="row highlights">
-                <div class="span3">
+            <div class="row highlights" style="padding: 0 8.5%">
+                <div class="span2">
                     <div class="hl-circle">
-                        <a class="hl-icon1" href="forum1.jsp">forum</a>
+                        <a class="hl-icon2" href="level0/stuList.jsp">学生遴选阶段管理</a>
                     </div>
 
                     <div class="highlights-content clearfix">
-                        <h5>工程学习阶段</h5>
+                        <br/>
+                        <h5>学生遴选阶段管理</h5>
 
                         <p>
-                            显示一些进度信息
+                            <%--显示一些进度信息--%>
                         </p>
 
-                        <a class="btn-small btn-hl" href="forum1.jsp">
-                            <span>进入讨论区</span>
+                        <a class="btn-small btn-hl" href="level0/stuList.jsp">
+                            <span>进入管理</span>
                         </a>
                         <!-- button small end -->
                     </div>
                 </div>
-                <div class="span3 ">
+
+                <div class="span2">
                     <div class="hl-circle">
-                        <a class="hl-icon2" href="forum2.jsp">forum</a>
+                        <a class="hl-icon1" href="level1/stuList.jsp">工程学习阶段管理</a>
                     </div>
 
                     <div class="highlights-content clearfix">
-                        <h5>校企合作阶段</h5>
+                        <br/>
+                        <h5>工程学习阶段管理</h5>
 
                         <p>
-                            显示一些进度信息
+                            <%--显示一些进度信息--%>
                         </p>
 
-                        <a class="btn-small btn-hl" href="forum2.jsp">
-                            <span>进入讨论区</span>
+                        <a class="btn-small btn-hl" href="level1/stuList.jsp">
+                            <span>进入管理</span>
+                        </a>
+                        <!-- button small end -->
+                    </div>
+                </div>
+                <div class="span2">
+                    <div class="hl-circle">
+                        <a class="hl-icon2" href="level2/stuList.jsp">校企合作阶段管理</a>
+                    </div>
+
+                    <div class="highlights-content clearfix">
+                        <br/>
+                        <h5>校企合作阶段管理</h5>
+
+                        <p>
+                            <%--显示一些进度信息--%>
+                        </p>
+
+                        <a class="btn-small btn-hl" href="level2/stuList.jsp">
+                            <span>进入管理</span>
                         </a><!-- button small end -->
                     </div>
                 </div>
-                <div class="span3">
+                <div class="span2">
                     <div class="hl-circle">
-                        <a class="hl-icon3" href="forum3.jsp">forum</a>
+                        <a class="hl-icon3" href="level3/stuList.jsp">毕业设计阶段管理</a>
                     </div>
 
                     <div class="highlights-content clearfix">
-                        <h5>毕业设计阶段</h5>
+                        <br/>
+                        <h5>毕业设计阶段管理</h5>
 
                         <p>
-                            显示一些进度信息
+                            <%--显示一些进度信息--%>
                         </p>
 
-                        <a class="btn-small btn-hl" href="forum3.jsp">
-                            <span>进入讨论区</span>
+                        <a class="btn-small btn-hl" href="level3/stuList.jsp">
+                            <span>进入管理</span>
                         </a><!-- button small end -->
                     </div>
                 </div>
-                <div class="span3 highlights">
+                <div class="span2 highlights">
                     <div class="hl-circle">
-                        <a class="hl-icon4" href="forum4.jsp">forum</a>
+                        <a class="hl-icon4" href="level4/stuList.jsp">就业推荐阶段管理</a>
                     </div>
 
                     <div class="highlights-content clearfix">
-                        <h5>就业推荐阶段</h5>
+                        <br/>
+                        <h5>就业推荐阶段管理</h5>
 
                         <p>
-                            显示一些进度信息
+                            <%--显示一些进度信息--%>
                         </p>
 
-                        <a class="btn-small btn-hl" href="forum4.jsp">
-                            <span>进入讨论区</span>
+                        <a class="btn-small btn-hl" href="level4/stuList.jsp">
+                            <span>进入管理</span>
                         </a><!-- button small end -->
                     </div>
                 </div>

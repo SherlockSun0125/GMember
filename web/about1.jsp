@@ -67,9 +67,9 @@
                         </li>
                         <li><a><span class="name">用户中心</span></a>
                             <ul>
-                                <li><a href="studentLogin.jsp">学生用户登录</a></li>
-                                <li><a href="teacherLogin.jsp">教师用户登录</a></li>
-                                <li><a href="employeeLogin.jsp">企业用户登录</a></li>
+                                <li><a href="studentLogin.jsp"  target="_blank">学生用户登录</a></li>
+                                <li><a href="teacherLogin.jsp"  target="_blank">教师用户登录</a></li>
+                                <li><a href="employeeLogin.jsp"  target="_blank">企业用户登录</a></li>
                             </ul>
                         </li>
                         <%--<li><a href="download.jsp"><span class="name">下载中心</span></a></li>--%>

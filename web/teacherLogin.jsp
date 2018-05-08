@@ -311,7 +311,7 @@
     <div class="clearfloat"></div>
     <div class="auth_tab_content">
         <div tabid="01" class="auth_tab_content_item">
-            <form id="casLoginForm" class="fm-v clearfix amp-login-form" role="form" action=" " method="post">
+            <form id="casLoginForm" class="fm-v clearfix amp-login-form" role="form" action="encryptWeb/teacher/teaHome.jsp" method="post">
                 <p>
                     <i class="auth_icon auth_icon_user"></i>
                     <input id="username" name="username" placeholder="用户名" class="auth_input" type="text" value=""/>
@@ -337,9 +337,6 @@
                     <button type="submit" class="auth_login_btn primary full_width">登录
                     </button>
                 </p>
-                <a id="getBackPasswordMainPage" href="" class="auth_login_forgetp">
-                    <%--<small>登录遇到问题？绑定邮箱/手机？找回/修改密码？二次认证设置？</small>--%>
-                </a>
                 <div><br></div>
                 <div>
                     <small>1、帐号为职工号。</small>
@@ -350,12 +347,6 @@
                 <div>
                     <small>3、如忘记密码请尽快联系管理员。</small>
                 </div>
-                <%--<div>--%>
-                <%--<small>3、用户绑定邮箱/手机后可以自助找回密码。</small>--%>
-                <%--</div>--%>
-                <%--<div>--%>
-                <%--<small>4、用户本人带有效证件到网络与信息中心客服中心可以修改密码。</small>--%>
-                <%--</div>--%>
                 <div><br></div>
                 <div>
                     <small>温馨提示：个人应妥善保管个人帐号密码，不能随意告诉他人，由帐号密码管理不善造成的不良后果由个人负责。</small>

@@ -100,16 +100,9 @@
 
                 <div class="m-forumindex">
                     <!--发帖按钮-->
-                    <div  class="f-cb" >
-                        <div style="background-color: red">
-                            <a class="j-newTopicBtn f-fl" style="margin-bottom:40px;margin-top: 12px"
-                               href=""><img src="../static/uploadResume.png" style="width: 120px"></a>
-                        </div>
-                        <p>    </p>
-                        <div style="background-color: green;" align="right">
-                            <a class="j-newTopicBtn f-fl" style="margin-bottom:40px;margin-top: 12px;"
-                               href=""><img src="../static/uploadResume.png" style="width: 120px"></a>
-                        </div>
+                    <div  style="margin-bottom:40px;margin-top: 12px" >
+                        <a style="padding-right: 20px" href=""><img src="../static/uploadResume.png" style="width: 120px"></a>
+                        <a href=""><img src="../static/downloadResume.png" style="width: 120px"></a>
                     </div>
                     <!--帖子展示-->
                     <div class="u-forumlistwrap j-alltopiclist">
