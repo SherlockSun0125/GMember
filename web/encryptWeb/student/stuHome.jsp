@@ -435,7 +435,7 @@
                 </div>
                 <div class="span3 ">
                     <div class="hl-circle">
-                        <a class="hl-icon2" href="levelTwo/levelTwo.jsp">校企合作阶段</a>
+                        <a class="hl-icon2" href="levelTwo/myLog.jsp">校企合作阶段</a>
                     </div>
 
                     <div class="highlights-content clearfix">
@@ -445,14 +445,14 @@
                             显示一些进度信息
                         </p>
 
-                        <a class="btn-small btn-hl" href="levelTwo/levelTwo.jsp">
+                        <a class="btn-small btn-hl" href="levelTwo/myLog.jsp">
                             <span>进入</span>
                         </a><!-- button small end -->
                     </div>
                 </div>
                 <div class="span3">
                     <div class="hl-circle">
-                        <a class="hl-icon3" href="levelThree/levelThree.jsp">毕业设计阶段</a>
+                        <a class="hl-icon3" href="levelThree/myLog.jsp">毕业设计阶段</a>
                     </div>
 
                     <div class="highlights-content clearfix">
@@ -462,14 +462,14 @@
                             显示一些进度信息
                         </p>
 
-                        <a class="btn-small btn-hl" href="levelThree/levelThree.jsp">
+                        <a class="btn-small btn-hl" href="levelThree/myLog.jsp">
                             <span>进入讨论区</span>
                         </a><!-- button small end -->
                     </div>
                 </div>
                 <div class="span3 highlights">
                     <div class="hl-circle">
-                        <a class="hl-icon4" href="levelFour/levelFour.jsp">就业推荐阶段</a>
+                        <a class="hl-icon4" href="levelFour/myResume.jsp">就业推荐阶段</a>
                     </div>
 
                     <div class="highlights-content clearfix">
@@ -479,7 +479,7 @@
                             显示一些进度信息
                         </p>
 
-                        <a class="btn-small btn-hl" href="levelFour/levelFour.jsp">
+                        <a class="btn-small btn-hl" href="levelFour/myResume.jsp">
                             <span>进入讨论区</span>
                         </a><!-- button small end -->
                     </div>

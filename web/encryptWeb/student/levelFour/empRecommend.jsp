@@ -1,23 +1,30 @@
 <%--
   Created by IntelliJ IDEA.
   User: chong
-  Date: 2018/5/7
-  Time: 10:32
+  Date: 2018/5/8
+  Time: 9:47
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8"%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>我的课设</title>
+    <title>导师推荐公司</title>
     <!--三个重要的CSS文件-->
     <link rel="stylesheet" href="../static/core_62c0700cc15bd051f36fa48b7a5c1a26.css">
     <link rel="stylesheet" href="../static/pt_newpages_course_learn.css">
     <link rel="stylesheet" href="../../../bootstrap/css/bootstrap.min.css">
-    <script type="text/javascript" src="../../../bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../../../bootstrap/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="../../../bootstrap/js/bootstrap.min.js"></script>
     <style>
         th{
             font-weight: bold;
+        }
+        .u-learnProgress-tab .ic_2 {
+            width: 16px;
+            height: 16px;
+            margin: 12px 0 0 10px;
+            background-image: url("../static/icon9.png");
+            background-position: -32px 0px;
         }
     </style>
 </head>
@@ -82,17 +89,17 @@
         <div class="g-sd1">
             <div class="m-learnleft">
                 <div id="j-courseTabList">
-                    <a class="u-learnProgress-tab j-tabitem f-f0 f-fc3 f-cb"  data-type="30" href="myLog.jsp">
-                        <div class="ic f-fl"></div>
-                        <span class="f-fl">学习日志</span>
+                    <a class="u-learnProgress-tab j-tabitem f-f0 f-fc3 f-cb"  data-type="30" href="myResume.jsp">
+                        <div class="ic_2 f-fl"></div>
+                        <span class="f-fl">我的简历</span>
                     </a>
                     <ul class="tab u-tabul">
-                        <li class="u-greentab j-tabitem f-f0 first" data-name="我的课程" data-type="1">
-                            <a class="f-thide f-fc3" href="myCourse.jsp">我的课程</a>
+                        <li class="u-greentab j-tabitem f-f0 first u-curtab" data-name="导师推荐" data-type="1">
+                            <a class="f-thide f-fc3" href="empRecommend.jsp">导师推荐</a>
                         </li>
-                        <li class="u-greentab j-tabitem f-f0 last u-curtab" data-name="我的项目" data-type="7"
+                        <li class="u-greentab j-tabitem f-f0 last" data-name="我的投递" data-type="7"
                             data-id="2001487096" id="auto-id-1523950289741">
-                            <a class="f-thide f-fc3"  href="myProject.jsp">我的项目</a>
+                            <a class="f-thide f-fc3"  href="myDelivery.jsp">我的投递</a>
                         </li>
                     </ul>
                 </div>
@@ -102,32 +109,33 @@
         <!--右侧主体-->
         <div class="g-mn1">
             <div class="g-mn1c m-learnbox" id="courseLearn-inner-box">
-                <div class="m-forumindex">
-                    <!--发帖按钮-->
-                    <div class="f-cb">
-                        <a class="j-newTopicBtn f-fl" style="margin-bottom:40px;margin-top: 12px;"
-                           href="newLog.jsp"><img src="../static/addProject.png" style="width: 120px"></a>
-                    </div>
+                <%--<div class="m-forumindex">--%>
+                    <%--<!--发帖按钮-->--%>
+                    <%--<div class="f-cb">--%>
+                        <%--<a class="j-newTopicBtn f-fl" style="margin-bottom:40px;margin-top: 12px;"--%>
+                           <%--href="newLog.jsp"><img src="../static/addCourse.png" style="width: 120px"></a>--%>
+                    <%--</div>--%>
 
-                    <!--项目展示-->
+                    <!--课程信息-->
                     <div class="u-forumlistwrap j-alltopiclist">
                         <div class="m-flwrap">
                             <div class="ttitle">
-                                <h4 class="f-fl f-fc3">全部课程</h4>
+                                <h4 class="f-fl f-fc3">全部推荐</h4>
                                 <div class="f-fl u-coursecate j-lessonuit"></div>
                             </div>
                             <div style="margin-top: 10px;padding-left: 0;">
                                 <table class="table table-bordered table-hover table-striped">
                                     <thead>
-                                        <th class="col-lg-1">项目名称</th>
-                                        <th>所属课程</th>
-                                        <th>负责教师</th>
-                                        <th>项目语言</th>
-                                        <th>项目时间</th>
-                                        <th>项目地点</th>
-                                        <th>主要成员</th>
-                                        <th>项目简介</th>
-                                        <th>项目更新</th>
+                                        <th class="col-lg-1">公司名称</th>
+                                        <th>公司类型</th>
+                                        <th>公司规模</th>
+                                        <th>工作地点</th>
+                                        <th>推荐岗位</th>
+                                        <th>岗位需求</th>
+                                        <th>联系邮箱</th>
+                                        <th>联系电话</th>
+                                        <th>招聘时间</th>
+                                        <th>投递简历</th>
                                     </thead>
                                     <tbody>
                                     <tr>
@@ -139,10 +147,11 @@
                                         <td>222</td>
                                         <td>222</td>
                                         <td>222</td>
+                                        <td>222</td>
                                         <td>
-                                            <a href="">更改</a>
+                                            <a href="">投递</a>
                                             <span>&smid;</span>
-                                            <a href="">删除</a>
+                                            <a href="">忽略</a>
                                         </td>
                                     </tr>
                                     <tr>
@@ -154,10 +163,11 @@
                                         <td>222</td>
                                         <td>222</td>
                                         <td>222</td>
+                                        <td>222</td>
                                         <td>
-                                            <a href="">更改</a>
+                                            <a href="">投递</a>
                                             <span>&smid;</span>
-                                            <a href="">删除</a>
+                                            <a href="">忽略</a>
                                         </td>
                                     </tr>
                                     <tr>
@@ -169,15 +179,18 @@
                                         <td>222</td>
                                         <td>222</td>
                                         <td>222</td>
+                                        <td>222</td>
                                         <td>
-                                            <a href="">更改</a>
+                                            <a href="">投递</a>
                                             <span>&smid;</span>
-                                            <a href="">删除</a>
+                                            <a href="">忽略</a>
                                         </td>
                                     </tr>
                                     </tbody>
                                 </table>
                             </div>
+                            <small class="bg-info" style="padding: 4px 2px"><b>注：</b>该列表应该只有导师可修改，学生只能点击“投递”来打开邮箱并投递简历，
+                                或者点击“忽略”是该公司从该列表删除并给导师发送不喜欢的原因，但导师列表中仍存在并显示删除原因</small>
                         </div>
                     </div>
                 </div>
@@ -187,3 +200,4 @@
 </div>
 </body>
 </html>
+

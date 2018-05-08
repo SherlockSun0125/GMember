@@ -366,7 +366,7 @@
             <div class="f-pr f-cb">
                 <div style="position: absolute;top:2px;bottom:2px;">
                     <a class="f-fl" hidefocus="true" href="#" target="_self" data-index="logo">
-                        <img class="f-fl img" src="static/hitwh_logo_white.png" title="学生主页" width="540px"
+                        <img class="f-fl img" src="static/hitwh_logo_white.png" title="教师主页" width="540px"
                              style="margin-top: 2px;margin-bottom: 1px">
                     </a>
                 </div>
@@ -398,8 +398,8 @@
                                 <em class="num hidddenClass j-nav-msgnum">0</em>
                             </a>
                             <div class="u-mystudy f-pr f-cb f-fr">
-                                <a class="mystudy nitem f-f0" id="j-nav-my-class" data-index="我的学习" target="_self"
-                                   href="stuHome.jsp" hidefocus="true">我的学习</a>
+                                <a class="mystudy nitem f-f0" id="j-nav-my-class" data-index="讨论区" target="_self"
+                                   href="teaHome.jsp" hidefocus="true">讨论区</a>
                             </div>
                         </div>
                     </div>

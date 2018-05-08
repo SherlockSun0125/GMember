@@ -5,9 +5,37 @@
     <title>发帖</title>
 
     <!--样式-->
-    <link rel="stylesheet" name="cssUrl" href=" static/c999847cabf4398b84d69b7ef2f1ef78.css">
-    <link rel="stylesheet" href=" static/core_62c0700cc15bd051f36fa48b7a5c1a26.css">
-    <link rel="stylesheet" href="static/pt_newpages_course_learn.css">
+    <link rel="stylesheet"  href="../static/c999847cabf4398b84d69b7ef2f1ef78.css">
+    <link rel="stylesheet" href="../static/core_62c0700cc15bd051f36fa48b7a5c1a26.css">
+    <link rel="stylesheet" href="../static/pt_newpages_course_learn.css">
+    <style type="text/css">
+        .file {
+            position: relative;
+            display: inline-block;
+            background: #D0EEFF;
+            border: 1px solid #99D3F5;
+            border-radius: 4px;
+            padding: 8px 24px;
+            overflow: hidden;
+            color: #1E88C7;
+            text-decoration: none;
+            text-indent: 0;
+            line-height: 20px;
+        }
+        .file input {
+            position: absolute;
+            font-size: 100px;
+            right: 0;
+            top: 0;
+            opacity: 0;
+        }
+        .file:hover {
+            background: #AADFFD;
+            border-color: #78C3F3;
+            color: #004974;
+            text-decoration: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -18,8 +46,8 @@
             <div class="g-flow">
                 <div class="f-pr f-cb">
                     <div style="position: absolute;top:2px;bottom:2px;">
-                        <a class="f-fl" hidefocus="true" target="_self" data-index="logo" href="stuHome.jsp">
-                            <img class="f-fl img" src="static/hitwh_logo_white.png" title="学生主页" width="540px"
+                        <a class="f-fl" hidefocus="true" target="_self" data-index="logo" href="../stuHome.jsp">
+                            <img class="f-fl img" src="../static/hitwh_logo_white.png" title="学生主页" width="540px"
                                  style="margin-top: 2px;margin-bottom: 1px">
                         </a>
                     </div>
@@ -28,31 +56,31 @@
                             <div class="login f-cb">
                                 <div class="u-mystudy f-pr f-cb f-fr">
                                     <a class="mystudy nitem f-f0" data-index="用户退出" target="_blank"
-                                       href="exit.jsp" hidefocus="true">退出</a>
+                                       href="../exit.jsp" hidefocus="true">退出</a>
                                 </div>
 
                                 <div class="name j-userinfo" id="auto-id-1523840858750">
                                     <div class="f-pr">
                                         <div class="face">
                                             <img class="j-nav-myimg"
-                                                 src="static/head1.jpg"
+                                                 src="../static/head1.jpg"
                                                  width="30px" height="30px" alt="头像">
                                         </div>
                                     </div>
                                 </div>
                                 <a class="username self f-thide" target="_self" data-index="点击用户名"
-                                   href="setting.jsp">
+                                   href="../setting.jsp">
                                     <span class=" f-fs1 f-f0">PaulSuen</span>
                                 </a>
                                 <i class="line" style="padding-top: 2%"></i>
                                 <a data-index="消息" class="mes f-pr f-cb j-nav-mescenter"
-                                   href="messageT.jsp" title="查看更多消息" target="_blank">
+                                   href="../messageT.jsp" title="查看更多消息" target="_blank">
                                     <span>消息</span>
                                     <em class="num hidddenClass j-nav-msgnum">0</em>
                                 </a>
                                 <div class="u-mystudy f-pr f-cb f-fr">
-                                    <a class="mystudy nitem f-f0" id="j-nav-my-class" data-index="我的学习" target="_self"
-                                       href="forum.jsp" hidefocus="true">讨论区</a>
+                                    <a class="mystudy nitem f-f0" id="j-nav-my-class" data-index="讨论区" target="_self"
+                                       href="../forum.jsp" hidefocus="true">讨论区</a>
                                 </div>
                             </div>
                         </div>
@@ -72,19 +100,15 @@
             <div class="g-sd1">
                 <div class="m-learnleft">
                     <div id="j-courseTabList">
-                        <a class="u-learnProgress-tab j-tabitem f-f0 f-fc3 f-cb" data-type="30"
+                        <a class="u-learnProgress-tab j-tabitem f-f0 f-fc3 f-cb u-curtab" data-type="30" href="myLog.jsp"
                            id="auto-id-1523965034571">
                             <div class="ic f-fl"></div>
-                            <span class="f-fl">我的帖子</span>
+                            <span class="f-fl">学习日志</span>
                         </a>
                         <ul class="tab u-tabul">
-                            <li class="u-greentab j-tabitem f-f0 first" data-name="公告" data-type="1"
-                                data-id="2001487091" id="auto-id-1523965034572">
-                                <a class="f-thide f-fc3" href="forumAnnounce.jsp">公告</a>
-                            </li>
-                            <li class="u-greentab j-tabitem f-f0 last" data-name="讨论区" data-type="7"
-                                data-id="2001487096" id="auto-id-1523965034577">
-                                <a class="f-thide f-fc3">讨论区</a>
+                            <li class="u-greentab j-tabitem f-f0 first last" data-name="我的项目" data-type="7"
+                                data-id="2001487096">
+                                <a class="f-thide f-fc3" href="myProject.jsp">我的项目</a>
                             </li>
                         </ul>
                     </div>
@@ -96,19 +120,20 @@
                 <div class="g-mn1c m-learnbox" id="courseLearn-inner-box">
                     <div class="m-forumtopic f-cb">
                         <div class="j-enable" style="">
-                            <div class="u-gx-inputwarp f-cb j-forumRes" style="position:relative; z-index:150;">
-                                <div class="tit f-f0 f-cb">
-                                    <div class="f-fl"><em class="f-sign">*</em>所属讨论区板块</div>
-                                </div>
-                                <div class="txt" style="width:375px;">
-                                    <div class="up j-up f-thide" style="background-position: 342px -177px;"></div>
-                                    <select style="width: 375px;height: 35px;border:1px lightgray solid;font-size: 13px;padding-left: 5px">
-                                        <option class="f-cb list">老师答疑区</option>
-                                        <option class="f-cb list">企业交流区</option>
-                                        <option class="f-cb list" selected="selected">综合讨论区</option>
-                                    </select>
-                                </div>
-                            </div>
+                            <%--<div class="u-gx-inputwarp f-cb j-forumRes" style="position:relative; z-index:150;">--%>
+                                <%--<div class="tit f-f0 f-cb">--%>
+                                    <%--<div class="f-fl"><em class="f-sign">*</em>阶段选择</div>--%>
+                                <%--</div>--%>
+                                <%--<div class="txt" style="width:375px;">--%>
+                                    <%--<div class="up j-up f-thide" style="background-position: 342px -177px;"></div>--%>
+                                    <%--<select style="width: 375px;height: 35px;border:1px lightgray solid;font-size: 13px;padding-left: 5px">--%>
+                                        <%--<option class="f-cb list">工程学习阶段</option>--%>
+                                        <%--<option class="f-cb list">校企合作阶段</option>--%>
+                                        <%--<option class="f-cb list">毕业设计阶段</option>--%>
+                                        <%--<option class="f-cb list">就业推荐阶段</option>--%>
+                                    <%--</select>--%>
+                                <%--</div>--%>
+                            <%--</div>--%>
                             <div class="u-gx-inputwarp f-cb">
                                 <div class="tit f-f0 f-cb">
                                     <div class="f-fl"><em class="f-sign">*</em>标题</div>
@@ -320,18 +345,27 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="f-cb type"><input type="checkbox" id="NiMingFaBiao"
-                                                          class="j-topicType noName"><label for="NiMingFaBiao"
-                                                                                            class="nolabelName">匿名发表</label>
+                            <div class="f-cb type" style="display: none">
+                                <input type="checkbox" id="NiMingFaBiao"class="j-topicType noName">
+                                <label for="NiMingFaBiao" class="nolabelName">匿名发表</label>
                             </div>
-                            <a class="u-btn u-btn-primary j-publish" id="auto-id-1523965034911">发表</a></div>
+                            <div>
+                                <a class="file">
+                                <input type="file" name="上传附件" id="" value="上传附件">上传附件
+                                </a>
+                                <br/>
+                                <br/>
+                            </div>
+                            <div style="margin-left: 30%">
+                                <a class="u-btn u-btn-primary j-publish" style="border-radius: 9px">发表</a>
+                            </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
+</div>
 
 </body>
 </html>

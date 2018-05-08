@@ -14,7 +14,7 @@
         }
     </style>
 </head>
-<body>
+<body style="background-color: #EEEEEE">
 <!--头部-->
 <div class="f-pf g-headwrap" id="j-fixed-head">
     <div class="g-hd f-bg1 m-yktNav " id="j-topnav">

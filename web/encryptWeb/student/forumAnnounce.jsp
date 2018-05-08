@@ -86,7 +86,7 @@
                             <span class="f-fl">我的帖子</span>
                         </a>
                         <%--<a class="u-learnProgress-tab j-tabitem f-f0 f-fc3 f-cb" data-type="30"--%>
-                           <%--href="myLog.jsp">--%>
+                           <%--href="myResume.jsp">--%>
                             <%--<div class="ic_2 f-fl"></div>--%>
                             <%--<span class="f-fl">我的日志</span>--%>
                         <%--</a>--%>

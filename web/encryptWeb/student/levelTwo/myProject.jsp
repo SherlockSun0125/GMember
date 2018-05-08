@@ -5,10 +5,10 @@
   Time: 10:32
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8"%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>我的课设</title>
+    <title>我的项目</title>
     <!--三个重要的CSS文件-->
     <link rel="stylesheet" href="../static/core_62c0700cc15bd051f36fa48b7a5c1a26.css">
     <link rel="stylesheet" href="../static/pt_newpages_course_learn.css">
@@ -21,7 +21,7 @@
         }
     </style>
 </head>
-<body style="background-color: #EEEEEE">
+<body  style="background-color: #EEEEEE">
 <!--头部-->
 <div class="f-pf g-headwrap" id="j-fixed-head">
     <div class="g-hd f-bg1 m-yktNav " id="j-topnav">
@@ -84,15 +84,11 @@
                 <div id="j-courseTabList">
                     <a class="u-learnProgress-tab j-tabitem f-f0 f-fc3 f-cb"  data-type="30" href="myLog.jsp">
                         <div class="ic f-fl"></div>
-                        <span class="f-fl">学习日志</span>
+                        <span class="f-fl">实习日志</span>
                     </a>
                     <ul class="tab u-tabul">
-                        <li class="u-greentab j-tabitem f-f0 first" data-name="我的课程" data-type="1">
-                            <a class="f-thide f-fc3" href="myCourse.jsp">我的课程</a>
-                        </li>
-                        <li class="u-greentab j-tabitem f-f0 last u-curtab" data-name="我的项目" data-type="7"
-                            data-id="2001487096" id="auto-id-1523950289741">
-                            <a class="f-thide f-fc3"  href="myProject.jsp">我的项目</a>
+                        <li class="u-greentab j-tabitem f-f0 first last u-curtab" data-name="我的项目" data-type="1">
+                            <a class="f-thide f-fc3" href="myProject.jsp">我的项目</a>
                         </li>
                     </ul>
                 </div>
@@ -102,6 +98,7 @@
         <!--右侧主体-->
         <div class="g-mn1">
             <div class="g-mn1c m-learnbox" id="courseLearn-inner-box">
+
                 <div class="m-forumindex">
                     <!--发帖按钮-->
                     <div class="f-cb">
@@ -120,9 +117,9 @@
                                 <table class="table table-bordered table-hover table-striped">
                                     <thead>
                                         <th class="col-lg-1">项目名称</th>
-                                        <th>所属课程</th>
-                                        <th>负责教师</th>
-                                        <th>项目语言</th>
+                                        <th>合作企业</th>
+                                        <th>负责导师</th>
+                                        <th>监督教师</th>
                                         <th>项目时间</th>
                                         <th>项目地点</th>
                                         <th>主要成员</th>
