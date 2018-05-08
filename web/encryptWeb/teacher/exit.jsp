@@ -140,18 +140,18 @@
                                 </div>
                             </div>
                             <a class="username self f-thide" target="_self" data-index="点击用户名"
-                               href="../../studentLogin.jsp">
+                               href="../../teacherLogin.jsp">
                                 <span class=" f-fs1 f-f0">登录</span>
                             </a>
                             <i class="line" style="padding-top: 3%"></i>
                             <a data-index="消息" class="mes f-pr f-cb j-nav-mescenter"
-                               href="../../studentLogin.jsp" title="查看更多消息" target="_self">
+                               href="../../teacherLogin.jsp" title="查看更多消息" target="_self">
                                 <span>消息</span>
                                 <em class="num hidddenClass j-nav-msgnum">0</em>
                             </a>
                             <div class="u-mystudy f-pr f-cb f-fr">
                                 <a class="mystudy nitem f-f0" id="j-nav-my-class" data-index="我的学习" target="_self"
-                                   href="../../studentLogin.jsp" hidefocus="true">讨论区</a>
+                                   href="../../teacherLogin.jsp" hidefocus="true">讨论区</a>
                             </div>
                         </div>
                     </div>
@@ -169,7 +169,7 @@
             <b class="b-30"></b>
             <b class="b-30"></b>
             <div class="txt">已经成功退出登录</div>
-            <a class="reLogin btn" id="j-reLogin" style="" href="../../studentLogin.jsp">重新登录</a>
+            <a class="reLogin btn" id="j-reLogin" style="" href="../../teacherLogin.jsp">重新登录</a>
         </div>
         <div class="m-logbot">
             <span class="itm f-fs0" id="j-motto"></span>
