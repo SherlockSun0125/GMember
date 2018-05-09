@@ -417,7 +417,7 @@
             <div class="row highlights" style="padding: 0 8.5%">
                 <div class="span2">
                     <div class="hl-circle">
-                        <a class="hl-icon2" href="level0/stuList.jsp">学生遴选阶段管理</a>
+                        <a class="hl-icon2" href="level0/stuApply.jsp">学生遴选阶段管理</a>
                     </div>
 
                     <div class="highlights-content clearfix">
@@ -428,7 +428,7 @@
                             <%--显示一些进度信息--%>
                         </p>
 
-                        <a class="btn-small btn-hl" href="level0/stuList.jsp">
+                        <a class="btn-small btn-hl" href="level0/stuApply.jsp">
                             <span>进入管理</span>
                         </a>
                         <!-- button small end -->

@@ -1,68 +1,18 @@
 <%@page contentType="text/html; charset=utf-8" %>
 <html>
 <head>
-    <title>讨论区</title>
+    <title>学生遴选</title>
     <!--三个重要的CSS文件-->
     <link rel="stylesheet" href="../static/core_62c0700cc15bd051f36fa48b7a5c1a26.css">
     <link rel="stylesheet" href="../static/pt_newpages_course_learn.css">
     <style type="text/css">
-        .auto-1523950289788 .top {
-            height: 28px;
-            border: 1px solid #ddd;
-            cursor: pointer;
-            margin-right: -1px;
+        thead th{
+            font-weight: bold;
+            background-color: #2d89ef;
+            text-align: center;
         }
-
-        .auto-1523950289788 .content {
-            height: 28px;
-            font-size: 12px;
-            line-height: 28px;
-            padding-left: 10px;
-            max-width: 120px;
-            min-width: 60px;
-            overflow: hidden;
-            color: #999;
-        }
-
-        .auto-1523950289788 .selectlist {
-            border: 1px solid #ddd;
-            max-width: 359px;
-            min-width: 92px;
-            top: 29px;
-            left: 0;
-            z-index: 100;
-            background-color: #fff;
-            overflow-y: auto;
-        }
-
-        .auto-1523950289788 .item {
-            height: 28px;
-            line-height: 28px;
-            padding: 0 10px;
-            cursor: pointer;
-            font-size: 12px;
-            color: #999;
-        }
-
-        .auto-1523950289788 .item:hover {
-            background-color: #ccc;
-            color: #fff;
-        }
-
-        .auto-1523950289788 .normal {
-            color: #999;
-        }
-
-        .auto-1523950289788 {
-            color: #999;
-        }
-
-        .u-learnProgress-tab .ic_2 {
-            width: 16px;
-            height: 16px;
-            margin: 12px 0 0 10px;
-            background-image: url("../static/icon9.png");
-            background-position: -32px 0px;
+        table{
+            text-align: center;
         }
     </style>
     <link rel="stylesheet" href="../../../bootstrap/css/bootstrap.min.css">
@@ -71,7 +21,7 @@
 </head>
 
 
-<body>
+<body style="background-color: #EEEEEE">
 <div id="g-container">
     <!--头部-->
     <div class="f-pf g-headwrap" id="j-fixed-head">
@@ -123,7 +73,6 @@
         </div>
     </div>
 
-
     <!--网页主体-->
     <div id="g-body">
         <!--为右侧定义背景-->
@@ -145,13 +94,17 @@
                         <%--<span class="f-fl">我的日志</span>--%>
                         <%--</a>--%>
                         <ul class="tab u-tabul">
-                            <li class="u-greentab j-tabitem f-f0 first u-curtab" data-name="待通过" data-type="1"
-                                data-id="2001487091" id="auto-id-1523950289736">
-                                <a class="f-thide f-fc3" href="">待通过</a>
+                            <li class="u-greentab j-tabitem f-f0 first" data-name="待通过" data-type="1"
+                                data-id="2001487091">
+                                <a class="f-thide f-fc3" href="stuApply.jsp">待通过</a>
                             </li>
-                            <li class="u-greentab j-tabitem f-f0 last" data-name="已通过" data-type="7"
-                                data-id="2001487096" id="auto-id-1523950289741">
+                            <li class="u-greentab j-tabitem f-f0 u-curtab" data-name="已通过" data-type="1"
+                                data-id="2001487091">
                                 <a class="f-thide f-fc3">已通过</a>
+                            </li>
+                            <li class="u-greentab j-tabitem f-f0 last" data-name="未通过" data-type="7"
+                                data-id="2001487096">
+                                <a class="f-thide f-fc3" href="stuRefuse.jsp">未通过</a>
                             </li>
                         </ul>
                     </div>
@@ -162,48 +115,83 @@
             <div class="g-mn1">
                 <div class="g-mn1c m-learnbox" id="courseLearn-inner-box">
                     <div >
-                        <table class="table table-bordered table-hover table-striped">
+                        <table class="table table-hover table-striped" style="border-bottom: #EEEEEE solid 1px">
                             <thead>
                                 <tr>
-                                    <th>1</th>
-                                    <th>1</th>
-                                    <th>1</th>
-                                    <th>1</th>
-                                    <th>1</th>
+                                    <th>姓名</th>
+                                    <th>学号</th>
+                                    <th>性别</th>
+                                    <th>专业</th>
+                                    <th>专业排名</th>
+                                    <th>外语水平</th>
+                                    <th>手机号</th>
+                                    <th>邮箱</th>
+                                    <th>所获奖项</th>
+                                    <%--<th>是否通过</th>--%>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>2</td>
-                                    <td>2</td>
-                                    <td>2</td>
-                                    <td>2</td>
-                                    <td>2</td>
+                                    <td>001</td>
+                                    <td>王一</td>
+                                    <td>男</td>
+                                    <td>计算机科学与技术</td>
+                                    <td>前2%</td>
+                                    <td>六级486</td>
+                                    <td>17862700001</td>
+                                    <td>001@qq.com</td>
+                                    <td>国奖</td>
+                                    <%--<td align="center">--%>
+                                        <%--<input type="checkbox">--%>
+                                    <%--</td>--%>
                                 </tr>
                                 <tr>
-                                    <td>2</td>
-                                    <td>2</td>
-                                    <td>2</td>
-                                    <td>2</td>
-                                    <td>2</td>
+                                    <td>001</td>
+                                    <td>王一</td>
+                                    <td>男</td>
+                                    <td>软件工程</td>
+                                    <td>前2%</td>
+                                    <td>六级486</td>
+                                    <td>17862700001</td>
+                                    <td>001@qq.com</td>
+                                    <td>国奖</td>
+                                    <%--<td align="center">--%>
+                                        <%--<input type="checkbox">--%>
+                                    <%--</td>--%>
                                 </tr>
                                 <tr>
-                                    <td>2</td>
-                                    <td>2</td>
-                                    <td>2</td>
-                                    <td>2</td>
-                                    <td>2</td>
+                                    <td>001</td>
+                                    <td>王一</td>
+                                    <td>男</td>
+                                    <td>信息安全</td>
+                                    <td>前2%</td>
+                                    <td>六级486</td>
+                                    <td>17862700001</td>
+                                    <td>001@qq.com</td>
+                                    <td>国奖</td>
+                                    <%--<td align="center">--%>
+                                        <%--<input type="checkbox">--%>
+                                    <%--</td>--%>
                                 </tr>
                                 <tr>
-                                    <td>2</td>
-                                    <td>2</td>
-                                    <td>2</td>
-                                    <td>2</td>
-                                    <td>2</td>
+                                    <td>001</td>
+                                    <td>王一</td>
+                                    <td>男</td>
+                                    <td>计算机科学与技术</td>
+                                    <td>前2%</td>
+                                    <td>六级486</td>
+                                    <td>17862700001</td>
+                                    <td>001@qq.com</td>
+                                    <td>国奖</td>
+                                    <%--<td align="center">--%>
+                                        <%--<input type="checkbox">--%>
+                                    <%--</td>--%>
                                 </tr>
                             </tbody>
                         </table>
-
+                        <div>
+                            <input type="button" value="一键通知" class="col-md-1 btn btn-success">
+                        </div>
                     </div>
                 </div>
             </div>

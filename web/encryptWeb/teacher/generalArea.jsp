@@ -83,7 +83,7 @@
             <div class="g-flow">
                 <div class="f-pr f-cb">
                     <div style="position: absolute;top:2px;bottom:2px;">
-                        <a class="f-fl" hidefocus="true" href="stuHome.jsp" target="_self" data-index="logo">
+                        <a class="f-fl" hidefocus="true" href="teaHome.jsp" target="_self" data-index="logo">
                             <img class="f-fl img" src="static/hitwh_logo_white.png" title="学生主页" width="540px"
                                  style="margin-top: 2px;margin-bottom: 1px">
                         </a>
@@ -110,7 +110,7 @@
                                 </a>
                                 <i class="line" style="padding-top: 2%"></i>
                                 <a data-index="消息" class="mes f-pr f-cb j-nav-mescenter"
-                                   href="messageT.jsp" title="查看更多消息" target="_blank">
+                                   href="forumMessage.jsp" title="查看更多消息" target="_blank">
                                     <span>消息</span>
                                     <em class="num hidddenClass j-nav-msgnum">0</em>
                                 </a>

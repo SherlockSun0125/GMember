@@ -58,7 +58,7 @@
             border-radius: 20px;
         }
 
-        #slevel {
+        #speciality {
             width: 250px;
         }
 
@@ -136,19 +136,17 @@
                     </tr>
                     <tr>
                         <td class="td1"><em>*</em>性别</td>
-                        <td class="td2"><input type="radio" name="sex" class="">男&nbsp;&nbsp;
-                            <input type="radio" name="sex" class="">女
+                        <td class="td2"><input type="radio" name="sex" class="" id="men">男&nbsp;&nbsp;
+                            <input type="radio" name="sex" class="" id="women">女
                         </td>
                     </tr>
                     <tr>
-                        <td class="td1"><label for="slevel"><em>*</em>参与阶段</label></td>
+                        <td class="td1"><label for="speciality"><em>*</em>专业</label></td>
                         <td class="td2">
-                            <select id="slevel">
-                                <option value="level-0">遴选阶段</option>
-                                <option value="level-1">工程学习阶段</option>
-                                <option value="level-2">校企合作阶段</option>
-                                <option value="level-3">毕业设计阶段</option>
-                                <option value="level-4">就业推荐阶段</option>
+                            <select id="speciality">
+                                <option value="speciality-0">计算机科学与技术</option>
+                                <option value="speciality-1">软件工程</option>
+                                <option value="speciality-2">信息安全</option>
                             </select>
                         </td>
                     </tr>
@@ -183,7 +181,7 @@
                     </tr>
                     <tr>
                         <td colspan="2" align="right">
-                            <label for="sgrade" style="text-align: left">&nbsp;&nbsp;所获奖项</label>
+                            <label for="sgrade" style="text-align: left">&nbsp;&nbsp;所获奖项及项目概况</label>
                             <textarea id="sgrade" style="width: 100%;height: 100px"></textarea>
                         </td>
                     </tr>

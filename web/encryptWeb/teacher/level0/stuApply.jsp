@@ -1,7 +1,7 @@
 <%@page contentType="text/html; charset=utf-8" %>
 <html>
 <head>
-    <title>工程学习阶段</title>
+    <title>学生遴选</title>
     <!--三个重要的CSS文件-->
     <link rel="stylesheet" href="../static/core_62c0700cc15bd051f36fa48b7a5c1a26.css">
     <link rel="stylesheet" href="../static/pt_newpages_course_learn.css">
@@ -84,9 +84,9 @@
                 <div class="m-learnleft">
                     <div id="j-courseTabList">
                         <%--<a class="u-learnProgress-tab j-tabitem f-f0 f-fc3 f-cb" data-type="30"--%>
-                        <%--href="myTopic.jsp">--%>
-                        <%--<div class="ic f-fl"></div>--%>
-                        <%--<span class="f-fl">我的帖子</span>--%>
+                           <%--href="myTopic.jsp">--%>
+                            <%--<div class="ic f-fl"></div>--%>
+                            <%--<span class="f-fl">我的帖子</span>--%>
                         <%--</a>--%>
                         <%--<a class="u-learnProgress-tab j-tabitem f-f0 f-fc3 f-cb" data-type="30"--%>
                         <%--href="myResume.jsp">--%>
@@ -100,11 +100,11 @@
                             </li>
                             <li class="u-greentab j-tabitem f-f0" data-name="已通过" data-type="1"
                                 data-id="2001487091">
-                                <a class="f-thide f-fc3" href="">已通过</a>
+                                <a class="f-thide f-fc3" href="stuDone.jsp">已通过</a>
                             </li>
                             <li class="u-greentab j-tabitem f-f0 last" data-name="未通过" data-type="7"
                                 data-id="2001487096">
-                                <a class="f-thide f-fc3" href=" ">未通过</a>
+                                <a class="f-thide f-fc3" href="stuRefuse.jsp">未通过</a>
                             </li>
                         </ul>
                     </div>
@@ -117,76 +117,76 @@
                     <div >
                         <table class="table table-hover table-striped" style="border-bottom: #EEEEEE solid 1px">
                             <thead>
-                            <tr>
-                                <th>姓名</th>
-                                <th>学号</th>
-                                <th>性别</th>
-                                <th>专业</th>
-                                <th>专业排名</th>
-                                <th>外语水平</th>
-                                <th>手机号</th>
-                                <th>邮箱</th>
-                                <th>所获奖项</th>
-                                <th>是否通过</th>
-                            </tr>
+                                <tr>
+                                    <th>姓名</th>
+                                    <th>学号</th>
+                                    <th>性别</th>
+                                    <th>专业</th>
+                                    <th>专业排名</th>
+                                    <th>外语水平</th>
+                                    <th>手机号</th>
+                                    <th>邮箱</th>
+                                    <th>所获奖项</th>
+                                    <th>是否通过</th>
+                                </tr>
                             </thead>
                             <tbody>
-                            <tr>
-                                <td>001</td>
-                                <td>王一</td>
-                                <td>男</td>
-                                <td>计算机科学与技术</td>
-                                <td>前2%</td>
-                                <td>六级486</td>
-                                <td>17862700001</td>
-                                <td>001@qq.com</td>
-                                <td>国奖</td>
-                                <td align="center">
-                                    <input type="checkbox">
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>001</td>
-                                <td>王一</td>
-                                <td>男</td>
-                                <td>软件工程</td>
-                                <td>前2%</td>
-                                <td>六级486</td>
-                                <td>17862700001</td>
-                                <td>001@qq.com</td>
-                                <td>国奖</td>
-                                <td align="center">
-                                    <input type="checkbox">
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>001</td>
-                                <td>王一</td>
-                                <td>男</td>
-                                <td>信息安全</td>
-                                <td>前2%</td>
-                                <td>六级486</td>
-                                <td>17862700001</td>
-                                <td>001@qq.com</td>
-                                <td>国奖</td>
-                                <td align="center">
-                                    <input type="checkbox">
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>001</td>
-                                <td>王一</td>
-                                <td>男</td>
-                                <td>计算机科学与技术</td>
-                                <td>前2%</td>
-                                <td>六级486</td>
-                                <td>17862700001</td>
-                                <td>001@qq.com</td>
-                                <td>国奖</td>
-                                <td align="center">
-                                    <input type="checkbox">
-                                </td>
-                            </tr>
+                                <tr>
+                                    <td>001</td>
+                                    <td>王一</td>
+                                    <td>男</td>
+                                    <td>计算机科学与技术</td>
+                                    <td>前2%</td>
+                                    <td>六级486</td>
+                                    <td>17862700001</td>
+                                    <td>001@qq.com</td>
+                                    <td>国奖</td>
+                                    <td align="center">
+                                        <input type="checkbox">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>001</td>
+                                    <td>王一</td>
+                                    <td>男</td>
+                                    <td>软件工程</td>
+                                    <td>前2%</td>
+                                    <td>六级486</td>
+                                    <td>17862700001</td>
+                                    <td>001@qq.com</td>
+                                    <td>国奖</td>
+                                    <td align="center">
+                                        <input type="checkbox">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>001</td>
+                                    <td>王一</td>
+                                    <td>男</td>
+                                    <td>信息安全</td>
+                                    <td>前2%</td>
+                                    <td>六级486</td>
+                                    <td>17862700001</td>
+                                    <td>001@qq.com</td>
+                                    <td>国奖</td>
+                                    <td align="center">
+                                        <input type="checkbox">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>001</td>
+                                    <td>王一</td>
+                                    <td>男</td>
+                                    <td>计算机科学与技术</td>
+                                    <td>前2%</td>
+                                    <td>六级486</td>
+                                    <td>17862700001</td>
+                                    <td>001@qq.com</td>
+                                    <td>国奖</td>
+                                    <td align="center">
+                                        <input type="checkbox">
+                                    </td>
+                                </tr>
                             </tbody>
                         </table>
                         <div>

@@ -3345,9 +3345,6 @@
                 <div class="m-navrgt f-fr f-cb f-pr j-navright">
                     <div class="userinfo f-fr f-cb f-pr">
                         <div class="login f-cb">
-                            <!--<a href="https://study.163.com/passport/member/logout.htm"-->
-                            <!--class="exit j-user-item" data-index="用户icon_退出" style="color: #fff" target="_blank">退出</a>-->
-
                             <div class="u-mystudy f-pr f-cb f-fr">
                                 <a class="mystudy nitem f-f0" data-index="用户退出" target="_blank"
                                    href="exit.jsp" hidefocus="true">退出</a>
