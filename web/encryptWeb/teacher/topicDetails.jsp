@@ -124,43 +124,6 @@
             background-color: #e6eaeb
         }
 
-        .ux-dropdown-check .ux-icon-caret-down, .ux-dropdown-check .ux-icon-caret-up {
-            vertical-align: middle;
-            line-height: 32px
-        }
-
-        .ux-dropdown-check.z-dis .ux-dropdown_hd .ux-dropdown_cnt {
-            cursor: not-allowed;
-            filter: alpha(opacity=65);
-            opacity: 0.65
-        }
-
-        .ux-dropdown-check .ux-tip-error {
-            position: absolute;
-            left: 160px;
-            white-space: nowrap;
-            top: 10px
-        }
-
-        /*# sourceMappingURL=component.css.map */
-        .ux-table {
-            overflow: hidden;
-            font-size: 14px;
-        }
-
-        .ux-table .ux-dropdown-check {
-            width: inherit;
-        }
-
-        .ux-table .ux-dropdown-check .ux-dropdown-check_hd {
-            width: 105px;
-            min-width: inherit;
-        }
-
-        .ux-table .ux-dropdown-check .ux-dropdown-check_listview {
-            text-align: left;
-        }
-
         .ux-table table {
             font-size: 14px;
             margin-bottom: 60px;

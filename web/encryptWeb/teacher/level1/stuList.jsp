@@ -74,46 +74,46 @@
     </div>
 
     <!--网页主体-->
-    <div id="g-body">
+    <div id="g-body" style="margin: 0 10%;padding:0 10px;background-color: #fff;position: fixed;bottom: 0;top: 60px">
         <!--为右侧定义背景-->
-        <div class="m-cbg"></div>
+        <%--<div class="m-cbg"></div>--%>
+        <%--<div class="g-sd1">--%>
+            <%--<div class="m-learnleft">--%>
+                <%--<div id="j-courseTabList">--%>
+                    <%--&lt;%&ndash;<a class="u-learnProgress-tab j-tabitem f-f0 f-fc3 f-cb" data-type="30"&ndash;%&gt;--%>
+                    <%--&lt;%&ndash;href="myTopic.jsp">&ndash;%&gt;--%>
+                    <%--&lt;%&ndash;<div class="ic f-fl"></div>&ndash;%&gt;--%>
+                    <%--&lt;%&ndash;<span class="f-fl">我的帖子</span>&ndash;%&gt;--%>
+                    <%--&lt;%&ndash;</a>&ndash;%&gt;--%>
+                    <%--&lt;%&ndash;<a class="u-learnProgress-tab j-tabitem f-f0 f-fc3 f-cb" data-type="30"&ndash;%&gt;--%>
+                    <%--&lt;%&ndash;href="myResume.jsp">&ndash;%&gt;--%>
+                    <%--&lt;%&ndash;<div class="ic_2 f-fl"></div>&ndash;%&gt;--%>
+                    <%--&lt;%&ndash;<span class="f-fl">我的日志</span>&ndash;%&gt;--%>
+                    <%--&lt;%&ndash;</a>&ndash;%&gt;--%>
+                    <%--<ul class="tab u-tabul">--%>
+                        <%--<li class="u-greentab j-tabitem f-f0 first u-curtab" data-name="待通过" data-type="1"--%>
+                            <%--data-id="2001487091">--%>
+                            <%--<a class="f-thide f-fc3" href=""> </a>--%>
+                        <%--</li>--%>
+                        <%--<li class="u-greentab j-tabitem f-f0" data-name="已通过" data-type="1"--%>
+                            <%--data-id="2001487091">--%>
+                            <%--<a class="f-thide f-fc3" href="">已通过</a>--%>
+                        <%--</li>--%>
+                        <%--<li class="u-greentab j-tabitem f-f0 last" data-name="未通过" data-type="7"--%>
+                            <%--data-id="2001487096">--%>
+                            <%--<a class="f-thide f-fc3" href=" ">未通过</a>--%>
+                        <%--</li>--%>
+                    <%--</ul>--%>
+                <%--</div>--%>
+            <%--</div>--%>
+        <%--</div>--%>
 
         <div class="g-wrap f-cb">
             <!--左侧侧边栏-->
-            <div class="g-sd1">
-                <div class="m-learnleft">
-                    <div id="j-courseTabList">
-                        <%--<a class="u-learnProgress-tab j-tabitem f-f0 f-fc3 f-cb" data-type="30"--%>
-                        <%--href="myTopic.jsp">--%>
-                        <%--<div class="ic f-fl"></div>--%>
-                        <%--<span class="f-fl">我的帖子</span>--%>
-                        <%--</a>--%>
-                        <%--<a class="u-learnProgress-tab j-tabitem f-f0 f-fc3 f-cb" data-type="30"--%>
-                        <%--href="myResume.jsp">--%>
-                        <%--<div class="ic_2 f-fl"></div>--%>
-                        <%--<span class="f-fl">我的日志</span>--%>
-                        <%--</a>--%>
-                        <ul class="tab u-tabul">
-                            <li class="u-greentab j-tabitem f-f0 first u-curtab" data-name="待通过" data-type="1"
-                                data-id="2001487091">
-                                <a class="f-thide f-fc3" href="">待通过</a>
-                            </li>
-                            <li class="u-greentab j-tabitem f-f0" data-name="已通过" data-type="1"
-                                data-id="2001487091">
-                                <a class="f-thide f-fc3" href="">已通过</a>
-                            </li>
-                            <li class="u-greentab j-tabitem f-f0 last" data-name="未通过" data-type="7"
-                                data-id="2001487096">
-                                <a class="f-thide f-fc3" href=" ">未通过</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
 
             <!--右侧主体-->
             <div class="g-mn1">
-                <div class="g-mn1c m-learnbox" id="courseLearn-inner-box">
+                <div id="courseLearn-inner-box">
                     <div >
                         <table class="table table-hover table-striped" style="border-bottom: #EEEEEE solid 1px">
                             <thead>
