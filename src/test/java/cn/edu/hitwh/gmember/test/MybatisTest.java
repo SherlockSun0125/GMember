@@ -1,7 +1,7 @@
 package cn.edu.hitwh.gmember.test;
 
-import cn.edu.hitwh.gmember.mapper.TeacherMapper;
-import cn.edu.hitwh.gmember.pojo.Teacher;
+import cn.edu.hitwh.gmember.mapper.AdminMapper;
+import cn.edu.hitwh.gmember.pojo.Admin;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -30,10 +30,15 @@ public class MybatisTest {
 //        StudentMapper studentMapper=session.getMapper(StudentMapper.class);
 //        Student student2=studentMapper.findStuById(id);
 //        System.out.println("编号为"+id+"的学生为"+student2.getStu_name());
-        TeacherMapper teacherMapper=session.getMapper(TeacherMapper.class);
-        String id="2001";
-        Teacher teacher=teacherMapper.findTeaById(id);
-        System.out.println("id为"+id+"的教师信息为"+teacher.toString());
+//        TeacherMapper teacherMapper=session.getMapper(TeacherMapper.class);
+        String id="0001";
+        String pwd="001";
+        AdminMapper adminMapper=session.getMapper(AdminMapper.class);
+        Admin admin=adminMapper.findAdmin(id,pwd);
+        System.out.println("+++++++++++++++++++++++++"+admin.getAdmin_name());
+//        Teacher teacher=teacherMapper.findTeaById(id);
+//        System.out.println("id为"+id+"的教师信息为"+teacher.toString());
+
         session.close();
 
 //        try{

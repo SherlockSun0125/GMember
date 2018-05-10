@@ -1,11 +1,14 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html; charset=utf-8" %>
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%--<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>--%>
 <html>
 <head>
     <title>管理员登录</title>
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="paul">
 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="encryptWeb/admin/lib/bootstrap/css/bootstrap.css">
@@ -65,6 +68,21 @@
         });
     </script>
 
+    <script type="text/javascript">
+        function checkForm() {
+            if(!$("#adminid").val()){
+                alert("管理员账号不能为空");
+                var msg="密码不能为空";
+                return false;
+            }
+            if(!$("#adminpwd").val()){
+                alert("管理员密码不能为空！");
+                return false;
+            }
+            return true;
+        }
+
+    </script>
 </head>
 <body class=" theme-blue">
 <div class="navbar navbar-default" role="navigation">
@@ -79,17 +97,23 @@
     <div class="panel panel-default">
         <p class="panel-heading no-collapse" align="center">登录</p>
         <div class="panel-body">
-            <form action="encryptWeb/admin/adminHome.jsp">
+            <%--<c:url value="/AdminServlet"/> --%>
+            <form action="<c:url value="/AdminServlet"/>" onsubmit="return checkForm()" method="post">
+                <input type="hidden" name="method" value="adminLogin" />
                 <div class="form-group">
-                    <label>账号</label>
-                    <input type="text" class="form-control span12">
+                    <label for="adminid" >账号</label>
+                    <input type="text" class="form-control span12"  name="adminid" id="adminid">
                 </div>
                 <div class="form-group">
-                    <label>密码</label>
-                    <input type="password" class="form-controlspan12 form-control">
+                    <label for="adminpwd">密码</label>
+                    <input type="password" class="form-controlspan12 form-control"  name="adminpwd" id="adminpwd">
                 </div>
-                <input type="submit" class="btn btn-primary pull-right" value="登录">
-                <div class="clearfix"></div>
+                <div>
+                    <label><small>${msg}</small></label>
+                </div>
+                <div class="clearfix form-group">
+                    <input type="submit" class="btn btn-primary pull-right" value="登录">
+                </div>
             </form>
         </div>
     </div>
